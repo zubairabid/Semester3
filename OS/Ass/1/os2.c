@@ -5,9 +5,10 @@
 
 #include <stdlib.h>
 
-#define MAX_BUFF 4096
+#define MAX_BUFF 1048576
 
 void permission_lena_chahiye_na(char*, char*);
+void integrityCheck(char*);
 
 int len(char str[]) {
 	int i = 0;
@@ -22,10 +23,12 @@ int wstdout(char str[]) {
 	write(1, "\n", 1);
 }
 
-int main(){
+int main(int argc, char *argv[]){
 
-	char buffer[MAX_BUFF];
-	char rbuf[MAX_BUFF];
+	if(argc != 2) {
+		wstdout("Usage: ./a.out filename(of original input file)");
+		exit(1);
+	}
 
 	// Checking for existence of Directory
 	struct stat stats;
@@ -70,6 +73,7 @@ int main(){
 		wstdout("Checking whether the symlink has been created: No");
 	}
 
+	integrityCheck(argv[1]);
 
 	wstdout("");
 	permission_lena_chahiye_na("Assignment/outfile", "file");
@@ -81,8 +85,85 @@ int main(){
 	return 0;
 }
 
-void integrityCheck() {
+void integrityCheck(char str[]) {
+	char buffer[MAX_BUFF];
+	char rbuf[MAX_BUFF];
+
+	int fd_converted = open("Assignment/outfile", O_RDONLY);
+	int fd_original = open(str, O_RDONLY);
+
+	//wstdout("trying");
+
+
+
+
+
+
+	int seek = lseek(fd_converted, 0, SEEK_END);
+	//printf("%d", seek>MAX_BUFF);
+	int flag = 1;
+	// When file > MAX_BUFF
+	while(seek > MAX_BUFF) {
+	//	wstdout("bigger than buffer");
+		// Navigate pointer to required
+		seek = lseek(fd_converted, seek-MAX_BUFF, SEEK_SET);
+
+		// Read MAX_BUFF chars into the buffer
+		read(fd_converted, buffer, MAX_BUFF);
+		read(fd_original, rbuf, MAX_BUFF);
+
+		// Reverse the buffer into rbuf
+		for(int i = 0; i < MAX_BUFF; i++) {
+			if(buffer[i] >= 'A' && buffer[i] <= 'Z') {
+				buffer[i] += 32;
+			}
+			else if(buffer[i] >= 'a' && buffer[i] <= 'z') {
+				buffer[i] -= 32;
+			}
+
+			if(buffer[i] != rbuf[MAX_BUFF - 1 - i]) {
+				wstdout("Checking whether file contents have been reversed and case-inverted: No");
+				flag = 0;
+				break;
+			}
+		}
+	}
+	if(flag == 1) {
+	//	wstdout("within buffer");
+		size_t buff = seek;
+		seek = lseek(fd_converted, 0, SEEK_SET);
+		read(fd_converted, buffer, buff);
+		read(fd_original, rbuf, buff);
+		for(int i = 0; i < buff; i++) {
+			if(buffer[i] >= 'A' && buffer[i] <= 'Z') {
+				buffer[i] += 32;
+			}
+			else if(buffer[i] >= 'a' && buffer[i] <= 'z') {
+				buffer[i] -= 32;
+			}
+			if(rbuf[buff - 1 - i] != buffer[i]) {
+				wstdout("Checking whether file contents have been reversed and case-inverted: No");
+				flag = 0;
+				break;
+			}
+		}
+	}
+	if(flag == 1) {
+		wstdout("Checking whether file contents have been reversed and case-inverted: Yes");
+	}
+
 	
+
+
+
+
+
+
+
+
+
+
+
 }
 
 void permission_lena_chahiye_na(char path[], char name[]) {
@@ -307,9 +388,5 @@ void permission_lena_chahiye_na(char path[], char name[]) {
 		}
 	}
 	wstdout("");
-
-
-
-
 
 }
