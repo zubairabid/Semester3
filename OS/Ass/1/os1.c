@@ -5,11 +5,18 @@
 
 #include <stdlib.h>
 
-#define MAX_BUFF 4096
+#define MAX_BUFF 1048576 
+int len(char str[]) {
+	int i = 0;
+	while(str[i] != '\0') {
+		i++;
+	}
+	return i;
+}
 
 int wstdout(char str[]) {
-	write(1, str, sizeof(str));
-	write(1, "\n", 1);
+	write(1, str, len(str));
+	write(1, "\n", 1); 
 }
 
 int main(int argc, char *argv[]) {
@@ -42,17 +49,17 @@ int main(int argc, char *argv[]) {
 		wstdout("Could not create output text file");
 		exit(1);
 	}
-	
+
 	int seek = lseek(fd_input, 0, SEEK_END);
 
 	// When file > MAX_BUFF
 	while(seek > MAX_BUFF) {
 		// Navigate pointer to required
 		seek = lseek(fd_input, seek-MAX_BUFF, SEEK_SET);
-		
+
 		// Read MAX_BUFF chars into the buffer
 		read(fd_input, buffer, MAX_BUFF);
-		
+
 		// Reverse the buffer into rbuf
 		for(int i = 0; i < MAX_BUFF; i++) {
 			if(buffer[i] >= 'A' && buffer[i] <= 'Z') {
