@@ -14,7 +14,8 @@ tagset = []
 # Very inefficient, look to improve performance
 for line in filetext:
 	tagset.append(line[3:-2].replace(' ','').replace('\',',',').replace(',\'',',').replace('\",',',').replace('[\'','[').replace(',,',',').replace('[','').replace('\']','').replace(',u\'',',').split(','))
-
+# Adding a missing comma
+tagset.append([',','-HL','FW-RB-TL', '-TL', '-NC'])
 
 def tokenizer(sent):
 	'''
@@ -39,6 +40,7 @@ def tag_all(slist):
 	taglist = []
 	for word in slist:
 		taglist.append(search(word))
+
 
 	return taglist
 
