@@ -1,0 +1,104 @@
+\documentclass[a4paper, 12pt]{article}
+
+\usepackage{amsmath}
+
+\title{Mathematics III Assignment 1}
+\author{Zubair Abid, 20171076}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+
+	\item 
+	$X$ is a random variable with $PDF$ given by
+	
+	\[ f(n) = 
+		\begin{cases}
+			cx^2 & \quad \text{if } x \leq 1 \\
+			0 & \quad \text{otherwise}
+		\end{cases}
+	\]
+
+	\begin{enumerate}
+		\item Constant $c$
+		\\ \\
+		Summation of PDF over domain adds up to 1.\\
+		Or, 
+		\[
+		\int\limits_{-\infty}^{\infty} cx^2 = 1
+		\]
+		Since the function returns $0$ everywhere except
+		 at $[-1, 1]$, 	we just calculate
+		\begin{align*}
+			\int\limits_{-1}^{1} cx^2 &= 1\\
+			c\times \left.\frac{x^3}{3}\right|_{-1}^{1} &= 1\\
+			c\times \frac{2}{3} &= 1\\
+			c &= 1.5 \text{ (Answer)}
+		\end{align*}				
+		
+		\item $E\left[X\right]$ and $Var\left(X\right)$
+		$E[X]$ is 
+		\begin{align*}
+			\int\limits_{-1}^{1} xcx^2
+			&= 1.5 \times \int\limits_{-1}^{1} x^3\\
+			&= 1.5 t\times \left.\frac{x^4}{4}\right|_{-1}^{1}\\
+			&= 0
+		\end{align*}
+			
+		Now, $Var(X) = E[x^2] - (E[X])^2$, or\\
+		\begin{align*}
+			Var(X) &= 1.5\times \int\limits_{-1}^{1} x^4 - 0\\
+			&= 1.5\times \left.\frac{x^5}{5}\right|_{-1}^{1} \\
+			&= 1.5 \times 0.4\\
+			&= 0.6
+		\end{align*}
+		
+		
+		\item $P\left(X \geq \frac{1}{2} \right)$
+		\\ \\ 
+		Since the function given is a PDF, to get the
+		$P(X \geq \frac{1}{2})$, all we need to do is
+		integrate $f(x)$ from $\frac{1}{2}$ to $1$\\
+		Or, 
+		\begin{align*}
+			P\left(X \geq \frac{1}{2} \right) &=
+			\int\limits_{\frac{1}{2}}^{1} cx^2\\
+			&= 1.5 \times \left.\frac{x^3}{3}
+			\right|_{\frac{1}{2}}^{1}\\
+			&= 1.5 \times \frac{7}{24}\\
+			&= 0.4375
+		\end{align*}
+	\end{enumerate}
+
+	\item Given, the CDF is:
+	\[
+		F(x) = \frac{x^3 + k}{40} \quad x = 1, 2, 3
+	\]
+	\begin{enumerate}
+		\item Value of k\\
+		Since $F(x)$ is a CDF, value of $F(3) = 1$\\
+		or 
+		\begin{align*}
+			\frac{27+k}{40} = 1\\
+			k = 13 \quad\text{(Q.E.D)}
+		\end{align*}
+
+		\item Find the probability distribution of X\\
+		This can be obtained by simple subtraction,
+		answer is
+		\begin{align*}
+			P(X=1) &= \frac{1+13}{40}\\
+			&= \frac{7}{20}\\
+			P(X=2) &= \frac{21-14}{40}\\
+			&= \frac{7}{40}\\
+			P(X=3) &= \frac{40-21}{40}\\
+			&= \frac{19}{40}
+		\end{align*}
+		
+	\end{enumerate}
+	
+
+\end{enumerate}
+
+\end{document}

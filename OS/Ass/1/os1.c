@@ -5,7 +5,7 @@
 
 #include <stdlib.h>
 
-#define MAX_BUFF 1048576 
+#define MAX_BUFF 1048576
 int len(char str[]) {
 	int i = 0;
 	while(str[i] != '\0') {
@@ -16,7 +16,7 @@ int len(char str[]) {
 
 int wstdout(char str[]) {
 	write(1, str, len(str));
-	write(1, "\n", 1); 
+	write(1, "\n", 1);
 }
 
 int main(int argc, char *argv[]) {

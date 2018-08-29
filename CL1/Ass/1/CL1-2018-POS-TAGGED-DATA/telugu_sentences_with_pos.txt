@@ -1,0 +1,1000 @@
+నేను/PR_PRP ఆమెను/PR_PRP కళ్ళు/N_NN దించుకొని/V_VM_VNF కాదు/V__VM__VF ,/RD_PUNC కళ్ళల్లో/N_NN కళ్ళు/N_NN పెట్టి/V_VM_VNF తీసుకుపోవాలని/V__VM__VNF అనుకుంటున్నాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP వచ్చాను/V_VM_VF కదా/RP__RPD నా/PR_PRP పెళ్ళికూతురిని/N_NN తీసుకునే/V_VM_VNF వెళతాను/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD మావగారు/N__NN సిమ్రాన్/N_NNP చేతిని/N__NN స్వయంగా/RB నా/PR_PRP చేతిలో/N__NN పెట్టినప్పుడు/V_VM_VNF వెళతాను/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP సిమ్రాన్/N_NNP మీ/PR_PRP సమస్య/N_NN కాదు/V__VM__VF ,/RD_PUNC నా/PR_PRP సమస్య/N_NN ./RD_PUNC
+బాగా/RB చెప్పావు/V_VM_VF నీవు/PR_PRP ,/RD_PUNC నేను/PR_PRP కూడా/RP_RPD గుర్తించలేకపోయాను/V_VM_VF ./RD_PUNC
+నా/PR_PRP ఇంట్లోకే/N__NN వెళ్ళి/V_VM_VNF నా/PR_PRP కుటుంబం/N_NN మధ్యలో/N__NST నా/PR_PRP పరువుతోనే/N__NN ఆటలాడావు/V_VM_VF నువ్వు/PR_PRP ./RD_PUNC
+నీవు/PR_PRP మమ్మల్ని/PR_PRP మోసగించావు/V_VM_VF ./RD_PUNC
+మా/PR_PRP విశ్వాసాన్ని/N_NN ఒమ్ముచేసావు/V__VM__VF ,/RD_PUNC మా/PR_PRP మంచితనాన్ని/N_NN అవకాశంగా/RB తీసుకున్నావు/V_VM_VF నువ్వు/PR_PRP ./RD_PUNC
+నీవు/PR_PRP సిమ్రాన్‍ను/N_NNP ప్రేమించే/V_VM_VNF సాహసం/N__NN ఎలా/PR_PRQ చేశావు/V_VM_VF ?/RD_PUNC
+నీవు/PR_PRP ఆమెను/PR_PRP పెళ్లి/N_NN చేసుకుంటావని/V_VM_VNF ఎలా/PR_PRQ అనుకున్నావు/V_VM_VF ?/RD_PUNC
+అరే/RP_INJ ,/RD_PUNC నీకు/PR_PRP నువ్వే/PR_PRP సమర్థుడివి/N__NN కాదు/V__VM__VF సిమ్రాన్‍కి/N_NNP సమర్థుడివి/N__NN ఎలా/PR_PRQ అవుతావు/V_VM_VF ?/RD_PUNC
+నా/PR_PRP అభిప్రాయం/N_NN నీ/PR_PRP గురించి/PSP ఖచ్చితంగా/RB నిజమే/N__NN ./RD_PUNC
+నీలాంటి/PR_PRP ఆవారాగాళ్ళు/N_NN బాగుపడరు/V_VM_VF ,/RD_PUNC మరింత/RP__INTF చెడిపోతారు/V_VM_VF ./RD_PUNC
+నన్ను/PR_PRP ఇక్కడినుండి/PR__PRP తీసుకువెళ్ళమని/V_VM_VNF నేను/PR_PRP చెప్పాను/V_VM_VF కదా/RP__RPD ,/RD_PUNC ఇక్కడ/PR__PRP మన/PR_PRP ప్రేమను/N_NN అర్థం/N_NN చేసుకునేవారు/V_VM_VF ఎవరూ/PR_PRQ లేరని/V_VM_VNF నేను/PR_PRP చెప్పాను/V_VM_VF కదా/RP__RPD ./RD_PUNC
+మనం/PR_PRP పారిపోవాలని/V__VM__VINF నేను/PR_PRP చెప్పాను/V_VM_VF కదా/RP__RPD ./RD_PUNC
+లేదు/RP__NEG సిమ్రాన్/N_NNP !/RD_PUNC పారిపోవడం/V_VM_VNG బయటవాళ్ల/PR__PRP నుండి/PSP అవుతుంది/V_VM_VF ,/RD_PUNC మనం/PR_PRP మనవారి/PR_PRP నుండి/PSP పారిపోతే/V_VM_VNF కూడా/RP_RPD ఎక్కడికి/PR_PRQ వెళ్తాం/V_VM_VF ./RD_PUNC
+మనం/PR_PRP వీరికి/PR_PRP దుఃఖాన్ని/N_NN ఇచ్చి/V_VM_VNF ఆనందపు/N_NN నిలయం/N_NN లో/PSP ఉండేటువంటి/V_VM_VNF హక్కు/N_NN మనకు/PR_PRP లేదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అబద్దాలకోరని/N__NN ,/RD_PUNC మోసగాడినని/N__NN మామగారు/PR_PRP అంటున్నారు/V_VM_VF ./RD_PUNC
+అయితే/RP_RPD ఏమయింది/V_VM_VF ఒకవేళ/CC__CCS నేను/PR_PRP నిన్ను/PR_PRP పొందడం/V_VM_VNG కోసం/PSP అబద్దం/N_NN చెప్పినా/V_VM_VNF ,/RD_PUNC అబద్దం/N_NN అయితే/RP_RPD చివరికి/N__NN అబద్దమే/N__NN కదా/RP__RPD ./RD_PUNC
+మామగారూ/PR_PRP మీ/PR_PRP అమ్మాయిని/N_NN తీసుకోండి/V_VM_VF ./RD_PUNC
+మామగారూ/PR_PRP నేను/PR_PRP ఇక్కడికి/PR__PRP ఎవరి/PR__PRP మనసును/N_NN విరచడానికి/V_VM_VNG రాలేదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP మనస్సును/N_NN గెలవడానికి/V_VM_VNG వచ్చాను/V_VM_VF కానీ/CC_CCD బహుశా/CC_CCD నాలోనే/PR_PRP కొంత/QT_QTF లోపం/N_NN ఉండవచ్చు/V_VM_VF అందుకే/CC__CCD నేను/PR_PRP మీ/PR_PRP మనస్సును/N_NN పూర్తిగా/RB గెలవలేకపోయాను/V_VM_VF ./RD_PUNC
+నన్ను/PR_PRP వెళ్లనివ్వండి/V_VM_VF మావయ్య/PR_PRP ,/RD_PUNC దయచేసి/RB మావయ్యగారూ/N__NN నన్ను/PR_PRP వెళ్లనివ్వండి/V_VM_VF ./RD_PUNC
+నాన్నగారు/N_NN రాజ్/N_NNP నా/PR_PRP జీవితం/N_NN !/RD_PUNC నేను/PR_PRP అతను/PR_PRP లేకుండా/V_VM_VNF ఉండలేను/V_VM_VF నాన్నగారు/N__NN ./RD_PUNC
+నాన్నగారు/PR_PRP నన్ను/PR_PRP నా/PR_PRP రాజ్/N_NNP దగ్గరికి/N__NST వెళ్ళనియ్యండి/V_VM_VF ./RD_PUNC
+వెళ్ళు/V_VM_VF సిమ్రాన్/N_NNP వెళ్ళు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD అబ్బాయి/N_NN కంటే/PSP ఎక్కువగా/RB నిన్ను/PR_PRP ఇంకెవరూ/PR_PRP ప్రేమించలేరు/V_VM_VF ./RD_PUNC
+వెళ్ళు/V_VM_VF అమ్మా/N_NN వెళ్ళు/V_VM_VF ,/RD_PUNC నీ/PR_PRP రాజ్/N_NNP దగ్గరకు/N__NST వెళ్ళు/V_VM_VF ./RD_PUNC
+వెళ్ళు/V_VM_VF సిమ్రాన్/N_NNP వెళ్ళు/V_VM_VF ,/RD_PUNC సంతోషంగా/RB జీవించు/V_VM_VF ./RD_PUNC
+నీరు/N_NN నింపుతూ/V_VM_VNF -/RD__PUNC నింపుతూనే/V_VM_VNF జీవితం/N_NN గడిచిపోతుంది/V_VM_VF ./RD_PUNC
+ఈసారి/N__NN పంట/N_NN కోసినపుడు/V_VM_VNF గొట్టపు/N_NN బావి/N_NN వేయిద్దాం/V_VM_VF ./RD_PUNC
+తరువాత/N__NST నీరు/N_NN నింపడానికి/V__VM__VNF ఏ/DM_DMD కష్టం/N_NN ఉండదని/V_VM_VNF మేనమామ/PR_PRP మేనత్తతో/PR_PRP చెబుతున్నాడు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ,/RD_PUNC నీ/PR_PRP ద్వారా/PSP గొట్టపు/N__NN బావిని/N_NN వేయించినప్పుడు/V_VM_VNF నీకు/PR_PRP ఎప్పుడు/PR__PRQ కావాలంటే/V_VM_VNF అప్పుడు/PR__PRP నీటిని/N__NN నింపుకో/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP బకెట్/N_NN లాగండి/V_VM_VF ./RD_PUNC
+అరే/RP_INJ మామీద/PR_PRP ఎందుకు/PR_PRQ కోప్పడుతున్నావు/V_VM_VF ,/RD_PUNC మేమేమైనా/PR_PRP నీ/PR_PRP బకెట్/N__NN ని/PSP కింద/N__NST పడేశామా/V_VM_VF ,/RD_PUNC స్వయంగా/RB నువ్వే/PR_PRP దాన్ని/PR_PRP కింద/N_NST పడేసావు/V_VM_VF ./RD_PUNC
+ఏమి/PR_PRQ నిద్ర/N_NN నీది/PR_PRP ఎంత/PR_PRQ సేపటినుండి/PSP పిలుస్తున్నా/V__VM__VNF వినబడడం/V_VM_VNG లేదా/CC_CCD ఏమి/PR_PRQ ?/RD_PUNC
+అరే/RP_INJ వినబడడం/V_VM_VNG అయితే/RP_RPD వినబడింది/V_VM_VF ,/RD_PUNC కానీ/CC_CCD నీవు/PR_PRP మమ్మల్ని/PR_PRP పిలుస్తున్నావు/V__VM__VF అని/CC__CCS__UT మాకు/PR__PRP ఎక్కడ/PR__PRQ అర్థం/N__NN అయ్యింది/V_VM_VF ./RD_PUNC
+మేము/PR_PRP కల/N_NN కంటున్నాము/V_VM_VF అని/CC_CCD మరియు/CC_CCD కలలోనే/N_NN ఎవరో/PR_PRQ పిలుస్తున్నారు/V_VM_VF అని/CC_CCD మాకు/PR_PRP అనిపించింది/V_VM_VF ./RD_PUNC
+ఇబ్బంది/V_VM_VF పెట్టడానికి/V_VM_VNG ఉదయం/N__NN -/RD__PUNC ఉదయమే/N__NN వచ్చావా/V_VM_VF ,/RD_PUNC గేలం/N_NN తీసుకొని/V_VM_VNF వెళ్ళు/V_VM_VF ./RD_PUNC
+ఎప్పుడైనా/PR__PRL ఏదైనా/PR__PRP ఇటువంటి/DM__DMD విషయం/N_NN జరిగితే/V_VM_VNF అమాయకపు/JJ చందన్ను/N__NNP పిలవడానికి/V_VM_VNG వస్తావు/V_VM_VF ,/RD_PUNC వెళ్ళు/V_VM_VF దీని/PR_PRP బాల్చీని/N_NN తీసివేయి/V_VM_VF ./RD_PUNC
+చందన్/N_NNP !/RD_PUNC రా/V_VM_VF అన్నం/N__NN తిను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ఉదయం/N_NN నుండి/PSP ఏమీ/PR__PRQ తినలేదు/V_VM_VF ,/RD_PUNC ఆకలికి/N_NN ఆగగలవా/V_VM_VF ?/RD_PUNC
+ఉదయం/N_NN నుండి/PSP ఇలాగే/RB ఆలస్యం/N_NN అయింది/V_VM_VF ./RD_PUNC
+నా/PR_PRP చికిత్స/N_NN జరుగబోతున్నది/V_VM_VF ,/RD_PUNC ప్రయోజనం/N_NN అణువంతా/QT__QTF కూడా/RP_RPD లేదు/V__VM__VF ./RD_PUNC
+మేము/PR_PRP అయితే/RP__RPD ఈ/DM_DMD రాత్రికి/N_NN చూస్తాము/V_VM_VF లేదంటే/RP__NEG రేపు/N_NN ఉదయం/N_NN చౌబేపూర్/N_NNP వైద్యుడిని/N_NN పిలిపించి/V_VM_VNF చూపిస్తాము/V_VM_VF ./RD_PUNC
+వైద్యులకి/N_NN -/RD__PUNC మందులకి/N_NN అయిపోతోంది/V_VM_VF పూర్తి/QT__QTF సంపాదన/N_NN ,/RD_PUNC నాలుగు/QT__QTC రోజులు/N__NN చూడు/V_VM_VF కొంచెం/QT_QTF ఒపిక/N_NN పట్టు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ బాగుంది/V__VM__VF మానస్/N__NNP !/RD_PUNC రెండు/QT_QTC -/RD__PUNC నాలుగు/QT_QTC పైసలు/N__NN ఖర్చు/N_NN అవ్వవా/V_VM_VF ./RD_PUNC
+వాటికోసం/PR_PRP నువ్వు/PR_PRP స్వయంగా/RB కలత/N_NN చెందుతున్నావు/V_VM_VF మరియు/CC_CCD పిల్లల్ని/N_NN కూడా/RP_RPD ఇబ్బంది/N__NN పెడుతున్నావు/V_VM_VF ./RD_PUNC
+ఓంకార్/N_NNP !/RD_PUNC నీవు/PR_PRP నా/PR_PRP మాట/N_NN విని/V_VM_VNF రేపు/N_NN వైద్యున్ని/N_NN పిలువు/V_VM_VF ,/RD_PUNC అర్థం/N__NN అయ్యిందా/V_VM_VF ?/RD_PUNC
+ఆ/DM_DMD వైద్యుని/N_NN ఇల్లు/N__NN ఎక్కడ/PR_PRQ ఉంది/V_VM_VF ?/RD_PUNC
+చౌబేపూర్‍లో/N_NNP ఉంటున్నావు/V_VM_VF వైద్యుని/N_NN ఇల్లు/N__NN తెలియదా/V_VM_VF ./RD_PUNC
+పెళ్ళి/N_NN ఇంట్లో/N__NN సేవ/N__NN చేసే/V_VM_VNF వారికి/PR_PRP చాలా/RP__INTF అందమైన/JJ పెళ్ళికూతురు/N_NN లభిస్తుందని/V_VM_VNF మా/PR_PRP అమ్మ/N_NN చెబుతుండేది/V_VM_VF ./RD_PUNC
+ఓహో/RP_INJ !/RD_PUNC అయితే/RP_RPD ఇదంతా/PR_PRP ఒక/QT__QTC అందమైన/JJ పెళ్లికూతురి/N_NN కోసం/PSP జరుగుతోందా/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజుల్లో/N_NN మంచి/JJ పెళ్ళికూతురు/N_NN కేవలం/RP_RPD అదృష్టవంతులకే/N__NN దొరుకుతుంది/V_VM_VF అమ్మ/N_NN ./RD_PUNC
+పెళ్లికూతురి/N_NN ఉంగరం/N_NN ఈ/DM_DMD వేలికి/N__NN ఎందుకు/PR_PRQ తొడుగుతారో/V_VM_VNF నీకు/PR_PRP తెలుసా/V_VM_VF ?/RD_PUNC
+ఎందుకంటే/CC_CCD ఈ/DM_DMD వేలి/N_NN నరం/N_NN నేరుగా/RB హృదయం/N_NN వరకు/PSP వెళుతుంది/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నీది/PR__PRF తప్ప/PSP వేరెవరి/PR__PRP ఉంగరం/N_NN ధరించలేను/V_VM_VF రాజ్/N_NNP ./RD_PUNC
+ఇదంతా/PR_PRP నీకు/PR_PRP ఒక/QT__QTC చాలా/RP__INTF పెద్ద/JJ వేళాకోళంగా/N__NN ఉంది/V_VM_VF కదా/RP__RPD ,/RD_PUNC నా/PR_PRP బాధ/N_NN నీకు/PR_PRP ఏం/PR__PRQ తెలుసు/V_VM_VF ./RD_PUNC
+నువ్వు/PR_PRP ఎప్పటికీ/PR__PRP అర్థం/N_NN చేసుకోలేవు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అంతా/QT_QTF అర్థం/N_NN చేసుకుంటాను/V_VM_VF సిమ్రాన్/N_NNP నీ/PR_PRP నొప్పి/N__NN ,/RD_PUNC నీ/PR_PRP ఆతృత/N_NN ,/RD_PUNC నీ/PR_PRP కన్నీళ్ళు/N__NN కానీ/CC_CCD నువ్వు/PR_PRP ఎందుకు/PR__PRQ అర్థం/N_NN చేసుకోలేకపోతున్నావు/V_VM_VF ./RD_PUNC
+ఇదైతే/PR__PRP కేవలం/RP_RPD మొదలు/N__NN ./RD_PUNC
+నాన్న/PR_PRP మీరు/PR_PRP నిన్న/N__NN అద్భుతం/N_NN చేశారు/V_VM_VF !/RD_PUNC ఏమి/PR__PRQ నాట్యం/N__NN చేసారు/V_VM_VF మీరు/PR_PRP ./RD_PUNC
+అందరి/PR__PRP నోరు/N_NN మూయించారు/V_VM_VF ./RD_PUNC
+భగవంతుడా/N_NN !/RD_PUNC నేను/PR_PRP ఈ/DM__DMD రోజు/N__NN రాజ్/N_NNP తో/PSP మాట్లాడితీరతాను/V__VM__VF అని/CC_CCD నేను/PR_PRP నిర్ణయించుకున్నాను/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD స్నేహం/N_NN బంధుత్వంగా/N__NN మారాలి/V__VM__VF అని/CC__CCS__UT నేను/PR_PRP కోరుకుంటున్నాను/V_VM_VF ./RD_PUNC
+నా/PR_PRP కూతురు/N_NN ప్రీతీ/N_NNP ఉంది/V_VM_VF కదా/RP__RPD ,/RD_PUNC నేను/PR_PRP ఆమెకు/PR_PRP నీ/PR_PRP చెయ్యిని/V_VM_VNF అడుగుతున్నాను/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP కూడా/RP_RPD విచిత్రం/N_NN చేస్తున్నావు/V_VM_VF ,/RD_PUNC ఇలాంటి/PR__PRP మంచి/JJ పనికోసం/N_NN నా/PR_PRP అంగీకారంతో/N__NN పని/N_NN ఏముంది/PR__PRQ ./RD_PUNC
+నేను/PR_PRP నేటి/N__NN వరకు/PSP నీ/PR_PRP మాట/N__NN ఏదైనా/PR_PRL మీరానా/V__VM__VF ?/RD_PUNC
+వియ్యంకులుగారూ/N__NN !/RD_PUNC త్వరగా/RB నోరు/N_NN తీపి/N_NN చెయ్యండి/V_VM_VF ,/RD_PUNC అల్లుడు/N_NN వచ్చాడు/V_VM_VF ,/RD_PUNC పెళ్ళి/N_NN త్వరత్వరగా/RB జరిగిపోవాలి/V_VM_VF ,/RD_PUNC మంచి/JJ పనికి/N_NN ఆలస్యం/N_NN కూడదు/V_VM_VF ./RD_PUNC
+రేపు/N_NN నా/PR_PRP మొదటి/QT__QTO గౌరీపూజ/N_NNP ఉన్నది/V_VM_VF మరియు/CC_CCD మొదటి/QT__QTO నీటి/N_NN బొట్టు/N__NN ,/RD_PUNC మొదటి/QT__QTO ఆహారపు/N__NN ముద్దను/N_NN నేను/PR_PRP నీ/PR_PRP ద్వారా/PSP తీసుకోవాలని/V_VM_VNF కోరుకుంటున్నాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ పిచ్చిదానివి/N_NN అయ్యావా/V_VM_VF ఏమిటి/PR_PRQ !/RD_PUNC హాయ్/RP_INJ సిమ్రాన్/N_NNP !/RD_PUNC అని/CC_CCD నేను/PR_PRP అందరి/PR__PRP ముందుకు/N_NST వచ్చి/V_VM_VNF చెబుతాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నీకు/PR_PRP కాబోయే/V__VM__VNF భర్తను/N_NN ,/RD_PUNC తీసుకో/V__VM__VF నీళ్ళు/N__NN తీసుకో/V_VM_VF ./RD_PUNC
+అక్క/N__NN !/RD_PUNC అతను/PR_PRP రావడం/V_VM_VNG అంత/QT_QTF సులువు/N__NN ఏమీ/PR__PRP కాదు/RP__NEG ./RD_PUNC
+ప్రతి/JJ వ్యక్తి/N_NN ప్రతిసారి/N__NN అడుగుతుంటాడు/V_VM_VF ,/RD_PUNC రాజ్/N_NNP ఎక్కడ/PR_PRQ ఉన్నాడు/V_VM_VF ?/RD_PUNC
+రాజ్/N_NNP ఎక్కడ/PR_PRQ ఉన్నాడు/V_VM_VF ?/RD_PUNC
+అతడు/PR_PRP రాలేడు/V_VM_VF అక్క/N_NN ,/RD_PUNC దయచేసి/V_VM_VNF ఏదైనా/PR__PRL తిను/V_VM_VF ./RD_PUNC
+క్షమించండి/RP__INJ నేను/PR_PRP రావడం/V_VM_VNG ఆలస్యం/N_NN అయ్యింది/V_VM_VF కానీ/CC_CCD వాళ్ళు/PR_PRP నన్ను/PR_PRP రానివ్వనేలేదు/V_VM_VF ./RD_PUNC
+అతి/JJ కష్టం/N_NN మీద/PSP ప్రాణం/N_NN వదిలించుకొని/V_VM_VNF వచ్చాను/V_VM_VF ,/RD_PUNC ఇదిగో/PR_PRP అన్నం/N__NN తిను/V_VM_VF ./RD_PUNC
+చుట్కీ/N__NNP !/RD_PUNC వీరు/PR_PRP బాధ/N_NN పడవలసిన/V__VM__VNF అవసరం/N_NN లేదు/V__VM__VF అని/CC__CCS__UT వీరితో/PR_PRP చెప్పు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP ఆకలితో/N__NN కళ్ళు/N_NN తిరుగుతున్నప్పుడు/V_VM_VNF వీరు/PR_PRP అక్కడ/PR__PRP నింపాదిగా/RB కూర్చొని/V_VM_VNF పొట్టనిండా/N_NN అన్నం/N__NN తిన్నారు/V_VM_VF ./RD_PUNC
+ఎలాగైనా/PR__PRL ఇది/PR_PRP నా/PR_PRP మొదటి/QT__QTO గౌరీపూజ/N__NNP కదా/RP__RPD ./RD_PUNC
+ఇతనికి/PR_PRP ఇంత/QT_QTF బాధ/N_NN పడవలసిన/V_VM_VNF అవసరం/N_NN ఏముంది/V_VM_VF ?/RD_PUNC
+నేను/PR_PRP బతుకుతానో/V_VM_VNF చస్తానో/V_VM_VNF ఇతనికి/PR_PRP ఎందుకు/PR_PRQ ?/RD_PUNC
+ఇతను/PR_PRP నీతోపాటే/PR_PRP తింటానని/V_VM_VNF చెప్పాడు/V_VM_VF మరియు/CC_CCD నీకు/PR_PRP చెప్పొద్దన్నాడు/V_VM_VF ./RD_PUNC
+క్షమించు/RP__INJ రాజ్/N_NNP !/RD_PUNC కానీ/CC_CCD నేను/PR_PRP ఇంక/RP__RPD మాట్లాడకుండా/V_VM_VNF ఉండలేను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఏమీ/PR_PRQ వినాలని/N__NN అనుకోవడం/V_VM_VNG లేదు/V__VM__VF ,/RD_PUNC నేను/PR_PRP అంతా/QT__QTF చుశాను/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP యూరపులో/N_NNP కలిసిన/V_VM_VNF అబ్బాయే/N__NN రాజ్/N_NNP అని/CC_CCD నాకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+మరియు/CC_CCD మీ/PR_PRP ఇద్దరూ/QT__QTO ఒకరినొకరు/PR__PRC చాలా/QT_QTF ప్రేమించుకుంటున్నారు/V_VM_VNF అని/CC__CCS__UT కూడా/RP_RPD నాకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+నా/PR_PRP ఆశీర్వాదం/N_NN నీకు/PR_PRP ఉన్నది/V_VM_VF ,/RD_PUNC నా/PR_PRP కూతుర్ని/N_NN తీసుకెళ్ళు/V_VM_VF ./RD_PUNC
+తనని/PR_PRF తీసుకొని/V_VM_VNF వెళ్ళిపో/V_VM_VF ./RD_PUNC
+ఇక్కడ/PR__PRP నీ/PR_PRP ప్రేమను/N_NN అర్థం/N__NN చేసుకునే/V__VM__VNF వాళ్ళు/PR__PRP ఎవరూ/PR__PRQ లేరు/V_VM_VF ./RD_PUNC
+అమ్మ/N_NN !/RD_PUNC మా/PR_PRP అమ్మ/N_NN చనిపోయేనాటికి/V_VM_VNF నేను/PR_PRP చాలా/QT_QTF చిన్నవాడిని/N_NN ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN నేను/PR_PRP ఎలా/PR__PRQ ఉన్నప్పటికీ/V__VM__VNF ఆమె/PR_PRP కారణంగానే/RB ఉన్నాను/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP ప్రతిసారీ/N__NN నాకు/PR_PRP ఒకమాట/N_NN చెబుతూ/V_VM_VNF ఉండేది/V_VM_VF ,/RD_PUNC దానిని/PR_PRP నేను/PR_PRP ఇప్పటివరకు/PR__PRP మరిచిపోలేదు/V_VM_VF ./RD_PUNC
+బాబు/N_NN !/RD_PUNC జీవితంలో/N_NN ప్రతిదానిలోనూ/N__NN నీకు/PR_PRP రెండు/QT_QTC దారులు/N_NN లభిస్తాయి/V_VM_VF ,/RD_PUNC ఒకటి/QT__QTC మంచిది/JJ ,/RD_PUNC ఇంకొకటి/QT__QTC చెడ్డది/JJ అని/CC_CCD ఆమె/PR_PRP చెప్పేది/V_VM_VF ./RD_PUNC
+చెడ్డదారి/N_NN చాలా/RP__INTF తేలికగా/RB ఉంటుంది/V_VM_VF ,/RD_PUNC నిన్ను/PR_PRP తనవైపుకు/PR__PRF లాక్కుంటుంది/V_VM_VF మరియు/CC_CCD మంచి/JJ దారి/N_NN చాలా/QT_QTF కష్టంగా/RB ఉంటుంది/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS నీవు/PR_PRP చెడ్డదారిలో/N_NN వెళ్ళినట్లు/V_VM_VNF అయితే/CC__CCS మొదట్లో/N__NN నీకు/PR_PRP సుఖాలు/N_NN లభిస్తాయి/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD చివరిలో/N__NN నీవు/PR_PRP ఓడిపోతావు/V_VM_VF ./RD_PUNC
+మరి/RP__RPD మంచి/JJ దారిలో/N_NN వెళితే/V_VM_VNF ప్రారంభంలో/N_NN నీవు/PR_PRP బాధపడతావు/V_VM_VF కానీ/CC_CCD చివరిలో/N__NN ఎప్పటికి/PR__PRP గెలుస్తావు/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP మీరే/PR_PRP చెప్పండి/V_VM_VF అమ్మా/N_NN ,/RD_PUNC నా/PR_PRP దారి/N_NN సరియైనదా/JJ లేక/CC_CCD చెడ్డదా/JJ ?/RD_PUNC
+ఒకవేళ/CC__CCS నేను/PR_PRP సిమ్రాన్‍ను/N_NNP లేపుకొని/V_VM_VNF తీసుకుపోయేటట్లు/V_VM_VNF అయితే/CC__CCS ,/RD_PUNC ఇది/PR_PRP నేను/PR_PRP ముందే/N__NST చేసి/V_VM_VNF ఉండేవాడిని/V_VM_VF ./RD_PUNC
+కాని/CC_CCD నేను/PR_PRP సిమ్రాన్‍ను/N_NNP లాక్కుని/V__VM__VNF వెళ్ళాలని/V__VM__VNF అనుకోవడం/V__VM__VNG లేదు/V__VM__VF ,/RD_PUNC పొందాలని/V__VM__VNF అనుకుంటున్నాను/V_VM_VF ./RD_PUNC
+చెప్పు/RP__INJ చందన్/N_NNP !/RD_PUNC మీ/PR_PRP మనసులో/N__NN మాట/N_NN మాకు/PR_PRP కూడా/RP__RPD చెప్పు/V_VM_VF ./RD_PUNC
+సరే/RP__INJ ,/RD_PUNC ఏమీ/PR__PRP చెప్పవద్దులే/V_VM_VF ,/RD_PUNC కానీ/CC_CCD నాకయితే/PR_PRP మొత్తం/QT_QTF తెలిసిపోయింది/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC నీవు/PR_PRP ఎక్కడికి/PR_PRQ వెళ్ళావు/V_VM_VF ?/RD_PUNC
+ఉండు/V__VM__VF నీవు/PR_PRP చెప్పు/V_VM_VF చందన్/N_NNP నీకు/PR_PRP ఇష్టమేనా/V_VM_VF ?/RD_PUNC
+తనని/PR_PRF నీవు/PR_PRP పెళ్ళి/N_NN చేసుకుంటావా/V_VM_VF ?/RD_PUNC
+నేను/PR_PRP తిరిగి/RB వెళ్లగానే/V_VM_VNF మీ/PR_PRP అన్నయ్యతో/N__NN చెప్పి/V_VM_VNF మొత్తం/QT_QTF ఏర్పాటు/N__NN చేస్తాను/V_VM_VF మరియు/CC_CCD తర్వాత/N_NST నాన్నతో/N_NN చెప్పి/V_VM_VNF పెళ్ళి/N_NN చేస్తాను/V_VM_VF ,/RD_PUNC సరేనా/RP__INJ ,/RD_PUNC ఇప్పుడు/PR__PRP సంతోషమా/V_VM_VF ?/RD_PUNC
+పెదనాన్నా/N__NN ,/RD_PUNC మేము/PR_PRP ఒక/QT__QTC విషయాన్ని/N_NN ఆలోచిస్తూ/V_VM_VNF ఉన్నాం/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS ఇప్పుడు/PR__PRP చందన్/N_NNP పెళ్ళి/N_NN చేసినట్లు/V_VM_VNF అయితే/CC__CCS ఎలా/PR_PRQ ఉంటుంది/V_VM_VF ?/RD_PUNC
+అరే/RP_INJ కొడుకా/N__NN !/RD_PUNC నీవయితే/PR_PRP మా/PR_PRP నోటిలోని/N_NN విషయాన్ని/N_NN చెప్పేశావు/V_VM_VF ./RD_PUNC
+మేమూ/PR_PRP నీతో/PR_PRP ఇదే/PR_PRP చెప్పబోతున్నాం/V_VM_VF ./RD_PUNC
+మరి/RP__RPD త్వరగా/RB పెళ్ళి/N_NN చూపులకు/N_NN తయారవ్వు/V_VM_VF ./RD_PUNC
+రజ్జో/N_NNP !/RD_PUNC ఇక్కడ/PR__PRP ఏమి/PR_PRQ చెబుతున్నారు/V_VM_VF ?/RD_PUNC
+నీ/PR_PRP పెళ్ళి/N_NN నాతోనా/PR_PRP ?/RD_PUNC
+ఏమిటి/PR_PRQ నీవు/PR_PRP నన్ను/PR_PRP కావాలనుకోవడం/V_VM_VNG లేదా/V__VM__VF ?/RD_PUNC
+నన్ను/PR_PRP ప్రేమించకపొతే/V_VM_VNF ఎవరిని/PR_PRQ ప్రేమిస్తున్నావు/V_VM_VF ?/RD_PUNC
+నా/PR_PRP మనస్సు/N_NN అయితే/RP_RPD మన/PR_PRP గుంజాను/N_NNP కోరుకుంటుంది/V_VM_VF రజ్జో/N_NNP మరియు/CC_CCD గుంజా/N_NNP కూడా/RP_RPD నన్ను/PR_PRP అంతే/QT_QTF ఇష్టపడుతున్నది/V_VM_VF ./RD_PUNC
+రజ్జో/N__NNP !/RD_PUNC మనస్సు/N__NN అయితే/RP_RPD ఒకటే/QT__QTC ఉంటుంది/V_VM_VF ,/RD_PUNC రెండు/QT_QTC లేవు/V__VM__VF మరి/RP__RPD అది/PR_PRP ఎప్పుడు/PR__PRP ,/RD_PUNC ఎలా/PR__PRQ గుంజాది/N__NN అయింది/V_VM_VF ,/RD_PUNC ఇది/PR_PRP నేను/PR_PRP కూడా/RP_RPD తెలుసుకోలేకపోయాను/V_VM_VF ./RD_PUNC
+చందన్/N_NNP !/RD_PUNC అరే/RP_INJ ఓ/RP_INJ చందన్/N_NNP !/RD_PUNC మీ/PR_PRP అన్నయ్య/N_NN ,/RD_PUNC ఓంకార్/N_NNP ఎక్కడ/PR_PRQ ఉన్నారు/V_VM_VF ?/RD_PUNC
+వారిని/PR_PRP కొంచెం/PR__PRP పిలు/V_VM_VF ,/RD_PUNC మీ/PR_PRP వదిన/N_NN మెట్లమీద/N_NN నుండి/PSP కింద/N__NST పడింది/V_VM_VF ./RD_PUNC
+తల/N__NN నుండి/PSP చాలా/QT_QTF రక్తం/N_NN కారింది/V_VM_VF ,/RD_PUNC పరిస్థితి/N_NN గంభీరంగా/RB ఉంది/V_VM_VF ./RD_PUNC
+ఓంకార్/N_NNP !/RD_PUNC ఏ/RP__INJ ఓంకార్/N_NNP !/RD_PUNC అరె/RP_INJ ఈ/DM_DMD చీకటిలో/N_NN ఎందుకు/PR_PRQ మౌనంగా/RB కూర్చున్నావు/V_VM_VF బాబూ/N_NN ?/RD_PUNC
+అరే/RP_INJ అది/PR_PRP నాది/PR__PRP కాదు/RP__NEG ,/RD_PUNC భ్రమలో/N_NN లేను/V_VM_VF ./RD_PUNC
+నాలుగు/QT_QTC రోజులకు/N_NN మోహం/N_NN -/RD__PUNC ప్రేమ/N_NN తగిలించి/V__VM__VNF వెళ్ళిపోయింది/V_VM_VF బాబూ/N_NN ./RD_PUNC
+విను/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP ఇంత/QT_QTF ఆలోచించడం/V_VM_VNG వల్ల/PSP ఏమి/PR_PRQ జరుగుతుంది/V_VM_VF ?/RD_PUNC
+అనుభవం/N_NN ఎవరిదో/PR__PRP వాళ్ళు/PR_PRP తీసుకెళ్ళారు/V_VM_VF ./RD_PUNC
+వారి/PR_PRP తర్వాత/PSP ఎవరి/PR_PRQ బలం/N_NN నడుస్తుంది/V_VM_VF ,/RD_PUNC మరియు/CC_CCD సుఖ/N__NN -/RD__PUNC దుఃఖాలు/N_NN జీవితంలో/N_NN వస్తూనే/V_VM_VNF ఉంటాయి/V_VM_VF ./RD_PUNC
+వాటిని/PR_PRP భరించవలసి/V_VM_VNF ఉంటుంది/V_VM_VF ./RD_PUNC
+అవును/RP__INJ బాబు/N_NN !/RD_PUNC ఇంటిమీద/N__NN ఎటువంటి/DM__DMQ నింద/N_NN వచ్చినా/V_VM_VNF దానిని/PR_PRP అందరూ/PR__PRP కలిసి/RB భరించాలి/V_VM_VF ./RD_PUNC
+వైద్యుడుగారు/N__NN !/RD_PUNC ఈ/DM_DMD ఇంటిలో/N_NN ఒక/QT__QTC కోడలు/N_NN ఉండడం/V_VM_VNG చాలా/QT_QTF అవసరఁ/N_NN అని/CC__CCS__UT మేమైతే/PR_PRP భావిస్తున్నాము/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD మా/PR_PRP మాట/N_NN ఎవరు/PR_PRQ వింటారు/V_VM_VF ?/RD_PUNC
+కాదు/RP__NEG ,/RD_PUNC పినతల్లిని/N_NN తీసుకువచ్చి/V_VM_VNF మనం/PR_PRP మున్నాని/N_NNP మరింత/QT_QTF ధుఃఖంలో/N_NN పడవేయలేము/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC పినతల్లి/N_NN ఎప్పుడూ/PR__PRQ చెడ్డగా/RB ఉంటుందా/V_VM_VF ఏమి/PR_PRQ ?/RD_PUNC
+మరియు/CC_CCD మనఁ/PR_PRP ఎవరిమైతే/PR__PRL ఉన్నామో/V__VM__VNF మున్నాని/N_NNP చూడడం/V_VM_VNG కోసం/PSP ,/RD_PUNC అతనికి/PR_PRP దుఃఖం/N_NN ఎలా/PR__PRQ వస్తుంది/V_VM_VF ./RD_PUNC
+పరిస్థితి/N_NN చూస్తూ/V_VM_VNF ఉంటే/V_VM_VNF ఒక/QT__QTC ఆలోచన/N_NN వస్తుంది/V_VM_VF ,/RD_PUNC చెప్పాలంటే/V_VM_VNF చెప్పు/V_VM_VF ./RD_PUNC
+బాబూ/N_NN ఓంకార్/N_NNP !/RD_PUNC నువ్వు/PR_PRP ఒకవేళ/CC__CCS గుంజాని/N_NNP పెళ్ళి/N_NN చేసుకున్నట్లయితే/V_VM_VNF అన్ని/QT_QTF సమస్యలు/N_NN సమసిపోతాయి/V_VM_VF ./RD_PUNC
+తనకి/PR__PRF కూడా/RP_RPD పెళ్ళి/N_NN నేనే/PR_PRP చేయాలి/V_VM_VF మరియు/CC_CCD మున్నా/N_NNP గుంజాతో/N_NNP కలిసి/RB -/RD__PUNC మెలిసి/RB ఉన్నాడని/V_VM_VNF నీకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+గుంజా/N_NNP ఈ/DM_DMD ఇల్లు/N_NN చూసి/V_VM_VNF అర్థం/N_NN చేసుకుంది/V_VM_VF ,/RD_PUNC మీకందరికి/PR_PRP తను/PR_PRF తెలుసు/V_VM_VF ,/RD_PUNC గుంజా/N_NNP తన/PR_PRF తల్లి/N_NN అవునా/V__VM__VNF కాదా/V_VM_VF అని/CC__CCS__UT మున్నా/N_NNP ఎప్పటికీ/PR__PRP తెలుసుకోలేడు/V_VM_VF ./RD_PUNC
+చెప్పు/V_VM_VF చందన్/N_NNP !/RD_PUNC నీవు/PR_PRP ఏమి/PR_PRQ చెప్పుచున్నావు/V_VM_VF ?/RD_PUNC
+ఎందులోనైతే/PR__PRL అన్నయ్యకి/N__NN సంతోషం/N_NN ఉన్నదో/V__VM__VNF ,/RD_PUNC అది/PR_PRP మాకు/PR_PRP సమ్మతమే/V__VM__VF పెదనాన్న/N_NN ./RD_PUNC
+చిన్నాన్న/N_NN ,/RD_PUNC మీరు/PR_PRP తన/PR_PRF వివాహం/N_NN చందన్‍తో/N_NNP నిర్ణయించి/V_VM_VNF వచ్చారని/V_VM_VNF భావించింది/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP చందన్‍ను/N_NNP కోరుకుంటున్నది/V_VM_VF మరియు/CC_CCD చందన్/N_NNP కూడా/RP_RPD ఆమెను/PR_PRP కోరుకుంటున్నాడు/V_VM_VF ./RD_PUNC
+కాని/CC_CCD చందన్/N_NNP ఒకవేళ/CC__CCS గుంజాను/N_NNP పెళ్ళి/N_NN చేసుకోవాలనుకున్నట్లు/V_VM_VNF అయితే/CC__CCS ఏ/PR__PRQ రోజున/N_NN ఈ/DM_DMD విషయం/N_NN నిర్ణయింపబడిందో/V_VM_VNF ఆరోజు/N__NN అతడు/PR_PRP కూడా/RP_RPD అక్కడే/PR__PRP ఉన్నాడు/V_VM_VF ./RD_PUNC
+అతను/PR_PRP ఏమి/PR_PRQ ఎందుకు/PR_PRQ మాట్లాడలేదు/V_VM_VF ?/RD_PUNC
+కేవలం/RP_RPD ఒకసారి/N__NN మా/PR_PRP మాట/N_NN విను/V_VM_VF గుంజా/N_NNP చాలు/V_VM_VF ,/RD_PUNC మరల/RB కావాలంటే/V_VM_VNF జీవితమంతా/N_NN మాతో/PR_PRP కోపంగా/RB ఉండు/V_VM_VF ./RD_PUNC
+నీతో/PR_PRP కోపంగా/RB ఉండడానికి/V__VM__VINF ఇప్పుడు/PR__PRP మాకు/PR_PRP అధికారం/N__NN ఉంది/V_VM_VF ?/RD_PUNC
+ఏ/PR__PRQ కొంచెం/QT_QTF అధికారం/N_NN ఐతే/RP__RPD నేను/PR_PRP నాది/PR_PRP అనుకున్నానో/V__VM__VNF దానినేమో/PR_PRP నీవు/PR_PRP తీసుకున్నావు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+కేవలం/RP_RPD ఒక/QT__QTC విషయం/N_NN అర్థం/N_NN కావడం/V_VM_VNG లేదు/V__VM__VF నీవు/PR_PRP ఏ/PR__PRQ మాటకి/N_NN బదులిచ్చావు/V_VM_VF మాకు/PR_PRP ?/RD_PUNC
+నీమీద/PR_PRP పెద్ద/JJ నమ్మకం/N_NN ఉండింది/V_VM_VF చందన్/N_NNP !/RD_PUNC ఒకవేళ/RP_RPD మన/PR_PRP స్నేహం/N_NN -/RD__PUNC ప్రేమలలో/N_NN బలముంటే/V_VM_VNF నేను/PR_PRP నిన్ను/PR_PRP కచ్చితంగా/RB పొందుతానని/V_VM_VNF నేను/PR_PRP భావించాను/V_VM_VF ./RD_PUNC
+జీవితంలో/N_NN స్నేహం/N_NN -/RD__PUNC ప్రేమలే/N__NN అన్నీ/PR__PRP కావు/V__VM__VF గుంజా/N_NNP ,/RD_PUNC ఒక/QT__QTC కర్తవ్యం/N_NN కూడా/RP_RPD ఉంటుంది/V_VM_VF ./RD_PUNC
+నీవైతే/PR_PRP చాలా/QT_QTF విరామం/N_NN తర్వాత/N__NST వచ్చావు/V_VM_VF గుంజా/N_NNP ,/RD_PUNC కళ్ళు/N_NN తెరవగానే/V_VM_VNF మొదట/N__NN అన్నయ్య/N__NN దగ్గరికి/N__NST వెళ్ళాలి/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD అలా/RP__INTF అలా/RP__INTF పెద్దగా/RB అయ్యాక/V_VM_VNF ఇది/PR_PRP ఎంత/PR_PRQ అబద్దమో/N_NN తెలుసుకోసాగాను/V__VM__VF ./RD_PUNC
+నా/PR_PRP చదువు/N_NN ఆపి/V_VM_VNF వేయబడింది/V_VM_VF ఎందుకంటే/CC_CCD నా/PR_PRP అన్నల/N__NN చదువు/N_NN ఎక్కువ/RP__INTF ముఖ్యం/JJ కనుక/RP_RPD ./RD_PUNC
+అదే/PR_PRP నా/PR_PRP మొదటి/QT__QTO త్యాగం/N__NN ./RD_PUNC
+మరలా/RB దాని/PR_PRP తర్వాత/PSP ప్రతిక్షణం/N_NN ఒకసారి/N__NN కూతురిగా/N__NN ,/RD_PUNC ఒకసారి/N__NN చెల్లెలుగా/N__NN ,/RD_PUNC ఒకసారి/N__NN భార్యగా/N__NN అయ్యి/V_VM_VNF నా/PR_PRP సంతోషాలను/N_NN బలి/N_NN చేసుకున్నాను/V_VM_VF ./RD_PUNC
+ఆ/DM_DMD కూతురు/N_NN ,/RD_PUNC అక్క/N_NN ,/RD_PUNC భార్య/N__NN అయ్యి/V_VM_VNF అడుగడుగునా/RB తనను/PR_PRF త్యాగం/N_NN చేసుకోదు/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS ఆడపిల్ల/N_NN అయితే/CC__CCS ఏమయ్యింది/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP బతుకు/N__NN ఆమెకు/PR_PRP ఇష్టం/N__NN వచ్చినట్టు/V_VM_VNF బతుకుతుంది/V_VM_VF ./RD_PUNC
+ఆమెకు/PR_PRP తనకు/PR__PRF సంబంధించిన/JJ సుఖాలన్ని/N__NN లభిస్తాయి/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD నేను/PR_PRP తప్పు/N_NN చేశాను/V_VM_VF సిమ్రాన్/N_NNP ./RD_PUNC
+స్త్రీకి/N_NN హామీ/N_NN ఇచ్చే/V_VM_VNF హక్కు/N_NN కూడా/RP_RPD లేదనేది/V__VM__VNF నేను/PR_PRP మర్చేపోయాను/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP ఎందుకు/PR__PRQ పుట్టిందంటే/V_VM_VNF పురుషుని/N_NN కోసం/PSP త్యాగం/N_NN చేయడానికి/V__VM__VINF ./RD_PUNC
+పురుషుడు/N_NN అయితే/RP_RPD స్త్రీ/N_NN కోసం/PSP ఎప్పుడూ/PR__PRP త్యాగం/N_NN చెయ్యడు/V_VM_VF మరియు/CC_CCD ఎప్పుడూ/PR__PRP ఇవ్వడు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజ/N_NN నేను/PR_PRP నీ/PR_PRP తల్లిని/N_NN ,/RD_PUNC నీ/PR_PRP సంతోషాలను/N_NN అడగడానికి/V__VM__VINF వచ్చాను/V_VM_VF ,/RD_PUNC నీవు/PR_PRP అవన్ని/PR__PRP మరచిపో/V_VM_VF అమ్మాయి/N__NN ./RD_PUNC
+మీ/PR_PRP నాన్న/PR_PRP నీ/PR_PRP కన్నీళ్ళు/N_NN అర్థం/N_NN చేసుకోలేడు/V_VM_VF ,/RD_PUNC అందుకనే/CC_CCD అందరి/PR__PRP ఆనందం/N_NN కోసం/PSP నీవు/PR_PRP అతన్ని/PR_PRP మర్చిపోమ్మా/V_VM_VF ,/RD_PUNC నిన్ను/PR_PRP వేడుకుంటున్నాను/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP సరిగ్గా/RB చెప్పావమ్మా/V_VM_VF ./RD_PUNC
+నేను/PR_PRP కూడా/RP_RPD ఎంత/PR__PRP అమాయకురాలని/N__NN అతడు/PR_PRP నన్ను/PR_PRP ప్రేమిస్తున్నాడా/V__VM__VNF లేదా/V__VM__VF అనేది/PR__PRP కూడా/RP_RPD నాకు/PR_PRP తెలియదు/V_VM_VF ./RD_PUNC
+చివరికి/N__NN నాన్నే/N__NN మా/PR_PRP తండ్రి/N_NN ./RD_PUNC
+వారు/PR_PRP ప్రతిక్షణం/N_NN నా/PR_PRP సంతోషం/N_NN గూర్చి/PSP ఆలోచించారు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP తన/PR_PRF సంతోషం/N_NN కోసం/PSP ఒక/QT__QTC చిన్న/JJ త్యాగం/N_NN కూడా/RP_RPD చేయలేనా/V_VM_VNF ఏంటి/PR_PRQ ?/RD_PUNC
+వెళ్లమ్మా/V_VM_VF ,/RD_PUNC నేను/PR_PRP పెళ్ళికి/N_NN పూర్తిగా/RB తయారయ్యాను/V__VM__VF అని/CC__CCS__UT వెళ్ళి/V_VM_VNF నాన్నతో/N__NN చెప్పు/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP ఆయనకు/PR_PRP నా/PR_PRP తరపునుండి/PSP ఏ/DM_DMD సమస్యా/N_NN ఉండదు/V_VM_VF ./RD_PUNC
+బలదేవ్/N_NNP !/RD_PUNC నన్ను/PR_PRP ఒక/QT__QTC విషయం/N_NN బాధ/N_NN పెడుతున్నది/V_VM_VF ./RD_PUNC
+ఎందుకో/PR__PRQ నాకు/PR_PRP తెలియదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP సిమ్రాన్/N_NNP కళ్ళలో/N_NN దుఃఖం/N_NN చూశాను/V_VM_VF ./RD_PUNC
+తన/PR_PRF నవ్వులో/N_NN కూడా/RP_RPD ఒక/QT__QTC భయం/N_NN ఉంది/V_VM_VF ,/RD_PUNC అంతా/QT__QTF బాగుంది/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+ఏమీ/PR__PRP లేదు/RP__NEG అమ్మ/N_NN ,/RD_PUNC కొత్త/JJ చోటు/N_NN ,/RD_PUNC కొత్త/JJ -/RD__PUNC కొత్త/JJ మనుషులు/N_NN ,/RD_PUNC గాలి/N_NN -/RD__PUNC నీరు/N_NN మారాయి/V_VM_VF ./RD_PUNC
+కొద్ది/QT_QTF రోజులలో/N_NN మెల్ల/RB -/RD__PUNC మెల్లగా/RB సరవుతుంది/V__VM__VF ./RD_PUNC
+రాజ్/N_NNP ఆ/DM_DMD ఇంటిలో/N_NN ఏమి/PR__PRQ జరుగుతుందో/V_VM_VNF నీకు/PR_PRP తెలియదు/V_VM_VF ./RD_PUNC
+రేపు/N_NN నా/PR_PRP నిశ్చితార్థం/N_NN ఉంది/V_VM_VF మరియు/CC_CCD పదిహేను/QT_QTC రోజుల/N_NN తర్వాత/PSP పెళ్లి/N__NN ./RD_PUNC
+అన్ని/QT_QTF ఏర్పాట్లు/N_NN పూర్తయ్యాయి/V_VM_VF ,/RD_PUNC మా/PR_PRP తండ్రిగారు/N__NN తన/PR__PRF స్నేహితునికి/N_NN మాట/N_NN ఇచ్చారు/V_VM_VF మరియు/CC_CCD తన/PR_PRF మాటంటే/N__NN తనకు/PR_PRF ప్రాణం/N_NN ./RD_PUNC
+మనం/PR_PRP ఇక్కడినుండి/PR__PRP పారిపోవాల్సి/V_VM_VNF ఉంటుంది/V_VM_VF రాజ్/N_NNP ,/RD_PUNC మనం/PR_PRP ఇక్కడినుండి/PR__PRP పారిపోవాల్సి/V_VM_VNF ఉంటుంది/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG సిమ్రాన్/N_NNP ,/RD_PUNC నేను/PR_PRP ఇక్కడినుండి/PR__PRP పారిపోవడానికో/V__VM__VINF లేదా/CC_CCD దొంగతనంగా/RB తీసుకుపోవడానికో/V__VM__VINF రాలేదు/V_VM_VF ./RD_PUNC
+అసలు/RP_RPD నా/PR_PRP పుట్టుక/N_NN ఇంగ్లాండులో/N_NNP జరిగినప్పటికీ/V_VM_VNF కూడా/RP_RPD నేను/PR_PRP భారతీయుడను/N__NN ./RD_PUNC
+నేను/PR_PRP ఇక్కడ/PR__PRP నిన్ను/PR_PRP నా/PR_PRP వధువుని/N_NN చేసుకోవడానికి/V__VM__VINF వచ్చాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP చేసే/V_VM_VNF పని/N__NN చాలా/RB కష్టమైనదని/V_VM_VNF నాకు/PR_PRP తెలుసు/V_VM_VF కానీ/CC_CCD మన/PR_PRP ప్రేమపై/N__NN నాకు/PR_PRP పూర్తి/RB నమ్మకం/N_NN ఉంది/V_VM_VF ./RD_PUNC
+సిమ్రాన్/N_NNP !/RD_PUNC నేను/PR_PRP ఈ/DM_DMD దారిలో/N__NN ఒంటరిగా/RB వెళ్లలేను/V_VM_VF ./RD_PUNC
+నీవే/PR_PRP నా/PR_PRP బలంగా/RB మారి/V_VM_VNF నాతోపాటు/PR_PRP నడవాలి/V_VM_VF ./RD_PUNC
+రాజ్/N_NNP సరైన/JJ సమయానికి/N_NN చేరకపోతే/V_VM_VNF ఈ/DM_DMD రోజు/N_NN అయితే/RP_RPD వేటగాడి/N__NN వేట/N_NN జరిగిపోయేది/V_VM_VF ./RD_PUNC
+నిజం/N_NN రాజ్/N_NNP !/RD_PUNC నీవు/PR_PRP నన్ను/PR_PRP గెలుచుకున్నావు/V_VM_VF స్నేహితుడా/N_NN ./RD_PUNC
+బాబు/N_NN నీవు/PR_PRP కులజిత్/N_NNP ప్రాణాన్ని/N_NN కాపాడి/V_VM_VNF మాకు/PR_PRP చాలా/RP__INTF గొప్ప/JJ ఉపకారం/N_NN చేశావు/V_VM_VF ./RD_PUNC
+త్వరగా/RB తయారు/N__NN అవ్వు/V_VM_VF ,/RD_PUNC బలదేవుని/N_NNP ఇంటికి/N__NN విందుకు/N__NN వెళ్ళాలి/V_VM_VF ./RD_PUNC
+అరె/RP_INJ సోదరా/N_NN ఆ/DM_DMD అమ్మాయితోనే/N__NN నా/PR_PRP కులజిత్/N_NNP వివాహం/N_NN జరుగుతున్నది/V_VM_VF ./RD_PUNC
+బామ్మగారు/N__NN !/RD_PUNC మీతో/PR_PRP నేను/PR_PRP మాట్లాడిన/V_VM_VNF నా/PR_PRP విదేశీయ/JJ మిత్రుడు/N_NN ,/RD_PUNC ఈ/DM__DMR రాజ్/N_NNP ./RD_PUNC
+ఇప్పుడు/PR__PRP మీరు/PR_PRP ఉండనీయండి/V_VM_VF నేను/PR_PRP చేస్తాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ లేదు/RP__NEG -/N_NN లేదు/RP__NEG నీవు/PR_PRP అబ్బాయి/N__NN తరపువాడివి/N__NN ./RD_PUNC
+మా/PR_PRP అతిథులు/N__NN ./RD_PUNC
+మీరు/PR_PRP కూడా/RP_RPD భలేవారే/N__NN పిన్నిగారూ/N__NN ,/RD_PUNC ఒక్కక్షణంలో/N__NN కొడుకును/N_NN చేసుకున్నారు/V__VM__VF మరియు/CC_CCD రెండోక్షణంలో/N__NN పరాయిని/N_NN చేశారు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN చాలా/RP__INTF మంచి/JJ శకునం/N_NN ./RD_PUNC
+నేను/PR_PRP ఈ/DM_DMD రోజు/N_NN మొదటిసారిగా/N__NN సిమ్రాన్‍ను/N_NNP మనసారా/RB నవ్వుతుంటే/V_VM_VNF చూశాను/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP మీరు/PR_PRP అసలు/JJ విషయం/N_NN వినండి/V_VM_VF అమ్మ/N_NN ?/RD_PUNC
+తల్లి/N_NN తండ్రుల/N_NN ముఖమైతే/N__NN నాకు/PR_PRP గుర్తు/N__NN లేదు/V_VM_VF ./RD_PUNC
+వారి/PR_PRP సంతోషం/N_NN కోసం/PSP నేను/PR_PRP సర్వస్వం/N_NN వదులుకోవడానికి/V__VM__VINF సిద్ధంగా/RB ఉన్నాం/V_VM_VF ./RD_PUNC
+గుంజా/N_NNP !/RD_PUNC విషయం/N_NN కేవలం/RP_RPD నాదే/PR_PRP కాదు/V_VM_VF ./RD_PUNC
+ఈ/DM__DMD విషయం/N__NN అన్నయ్య/N__NN సంతోష/JJ విషయం/N_NN ,/RD_PUNC ఈ/DM_DMD ఇంటిని/N_NN వదిన/N_NN ఇంత/QT_QTF జాగ్రత్తగా/RB చక్కపెట్టింది/V_VM_VF ./RD_PUNC
+ఈ/DM__DMD విషయం/N_NN మన/PR_PRP మున్నాది/N__NNP కూడా/RP_RPD ./RD_PUNC
+అందుకనే/CC__CCS నేను/PR_PRP ఆలోచించింది/V_VM_VNF ఏమిటంటే/PR__PRQ ఆ/DM_DMD ఇంటిని/N__NN చూసుకోవడానికి/V__VM__VINF -/RD__PUNC నిర్వహించడానికి/V__VM__VINF నీవు/PR_PRP ఒక్కదానివే/N__NN ఉన్నావు/V_VM_VF మరెవరూ/PR_PRP లేరు/V_VM_VF మరియు/CC_CCD మేము/PR_PRP మెదలకుండా/RB ఉన్నాము/V_VM_VF ./RD_PUNC
+గుంజా/N_NNP !/RD_PUNC ఒకవేళ/CC__CCS నీవు/PR_PRP మా/PR_PRP నిస్సహాయతని/N_NN వింటే/V_VM_VNF నన్ను/PR__PRP అర్థంచేసుకుంటావు/V_VM_VF మరియు/CC_CCD క్షమిస్తావని/V_VM_VNF నాకు/PR_PRP నీ/PR_PRP మీద/N__NST ఇంత/QT_QTF భరోసా/N__NN ఉండింది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP చాలా/QT_QTF గొప్పవాడివి/N_NN చందన్/N_NNP !/RD_PUNC అవును/V_VM_VF ,/RD_PUNC మొదట/N__NN నేను/PR_PRP నిన్ను/PR_PRP కేవలం/RP__RPD ప్రేమించాను/V_VM_VF ,/RD_PUNC కానీ/CC_CCD ఇప్పుడు/PR__PRP ఆరాధిస్తాను/V_VM_VF ./RD_PUNC
+దేవత/N_NN లభించకపోతే/V_VM_VNF పూజారి/N_NN భక్తి/N_NN తగ్గిపోతుందా/V_VM_VF ఏమి/PR_PRQ ?/RD_PUNC
+నేను/PR_PRP నీయొక్క/PR_PRP విశ్వాసాన్ని/N_NN ఎప్పుడూ/PR__PRP చెరపలేదు/V_VM_VF చందన్/N_NNP ,/RD_PUNC ఎప్పటికీ/PR__PRP లేదు/V_VM_VF ,/RD_PUNC నువ్వు/PR_PRP చెప్పినదే/V__VM__VNF నేను/PR_PRP చేస్తాను/V_VM_VF ./RD_PUNC
+ఇదేంటి/PR__PRP ఎలాంటి/DM__DMQ మాటలు/N_NN మాట్లాడుతున్నారు/V_VM_VF మీరు/PR_PRP ,/RD_PUNC మాకోసం/PR_PRP మీ/PR_PRP సంతోషాన్ని/N_NN వదలుకుంటే/V_VM_VNF మేము/PR_PRP సంతోషిస్తామా/V_VM_VNF ,/RD_PUNC నీవు/PR_PRP మమ్మల్ని/PR_PRP ఏమని/PR_PRQ అర్థం/N_NN చేసుకున్నావు/V_VM_VF ?/RD_PUNC
+గుంజా/N_NNP !/RD_PUNC ఏమీ/PR_PRQ బాధ/N_NN పడనవసరం/V__VM__VNF లేదు/V_VM_VF ఈ/DM_DMD దేవుడే/N__NN నీ/PR_PRP పతిదేవుడు/N_NN అవుతాడు/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఇప్పుడే/PR__PRP మాట్లాడి/V_VM_VNF వస్తాను/V_VM_VF ./RD_PUNC
+వైద్యుడుగారూ/N_NN !/RD_PUNC పిల్లల/N__NN సంతోషంలోనే/N_NN మా/PR_PRP ఇద్దరి/QT__QTC సంతోషం/N_NN ఉంది/V_VM_VF ./RD_PUNC
+ఇందులోనే/PR__PRP అందరి/PR__PRP మంచి/N__NN ఉంది/V_VM_VF ,/RD_PUNC గుంజా/N_NNP కోరికను/N__NN చందన్‍ను/N_NNP తీర్చనియ్యండి/V_VM_VF ./RD_PUNC
+టీనాకి/N_NNP చాలా/QT_QTF క్లిష్టంగా/RB ఉంది/V_VM_VF రాహుల్/N_NNP ,/RD_PUNC ఆమె/PR_PRP దగ్గర/N__NST ఎక్కువ/QT_QTF సమయం/N_NN లేదు/V_VM_VF ./RD_PUNC
+మేము/PR_PRP చాలా/QT_QTF ప్రయత్నించాం/V_VM_VF రాహుల్/N_NNP ,/RD_PUNC కానీ/CC_CCD తన/PR_PRF అంతర/JJ రక్తస్రావం/N_NN మనం/PR_PRP ఏమీ/PR_PRQ చేయలేనంతగా/V__VM__VNF పెరిగిపోయింది/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP ప్రసవంలో/N_NN సమస్యలు/N__NN ఉంటాయని/V_VM_VNF నేను/PR_PRP తనకి/PR_PRF ముందే/N__NST చెప్పాను/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ఈ/DM_DMD బిడ్డ/N_NN నీకు/PR_PRP ఎంత/PR_PRQ అవసరమో/N__NN కూడా/RP_RPD ఆమెకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+ఆమెకు/PR_PRP కూడా/RP_RPD ఈ/DM_DMD బిడ్డపై/N_NN తన/PR_PRF జీవితం/N_NN కంటే/PSP ఎక్కువ/QT_QTF ప్రేమ/N_NN ./RD_PUNC
+నా/PR_PRP బిడ్డ/N_NN నన్ను/PR_PRP తెలుసుకోవాలని/V_VM_VNF నేను/PR_PRP కోరుకుంటున్నాను/V_VM_VF ./RD_PUNC
+తన/PR_PRF తల్లి/N_NN ఎలా/PR_PRQ ఉంది/V_VM_VF ,/RD_PUNC ఎవరు/PR_PRQ ,/RD_PUNC ఇలాంటి/DM__DMD ప్రశ్నలకు/N_NN జవాబు/N_NN తనను/PR_PRF స్వయంగా/RB తెలుసుకోని/V_VM_VF ./RD_PUNC
+మమ్మా/N__NN !/RD_PUNC నేను/PR_PRP ఈ/DM_DMD ఎనిమిది/QT_QTC ఉత్తరాలు/N_NN మీ/PR_PRP దగ్గర/N__NST వదలి/V_VM_VNF వెళ్తున్నాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నా/PR_PRP బిడ్డకు/N_NN చెప్పదలచుకున్న/V_VM_VNF విషయాలన్ని/N_NN ఇందులో/PR_PRP ఉన్నాయి/V_VM_VF ./RD_PUNC
+ఇదే/PR_PRP నా/PR_PRP బిడ్డకు/N_NN గుర్తుగా/RB నిలిచిపోతుంది/V_VM_VF ./RD_PUNC
+రూపా/N_NNP మాకు/PR_PRP గాయత్రి/N_NNP మంత్రం/N_NN వినిపిస్తావా/V_VM_VF ./RD_PUNC
+గాయత్రి/N_NNP మంత్రం/N_NN అయితే/RP_RPD నేను/PR_PRP మర్చిపోయాను/V_VM_VF ./RD_PUNC
+ఏమిటి/PR_PRQ ?/RD_PUNC
+నీవు/PR_PRP ఏమి/PR_PRQ చెబుతున్నావు/V_VM_VF రూపా/N_NNP ?/RD_PUNC
+విన్నారా/V_VM_VF అక్కల్లారా/N__NN మన/PR_PRP రూప/N_NNP గాయత్రి/N_NNP మంత్రం/N_NN మర్చిపోయింది/V_VM_VF ./RD_PUNC
+అరే/RP_INJ అమ్మాయీ/N__NN !/RD_PUNC నీవు/PR_PRP పూజా/N_NN విధానాలుపై/N_NN దృష్టి/N__NN పెట్టకపోతే/V_VM_VNF నీ/PR_PRP పిల్లలకి/N_NN ఏమి/PR_PRQ నేర్పుతావు/V_VM_VF ?/RD_PUNC
+ఏది/PR__PRP మనము/PR_PRP చేప్తామో/V_VM_VF ,/RD_PUNC మనము/PR_PRP ఏది/PR__PRP ఆలోచిస్తామో/V_VM_VNF దాని/PR_PRP ప్రభావమే/N__NN మన/PR_PRP పిల్లలపై/N_NN పడుతుంది/V_VM_VF ./RD_PUNC
+వెళ్ళు/V_VM_VF పాఠశాల/N_NN ఉత్సవానికి/N_NN తయారవ్వు/V_VM_VF ./RD_PUNC
+ప్రతి/JJ విద్యార్థికి/N_NN కేవలం/RP_RPD ఒక్క/QT_QTF నిమిషమే/N_NN ఇవ్వబడుతుంది/V_VM_VF ./RD_PUNC
+పూజ/N_NN మా/PR_PRP విషయం/N_NN ./RD_PUNC
+మేము/PR_PRP ప్రతి/JJ ఉదయం/N_NN అధ్బుతంగా/RB గురుపూజ/N__NN చేస్తాం/V_VM_VF ./RD_PUNC
+అద్భుతంగా/RB పూజ/N_NN చేయడం/V_VM_VNG ద్వారా/PSP గురువు/N_NN సంతోషిస్తాడని/V_VM_VNF మరియు/CC_CCD మనల్ని/PR_PRP రక్షిస్తాడని/V_VM_VNF నాన్న/PR_PRP చెబుతుంటాడు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD పూజ/N_NN చేయడం/V_VM_VNG వల్ల/PSP అమ్మమ్మ/N_NN సంతోషిస్తుంది/V_VM_VF ,/RD_PUNC మనకు/PR_PRP పెద్ద/JJ ఇంటిని/N__NN వదలిపెడుతుంది/V_VM_VF అని/CC_CCD అమ్మ/N_NN చెబుతుంది/V_VM_VF ./RD_PUNC
+పూజాభట్/N_NNP నాకు/PR_PRP ఇష్టమైన/JJ నటి/N_NN మరియు/CC_CCD నా/PR_PRP ప్రియ/JJ మిత్రురాలి/N__NN పేరు/N_NN కూడా/RP_RPD పూజానే/N__NNP ./RD_PUNC
+అమ్మ/N_NN మనల్ని/PR_PRP ఎంత/PR_PRQ ప్రేమిస్తుందంటే/V_VM_VNF అప్పుడప్పుడు/RB మనము/PR_PRP స్వయంగా/RB ఆ/DM_DMD ప్రేమను/N_NN అర్థం/N_NN చేసుకోలేము/V_VM_VF ఆమెనే/PR__PRL అమ్మ/N_NN ./RD_PUNC
+మనము/PR_PRP ఎంత/QT__QTF మంచివాళ్ళమో/N__NN తెలియజెప్పి/V_VM_VNF మనకంటే/PR_PRP మంచివారు/N__NN ఎవరూ/PR_PRQ లేనే/V_VM_VNF లేరు/V_VM_VF అని/CC_CCS_UT స్ఫూర్తిని/N__NN ఇచ్చేదే/V_VM_VNF అమ్మ/N__NN ./RD_PUNC
+మన/PR_PRP ఆనందంమే/N_NN తన/PR_PRF ఆనందం/N_NN ,/RD_PUNC మన/PR_PRP దుఃఖంమే/N_NN తన/PR_PRF దుఃఖం/N_NN అనుకునేది/V_VM_VF అమ్మ/N_NN ./RD_PUNC
+ఎవరు/PR_PRQ లేకుండా/V_VM_VNF ఐతే/CC__CCS మనం/PR_PRP జీవించలేమో/V_VM_VNF ఆమెనే/PR__PRL అమ్మ/N_NN ./RD_PUNC
+అంతా/QT_QTF అమ్మే/N__NN ,/RD_PUNC కేవలం/RP__RPD మన/PR_PRP దగ్గరే/N__NST లేదు/V_VM_VF ./RD_PUNC
+కానీ/CC__CCD మా/PR_PRP దగ్గర/N__NST నాన్న/N_NN ఉన్నాడు/V_VM_VF మరియు/CC_CCD అతను/PR_PRP కూడా/RP_RPD చాలా/QT_QTF మంచివాడు/N__NN ./RD_PUNC
+తెలుసు/V_VM_VF రాహుల్/N_NNP !/RD_PUNC అతను/PR_PRP మన/PR_PRP శర్మగారు/N_NNP కదా/RP__RPD ,/RD_PUNC శర్మగారు/N_NNP ,/RD_PUNC అతని/PR_PRP ఫోను/N_NN వచ్చింది/V_VM_VF ./RD_PUNC
+అతను/PR_PRP మాకు/PR_PRP ఢిల్లీలో/N_NNP పొరుగింటాయన/N_NN ,/RD_PUNC అతడే/PR_PRP సంబంధాన్ని/N_NN పంపాడు/V_VM_VF ./RD_PUNC
+పిల్ల/N_NN అందంగా/RB ఉంది/V_VM_VF ,/RD_PUNC గుణవంతురాలని/N_NN అతను/PR_PRP చెబుతుండేవాడు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అయితే/RP__RPD పూర్తిగా/RB త్రోసిపుచ్చాను/V_VM_VF ./RD_PUNC
+అది/PR_PRP సరే/RP__INJ నేను/PR_PRP ఏ/PR_PRQ పనిని/N_NN తప్పుగా/RB చేస్తున్నాను/V_VM_VF ?/RD_PUNC
+ఇప్పుడు/PR__PRP పిల్ల/N_NN గుణవంతురాలైతే/JJ ఏమి/PR_PRQ ,/RD_PUNC అందమైనదైతే/JJ ఏమి/PR_PRQ ?/RD_PUNC
+ఈ/DM_DMD రోజుల్లో/N_NN ప్రతి/QT__QTF ఆడపిల్ల/N_NN గుణవంతురాలే/JJ అవుతుంది/V_VM_VF ,/RD_PUNC అందంగానూ/RB ఉంటుంది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP రెండో/QT_QTO పెళ్ళి/N_NN చేసుకోవా/V_VM_VF ?/RD_PUNC
+అమ్మా/N__NN !/RD_PUNC మేము/PR_PRP ఒక్కసారే/N__NN జీవిస్తాం/V_VM_VF ,/RD_PUNC ఒక్కసారే/N__NN చనిపోతాం/V_VM_VF ,/RD_PUNC పెళ్ళి/N_NN కూడా/RP_RPD ఒక్కసారే/N__NN జరుగుతుంది/V_VM_VF మరియు/CC_CCD ప్రేమ/N_NN కూడా/RP_RPD ఒక్కసారే/N__NN కలుగుతుంది/V_VM_VF ,/RD_PUNC పదే/RB -/RD__PUNC పదే/RB కాదు/V_VM_VF ./RD_PUNC
+నీవయితే/PR_PRP నిన్ను/PR_PRP నువ్వు/PR_PRP చూసుకోగలవు/V_VM_VF ,/RD_PUNC కానీ/CC__CCD అంజలి/N_NNP ?/RD_PUNC
+తనకి/PR__PRF ఒక/QT__QTC అమ్మ/N_NN అవసరం/N_NN ఉందని/V_VM_VNF నీకు/PR_PRP అనిపించటం/V_VM_VNG లేదా/V__VM__VF ?/RD_PUNC
+అది/PR_PRP సరే/RP__RPD ,/RD_PUNC ఎందుకంటే/CC_CCS ఆమె/PR_PRP దగ్గర/N__NST ఉన్నవి/V__VM__VNF నా/PR_PRP దగ్గర/N__NST కూడా/RP_RPD లేవు/V_VM_VF ,/RD_PUNC తన/PR_PRF తల్లి/N_NN ఉత్తరాలు/N__NN ./RD_PUNC
+నా/PR_PRP ప్రియమైన/JJ అంజలి/N_NNP ,/RD_PUNC పుట్టినరోజు/N_NN శుభాకాంక్షలు/N_NN ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN నీవు/PR_PRP ఎనిమిది/QT_QTC సంవత్సరాల/N__NN దానివి/PR__PRP అయ్యావు/V_VM_VF ,/RD_PUNC పూర్తిగా/RB నీవు/PR_PRP మీ/PR_PRP నాన్నలాగే/N__NN ఉంటావని/V_VM_VNF నాకు/PR_PRP నమ్మకం/N__NN ఉంది/V_VM_VF ./RD_PUNC
+అవే/PR_PRP కళ్ళు/N_NN అదే/PR_PRP ముఖం/N_NN కదా/RP__RPD అంజలి/N_NNP ?/RD_PUNC
+కాదు/RP__NEG ,/RD_PUNC నేను/PR_PRP మీలాగా/PR_PRP ఉన్నాను/V_VM_VF ./RD_PUNC
+ఏమిటి/PR_PRQ మీ/PR_PRP నాన్న/N_NN ఇప్పటికి/PR__PRP కూడా/RP_RPD రాత్రి/N_NN బూట్లు/N_NN వేసుకునే/V_VM_VNF పడుకుంటున్నారా/V_VM_VF ?/RD_PUNC
+అతని/PR_PRP ఈ/DM_DMD అలవాటు/N_NN ఎప్పుడు/PR_PRQ పోతుంది/V_VM_VF ?/RD_PUNC
+ఈరోజు/N__NN నేను/PR_PRP నీకు/PR_PRP ఒక/QT__QTC కథ/N_NN వినిపించబోతున్నాను/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD కథలో/N_NN నేను/PR_PRP ఉన్నాను/V_VM_VF ,/RD_PUNC మీ/PR_PRP నాన్న/N_NN మరియు/CC_CCD అంజలి/N_NNP ఉన్నారు/V_VM_VF ./RD_PUNC
+ఉదయాన్నే/N__NN నేను/PR_PRP లేవలేకపోయాను/V_VM_VF ./RD_PUNC
+లేవలేకపోయావా/V_VM_VF లేక/CC_CCD నీవు/PR_PRP భయపడ్డావా/V_VM_VF ?/RD_PUNC
+హే/RP_INJ !/RD_PUNC రాహుల్/N_NNP ఖన్నా/N__NNP ఎవరికీ/PR__PRQ భయపడడు/V_VM_VF ./RD_PUNC
+కానీ/CC__CCD అంజలీ/N_NNP శర్మతో/N_NNP రోజూ/N_NN బాస్కెట్‍బాల్‍లో/N_NNP తప్పక/RB ఓడిపోతాడు/V_VM_VF ./RD_PUNC
+ఆడవాళ్ళలాగా/N__NN అరవవద్దు/V_VM_VF ./RD_PUNC
+హే/RP_INJ !/RD_PUNC నన్ను/PR_PRP ఆడపిల్ల/N_NN అని/CC__CCS__UT పిలవద్దు/V_VM_VF ./RD_PUNC
+నీవైతే/PR_PRP ఆడపిల్లవే/N__NN కాదు/V_VM_VF ./RD_PUNC
+కనీసం/RP_RPD ,/RD_PUNC నేను/PR_PRP నువ్వు/PR_PRP వెంటపడి/V_VM_VNF పరిగెత్తే/V_VM_VNF ఆ/DM_DMD పనికిమాలిన/JJ ఆడపిల్లలలాంటి/N_NN దాన్ని/PSP కాదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఆడపిల్లల/N_NN వెనక/N__NST పరుగెత్తను/V_VM_VF ,/RD_PUNC ఆడపిల్లలే/N__NN నా/PR_PRP వెనక/N__NST పరుగెత్తుతారు/V_VM_VF ./RD_PUNC
+ఎప్పుడు/PR_PRQ మనస్సు/N__NN అవుతుందో/V_VM_VNF లేదో/V_VM_VNF తెలియదు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP ఏదో/PR__PRP చెబుతున్నావు/V_VM_VF మల్హోత్రా/N_NNP ./RD_PUNC
+నేను/PR_PRP చెబుతున్నది/V_VM_VNF ఏమిటంటే/PR__PRQ ,/RD_PUNC కళాశాలలో/N_NN పొట్టి/JJ దుస్తులు/N_NN వేసుకోవడం/V_VM_VNG నిషిద్ధం/N_NN ./RD_PUNC
+కాని/CC__CCD ఇది/PR_PRP అయితే/RP_RPD ఈ/DM_DMD రోజుల్లో/N_NN ప్యాషన్/N_NN అయింది/V_VM_VF మల్హోత్రా/N_NNP ./RD_PUNC
+కానీ/CC_CCD మల్హోత్రా/N_NNP ,/RD_PUNC నీవు/PR_PRP చాలా/QT_QTF చిరాకెత్తించే/V_VM_VNF బట్టలు/N_NN వేసుకుంటావు/V_VM_VF ./RD_PUNC
+ఎప్పటి/PR__PRP వరకు/PSP అయితే/RP__RPD శ్రీమతి/N__NN మల్హోత్రా/N_NNP సజీవంగా/RB ఉందో/V_VM_VNF అప్పటి/PR__PRP వరకు/PSP నేను/PR_PRP ఆమెకోసం/PR_PRP అప్పుడప్పుడు/RB ఫ్యాన్సీ/N_NN బట్టలు/N_NN వేసుకుంటూ/V_VM_VNF ఉండేవాడిని/V__VM__VF ./RD_PUNC
+ఏమి/PR_PRQ విషయం/N_NN సార్/N_NN ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN మీరు/PR_PRP చాలా/QT_QTF సంతోషంగా/RB కనబడుతున్నారు/V_VM_VF ?/RD_PUNC
+ఈ/DM_DMD రోజు/N_NN మా/PR_PRP అమ్మాయి/N_NN తిరిగి/V_VM_VNF వస్తున్నది/V_VM_VF కదా/RP__RPD ,/RD_PUNC అందుకే/CC_CCS ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN టీనా/N_NNP లండన్/N_NNP నుండి/PSP తిరిగి/V_VM_VNF వస్తున్నది/V_VM_VF ./RD_PUNC
+అవును/RP__INJ ,/RD_PUNC ఆమె/PR_PRP అక్కడ/PR__PRP ఆక్స్‍పర్డ్/N_NNP విశ్వవిద్యాలయంలో/N__NN చదువుతోంది/V_VM_VF ./RD_PUNC
+ఏమిటంటే/CC_CCS మొదట/N__NN మేమంత/PR_PRP అక్కడే/PR__PRP ఉండేవాళ్ళం/V_VM_VF ./RD_PUNC
+కానీ/CC__CCD ఎప్పుడైతే/PR_PRL శ్రీమతి/N__NN మల్హోత్ర/N_NNP చనిపోయిందో/V_VM_VNF నాకు/PR_PRP అక్కడ/PR__PRP మనస్సు/N_NN లేదు/V_VM_VF అందుకనే/CC__CCS నేను/PR_PRP తిరిగి/V_VM_VNF నా/PR_PRP దేశానికి/N_NN రావాలని/V_VM_VNF ఆలోచించాను/V_VM_VF ./RD_PUNC
+టీనా/N_NNP మీ/PR_PRP వెంట/PSP తిరిగి/V_VM_VNF రాలేదా/V_VM_VF ?/RD_PUNC
+లేదు/RP__NEG ,/RD_PUNC తనకు/PR_PRF తన/PR_PRF చదువు/N_NN పూర్తి/N__NN చేయాల్సి/V_VM_VNF ఉన్నది/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD మరల/RB నాకు/PR_PRP ఆమె/PR_PRP బాగా/QT__QTF గుర్తుకు/N_NN వచ్చింది/V_VM_VF ,/RD_PUNC అందుకే/CC_CCS కాలేజ్/N_NN చివరి/N__NN సంవత్సరం/N_NN మా/PR_PRP కాలేజ్‍లో/N_NN పూర్తి/N__NN చేయాలని/V_VM_VNF నేను/PR_PRP ఆమెకు/PR_PRP చెప్పాను/V_VM_VF ./RD_PUNC
+ఏముంది/RP__INJ ,/RD_PUNC మా/PR_PRP కాలేజ్/N_NN ఆక్స్‍ఫర్డ్/N_NNP విశ్వవిద్యాలయం/N__NN కంటే/PSP ఏమైనా/PR__PRL తక్కువ/QT_QTF ./RD_PUNC
+నా/PR_PRP తల్లి/N_NN ,/RD_PUNC నీవు/PR_PRP టీనాను/N_NNP జాగ్రత్తగా/RB చూసుకుంటావు/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+తెలుసా/V_VM_VF ,/RD_PUNC రాహుల్‍/N_NNP ప్రెండ్‍షిప్/N_NN బ్యాండ్/N_NN కట్టిన/V_VM_VNF మొదటి/N_NST ఆడపిల్లని/N_NN నేను/PR_PRP ./RD_PUNC
+తెలుసా/V_VM_VF సోనియా/N_NNP ,/RD_PUNC నేను/PR_PRP ఈ/DM_DMD ప్రెండ్‍షిప్/N__NN బ్యాండ్/N_NN కేవలం/RP_RPD నీకు/PR_PRP ఇస్తున్నాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అరగంట/N_NN వృధా/N_NN చేశాను/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD పనికిమాలిన/JJ ఆడపిల్లల/N_NN వెంట/PSP పరిగెత్తి/V_VM_VNF -/RD__PUNC పరిగెత్తి/V_VM_VNF నువ్వు/PR_PRP అలసిపోవా/V_VM_VF ?/RD_PUNC
+కానీ/CC_CCD నీవు/PR_PRP అందంగా/RB ఉన్న/V_VM_VNF ,/RD_PUNC కొంచెం/QT_QTF మెదడు/N__NN ఉన్న/V_VM_VNF ఒక/QT_QTC ఆడపిల్లను/N_NN వెదుక్కోలేవా/V_VM_VF ఏమి/PR_PRQ ?/RD_PUNC
+అలాంటి/PR__PRP అమ్మాయి/N_NN నాకు/PR_PRP ఎక్కడ/PR_PRQ దొరుకుతుంది/V_VM_VF ?/RD_PUNC
+అలా/PR__PRP అయినప్పటికీ/CC__CCS కూడా/RP_RPD ,/RD_PUNC ఈ/DM_DMD ఆడపిల్లలతోనైతే/N_NN నేను/PR_PRP కేవలం/RP_RPD కాలక్షేపం/N_NN చేస్తాను/V_VM_VF ఎందుకంటే/CC_CCS ఇప్పటి/PR__PRP వరకు/PSP అలాంటి/PR__PRP అమ్మాయి/N_NN దొరకలేదు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+ఏమిటంటే/PR_PRQ చూడగానే/V_VM_VNF ఏదో/PR__PRP అనిపించే/V_VM_VNF అమ్మాయి/N_NN నాకు/PR_PRP ఇప్పటివరకు/PR__PRP దొరకలేదు/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP నడుస్తున్నప్పుడు/V_VM_VNF అందరూ/PR__PRP చూస్తుండాలి/V_VM_VF ,/RD_PUNC ఆమె/PR_PRP నిలబడినప్పుడు/V_VM_VNF అయితే/RP_RPD కాలం/N_NN ఆగిపోవాలి/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP లభిస్తే/V_VM_VNF ఏమి/PR_PRQ చేస్తావు/V_VM_VF ?/RD_PUNC
+ఎందుకు/PR_PRQ ?/RD_PUNC
+రోజూ/N_NN కాలేజీలో/N_NN కుమారి/N__NN అంజలి/N_NNP మిమ్మల్ని/PR_PRP బాస్కెట్/N_NNP బాల్‍లో/N__NN ఓడించలేదా/V_VM_VF ఏమిటి/PR_PRQ ?/RD_PUNC
+ప్రతి/QT__QTF రోజూ/N_NN ఓడించదు/V_VM_VF ,/RD_PUNC అప్పుడప్పుడు/RB ఓడిస్తుంటుంది/V_VM_VF ./RD_PUNC
+గుర్తుంచుకో/V_VM_VF అంజలి/N_NNP !/RD_PUNC నిన్ను/PR_PRP రోజూ/N_NN ఓడిస్తుండేది/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ,/RD_PUNC మీతో/PR_PRP ఇప్పుడు/PR_PRP ఈ/DM_DMD సమయంలో/N_NN సవాలు/N_NN చేస్తున్నాను/V_VM_VF ,/RD_PUNC నాతో/PR_PRP ఆడు/V_VM_VF ./RD_PUNC
+హాయ్/RP_INJ టీనా/N_NNP !/RD_PUNC ఒకవేళ/CC__CCS ఈ/DM_DMD రోజు/N_NN నువ్వు/PR_PRP ఇక్కడ/PR__PRP ఉండి/V_VM_VNF ఉంటేనా/V_VM_VNF ,/RD_PUNC అంజలి/N_NNP నా/PR_PRP కూతురని/N_NN నీవు/PR_PRP గర్వంగా/RB చెప్పుకోగలిగేదానివి/V_VM_VF ./RD_PUNC
+ఎందుకంటే/CC_CCS ఆమె/PR_PRP చాలా/RP__INTF మంచిది/JJ మరి/RP__RPD ఎందుకు/PR_PRQ కాకూడదు/V_VM_VF ,/RD_PUNC తన/PR_PRF పేరు/N_NN అంజలి/N_NNP ./RD_PUNC
+కానీ/CC_CCD తెలుసా/V_VM_VF ,/RD_PUNC తన/PR_PRF గొప్పదనం/N_NN ఏమిటంటే/CC_CCS తను/PR_PRF పూర్తిగా/RB నీలాగే/PR_PRP ఉంటుంది/V_VM_VF ./RD_PUNC
+అంజలి/N_NNP చాలా/RP__INTF ముద్దుగా/RB అనిపిస్తుంది/V_VM_VF కదా/RP__RPD ఈ/DM_DMD ఫోటోలో/N_NN ?/RD_PUNC
+ఆమె/PR_PRL ఇక్కడ/PR__PRP లేదు/V__VM__VF అందుకే/CC_CCS రోజూ/N_NN తన/PR_PRF ఫోటో/N_NN చూసి/V_VM_VNF -/RD_PUNC చూసి/V_VM_VNF నేను/PR_PRP సంతోషిస్తూ/V_VM_VNF ఉంటాను/V_VM_VF ./RD_PUNC
+అమన్/N_NNP !/RD_PUNC పెళ్ళి/N_NN డిసెంబర్‍లో/N_NNP జరుగుతుంది/V_VM_VF కదా/RP_RPD ,/RD_PUNC నీవు/PR_PRP లండన్/N_NNP ఎందుకు/PR_PRQ వెళ్ళి/V_VM_VNF రాకూడదు/V_VM_VF ?/RD_PUNC
+కానీ/CC_CCD ఆమె/PR_PRP నన్ను/PR_PRP ప్రేమించడం/V_VM_VNG లేదు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP ఈ/DM_DMD విధంగా/N__NN అనిపిస్తుంది/V_VM_VF ./RD_PUNC
+పురుషుడు/N_NN చాలా/RP_INTF బలహీనంగా/RB ఉంటాడు/V_VM_VF తల్లి/N__NN ,/RD_PUNC చాలా/RP_INTF బలహీనంగా/RB ఉంటాడు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD సిద్ధాంతాలు/N_NN తయారు/N_NN చేస్తారు/V_VM_VF కాని/CC_CCD మరచిపోతారు/V_VM_VF ,/RD_PUNC మనస్సు/PR_PRP ముందు/PSP ఎటువంటి/DM__DMQ సిద్ధాంతాలు/N__NN ఉండవు/V_VM_VF ./RD_PUNC
+మనము/PR_PRP ఈ/DM_DMD మొండి/JJ పట్టుదలగల/N_NN ,/RD_PUNC బలహీనమైన/JJ పురుషులకు/N_NN చెప్పేది/V__VM__VNF ఏమిటంటే/PR__PRP ,/RD_PUNC బంధాలు/N_NN హృదయస్పందనతోనే/N_NN ఏర్పడతాయి/V_VM_VF ,/RD_PUNC సిద్ధాంతాలతో/N_NN కాదు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ఈ/DM_DMD మనస్సు/N_NN బంధాలు/N_NN ,/RD_PUNC మనస్సులోని/N__NN మాటలు/N_NN చెప్పితేనే/V_VM_VNF ఏర్పడతాయి/V_VM_VF అమ్మాయి/N_NN ./RD_PUNC
+నీవు/PR_PRP నీ/PR_PRP మనస్సులోని/N_NN మాట/N_NN చెప్పు/V_VM_VF అంజలి/N_NNP ./RD_PUNC
+అప్పుడప్పుడు/RB మనస్సులోని/N__NN మాట/N_NN చెప్పితే/V_VM_VNF మనస్సు/N__NN విరిగిపోవచ్చు/V_VM_VF కూడా/RP_RPD ./RD_PUNC
+చెప్పకపోతే/V_VM_VNF ,/RD_PUNC ఎటువంటి/DM__DMQ సారం/N_NN ఉంటుంది/V_VM_VF ./RD_PUNC
+నీ/PR_PRP పెళ్లి/N_NN జరగబోతోందని/V_VM_VNF అమన్/N_NNP చెప్పాడు/V_VM_VF ./RD_PUNC
+అమన్/N_NNP !/RD_PUNC నేను/PR_PRP ఈ/DM_DMD రోజు/N_NN రాత్రికే/N_NN తిరిగి/V_VM_VNF వెళ్ళాలనుకుంటున్నాను/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP ఒక/QT__QTC కొత్త/JJ జీవితం/N_NN ప్రారంభించబోతున్నప్పుడు/V_VM_VNF ,/RD_PUNC నీవే/PR_PRP ఇది/PR_PRP టీనాకు/N_NNP ఇచ్చావు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN నీవు/PR_PRP కూడా/RP_RPD ఒక/QT__QTC కొత్త/JJ జీవితం/N_NN ప్రారంభించబోతున్నావు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP మరియు/CC_CCD రాహుల్/N_NNP పరస్పరం/PR_PRC చాలా/RP__INTF సంతోషంగా/RB ఉంటారని/V_VM_VNF నాకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP పెళ్లి/N_NN కార్యక్రమాలు/N_NN ప్రారంభించండి/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఇప్పుడు/PR_PRP ఇంక/RP__RPD వేచివుండాలనుకోవడం/V_VM_VNG లేదు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD అంజలి/N_NNP !/RD_PUNC డిసెంబరుకు/N_NNP ముందు/N__NST ఏ/DM_DMD ముహూర్తం/N_NN లేదని/V_VM_VNF బాబా/N__NN గారు/RP__RPD చెప్పారు/V_VM_VF ./RD_PUNC
+అమ్మా/N_NN !/RD_PUNC సంతోషాలు/N_NN ముహూర్తాలతో/N_NN రావు/V_VM_VF ,/RD_PUNC అదృష్టంతో/N_NN వస్తాయి/V_VM_VF ,/RD_PUNC దానిని/PR_PRP ఎవరు/PR_PRQ మార్చలేరు/V_VM_VF ./RD_PUNC
+అంజలి/N_NNP ఇంత/RP__INTF త్వరగా/RB పెళ్ళి/N_NN నిర్ణయం/N_NN చేశారు/V_VM_VF నాకు/PR_PRP పూర్తిగా/RB తయారు/N_NN కావడానికి/V__VM__VINF కూడా/RP_RPD సమయం/N_NN దొరకలేదు/V_VM_VF ./RD_PUNC
+నీకు/PR_PRP తెలుసా/V_VM_VF ,/RD_PUNC నా/PR_PRP కళ్ళల్లో/N_NN ఉన్న/V_VM_VNF ప్రేమను/N_NN నేను/PR_PRP ఎల్లప్పుడు/RB నీ/PR_PRP కళ్ళల్లో/N_NN చూడాలనుకుంటున్నాను/V_VM_VF ./RD_PUNC
+మరియు/CC_CCD ఈ/DM_DMD రోజు/N_NN నాకు/PR_PRP ఆ/DM_DMD ప్రేమ/N_NN కనబడింది/V_VM_VF కానీ/CC_CCD అది/PR_PRP నా/PR_PRP కోసం/PSP కాదు/V_VM_VF ./RD_PUNC
+ఎప్పుడైతే/PR_PRL నీవు/PR_PRP ప్రేమను/N_NN అర్థం/N_NN చేసుకుంటావో/V__VM__VNF ,/RD_PUNC ప్రేమను/N_NN తెలుసుకుంటావో/V__VM__VNF కేవలం/RP_RPD అప్పుడే/PR_PRP ప్రేమించావు/V_VM_VF ./RD_PUNC
+రాహుల్‍తోనే/N_NNP నీ/PR_PRP మొదటి/QT__QTO ప్రేమ/N_NN మరియు/CC_CCD మొదటి/QT__QTO ప్రేమ/N_NN అంటే/RP__RPD ఏమిటో/PR_PRQ నన్ను/PR_PRP అడుగు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నా/PR_PRP గురించి/PSP మొత్తం/QT_QTF పోగొట్టుకున్నావు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఈ/DM_DMD ప్రేమ/N_NN మధ్యలో/N__NST ఎలా/PR__PRQ రాగలను/V_VM_VF ,/RD_PUNC ఇదైతే/PR_PRP ఎప్పుడూ/PR_PRP నాది/PR_PRP కానే/RP__NEG కాదు/V_VM_VF ./RD_PUNC
+అలా/PR_PRP అయినప్పటికి/CC__CCS నేను/PR_PRP చాలా/QT__QTF అందగాడిని/N_NN కనుక/RP_RPD నాకు/PR_PRP ఎవరో/PR_PRQ ఒకరు/QT__QTC దొరుకుతారు/V_VM_VF అని/CC__CCS__UT ఎవరో/PR_PRQ నాతో/PR_PRP చెప్పారు/V_VM_VF ./RD_PUNC
+కొంచెంసేపట్లో/QT_QTF ఆట/N_NN ప్రారంభం/N_NN కానుంది/V_VM_VF మరియు/CC_CCD నేను/PR_PRP పరిస్థితిని/N_NN కళ్ళకు/N_NN కట్టినట్లు/V_VM_VNF వివరిస్తాను/V_VM_VF ./RD_PUNC
+ఎవరి/PR_PRQ బంతి/N_NN గాలి/N_NN కంటే/PSP వేగంగా/RB వెళుతుందో/V_VM_VNF వారు/PR_PRP మీ/PR_PRP ముందుకు/N_NST రాబోతున్నారు/V_VM_VF ./RD_PUNC
+నిజం/N_NN చెప్పుతున్నాను/V_VM_VF అన్నయ్య/N_NN గారు/RP__RPD ,/RD_PUNC మన/PR_PRP రాజేష్/N_NNP బాబుని/N_NNP ఎంత/QT_QTF ప్రశంసించినా/V_VM_VNF అది/PR_PRP తక్కువే/QT_QTF ./RD_PUNC
+ఇంత/RP__INTF చిన్న/JJ వయస్సులో/N_NN ఇంత/RP__INTF పెద్ద/JJ పని/N_NN నిర్వహించడం/V_VM_VNG ఏదో/PR__PRP ఆట/N_NN కాదు/V_VM_VF ./RD_PUNC
+అక్కా/N_NN ,/RD_PUNC బావలు/N_NN మరణించినప్పుడు/V_VM_VNF రాజేష్/N_NNP ,/RD_PUNC ప్రేమ్/N_NNP ఇంతింత/QT_QTF ఉండేవారు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD పిల్లల/N_NN బాధ్యత/N_NN వహించడానికి/V__VM__VINF మీరు/PR_PRP కళాశాల/N_NN చదువు/N_NN కూడా/RP_RPD అనుకోకుండా/V_VM_VNF వదిలేసి/V_VM_VNF ఒక/QT__QTC చిన్న/JJ ఉద్యోగంతో/N_NN ప్రారంభించారు/V_VM_VF ./RD_PUNC
+వీరి/PR_PRP భవిష్యత్తు/N_NN కోసం/PSP కేవలం/RP_RPD శ్రమనే/N_NN తమ/PR__PRF జీవిత/N_NN లక్ష్యంగా/RB తలచారు/V_VM_VF ./RD_PUNC
+ఎంత/RP__INTF మంచి/JJ సంస్కారాన్ని/N_NN ఇచ్చారు/V_VM_VF పిల్లలకి/N_NN ,/RD_PUNC అందుకే/CC_CCS రాజేష్‍కు/N_NNP ఈ/DM_DMD రోజు/N_NN ఇంత/QT_QTF పేరు/N_NN మరియు/CC_CCD ప్రేమ్/N_NNP కూడా/RP__RPD ఈ/DM_DMD సంవత్సరం/N_NN యం.బి.ఏ/N_NNP లో/PSP ఉన్నత/JJ స్థానాన్ని/N_NN పొందాడు/V_VM_VF ./RD_PUNC
+క్రిందటి/JJ రోజుల్లో/N_NN ఆచార్యుల/N_NN సమావేశానికి/N_NN నేను/PR_PRP పూణే/N_NNP వెళ్ళాను/V_VM_VF ,/RD_PUNC అక్కడ/PR_PRP నేను/PR_PRP ప్రొఫెసరు/N_NN ఎస్.ఎస్./N_NNP చౌదరిని/N_NNP కలిసాను/V_VM_VF ./RD_PUNC
+అక్కడ/PR_PRP నేను/PR_PRP వారి/PR_PRP పెద్ద/JJ అమ్మాయిని/N_NN కలిశాను/V_VM_VF ,/RD_PUNC పిల్లల్ని/N_NN ఒకసారి/N__NN చూశాను/V_VM_VF అంతే/RP__RPD ,/RD_PUNC మనస్సులో/N_NN గూడు/N__NN కట్టుకునిపోయింది/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP పేరు/N_NN పూజా/N_NNP ,/RD_PUNC బి.ఏ./N_NNP పాసైంది/V_VM_VF ,/RD_PUNC ఆమెది/PR_PRP మధురమైన/JJ స్వభావం/N_NN ./RD_PUNC
+ఈ/DM_DMD సమయంలో/N_NN ఆచార్యులు/N_NN గారు/RP__RPD తన/PR_PRF కుటుంబంతో/N_NN తీర్థయాత్రకు/N_NN రామ్‍టేకడీకి/N_NNP వెళ్ళి/V_VM_VF ఇంటికి/N__NN తిరిగి/V_VM_VNF వస్తున్నారు/V_VM_VF ,/RD_PUNC పద/V_VM_VF పోదాం/V_VM_VF ./RD_PUNC
+రాజేష్‍తో/N_NNP ఎప్పుడూ/PR_PRP పెళ్ళి/N_NN గురించి/PSP మాట్లాడినా/V_VM_VNF అతడు/PR_PRP బిగుసుకుపోతాడు/V_VM_VF అలాంటప్పుడు/PR_PRP ఇద్దరూ/QT_QTF కలవడం/V_VM_VNG ఎలా/PR_PRQ ?/RD_PUNC
+ఈ/DM_DMD రోజు/N_NN చాలాసేపు/N_NN జరిగింది/V_VM_VF మీ/PR_PRP సమావేశం/N_NN ?/RD_PUNC
+అరే/RP_INJ అవును/RP_INJ ప్రేమ్/N_NNP బాబు/N_NN ,/RD_PUNC ఇంకా/RP_RPD ఎప్పటి/PR_PRQ వరకూ/PSP ఇక్కడ/PR_PRP కూర్చొని/V_VM_VNF వుంటాము/V_VM_VF ?/RD_PUNC
+సరే/RP_INJ చెప్పు/V_VM_VF ,/RD_PUNC ఏం/PR_PRQ చేయాలో/V_VM_VF మరి/RP_RPD ?/RD_PUNC
+చాలా/RP_INTF తేలికైన/JJ ఆట/N_NN ,/RD_PUNC అక్కడ/PR_PRP భోల/N_NN వాద్య/N_NN సంగీతం/N_NN వినిపిస్తారు/V_VM_VF ,/RD_PUNC ఇక్కడ/PR_PRP దిండును/N_NN మనము/PR_PRP పాస్/V_VM_VF చేసుకుంటాము/V_VM_VF ./RD_PUNC
+ఎప్పుడు/PR_PRP సంగీతం/N_NN ఆగుతుందో/V_VM_VNF ./RD_PUNC అప్పుడు/PR_PRP ఈ/DM_DMD దిండు/N_NN ఎవరి/PR_PRP చేతిలో/N_NN ఉంటుందో/V_VM_VNF వాళ్లు/PR_PRP ఓడినట్లు/V_VM_VF ./RD_PUNC
+మరియు/CC_CCD వాళ్లకేదైనా/PR_PRP శిక్ష/N_NN వేయాలంటే/V_VM_VNF మేం/PR_PRP వేస్తాం/V_VM_VF ,/RD_PUNC దానిని/PR_PRP ఒప్పుకోవాల్సిందే/V_VM_VF ./RD_PUNC
+మేము/PR_PRP అక్కడ/PR_PRP కూర్చొని/V_VM_VNF ఎవరు/PR_PRP మోసం/N_NN చేయకుండా/V_VM_VNF చూస్తాము/V_VM_VF ./RD_PUNC
+మరీ/RP_RPD విచిత్రం/N_NN చేస్తున్నారు/V_VM_VF డాక్టరు/N_NN గారు/RP_RPD ,/RD_PUNC కాలేయం/N_NN దృఢంగా/RB ఉన్నది/V_VM_VF ,/RD_PUNC ఇంత/RP_INTF తొందరగా/RB పాడయిపోతుందా/V_VM_VF ./RD_PUNC
+వదిన/N_NN గారూ/RP_RPD !/RD_PUNC మాకు/PR_PRP మీ/PR_PRP మీద/N_NST ఒక/QT_QTC ఫిర్యాదు/N_NN ఉంది/V_VM_VF ./RD_PUNC
+మీరందరూ/PR_PRP ఇన్ని/QT_QTF రోజులు/N_NN ఇక్కడ/PR_PRP వున్నారు/V_VM_VF ,/RD_PUNC ఒక్కసారి/N_NN కూడా/RP_RPD మా/PR_PRP ఇంటికి/N_NN భోజనానికి/N_NN రాలేదు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ అరే/RP_INJ ఒక/QT_QTC నిమిషం/N_NN ,/RD_PUNC మిమ్నల్ని/PR_PRP సరిగ్గా/RB సాగనంపనివ్వుండి/V_VM_VF ./RD_PUNC
+వియ్యపురాలుగారు/N_NN !/RD_PUNC ఈ/DM_DMD మనసు/N_NN కూడా/RP_RPD ఎంత/QT_QTF పిచ్చిది/N_NN ,/RD_PUNC ఎంత/QT_QTF పొందినా/V_VM_VNF దాని/PR_PRP కంటే/PSP ఎక్కువ/QT_QTF పొందాలనే/V_VM_VNF కోరిక/N_NN ఉంటుంది/V_VM_VF ./RD_PUNC
+ఒకరోజుకైతే/N_NN మేము/PR_PRP మీ/PR_PRP అందరినీ/QT_QTF ఆపాము/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR_PRP ఇంకొకరోజు/N_NN ఆపమని/V_VM_VNF మనసు/N_NN కోరుకుంటుంది/V_VM_VF ./RD_PUNC
+నిషాతో/N_NNP ఒక/QT_QTC ఫోటో/N_NN తీసుకుందాం/V_VM_VF ./RD_PUNC
+ఇన్ని/QT_QTF రోజులు/N_NN మాతో/PR_PRP ఎంత/RP_INTF ప్రేమగా/RB ఉందో/V_VM_VNF ఈ/DM_DMD విధంగా/N_NN గుర్తుంటుంది/V_VM_VF ./RD_PUNC
+వెళ్ళుతున్నారా/V_VM_VF ?/RD_PUNC
+ఇప్పుడు/PR_PRP మిమ్మల్ని/PR_PRP ఆపగలగడానికి/V_VM_VINF ఏ/DM_DMD వంక/N_NN కూడా/RP_RPD లేదు/V_VM_VF ./RD_PUNC
+కర్మాగార/N_NN ప్రారంభోత్సవం/N_NN అయిపోయిన/V_VM_VNF వెంటనే/RP_RPD ,/RD_PUNC నేను/PR_PRP వదినతో/N_NN నా/PR_PRP పెళ్ళి/N_NN విషయం/N_NN మాట్లాడతాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ నా/PR_PRP సోదరులారా/N_NN ,/RD_PUNC ఏమి/PR_PRQ చూస్తున్నారు/V_VM_VF ?/RD_PUNC
+మన/PR_PRP సోదరుడు/N_NN ప్రేమ్/N_NNP ఈ/DM_DMD రోజు/N_NN పెద్దవాడు/N_NN అయ్యాడు/V_VM_VF ,/RD_PUNC నమస్కరించండి/V_VM_VF ./RD_PUNC
+కేవలం/RP_RPD దీనిగురించే/PR_PRP నేను/PR_PRP భయపడింది/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ,/RD_PUNC ఈ/DM_DMD పనివాళ్ల/N_NN గురించి/PSP అయితే/RP_RPD నాకు/PR_PRP బాగా/RB తెలుసు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD జబ్బులు/N_NN అయితే/RP_RPD ఉత్తి/JJ సాకులు/N_NN ,/RD_PUNC డబ్బులు/N_NN వసూలు/N_NN చేయడానికి/V_VM_VINF ఇది/PR_PRP ఒక/QT_QTC పద్దతి/N_NN ?/RD_PUNC
+వదినా/N_NN !/RD_PUNC మేము/PR_PRP మా/PR_PRP మీద/N_NST ఒట్టేసి/V_VM_VNF చెబుతున్నాము/V_VM_VF ఈ/DM_DMD ఉత్తరం/N_NN అబద్దం/N_NN కాదు/RP_NEG ,/RD_PUNC కొన్నదీ/V_VM_VF కాదు/RP_NEG ./RD_PUNC
+విను/V_VM_VF ,/RD_PUNC ఎప్పుడైతే/PR_PRL మీ/PR_PRP వదిన/N_NN కోలుకుంటుందో/V_VM_VF అప్పుడు/PR_PRP ముందుగా/N_NST నీవు/PR_PRP నీ/PR_PRP కోసం/PSP చమేలిని/N_NNP వెతుకున్నావు/V_VM_VF అని/CC_CCS_UT ఆమెతో/PR_PRP చెప్పు/V_VM_VF ./RD_PUNC
+కోడలా/N_NN !/RD_PUNC నిన్న/N_NN లల్లూ/N_NNP వెళ్ళిపోయాడు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN మీరు/PR_PRP వెళ్ళిపోతారు/V_VM_VF ,/RD_PUNC మా/PR_PRP మనస్సు/N_NN ఎలా/PR_PRQ ఉంటుంది/V_VM_VF ?/RD_PUNC
+అందుకే/CC_CCS చెప్పుతున్నాను/V_VM_VF మావయ్యగారు/N_NN ./RD_PUNC
+మన/PR_PRP కర్మాగారం/N_NN పని/N_NN కూడా/RP_RPD ప్రారంభమైంది/V_VM_VF ./RD_PUNC
+ఇపుడు/PR_PRP మా/PR_PRP కోసం/PSP తోటికోడలను/N_NN తీసుకురండి/V_VM_VF ./RD_PUNC
+సరే/RP_INJ కోడలా/N_NN !/RD_PUNC ఈ/DM_DMD రోజు/N_NN నుండి/PSP ఇతనికి/PR_PRP పెళ్ళి/N_NN కూతురిని/N_NN వెతికే/V_VM_VNF బాధ్యత/N_NN నీది/PR_PRP ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN మీ/PR_PRP పెళ్ళి/N_NN విషయం/N_NN అనగానే/PSP ,/RD_PUNC వాతావరణం/N_NN మారిపోయింది/V_VM_VF ./RD_PUNC
+మావయ్యగారు/N_NN మీ/PR_PRP పగ్గాలను/N_NN ఇప్పుడు/PR_PRP మా/PR_PRP చేతికి/N_NN ఇచ్చారు/V_VM_VF ./RD_PUNC
+ఇది/PR_PRP చెప్పండి/V_VM_VF సార్/N_NN ప్రేమ/JJ వివాహం/N_NN ఇష్టమా/N_NN లేక/CC_CCD పెద్దలు/N_NN కుదిర్చిన/JJ వివాహమా/N_NN ?/RD_PUNC
+చూశావా/V_VM_VF మున్నా/N_NNP !/RD_PUNC మీ/PR_PRP బాబాయి/N_NN మీ/PR_PRP నాన్న/N_NN కంటే/PSP రెండు/QT_QTC అడుగులు/N_NN ముందున్నాడు/V_VM_VF ,/RD_PUNC తెలియకుండా/V_VM_VNF మీ/PR_PRP కోసం/PSP ఒక/QT_QTC చిన్నమ్మను/N_NN కూడా/RP_RPD వెతికాడు/V_VM_VF ./RD_PUNC
+అంటే/RP_RPD మీరు/PR_PRP ,/RD_PUNC మీ/PR_PRP మేడమ్/N_NN కలసి/V_VM_VNF ముందే/N_NST ఈ/DM_DMD కార్యక్రమం/N_NN నిర్ణయించి/V_VM_VNF పెట్టుకున్నారు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC ఒకవేళ/CC_CCS వారు/PR_PRP కిందకి/N_NST రానట్లయితే/V_VM_VNF పద/V_VM_VF మనం/PR_PRP వారి/PR_PRP దగ్గరకు/N_NST వెళదాం/V_VM_VF ./RD_PUNC
+తిను/V_VM_VF టఫీ/N_NNP ,/RD_PUNC నీకు/PR_PRP తినిపించే/V_VM_VNF వారు/PR_PRP ఇప్పుడు/PR_PRP తిరిగిరారు/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP నిర్మోహీ/JJ ,/RD_PUNC నాలుగు/QT_QTC రోజులు/N_NN మోహాన్ని/N_NN పెంచి/V_VM_VNF మమ్మలని/PR_PRP ఒంటరిగా/RB వదిలేసింది/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD అమ్మాయిలో/N_NN ఏం/PR_PRQ మాయ/N_NN ఉందో/V_VM_VNF తెలియదు/V_VM_VF ,/RD_PUNC తను/PR_PRF లేకుండా/V_VM_VNF జీవించడమే/V_VM_VNF మరచిపోయాము/V_VM_VF ./RD_PUNC
+అరే/RP_INJ జగన్/N_NNP !/RD_PUNC జగన్/N_NNP !/RD_PUNC వైద్యులంతా/N_NN ఏంచెప్పారంటే/PR_PRQ ,/RD_PUNC మా/PR_PRP వదినకు/N_NN ఇక/RP_RPD ఎప్పటికీ/PR_PRQ సరికాదని/V_VM_VNF చెప్పేశారు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ,/RD_PUNC కానీ/CC_CCD ఆమెకు/PR_PRP ఏమీ/PR_PRQ కాదని/V_VM_VNF మాకు/PR_PRP విశ్వాసం/N_NN ఉండింది/V_VM_VF ,/RD_PUNC మాకు/PR_PRP విశ్వాసం/N_NN ఉండింది/V_VM_VF ./RD_PUNC
+పూజా/N_NNP వదిన/N_NN తన/PR_PRF కోసం/PSP ప్రార్థన/N_NN చేసింది/V_VM_VF కదా/RP_RPD అన్నయ్యా/N_NN మరేమో/RP_RPD అదే/PR_PRP జరిగింది/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP కళ్ళు/N_NN తెరుచుకున్నాయి/V_VM_VF ,/RD_PUNC ఆమె/PR_PRP నవ్వుతున్నది/V_VM_VF ./RD_PUNC
+ఎవరి/PR_PRQ చేయి/N_NN మా/PR_PRP తలపై/N_NN ఎల్లప్పుడూ/RB ఉంటుందో/V_VM_VNF ఆ/PR_PRP వదిన/N_NN అద్భుతం/N_NN ఇది/PR_PRP అని/CC_CCS_UT చెప్పాం/V_VM_VF ./RD_PUNC
+అయ్యగారు/N_NN ,/RD_PUNC అయ్యగారు/N_NN !/RD_PUNC మా/PR_PRP కన్నీళ్ళ/N_NN కోసం/PSP ప్రాణాలిచ్చారు/V_VM_VF వదినగారు/V_VM_VF ,/RD_PUNC తన/PR_PRF ఆశీర్వాదంతో/N_NN మా/PR_PRP వదినగారికి/N_NN జీవనదానం/N_NN ఇచ్చారు/V_VM_VF ,/RD_PUNC జీవనదానం/N_NN ఇచ్చారు/V_VM_VF ./RD_PUNC
+పెద్దన్నయ్యా/N_NN !/RD_PUNC ఆ/DM_DMD భగవంతున్ని/N_NN అడుగు/V_VM_VF మంచివారిని/N_NN తన/PR_PRF దగ్గరికి/N_NST ఎందుకు/PR_PRQ పిలుచుకుంటాడు/V_VM_VF ?/RD_PUNC
+ఎందుకు/PR_PRQ పిలుచుకుంటాడు/V_VM_VF ?/RD_PUNC
+లల్లూ/N_NNP !/RD_PUNC మీ/PR_PRP పూజా/N_NNP వదినైతే/N_NN స్నేహానికే/N_NN దేవత/N_NN ,/RD_PUNC ఆమెలో/PR_PRP మమత/N_NN నిండి/V_VM_VNF ఉంది/V_VM_VF ./RD_PUNC
+భగవంతుడికి/N_NN కూడా/RP_RPD ప్రేమ/N_NN ఆకలి/N_NN ఉంటుంది/V_VM_VF ,/RD_PUNC ఆయనకు/PR_PRP కూడా/RP_RPD ప్రేమ/N_NN కావాలి/V_VM_VF లల్లూ/N_NNP ,/RD_PUNC ఆయనకు/PR_PRP కూడా/RP_RPD ప్రేమ/N_NN కావాలి/V_VM_VF ./RD_PUNC
+మమత/N_NN విషయం/N_NN చెబుతున్నావా/V_VM_VF ,/RD_PUNC ఆమె/PR_PRP పైనైతే/N_NST మన/PR_PRP మున్నే/N_NN రాజాకి/N_NNP హక్కు/N_NN ఉంది/V_VM_VF కదా/RP_RPD ?/RD_PUNC
+ఉంది/V_VM_VF కదా/RP_RPD హక్కు/N_NN ?/RD_PUNC
+వస్తామండీ/V_VM_VF ఎందుకు/PR__PRP రాము/V_VM_VF మరియు/CC_CCD మేము/PR_PRP వచ్చినప్పుడు/V_VM_VNF బాణాసంచారాలతో/N_NN వస్తాము/V_VM_VF ./RD_PUNC
+అన్నయ్యా/N__NN !/RD_PUNC ఒకవేళ/CC__CCS మీరు/PR_PRP మా/PR_PRP పని/N_NN చేసినట్లయితే/V_VM_VNF మేము/PR_PRP మా/PR_PRP అత్తగారితో/N__NN అనగా/RP__RPD మీ/PR_PRP పిన్ని/N__NN గారితో/RP__RPD మీకోసం/PR_PRP ఒక/QT__QTC అందమైన/JJ వధువుని/N_NN ఎంపికచేసి/V_VM_VNF తెండని/V_VM_VNF చెప్తాము/V_VM_VF ./RD_PUNC
+అమ్మా/N_NN బావగారు/N__NN అక్కడ/PR__PRP కూర్చుంటారు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD సీట్లయితే/N__NN వారి/PR_PRP బంధువర్గాల/N_NN కోసం/PSP ./RD_PUNC
+ఇక్కడి/PR__PRP మన/PR_PRP గౌరవ/N_NN -/RD__PUNC మర్యాదలు/N_NN ఎలా/PR_PRQ ఉంటాయో/V_VM_VNF వారికి/PR_PRP కొంచెం/QT_QTF తెలియని/V_VM_VF ?/RD_PUNC
+హిందీ/N__NNP సాహిత్యంలో/N_NN భోలా/N_NNP ప్రసాద్/N_NNP గారు/RP__RPD కాళిదాసు/N_NNP శకుంతల/N_NNP పై/PSP పరిశోధన/N_NN చేస్తున్నారు/V_VM_VF ./RD_PUNC
+అలాగే/PR__PRP ఈయన/PR_PRP తన/PR_PRF శకుంతలను/N_NNP కూడా/RP_RPD వెతుకుతున్నారు/V_VM_VF ./RD_PUNC
+అక్కా/N__NN ,/RD_PUNC మగపెళ్ళివారు/N__NN బావగారి/N_NN చెప్పులు/N_NN ఒక/QT_QTC ఎరుపు/JJ -/RD__PUNC పసుపు/JJ మిఠాయి/N__NN డబ్బాలో/N_NN దాచిపెట్టారు/V_VM_VF ./RD_PUNC
+భళా/RP__INJ అన్నయ్యా/N_NN ,/RD_PUNC ఎలాంటి/DM__DMD ప్రదేశం/N_NN ఎంచుకొన్నారంటే/V__VM__VNF చెప్పులు/N_NN దాచుకోవడానికి/V__VM__VINF ఎంత/PR__PRP వెతికినా/V_VM_VNF ఎవరికీ/PR__PRP దొరకదు/V_VM_VF ./RD_PUNC
+హే/RP_INJ ప్రభూ/N_NN !/RD_PUNC హే/RP_INJ మురళీ/N__NNP మనోహరా/N__NNP !/RD_PUNC మీరైతే/PR_PRP చమత్కార/JJ సంపన్నులు/N_NN ,/RD_PUNC చిత్ర/JJ విచిత్రమైన/JJ ఆటలు/N_NN ఆడుతున్నారు/V_VM_VF ./RD_PUNC
+ప్రభూ/N__NN !/RD_PUNC ఏదైనా/PR_PRL ఒక/QT_QTC చమత్కారం/N_NN చెయ్యి/V__VM__VF మమ్మల్ని/PR_PRP గెలిపించు/V_VM_VF వాళ్లు/PR_PRP ఓడిపోయెలా/V__VM__VNF చెయ్యి/V_VM_VF ./RD_PUNC
+లల్లూ/N_NNP !/RD_PUNC ఇది/PR_PRP మనల్ని/PR_PRP ఎక్కడికో/PR__PRP తీసుకొని/V_VM_VNF వెళ్ళాలనుకున్నట్లు/V_VM_VNF నాకు/PR_PRP అనిపిస్తుంది/V_VM_VF బహుశా/CC__CCS చెప్పులు/N_NN ఎక్కడున్నాయో/PR__PRP దీనికి/PR_PRP తెలిసినట్లుంది/V_VM_VF ./RD_PUNC
+లల్లూ/N__NNP !/PR_PRP ఒక/QT__QTC పని/N_NN చేద్దాం/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP ఆ/DM_DMD డబ్బా/N_NN స్థానంలో/N_NN ఈ/DM_DMD డబ్బా/N_NN దాయు/V_VM_VF మరియు/CC_CCD విను/V_VM_VF చెప్పుల్ని/PR_PRP ఎక్కడ/PR__PRP దాచాలంటే/V_VM_VNF దానికోసం/PR__PRP వెతుకుతూ/V_VM_VNF -/RD__PUNC వెతుకుతూ/V_VM_VNF వారికి/PR_PRP అమ్మమ్మ/N_NN గుర్తుకు/N__NN రావాలి/V_VM_VF ./RD_PUNC
+పిల్లలూ/N_NN ,/RD_PUNC పిల్లలూ/N_NN ,/RD_PUNC నా/PR_PRP మాట/N_NN వినండి/V_VM_VF ,/RD_PUNC సరే/RP_INJ ఐదు/QT_QTC వందల/N_NN రూపాయలకు/N_NN మాటను/N_NN ఖరారు/N_NN చేద్దాం/V_VM_VF ./RD_PUNC
+బావగారి/N_NN దగ్గర/N__NST మనమందరం/PR_PRP వెయ్యి/QT_QTC నూట/QT_QTC ఒక/QT_QTC రూపాయి/N_NN తీసుకుందాం/V_VM_VF ,/RD_PUNC అప్పుడే/PR__PRP చెప్పులు/N_NN తిరిగి/V_VM_VNF దొరుకుతాయి/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ప్రేమ్/N_NNP !/RD_PUNC విచిత్రం/JJ చేస్తున్నావు/V_VM_VF నీవు/PR_PRP ,/RD_PUNC ఇక్కడ/PR__PRP మాకు/PR_PRP మద్దతునివ్వడానికి/V__VM__VINF బదులుగా/RB అక్కడ/PR__PRP కూర్చున్నావు/V_VM_VF ./RD__PUNC
+కూర్చొని/V__VM__VNF బొప్పాయి/N_NN తింటున్నావు/V_VM_VF ,/RD_PUNC అరే/RP_INJ ఏదో/PR__PRP ఒకటి/QT_QTC చెప్పు/V_VM_VF ./RD_PUNC
+మామ/N__NN గారు/RP_RPD ,/RD_PUNC మొదట/QT__QTO మీరు/PR_PRP బేరసారాలు/N_NN కానీయండి/V_VM_VF ,/RD_PUNC మేమయితే/PR_PRP చివర్లో/QT__QTO చెబుతాము/V_VM_VF ./RD_PUNC
+నిషా/N_NNP గారూ/RP__RPD !/RD_PUNC ఒకవేళ/CC__CCS పెళ్ళిలో/N_NN నవ్వులాటలో/N__NN నా/PR_PRP నుండి/PSP ఏదైనా/PR__PRP తప్పు/N_NN జరిగినట్లయితే/V_VM_VNF నన్ను/PR_PRP క్షమించండి/V_VM_VF ./RD_PUNC
+నువ్వు/PR_PRP ఇక్కడకు/PR__PRP రా/V_VM_VF ,/RD_PUNC నువ్వు/PR_PRP ఎక్కడికి/PR_PRQ వెళ్ళావు/V_VM_VF ?/RD_PUNC
+సంతోషంగా/RB ఉన్నావు/V_VM_VF కదా/RP__RPD ,/RD_PUNC ఈ/DM_DMD సంబంధం/N_NN నువ్వే/PR_PRP చేశావు/V_VM_VF ./RD_PUNC
+స్టోర్/N__NN రూమ్/N__NN ఇచ్చారు/V_VM_VF ఆచార్యులవారు/N__NN ./RD_PUNC
+ఏమైందీ/PR_PRQ మామగారు/N__NN !/RD_PUNC ఇపుడు/PR__PRP వదినతో/N_NN ఈ/DM_DMD వస్తువులన్నీ/N_NN తూచి/V_VM_VNF ఇచ్చారు/V_VM_VF ./RD_PUNC
+చూస్తే/V_VM_VNF ఆ/DM_DMD బరువు/N_NN మన/PR_PRP వదినకి/N_NN గురిగింజంత/N__NN కూడా/RP_RPD కాదు/V_VM_VF ./RD_PUNC
+వదిలేసి/V_VM_VNF వచ్చాం/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG ,/RD_PUNC లేదు/RP__NEG ,/RD_PUNC అయ్యగారు/N__NN !/RD_PUNC మీరు/PR_PRP మాకు/PR_PRP ఇంత/QT_QTF గౌరవం/N_NN ఇచ్చారు/V_VM_VF ,/RD_PUNC ఇంత/RP__INTF మంచి/JJ వదినను/N_NN తెచ్చి/V_VM_VNF ఇచ్చారు/V_VM_VF ,/RD_PUNC నేను/PR_PRP చాలా/QT_QTF పుణ్యం/N_NN చేసుకొని/V_VM_VNF ఉంటాను/V_VM_VF ./RD_PUNC
+పూజా/N_NNP రూపం/N_NN పూర్తిగా/RB మీ/PR_PRP వదినతో/N_NN కలుస్తుందని/V_VM_VNF నువ్వైతే/PR_PRP చెప్తుంటావు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+నీ/PR_PRP ముందు/N__NST ఆమెనే/PR_PRP నిలబడి/V_VM_VNF ఉంది/V_VM_VF మరియు/CC_CCD నీకు/PR_PRP ఇస్తున్నదని/V_VM_VNF అర్థం/N_NN చేసుకో/V__VM__VF చాలు/RP__RPD ./RD_PUNC
+చూడు/V_VM_VF ,/RD_PUNC వదిన/N_NN అందరికంటే/PR__PRP ఎక్కువగా/JJ స్నేహం/N_NN తన/PR_PRF మరిదితో/N__NN చేస్తుంది/V_VM_VF అందుకే/CC_CCS నువ్వు/PR_PRP కూడ/RP_RPD ఆమెతో/PR_PRP స్నేహంగా/RB ఉండాలి/V_VM_VF ./RD_PUNC
+మీ/PR_PRP వదినకు/N__NN ఎప్పుడూ/PR__PRP పుట్టిల్లు/N_NN గుర్తుకు/N__NN రాకూడదు/V_VM_VF ,/RD_PUNC తెలిసిందా/V_VM_VF ?/RD_PUNC
+చమేళీ/N_NNP ఇతనికి/PR_PRP కొంచెం/QT_QTF అర్థమయ్యేలా/V_VM_VF చెప్పు/V_VM_VF ,/RD_PUNC అతి/QT__QTF కష్టం/N__NN మీద/N__NST ఈ/DM_DMD సెలవు/N_NN రోజు/N_NN అన్నని/N__NN క్రికెట్/N_NNP ఆడటం/V_VM_VNG కోసం/PSP ఒప్పించాను/V_VM_VF ./RD_PUNC
+ప్రేమ్/N_NNP !/RD__PUNC క్రికెట్/N_NNP ఫీల్డులో/N__NN కేవలం/RP_RPD కూర్చుని/V_VM_VNF చూడటానికి/V__VM__VINF ఒప్పుకోము/V_VM_VF కదా/RP__RPD దానితోపాటు/PR_PRP ఆడవలసి/V_VM_VNF ఉంటుంది/V_VM_VF ./RD_PUNC
+అందరి/PR__PRP దృష్టి/N_NN మా/PR_PRP కొత్త/JJ ఆటగాడి/N_NN వైపు/N__NST ఉంది/V_VM_VF తన/PR__PRF మొదటి/QT__QTO బంతిలోనె/N_NN దిట్టమైన/JJ ఆటగాడిని/N_NN క్లీన్/JJ బౌల్డ్/N__NN చేశాడు/V_VM_VF ./RD_PUNC
+మా/PR_PRP కొత్త/JJ ఆటగాడు/N_NN బ్యాటింగ్/N_NN చేయడానికి/V__VM__VINF వస్తున్నాడు/V_VM_VF ఆట/N_NN చాలా/RP__INTF ఆసక్తికరమైన/JJ మలుపు/N_NN తీసుకుంది/V_VM_VF ./RD_PUNC
+మా/PR_PRP కొత్త/JJ ఆటగాడు/N_NN మంచి/JJ ఆత్మ/N_NN విశ్వాసంతో/N_NN తన/PR_PRF క్రీజ్‍పై/N__NN స్థిరంగా/RB నిలబడ్డాడు/V_VM_VF ./RD_PUNC
+హల్వాయితో/N__NN కూడా/RP_RPD మాట్లాడటం/V_VM_VNG జరిగింది/V_VM_VF ,/RD_PUNC కోడలి/N_NN శ్రీమంతమని/N__NN ,/RD_PUNC అన్ని/QT_QTF పనులు/N_NN సరైన/JJ సమయానికి/N_NN జరగాలని/V_VM_VNF చెప్పాము/V_VM_VF ./RD_PUNC
+భలే/RP_INJ పని/N_NN ,/RD_PUNC కోడలా/N__NN !/RD_PUNC నీవు/PR_PRP లల్లూకి/N_NNP ఇంగ్లీష్/N_NNP నేర్పించి/V_VM_VNF నిజమైన/JJ ఇంగ్లీషు/N__NNP మనిషిలా/N__NN తయారు/N__NN చేశావు/V_VM_VF ./RD_PUNC
+కోడలా/N__NN !/RD_PUNC మా/PR_PRP వియ్యాల/N_NN వారు/N__NN ఫంక్షన్‍‍కి/N__NN ఎప్పుడు/PR_PRQ వస్తున్నారు/V_VM_VF ?/RD_PUNC
+కొంచెం/RP__RPD సరిగ్గా/RB అడుగు/V_VM_VF ./RD_PUNC
+ఇలా/PR__PRP ఉందండి/V_VM_VF వారి/PR_PRP కళాశాల/N_NN పరీక్షలు/N_NN వాయిదా/N__NN పడుతూ/V_VM_VNF పడుతూ/V_VM_VNF ఇప్పుడు/PR__PRP ఈ/DM_DMD తేదీలలో/N_NN ప్రారంభమవుతున్నాయి/V_VM_VF ./RD_PUNC
+ఓహో/RP_INJ !/RD_PUNC ఏమి/PR_PRQ ఆడపిల్ల/N_NN ఈమె/PR_PRP ?/RD_PUNC
+నిషా/N_NNP !/RD_PUNC లేమ్మా/V_VM_VF ,/RD_PUNC ప్రేమ్/N_NNP వస్తూ/V_VM_VNF ఉంటాడు/V_VM_VF ./RD_PUNC
+ఎదురుచూడటం/V_VM_VNG ?/RD_PUNC
+మేమైతే/PR_PRP చేయలేదు/V_VM_VF ./RD_PUNC
+అయితే/RP_RPD ఏంటి/PR_PRQ మీరు/PR_PRP మేడపై/PR_PRP నిలబడి/V_VM_VNF పగటి/N_NN పూట/N_NN చుక్కలు/N_NN లెక్కపెడుతున్నారా/V_VM_VF ?/RD_PUNC
+అందమైన/JJ అమ్మాయిలు/N_NN అబద్ధం/N_NN చెప్పినప్పుడు/V_VM_VNF మరింత/RP__INTF అందంగా/RB అనిపిస్తారని/V_VM_VNF అందరు/PR__PRP అంటుంటారు/V_VM_VF ./RD_PUNC
+ఒక్క/QT__QTC విషయం/N_NN అడగనా/V_VM_VF ,/RD_PUNC ఈ/DM__DMD రోజు/N__NN మాకు/PR_PRP ఈ/DM_DMD పూలు/N_NN ఎందుకు/PR_PRQ ఇచ్చారు/V_VM_VF ./RD_PUNC
+అసలు/RP__RPD నిషా/N_NNP గారు/RP__RPD ,/RD_PUNC ఎప్పుడు/PR__PRP మనం/PR_PRP కలిసిన/V_VM_VNF కేవలం/RP_RPD గొడవ/N_NN పడ్డాం/V_VM_VF ,/RD_PUNC జగడమాడాం/V_VM_VF ,/RD_PUNC ఈ/DM_DMD పరిచయం/N_NN ముందుకు/N__NST సాగడానికి/V__VM__VINF పూల/N_NN కంటే/PSP ఏ/DM__DMQ మంచి/JJ ఉపాయం/N_NN ఉంటుంది/V_VM_VF ./RD_PUNC
+మంచిది/RP__INJ ఇది/PR_PRP చెప్పండి/V_VM_VF ,/RD_PUNC పెళ్ళిలో/N_NN వీడ్కోలు/N_NN జరిగేటప్పుడు/V_VM_VNF మీరు/PR_PRP నన్ను/PR_PRP క్షమాపణ/N__NN ఎందుకు/PR_PRQ అడిగారు/V_VM_VF ?/RD_PUNC
+ఒకవేళ/CC__CCS నేను/PR_PRP మీకు/PR_PRP నిజం/N_NN చెప్పినట్లయితే/V_VM_VNF మీరు/PR_PRP నవ్వుతారు/V_VM_VF ./RD_PUNC
+అప్పుడప్పుడు/RB ఎవరినైనా/PR_PRL మనుషులను/N_NN గుర్తించడంలో/V__VM__VNF తప్పు/N__NN జరగవచ్చు/V_VM_VF ./RD_PUNC
+మేము/PR_PRP మిమ్మల్ని/PR_PRP మొదటిసారి/N__NN కలిసినప్పుడు/V_VM_VNF అర్థం/N__NN చేసుకున్నట్లుగా/V_VM_VNF మీరు/PR_PRP లేరు/V_VM_VF ./RD_PUNC
+ఏమి/PR_PRQ విషయం/N_NN ?/RD_PUNC
+ఆరోగ్యం/N_NN బాగా/RB లేదా/V__VM__VF ఏమిటి/PR_PRQ ?/RD_PUNC
+మరి/RP__RPD ఇలా/PR__PRP నీరసంగా/RB కూర్చున్నారు/V_VM_VF ఏమిటి/PR__PRQ ?/RD_PUNC
+నీరసం/N__NN ఎక్కడి/PR__PRQ నుండి/PSP కనిపిస్తుంది/V_VM_VF నీకు/PR_PRP ,/RD_PUNC కొద్దిగా/QT__QTF అలసట/N_NN అనిపించింది/V_VM_VF ,/RD_PUNC అందుకే/CC_CCS కూర్చున్నాను/V_VM_VF ./RD_PUNC
+అరె/RP_INJ !/RD_PUNC ఏం/PR_PRQ పని/N_NN ఉంది/V_VM_VF ,/RD_PUNC మాకు/PR_PRP చెప్పు/V_VM_VF ,/RD_PUNC నేను/PR_PRP చేస్తాను/V_VM_VF ./RD_PUNC
+ఒక/QT__QTC తోడికోడలను/N_NN తీసుకొని/V_VM_VNF రా/V_VM_VF అప్పుడు/PR__PRP చెయ్యనులె/V_VM_VF ./RD_PUNC
+నిజం/N_NN చెప్పు/V_VM_VF ,/RD_PUNC ఆరోగ్యం/N_NN ఏమీ/PR_PRQ ఇబ్బంది/N__NN లేదుకదా/V_VM_VF ?/RD_PUNC
+పెదనాన్నా/N__NN !/RD_PUNC మేము/PR_PRP ఏం/PR_PRQ చెప్పామంటే/V_VM_VNF కొద్దిరోజులపాటు/N_NN మా/PR_PRP చిన్న/JJ చెల్లెల్ని/N_NN ఇక్కడికి/PR__PRP పిలుద్దాము/V_VM_VF అని/CC__CCS__UT ./RD_PUNC
+అరే/RP_INJ మాకయితే/PR_PRP ఈ/DM_DMD విషయం/N_NN తెలియనేలేదు/V_VM_VF ,/RD_PUNC దీనితో/PR_PRP అయితే/RP_RPD అనేక/QT__QTF సమస్యలు/N_NN దూరం/N__NST అయిపోతాయి/V_VM_VF ./RD_PUNC
+బాగుంది/V__VM__VF ,/RD_PUNC అయితే/RP_RPD రేపు/N_NN చందన్‍ను/N_NNP పంపు/V__VM__VF ./RD_PUNC
+వదినా/N__NN !/RD_PUNC గుంజా/N_NNP ఎక్కడ/PR_PRQ ఉన్నాది/V_VM_VF ?/RD_PUNC
+గుంజా/N_NNP అయితే/RP_RPD ఆడపిల్లలతో/N_NN కలిసి/V_VM_VNF హోళీ/N_NN ఆడటానికి/V__VM__VINF వెళ్ళింది/V_VM_VF ./RD_PUNC
+బహుశా/CC__CCS రజ్జు/N_NNP దగ్గర/N__NST ఉంటాడు/V_VM_VF ./RD_PUNC
+స్నానాదులు/N_NN చేసిన/V_VM_VNF తర్వాత/N__NST మాతో/PR_PRP హొళీ/N__NNP ఆడటాన్ని/V_VM_VNG సూచించారు/V_VM_VF ./RD_PUNC
+నీతో/PR_PRP ఆడకుండా/V_VM_VNF మా/PR_PRP హోళీ/N__NNP ఎలా/PR_PRQ పూర్తి/N__NN అవుతుంది/V_VM_VF ?/RD_PUNC
+ఇప్పుడు/PR__PRP ఒక/QT__QTC మాట/N_NN అడుగుతాను/V_VM_VF ?/RD_PUNC
+నేను/PR_PRP నీకు/PR_PRP ఏమి/PR__PRQ అవుతాను/V__VM__VF ?/RD_PUNC
+చెప్పకుండా/V_VM_VNF -/RD__PUNC మాట్లాడకుండా/V_VM_VNF ఉంటే/V_VM_VNF సంబంధం/N_NN ఎలా/PR_PRQ బలపడుతుంది/V_VM_VF ?/RD_PUNC
+ఆమె/PR_PRP పేరు/N_NN ఎక్కడ/PR_PRQ చెప్పాలి/V_VM_VF ?/RD_PUNC
+నీవే/PR_PRP చెప్పు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP అర్థమైంది/V_VM_VF ,/RD_PUNC మీకు/PR_PRP అర్థమైంది/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP పేరు/N_NN చెప్పే/V_VM_VNF అవసరం/N_NN ఏమి/PR_PRQ వచ్చింది/V_VM_VF ?/RD_PUNC
+గుంజాను/N_NNP ఎప్పుడూ/PR_PRQ ఇక్కడ/PR__PRP ఉండటానికి/V__VM__VINF పంపడా/V_VM_VF ఏమిటి/PR_PRQ వైద్యుడు/N__NN ?/RD_PUNC
+ఓంకార్/N_NNP !/RD_PUNC మా/PR_PRP పనులన్ని/N_NN సుఖం/N_NN -/RD__PUNC సుఖం/N_NN అయిపోయాయి/V_VM_VF ,/RD_PUNC గుంజాను/N_NNP తన/PR_PRF ఇంటికి/N_NN పంపించివేయాలి/V_VM_VF ./RD_PUNC
+ఆ/DM_DMD పిల్ల/N_NN ఇంటిలో/N__NN ఎలా/PR_PRQ కలిసిపోయింది/V_VM_VF అంటే/CC_CCS ఎవరైనా/PR__PRP తనని/PR__PRF పరాయి/JJ అని/CC_CCS_UT చెప్పలేరు/V_VM_VF ./RD_PUNC
+రేపు/N_NN మంగళవారం/N_NNP శుభదినం/N_NN ,/RD_PUNC ఆమెను/PR_PRP పంపివేయు/V_VM_VF ./RD_PUNC
+నిర్మలమైన/JJ మనస్సుతో/N_NN కోరే/V_VM_VNF కోరికలు/N_NN తీరతాయని/V_VM_VNF అందరూ/PR__PRP అంటారు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP కూడా/RP_RPD ఏదైనా/DM__DMD కోరిక/N_NN కోరుకో/V_VM_VF ?/RD_PUNC
+ఒకవేళ/CC__CCS నీ/PR_PRP మనస్సు/N_NN కోరిన/JJ వరుడు/N_NN లభిస్తే/V_VM_VNF నాకు/PR_PRP అన్నీ/PR__PRP లభిస్తాయి/V_VM_VF ./RD_PUNC
+చందన్/N_NNP !/RD_PUNC రా/V_VM_VF ,/RD_PUNC ఇంటికి/N__NN వెళ్ళి/V_VM_VNF అన్నం/N__NN తిని/V_VM_VNF వద్దాం/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG అన్న/N_NN !/RD_PUNC నీవు/PR_PRP వెళ్ళిరా/V_VM_VF ,/RD_PUNC నాకు/PR_PRP అసలు/RP__RPD ఆకలి/N_NN లేదు/V__VM__VF ,/RD_PUNC అసలు/RB లేదు/V_VM_VF ./RD_PUNC
+కాదు/RP__NEG కాదు/RP__NEG ,/RD_PUNC నీవు/PR_PRP కూడా/RP_RPD మాతో/PR_PRP రా/V_VM_VF లేదంటే/CC__CCD వదిన/N_NN ప్రశ్నలకు/N_NN సమాధానం/N_NN ఎవరు/PR_PRQ చెబుతారు/V_VM_VF ?/RD_PUNC
+చందన్/N_NNP !/RD_PUNC మేము/PR_PRP గుడికి/N__NN వెళ్తున్నాము/V_VM_VF ,/RD_PUNC వస్తావా/V_VM_VF ?/RD_PUNC
+లేదు/RP__NEG అన్నయ్య/N_NN ,/RD_PUNC వెళ్లటానికి/V__VM__VINF నా/PR_PRP మనసు/N_NN ఒప్పుకోవటం/V_VM_VNG లేదు/V_VM_VF ,/RD_PUNC మీరు/PR_PRP వెళ్ళిరండి/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఇక్కడే/PR__PRP ఉంటాను/V_VM_VF ,/RD_PUNC ఇంటిలో/N__NN ./RD_PUNC
+అయితే/RP__RPD ఈరోజు/N__NN మేము/PR_PRP గుర్తుకు/N__NN వచ్చామా/V_VM_VF ?/RD_PUNC
+మరిచిపోయిన/V_VM_VNF వాళ్ళే/PR_PRP గుర్తుకు/N__NN వస్తారు/V_VM_VF ,/RD_PUNC మిమ్మల్ని/PR_PRP ఎప్పుడు/PR_PRQ మర్చిపోయాను/V_VM_VF అసలు/RP__RPD ./RD_PUNC
+నిజం/N_NN చెప్పనా/V_VM_VF గుంజా/N_NNP !/RD_PUNC నువ్వు/PR_PRP వచ్చేసినప్పటినుంచి/V_VM_VNF ,/RD_PUNC నాకు/PR_PRP ఒక్క/QT__QTC క్షణం/N_NN కూడా/RP_RPD ఇంటిలో/N__NN మనస్సు/N_NN లగ్నం/N__NN కావడం/V_VM_VNG లేదు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ చందన్/N_NNP !/RD_PUNC నీవా/PR_PRP ?/RD_PUNC
+లోపలికి/N__NST రా/V_VM_VF ,/RD_PUNC లోపలికి/N__NST రా/V_VM_VF కొడుకా/N__NN ,/RD_PUNC అరే/RP_INJ ,/RD_PUNC ఈ/DM_DMD వర్షంలో/N_NN ఎలా/PR_PRQ వచ్చావు/V_VM_VF ?/RD_PUNC
+ఓహో/RP_INJ నీకైతే/PR_PRP జలుబు/N_NN చేసింది/V_VM_VF ./RD_PUNC
+తీసుకో/V_VM_VF బాబు/N_NN ముందు/N__NST ఈ/DM_DMD మందు/N_NN తీసుకో/V_VM_VF ,/RD_PUNC తర్వాత/N__NST ఈ/DM_DMD లడ్డు/N_NN తిని/V_VM_VNF వేడి/JJ పాలు/N_NN తాగు/V__VM__VF ./RD_PUNC
+అరే/RP__INJ ముందు/N__NST లడ్డు/N__NN అయితే/RP__RPD తిను/V_VM_VF ./RD_PUNC
+గుంజా/N_NNP నిన్ననే/N__NN తయారు/N__NN చేసింది/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD గుంజా/N_NNP ఎక్కడ/PR_PRQ ఉంది/V_VM_VF ?/RD_PUNC
+కనబడటం/V_VM_VNG లేదు/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP అయితే/RP_RPD ఫులెసరీ/N_NNP యొక్క/PSP ననీహాల్‍లో/N_NNP పెళ్ళి/N_NN ఉంది/V_VM_VF కదా/RP__RPD ,/RD_PUNC అక్కడికి/PR__PRP వెళ్లింది/V_VM_VF ./RD_PUNC
+చందన్/N_NNP !/RD_PUNC ఒక/QT__QTC పని/N_NN చేస్తావా/V_VM_VF ,/RD_PUNC రేపు/N_NN మమ్మల్ని/PR_PRP చౌబేపూర్/N_NNP చేర్చడానికి/V__VM__VINF వస్తావా/V_VM_VF ?/RD_PUNC
+అందరినీ/PR__PRP చూడటానికి/V__VM__VINF మా/PR_PRP మనసు/N_NN చాలా/QT_QTF కోరికతో/N_NN ఉన్నది/V_VM_VF మరియు/CC_CCD తర్వాత/N__NST మున్నా/N_NNP ముఖం/N_NN చూడలేదని/V_VM_VNF అమ్మ/N_NN కూడా/RP_RPD చెబుతుండేది/V_VM_VF ./RD_PUNC
+మంచిది/RP__INJ ,/RD_PUNC తప్పకుండా/RB వెళ్దాం/V_VM_VF ./RD_PUNC
+అమ్మా/N_NN !/RD_PUNC అక్క/N__NN వచ్చింది/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ఈ/DM_DMD ఏకాంతంలో/N__NN ఏం/PR_PRQ మాటలు/N_NN జరుగుతున్నాయి/V_VM_VF మీ/PR_PRP ఇద్దరి/N__NN మధ్య/N__NST ?/RD_PUNC
+ఏంటి/PR_PRQ విషయం/N_NN టఫీ/N_NNP !/RD_PUNC మొదట/N__NST పూలు/N_NN తరువాత/N__NST చాక్లెట్స్/N_NN ,/RD_PUNC ఏమైనా/PR__PRP ప్రత్యేకమైన/JJ రోజా/N_NN ./RD_PUNC
+మొదటిసారి/N__NN ఈ/DM__DMD రోజు/N__NN ఎవరో/PR_PRQ అమ్మాయి/N_NN మా/PR_PRP కారు/N_NN ముందు/N_NST సీటులో/N_NN కూర్చొని/V_VM_VNF ఉంది/V_VM_VF ./RD_PUNC
+అందరి/QT_QTF జీవితంలో/N_NN ఈ/DM_DMD రోజు/N_NN తప్పక/RB వస్తుంది/V_VM_VF అని/CC_CCS_UT అందరు/PR__PRP అంటారు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD ప్రత్యేకమైన/JJ రోజు/N_NN మన/PR_PRP జీవితంలో/N_NN ఈ/DM__DMD రోజు/N_NN వచ్చింది/V_VM_VF నిషాగారు/N_NNP ./RD_PUNC
+మేము/PR_PRP మీతో/PR_PRP రహస్యం/N_NN పంచుకుంటున్నాం/V_VM_VF మరియు/CC_CCD మీరేమో/PR_PRP పుస్తకం/N_NN చూస్తూ/V_VM_VNF కూర్చున్నారు/V_VM_VF ?/RD_PUNC
+ప్రయాణంలో/N_NN చదవడానికి/V_VM_VNG -/RD__PUNC రాయడానికి/V_VM_VNG అనుమతి/N_NN లేదు/V_VM_VF కానీ/CC_CCD పాడుకుంటూ/V_VM_VNF -/RD__PUNC వాయించుకుంటూ/V_VM_VNF వెళ్ళాలి/V_VM_VF ./RD_PUNC
+అయినప్పటికీ/CC_CCD ఈ/DM_DMD రోజు/N_NN మీరు/PR_PRP మేడ/N__NN మీద/N__NST పాడుతుండగా/V_VM_VNF మేము/PR_PRP విన్నప్పటి/V_VM_VNF నుంచి/PSP మీ/PR_PRP గానానికి/N_NN అభిమానులం/N__NN అయిపోయాము/V_VM_VF ./RD_PUNC
+టఫీ/N_NNP !/RD_PUNC మూడో/QT_QTO పుస్తకం/N_NN మొదలుపెట్టేలోపు/V__VM__VNF ,/RD_PUNC ఆమెని/PR_PRP ఆకట్టుకోవాలి/V_VM_VF ./RD_PUNC
+తీసుకోండి/V_VM_VF ,/RD_PUNC అమ్మ/N_NN మీకోసం/PR_PRP ఉత్తరం/N_NN కూడా/RP_RPD పంపారు/V_VM_VF ./RD_PUNC
+గౌరవనీయులైన/JJ వియ్యంకులు/N_NN గారూ/RP__RPD ,/RD_PUNC మీరంతా/PR_PRP అక్కడ/PR__PRP కుశలమని/N__NN ఆశిస్తున్నాను/V_VM_VF ./RD_PUNC
+ఈ/DM__DMD రోజు/N__NN ప్రేమ్‍ని/N__NNP కలిసినందుకు/V_VM_VNF చాలా/QT_QTF సంతోషం/N_NN కలిగింది/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP ఒకసారి/N__NN రాజేష్/N_NNP బాబును/N_NN కూడా/RP_RPD ఇక్కడికి/PR__PRP తప్పక/RB పంపించండి/V_VM_VF ./RD_PUNC
+తీసుకోండి/V_VM_VF ,/RD_PUNC ఆచార్యులగారు/N_NN కూడా/RP_RPD ఏదో/PR__PRP చెప్పాలి/V__VM__VNF అనుకుంటున్నారు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ కైలాష్/N_NNP నాథ్/N_NNP ,/RD_PUNC ఈ/DM_DMD మధ్య/N__NST మీరు/PR_PRP పంచెకట్టు/JJ వారయ్యారని/N__NN విన్నాను/V_VM_VF ./RD_PUNC
+రోజూ/N_NN ఉదయం/N__NN -/RD__PUNC సాయంత్రం/N__NN మీ/PR_PRP కోడలితో/N_NN రామాయణం/N_NNP వింటావుట/V_VM_VF ,/RD_PUNC మనము/PR_PRP అంత/RP__INTF ముసలి/JJ వాళ్ళమైతే/N__NN కాలేదు/V_VM_VF కదా/RP__RPD స్నేహితుడా/N__NN ?/RD_PUNC
+మీ/PR_PRP కోసం/PSP ఒక/QT__QTC కొత్త/JJ సూటు/N_NN పంపుతున్నాను/V_VM_VF ./RD_PUNC
+పిల్లలు/N_NN పుట్టిన/V_VM_VNF సందర్భంగా/RB తాతలు/N_NN ఇద్దరూ/QT__QTC ఒకేరకం/JJ దుస్తులతో/N_NN నాట్యం/N_NN చేస్తారు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ పెద్దన్నయ్యా/N_NN రండి/V_VM_VF ,/RD_PUNC రండి/V_VM_VF ,/RD_PUNC అతిథులందరూ/N__NN వచ్చారు/V_VM_VF ,/RD_PUNC భోళాగారు/N_NNP కూడా/RP_RPD వచ్చారు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ మధ్యాహ్ననికే/N__NN వచ్చి/V_VM_VNF ఉన్నాం/V_VM_VF ,/RD_PUNC మాకు/PR_PRP మీ/PR_PRP బావమరిది/N_NN బాబుతో/RP__RPD మంచి/JJ సాన్నిహిత్యం/N_NN కూడా/RP_RPD ఏర్పడింది/V_VM_VF ./RD_PUNC
+ఈ/DM__DMD రోజైతే/N__NN మీరు/PR_PRP చాలా/RP__INTF బాగా/RB కనబడుతున్నారు/V_VM_VF ,/RD_PUNC అన్నయ్యా/N__NN మాతోపాటు/PR_PRP పైకి/N_NST రండి/V_VM_VF ,/RD_PUNC రండి/V_VM_VF ./RD_PUNC
+చాలు/RP__INJ ,/RD_PUNC మీరు/PR_PRP ఏం/PR__PRP చెప్పినా/V_VM_VNF ,/RD_PUNC మీరు/PR_PRP ఏం/PR__PRP చేసినా/V_VM_VNF అది/PR__PRP మాకు/PR_PRP నచ్చుతుంది/V_VM_VF ./RD_PUNC
+పెదనాన్న/N_NN ,/RD_PUNC ఇది/PR_PRP చూడండి/V_VM_VF ,/RD_PUNC విదేశం/N_NN నుండి/PSP ఇప్పుడిప్పుడే/RB ఫ్యాక్స్/N_NN వచ్చింది/V_VM_VF ./RD_PUNC
+మన/PR_PRP అక్కడి/PR__PRP కొలాబొరేటర్స్/N_NN కి/PSP మన/PR_PRP కొత్త/JJ పథకం/N_NN చాలా/QT_QTF నచ్చిందట/V_VM_VF ./RD_PUNC
+అన్నయ్యగారూ/N__NN !/RD_PUNC ఈ/DM_DMD పథకం/N_NN మీరు/PR_PRP ప్రేమ్/N_NNP కోసం/PSP పెట్టబోతున్న/V_VM_VNF కర్మగారానిదే/N__NN కదా/RP__RPD ./RD_PUNC
+పూజా/N_NNP !/RD_PUNC ఏదో/PR_PRQ చివరిగా/RB చర్చించడం/V_VM_VNG కోసం/PSP నన్ను/PR_PRP అక్కడికి/PR__PRP పిలిచారు/V_VM_VF వాళ్ళు/PR__PRP ./RD_PUNC
+అన్నయ్యా/N__NN !/RD_PUNC వదిన/N_NN ప్రసవం/N_NN ఇప్పుడు/PR__PRP ఏ/DM__DMD సమయంలోనైనా/N__NN జరుగవచ్చు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD సమయంలో/N_NN తనకి/PR_PRF మీరు/PR_PRP అందరికంటే/PR__PRP ఎక్కువ/QT_QTF అవసరం/N_NN మరియు/CC_CCD ఇలాంటి/DM__DMD సమయంలో/N_NN ఆమెను/PR_PRP ఒంటరిగా/RB వదలి/V_VM_VNF నా/PR_PRP వలన/PSP విదేశాలకు/N_NN వెళ్ళవలసి/V_VM_VNF వస్తోంది/V_VM_VF ./RD_PUNC
+ప్రసవం/N_NN ఏ/DM_DMR సమయంలోనైనా/N__NN కావచ్చని/V_VM_VNF చెబుతున్నారు/V_VM_VF మరియు/CC_CCD ఇప్పుడు/PR_PRP ఇటువంటి/DM__DMD పరిస్థితులలో/N_NN తన/PR__PRF వలన/PSP నేను/PR_PRP విదేశాలకు/N_NN వెళ్ళవలసి/V_VM_VNF వస్తున్నదని/V__VM__VNF అంటున్నాడు/V_VM_VF ./RD_PUNC
+ప్రేమ్/N_NNP !/RD_PUNC పెదనాన్నగారితోపాటు/N_NN మేమందరం/PR_PRP కలిసి/V_VM_VNF ఒక/QT_QTC కలగన్నాము/V_VM_VF ./RD_PUNC
+ఏమిటంటే/CC_CCS నీవు/PR_PRP ప్రపంచంలో/N_NN బాగా/JJ వ్యాపారం/N_NN చెయ్యాలని/V_VM_VF ,/RD_PUNC బాగా/QT__QTF పేరు/N_NN సంపాదించాలని/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD కలను/N_NN సాకారం/N_NN చేసుకోవడానికి/V__VM__VINF వెళ్తున్నారు/V_VM_VF మీ/PR_PRP అన్నయ్య/N_NN ./RD_PUNC
+నా/PR_PRP విషయం/N__NN అంటావా/V_VM_VF ?/RD_PUNC నీవు/PR_PRP ఇక్కడ/PR__PRP వుండగా/V_VM_VNF నేను/PR_PRP ఏ/DM_DMD విషయానికైనా/N__NN కలత/N_NN చెందవలసిన/V_VM_VNF అవసరం/N_NN ఉందా/V_VM_VF ./RD_PUNC
+వదినకు/N__NN మరిదిని/N__NN మించిన/PSP స్నేహితుడు/N_NN ఎవరైనా/PR__PRQ ఉంటారా/V_VM_VF ఏమిటి/PR_PRQ ?/RD_PUNC
+కోడలా/N__NN !/RD_PUNC రాజేష్/N_NNP వెళ్ళి/V_VM_VNF చాలా/QT_QTF రోజులు/N__NN అయ్యింది/V_VM_VF ./RD_PUNC
+ఏమైనా/PR_PRQ వచ్చే/V_VM_VNF కబురు/N_NN -/RD__PUNC గిబురు/RD__ECH ఉందా/V_VM_VF ?/RD_PUNC
+అన్నయ్య/N__NN గారూ/RP__RPD !/RD_PUNC ఈ/DM__DMD రోజు/N__NN నేను/PR_PRP అతనితో/PR_PRP మాట్లాడాను/V_VM_VF ,/RD_PUNC పని/N_NN పూర్తఅవబోతున్నది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP కూడా/RP_RPD చిత్రంగా/RB మాట్లాడతావు/V_VM_VF శ్రీమతి/N__NN ,/RD_PUNC అతను/PR_PRP అక్కడకు/PR__PRP పని/N_NN చేయడానికి/V__VM__VINF వెళ్ళాడు/V_VM_VF మరియు/CC_CCD నీవు/PR_PRP నేల్‍పాలీస్/N_NNP పట్టిక/N_NN చేతిలో/N_NN పెట్టేసావు/V_VM_VF ./RD_PUNC
+రాజేష్/N_NNP వెళ్ళినప్పటి/V__VM__VNG నుంచి/PSP ,/RD_PUNC కార్యాలయపు/N_NN పనంతా/N__NN అతనే/PR_PRP నిర్వహించాడు/V_VM_VF ./RD_PUNC
+నిషా/N_NNP !/RD_PUNC కొద్దిగా/RB ప్రేమ్/N_NNP కార్యాలయానికి/N_NN ఫోన్/N_NN చేసి/V_VM_VNF ,/RD_PUNC అతడు/PR_PRP ఎప్పుడు/PR_PRQ వస్తున్నాడో/V_VM_VNF కొంచెం/RP__RPD అడుగు/V_VM_VF ./RD_PUNC
+మేము/PR_PRP రావడానికి/V__VM__VINF సమయం/N_NN పడుతుంది/V_VM_VF ,/RD_PUNC విశ్రాంతి/N_NN తీసుకోమని/V_VM_VNF వదినతో/N_NN చెప్పండి/V_VM_VF ./RD_PUNC
+భోజనం/N_NN తయారుచేసి/V_VM_VNF వుంచమని/V_VM_VNF లల్లూకు/N__NNP చెప్పండి/V_VM_VF ./RD_PUNC
+కూరలు/N__NN ఎంచుకోవడానికే/V__VM__VINF ఇంత/QT_QTF సమయం/N_NN తీసుకుంటారు/V_VM_VF ./RD_PUNC
+కార్యాలయంలో/N_NN ఎలా/PR_PRQ పని/N_NN చేస్తున్నాడో/V_VM_VNF ఏమిటో/PR__PRQ ./RD_PUNC
+మీ/PR_PRP చేతిలో/N_NN మంత్రం/N_NN ఉంది/V_VM_VF నిషాగారు/N_NNP ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN మొదటిసారి/N__NN మేము/PR_PRP ఇంత/RP_INTF మంచి/JJ హల్వా/N__NN తిన్నాము/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP కూడా/RP_RPD అనుకొని/V_VM_VNF వుండవచ్చు/V_VM_VF ఇతను/PR_PRP ఏంటి/PR__PRP ,/RD_PUNC మీ/PR_PRP గానానికి/N_NN అభిమాని/N__NN ,/RD_PUNC నాట్యానికి/PR_PRP అభిమాని/N_NN మరియు/CC_CCD ఇప్పుడేమో/PR__PRP మీ/PR_PRP వంటకు/N__NN కూడా/RP_RPD అభిమాని/N_NN అయ్యాడు/V_VM_VF అని/CC__CCS__UT ./RD_PUNC
+మీలో/PR_PRP ఒక/QT_QTC బలహీనత/N_NN కూడా/RP_RPD ఉంది/V_VM_VF ,/RD_PUNC మీరు/PR_PRP ఎవరి/PR__PRP మాటైనా/N__NN చాలా/RP__INTF తొందరగా/RB నమ్ముతారు/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP కూడా/RP_RPD విచిత్రం/N_NN చేస్తున్నారు/V_VM_VF నిషాగారు/N_NNP ,/RD_PUNC ఎప్పుడైతే/PR__PRP మేము/PR_PRP మీతో/PR_PRP ఏదైనా/PR__PRP అడగాలని/V_VM_VNF అనుకున్నట్లయితే/V_VM_VNF మీరు/PR_PRP మమ్మల్ని/PR_PRP ఆపుతారు/V_VM_VF మరియు/CC_CCD ఎప్పుడైతే/PR__PRP మాట్లాడకుండా/V_VM_VNF ఉండిపోతే/V_VM_VNF ప్రశ్నిస్తారు/V_VM_VF ./RD_PUNC
+రాజేష్/N_NNP బాబు/RP__RPD రాకకోసం/V__VM__VNF ఎదురుచూసాం/V__VM__VF ,/RD_PUNC సరే/RP__INJ ,/RD_PUNC ఇపుడు/PR__PRP వెళ్తున్నాం/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC మీరు/PR_PRP మరీను/RP__INJ ఆచార్యులు/N_NN గారూ/RP__RPD ,/RD_PUNC నిన్న/N__NN మీ/PR_PRP అల్లుడు/N_NN వచ్చారు/V_VM_VF ,/RD_PUNC మరియు/CC_CCD ఈ/DM__DMD రోజు/N__NN మీరు/PR_PRP వెళ్లిపోతాము/V_VM_VF అంటున్నారు/V_VM_VF ./RD_PUNC
+నాలుగు/QT_QTC -/RD__PUNC ఐదు/QT_QTC నెలలు/N_NN ఉండిపోవాలని/V_VM_VNF నా/PR_PRP మనసుకు/N__NN కలిగింది/V_VM_VF కానీ/CC_CCD ఇది/PR_PRP అమ్మాయి/N_NN అత్తగారిల్లు/N_NN ./RD_PUNC
+వియ్యపురాలుగారూ/N_NN ఇప్పుడు/PR__PRP మీరు/PR_PRP కావాలనుకుంటే/V_VM_VNF కోప్పడవచ్చు/V_VM_VF ,/RD_PUNC మేము/PR_PRP మిమ్మల్ని/PR_PRP ఈ/DM__DMD రోజు/N__NN ఇక్కడి/PR__PRP నుండి/PSP వెళ్లనివ్వము/V_VM_VF ./RD_PUNC
+ఎవరితో/PR__PRL నీ/PR_PRP పెళ్ళి/N_NN కానున్నదో/V__VM__VNF ,/RD_PUNC నువ్వు/PR_PRP అతనిని/PR_PRP ఎప్పుడూ/PR_PRQ చూడలేదా/V_VM_VF ?/RD_PUNC
+ఎవరిని/PR__PRQ నీవు/PR_PRP ఎరగవో/V__VM__VF ఎవరిని/PR__PRQ ఎప్పుడూ/PR__PRQ కలవలేదో/V_VM_VNF ,/RD_PUNC ఎవరు/PR__PRQ నీకు/PR_PRP పూర్తిగా/RB అపరిచితుడో/N_NN అటువంటి/DM__DMD వ్యక్తితో/N_NN నీవు/PR_PRP జీవితమంతా/N_NN గడుపుతావా/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నీతో/PR_PRP కొంచెం/QT_QTF చెప్పాలనుకుంటున్నాను/V_VM_VF సిమ్రాన్/N_NNP ,/RD_PUNC నాకు/PR_PRP నీమీద/PR_PRP ప్రేమ/N_NN కలిగింది/V_VM_VF ./RD_PUNC
+కొంచెం/QT_QTF నా/PR_PRP ముఖం/N_NN చూడు/V_VM_VF ,/RD_PUNC నీకు/PR_PRP అర్థమయ్యే/V_VM_VNF ఉంటుంది/V_VM_VF నేను/PR_PRP నీకు/PR_PRP నిజం/N_NN చెబుతున్నాను/V_VM_VF అని/CC_CCD ,/RD_PUNC అర్థం/N_NN అయ్యిందా/V_VM_VF ?/RD_PUNC
+అరే/RP_INJ ఆశ్చర్యంగా/RB ఉంది/V_VM_VF సిమ్రాన్/N_NNP ,/RD_PUNC ఆశ్చర్యంగా/RB ఉంది/V_VM_VF ,/RD_PUNC నీవు/PR_PRP నాకు/PR_PRP ఎన్నో/QT_QTF రోజుల/N_NN నుండి/PSP తెలుసు/V_VM_VF కానీ/CC__CCS ఇప్పటివరకు/PR__PRP గుర్తించలేకపోయావు/V_VM_VF ./RD_PUNC
+గుర్తుందా/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఈ/DM_DMD రోజు/N_NN వరకు/PSP సీరియస్‍/N_NN అవ్వలేదు/V__VM__VF అని/CC__CCS__UT నేను/PR_PRP చెప్పాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ తమ్ముడు/N__NN ఈ/DM_DMD లవ్/N__NN -/RD_PUNC గివ్/RD__ECH ప్రేమ/N_NN -/N_NN గీమ/RD__ECH ఉత్తమాటలు/N_NN కావు/V__VM__VF ./RD_PUNC
+మనుషులు/N_NN ఒకే/QT__QTC వ్యక్తితో/N_NN జీవితం/N_NN మొత్తం/QT_QTF ఎలా/PR__PRQ గడుపుతుంటారో/V_VM_VF నాకు/PR_PRP అర్థం/N_NN కావటం/V__VM__VNG లేదు/V__VM__VF ./RD_PUNC
+నీవు/PR_PRP తిరిగి/V_VM_VNF వెళ్ళి/V_VM_VNF ఆ/DM_DMD అపరిచితుడిని/N_NN పెళ్ళి/N_NN చేసుకుంటావా/V_VM_VF ,/RD_PUNC లేకుంటే/CC__CCS నన్ను/PR_PRP ప్రేమించే/V_VM_VNF ధైర్యం/N_NN నీకు/PR_PRP ఉందా/V_VM_VF ?/RD_PUNC
+రాజ్/N_NNP !/RD_PUNC ఒకవేళ/CC__CCS ఈమె/PR_PRP నిన్ను/PR_PRP ప్రేమించినట్లు/V_VM_VNF అయితే/CC__CCS ఈమె/PR_PRP వెనక్కి/N__NST తిరిగి/V__VM__VNF చూస్తుంది/V_VM_VF ,/RD_PUNC వెనక్కి/N__NST తిరుగు/V__VM__VF ,/RD_PUNC వెనక్కి/N__NST తిరుగు/V_VM_VF ./RD_PUNC
+లండన్/N_NNP చేరుకున్నాం/V_VM_VF ,/RD_PUNC ఒక/QT__QTC నెల/N_NN ఎలా/PR_PRQ గడిచిందో/V_VM_VNF తెలియనేలేదు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ రాజ్/N_NNP !/RD_PUNC నువ్వు/PR_PRP నాకు/PR_PRP నీ/PR_PRP చిరునామా/N_NN ఇవ్వనేలేదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నా/PR_PRP పెళ్ళి/N_NN శుభలేఖను/N_NN పంపుతాను/V_VM_VF ./RD_PUNC
+నువ్వు/PR_PRP వస్తావు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+ప్రేమ/N_NN ఇలా/RB అవుతుందని/V__VM__VNF ప్రేమ/N_NN అలా/RB అవుతుందని/V_VM_VNF నేను/PR_PRP చదివాను/V_VM_VF ,/RD_PUNC విన్నాను/V_VM_VF ,/RD_PUNC కానీ/CC_CCD ఎప్పుడు/PR_PRQ అర్థం/N_NN చేసుకోలేదు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP అతను/PR_PRP తన/PR__PRF చేతిని/N__NN ఇచ్చినప్పుడు/V_VM_VNF కూడా/RP_RPD నేను/PR_PRP అర్థం/N_NN చేసుకోలేదు/V_VM_VF ./RD_PUNC
+ఇన్ని/QT_QTF రోజులు/N_NN అతనితో/PR_PRP పక్కపక్కనే/RB ఉన్నప్పటికీ/V_VM_VNF ఏమి/PR__PRP అర్థం/N_NN చేసుకోలేదు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ఈ/DM_DMD రోజు/N_NN స్టేషన్‍లో/N_NN ఎప్పుడైతే/PR_PRL అతను/PR_PRP నా/PR_PRP నుండి/PSP వేరు/N_NN అవుతున్నప్పుడు/V_VM_VNF ఈ/DM_DMD క్షణం/N_NN తర్వాత/PSP నేను/PR_PRP తనతో/PR_PRP ఎప్పటికీ/PR__PRP కలవలేనేమో/V_VM_VF అనే/CC_CCS భావన/N_NN తొలిసారి/N__NN కలిగింది/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అతన్ని/PR_PRP వెనక్కి/N__NST తిరిగి/RB -/RD__PUNC తిరిగి/RB చూశాను/V_VM_VF కానీ/CC_CCD అతను/PR_PRP వెళ్ళిపోయాడు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అతన్ని/PR_PRP ఆపాలనుకున్నాను/V_VM_VF ,/RD_PUNC ఏదో/PR__PRP చెప్పాలనుకున్నాను/V_VM_VF ,/RD__PUNC ఏదో/PR__PRP వినాలనుకున్నాను/V_VM_VF అతడు/PR_PRP ఆగలేదు/V_VM_VF కానీ/CC_CCD ప్రేమ/N_NN ఇలా/RB ఉంటుంది/V_VM_VNF అని/CC__CCS__UT నాకు/PR_PRP అర్థం/N_NN అయ్యింది/V_VM_VF ./RD_PUNC
+అతను/PR_PRP నన్ను/PR_PRP ప్రేమిస్తున్నాడా/V_VM_VF లేదా/RP__NEG అని/CC__CCS__UT నాకు/PR_PRP తెలియదు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP మాత్రం/RP__RPD ఇంతే/QT_QTF తెలిసింది/V_VM_VF అతడు/PR_PRP నా/PR_PRP జీవితం/N_NN నేను/PR_PRP ఇంకొకరికి/PR__PRC చెందలేను/V_VM_VF అమ్మా/N__NN ./RD_PUNC
+పిల్ల/N_NN ఇన్నిరోజుల/N_NN తర్వాత/RB వచ్చింది/V_VM_VF కదా/RP__RPD ,/RD_PUNC సమయం/N_NN గురించి/PSP నాకు/PR_PRP కొంచెం/QT_QTF కూడా/RP_RPD అంచనా/N__NN లేదు/V_VM_VF ./RD_PUNC
+నా/PR_PRP నమ్మకాన్ని/N_NN వమ్ము/N__NN చేయవద్దని/V_VM_VNF నేను/PR_PRP చెప్పాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నీ/PR_PRP నుంచి/PSP హామీ/N_NN తీసుకున్నాను/V_VM_VF ./RD_PUNC
+అయినా/CC_CCD సరే/RP__INJ నీవు/PR_PRP నన్ను/PR_PRP మోసగించావు/V_VM_VF ./RD_PUNC
+నీ/PR_PRP సామాను/N__NN సర్దుకో/V_VM_VF ./RD_PUNC
+మనం/PR_PRP రేపు/N_NN ఉదయమే/N__NN ఇండియా/N_NNP వెళ్తున్నాము/V_VM_VF ,/RD_PUNC శాశ్వతంగా/RB -/RD__PUNC శాశ్వతంగా/RB ./RD_PUNC
+ఆమెని/PR_PRP ఏడవనీ/V__VM__VF ,/RD_PUNC ఈమె/PR_PRP తన/PR__PRF నుదిటిపై/N__NN ఈ/DM_DMD కన్నీళ్ళు/N_NN స్వయంగా/RB రాసుకుంది/V_VM_VF ./RD_PUNC
+వీటిని/PR_PRP ఆపడం/V_VM_VNG కూడా/RP_RPD స్వయంగానే/RB నేర్చుకోవాలి/V_VM_VF ./RD_PUNC
+ఎవరి/DM__DMQ ముఖాన్ని/N_NN నీవు/PR_PRP చంద్రునిలో/N_NNP చూడటానికి/V__VM__VINF ప్రయత్నిస్తున్నావో/V_VM_VNF ఆమె/PR_PRP పేరు/N_NN ఏమిటి/PR_PRQ ?/RD_PUNC
+మీకు/PR_PRP నేను/PR_PRP బాగా/RB తెలుసు/V_VM_VF ./RD_PUNC
+ఒకే/QT__QTC అమ్మాయి/N_NN వెనక/N__NST తిరిగే/V_VM_VNF వారిలో/PR_PRP నేను/PR_PRP లేను/V__VM__VF ./RD_PUNC
+సమస్య/N_NN ఏమంటే/PR__PRP పాప్స్/N_NN ఆమె/PR_PRP పెళ్ళి/N_NN జరగనున్నది/V_VM_VF ./RD_PUNC
+మీ/PR_PRP కాలం/N_NN వేరు/N__NN పాప్స్/N_NNP ,/RD_PUNC ఇప్పుడు/PR__PRP కాలం/N_NN మారిపోయింది/V_VM_VF ./RD_PUNC
+ప్రేమ/N_NN పేరు/N_NN ఇప్పటికీ/PR__PRP ప్రేమే/N__NN బాబు/N_NN ,/RD_PUNC ఇది/PR_PRP ఎప్పుడూ/PR__PRQ మారలేదు/V_VM_VF మరియు/CC_CCD ఎప్పటికీ/PR__PRP మారదు/V_VM_VF ./RD_PUNC
+చందమామను/N_NNP చూడటమే/V_VM_VNG కాదు/V__VM__VF చందమామను/N_NNP తీసుకొని/V_VM_VNF ఇంటికి/N__NN వచ్చే/V_VM_VNF వారిలో/PR_PRP మేము/PR_PRP ఉన్నాము/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP వెళ్ళు/V_VM_VF మరియు/CC_CCD నీతో/PR_PRP కోడలు/N_NN ఉన్నపుడు/V_VM_VNF ఈ/DM_DMD ఇంటికి/N_NN రా/V_VM_VF ,/RD_PUNC అర్థమయిందా/V_VM_VF ./RD_PUNC
+అతను/PR_PRP ఇక్కడి/PR__PRP నుండి/PSP వెళ్ళిపోయాడు/V_VM_VF ./RD_PUNC
+వారి/PR_PRP అమ్మాయి/N_NN పెళ్ళి/N_NN కదా/RP__RPD ,/RD_PUNC మొత్తం/QT_QTF అమ్మేసి/V_VM_VNF పంజాబ్/N_NNP వెళ్ళిపోయాడు/V_VM_VF ./RD_PUNC
+బాబూ/N_NN !/RD_PUNC ఇరవై/QT__QTC సంవత్సరాల/N_NN వరకు/PSP ఈ/DM_DMD కన్నీళ్ళను/N_NN కంటిలోపల/N__NN ఆపి/V_VM_VNF ఉంచాను/V__VM__VF ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN వీటిని/PR_PRP ఆపేవారు/PR__PRP లేరు/V__VM__VF బాబూ/N_NN ./RD_PUNC
+ఇప్పుడైతే/PR__PRP నీవు/PR_PRP పెళ్ళికూతురి/N_NN అత్తవు/N__NN అయ్యావు/V__VM__VF ./RD_PUNC
+ఇప్పుడైనా/PR__PRP నీకోసం/PR__PRP ఎవరినైనా/PR__PRL మంచి/JJ పెళ్ళికొడుకును/N_NN ఎంచుకో/V_VM_VF ./RD_PUNC
+లాజో/N_NNP !/RD_PUNC నేను/PR_PRP ఎప్పుడో/PR__PRP తయారయ్యాను/V_VM_VF కానీ/CC_CCD నాకు/PR_PRP తగినవారు/N__NN ఈ/DM_DMD గ్రామంలో/N_NN ఎవరూ/PR_PRQ లేనే/V_VM_VNF లేరు/V__VM__VF ./RD_PUNC
+అయితే/CC__CCS నేను/PR_PRP ఏం/PR_PRQ చేయను/V_VM_VF ?/RD_PUNC
+నాకోసం/PR_PRP ఎవరో/PR__PRP విదేశీయుడే/N__NN రావలసి/V__VM__VNF ఉంటుంది/V__VM__VF అని/CC__CCS__UT నాకు/PR_PRP అనిపిస్తుంది/V_VM_VF ./RD_PUNC
+చాలా/RP__INTF ఆశ్చర్యంగా/RB ఉంది/V_VM_VF !/RD_PUNC ఇరవై/QT__QTC సంవత్సరాలలో/N_NN పూర్తిగా/RB వికసించిన/V_VM_VNF యువతివి/N_NN అయిపోయావు/V_VM_VF ./RD_PUNC
+నా/PR_PRP చిన్నప్పుడు/N__NN స్త్రీ/N_NN పురుషుల/N_NN మధ్య/N__NST భేదమేమి/N_NN లేదు/V__VM__VF అని/CC__CCS__UT మీ/PR_PRP తాత/N_NN నాకు/PR_PRP నేర్పించేవాడు/V__VM__VF ./RD_PUNC
+ఏది/PR__PRP ఒకరికి/QT__QTO హక్కో/N__NN అది/PR_PRP రెండోవారికీ/QT_QTC హక్కే/N__NN ./RD_PUNC
+బాల్యమంతా/N__NN నేను/PR_PRP ఈ/DM_DMD మాటను/N_NN నిజమని/N_NN నమ్మి/V_VM_VNF బతికాను/V_VM_VF ./RD_PUNC
+విదేశీ/JJ కొలాబొరేటర్స్/N_NN ఏం/PR_PRQ చెప్పారు/V_VM_VF ?/RD_PUNC
+ఒకవేళ/CC_CCS మొత్తం/QT_QTF పథకం/N_NN ప్రకారం/PSP జరిగినట్లయితే/V_VM_VNF ,/RD_PUNC మీరు/PR_PRP చెప్పిన/V_VM_VNF విధంగా/PSP దేశం/N_NN మొత్తంలో/QT_QTF ఈ/DM_DMD కర్మాగారంతో/N_NN ఏది/PR_PRP పోటీ/N_NN పడలేదు/V_VM_VF ./RD_PUNC
+నీ/PR_PRP అన్నయ్య/N_NN నీతో/PR_PRP వ్యాపారం/N_NN మొదలు/N_NST పెట్టించడానికి/V_VM_VINF ఎంత/QT_QTF పెద్ద/JJ కర్మాగారం/N_NN పెట్టబోతున్నారు/V_VM_VF ./RD_PUNC
+ఈసారి/N_NN సెలవులకి/N_NN మేము/PR_PRP రామ్‍టేకడీ/N_NNP వెళ్ళేందుకు/V_VM_VNF నిర్ణయించుకున్నాము/V_VM_VF ./RD_PUNC
+కానీ/RP_RPD పెదనాన్నా/N_NN !/RD_PUNC ఏదో/PR_PRP పర్వత/N_NN ప్రాంతానికి/N_NN వెళ్ళాలి/V_VM_VF అని/CC_CCS_UT మీరు/PR_PRP చెప్పారు/V_VM_VF ./RD_PUNC
+తొందరగానే/RB చెయ్యండి/V_VM_VF నాన్నా/PR_PRP ,/RD_PUNC ఒకవేళ/CC_CCS అమ్మ/N_NN మిమ్మల్ని/PR_PRP వంటింట్లో/N_NN ఈ/DM_DMD ప్రయోగం/N_NN చేస్తున్నప్పుడు/V_VM_VNF చూసిందా/V_VM_VNF బాగా/RB కోప్పడుతుంది/V_VM_VF ./RD_PUNC
+కానీ/RP_RPD ఒకవేళ/CC_CCS తను/PR_PRP కూడా/RP_RPD ఒకసారి/N_NN ఈ/DM_DMD వంటకాలను/N_NN చూసిందా/V_VM_VNF తన/PR_PRF ఉపవాసం/N_NN కూడా/RP_RPD పక్కన/N_NST పెడుతుంది/V_VM_VF ./RD_PUNC
+అమ్మాయి/N_NN పూజా/N_NNP ,/RD_PUNC ఎప్పుడైతే/PR_PRL రామచంద్రుడు/N_NNP శివుని/N_NNP ధనుస్సును/N_NN విరిచాడో/V_VM_VNF పరశురాముడు/N_NNP బాగా/RB గర్జిస్తూ/V_VM_VNF ఈ/DM_DMD ధనుస్సు/N_NN ఎవరు/PR_PRQ విరిచారు/V_VM_VF అని/CC_CCS_UT అడిగాడు/V_VM_VF ./RD_PUNC
+రామచంద్రుడు/N_NNP బాగా/RP_INTF సరళంగా/RB ,/RD_PUNC అమితమైన/JJ ప్రేమభావనతో/N_NN జవాబు/N_NN ఇచ్చాడు/V_VM_VF ./RD_PUNC
+మీతో/PR_PRP గెలవడం/V_VM_VNG మా/PR_PRP ఇద్దరి/QT_QTC వల్ల/PSP కాదు/V_VM_VF ,/RD_PUNC కేవలం/RP_RPD నిషాయే/N_NNP ఉండాలి/V_VM_VF ./RD_PUNC
+నాన్న/PR_PRP గ్రంథాలయ/N_NN పుస్తకాలు/N_NN పంపారు/V_VM_VF మరియు/CC_CCD కృతజ్ఞతలు/N_NN చెప్పారు/V_VM_VF ./RD_PUNC
+అమ్మాయి/N_NN నిషా/N_NNP !/RD_PUNC ఒక/QT_QTF పని/N_NN చేస్తావా/V_VM_VF ./RD_PUNC
+మేము/PR_PRP స్టోర్‍రూం/N_NN నుండి/PSP తిరిగి/V_VM_VNF వచ్చేసరికి/V_VM_VNF ఈ/DM_DMD బిల్లు/N_NN మొత్తం/QT_QTF ఒకసారి/N_NN పరిశీలిస్తావా/V_VM_VF ./RD_PUNC
+అవును/RP_INJ ,/RD_PUNC మీరు/PR_PRP నాతో/PR_PRP చెప్పగలరా/V_VM_VNF ఫ్రొపెసర్/N_NN చౌదరీ/N_NNP ఏ/DM_DMD రూములో/N_NN ఉంటున్నారో/V_VM_VF ?/RD_PUNC
+అవును/RP_INJ మరి/RP_RPD !/RD_PUNC సంవత్సరం/N_NN మొత్తం/QT_QTF చదవనే/V_VM_VNF చదవరు/V_VM_VF ,/RD_PUNC పరీక్షల/N_NN ముందు/N_NST అటూ/N_NST ఇటూ/N_NST చూస్తారు/V_VM_VF మరియు/CC_CCD మీ/PR_PRP మార్కులు/N_NN పెంచుకోవడానికి/V_VM_VINF ఇక్కడికి/PR_PRP వస్తారు/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP మీ/PR_PRP కళ్ళజోడు/N_NN నంబర్/N_NN పెంచుకోండమ్మా/V_VM_VF ./RD_PUNC
+మేనేజర్/N_NN కుర్చీలో/N_NN కూర్చొని/V_VM_VNF మీరు/PR_PRP మీ/PR_PRP గురించి/PSP ఏమనుకుంటున్నారు/V_VM_VF ./RD_PUNC
+ఏమి/PR_PRP నిషా/N_NNP !/RD_PUNC అక్కడ/PR_PRP అమ్మ/N_NN ఎప్పటి/PR_PRP నుండి/PSP నీ/PR_PRP రాక/V_VM_VNG కోసం/PSP ఎదురుచూస్తూ/V_VM_VNF ఉంది/V_VM_VF ,/RD_PUNC ఏమి/PR_PRQ చేస్తున్నావు/V_VM_VF నువ్వు/PR_PRP ఇక్కడ/PR_PRP ?/RD_PUNC
+మీరు/PR_PRP ఆచార్య/N_NN చౌదరిగారి/N_NNP కోసం/PSP అడిగారు/V_VM_VF కదా/RP_RPD ,/RD_PUNC వీళ్ళే/PR_PRP వారి/PR_PRP కూతుర్లు/N_NN పూజా/N_NNP మరియు/CC_CCD నిషా/N_NNP ./RD_PUNC
+అమ్మా/N_NN పూజా/N_NNP ,/RD_PUNC ఈయనే/PR_PRP కైలాస్‍నాథ్/N_NNP గారు/RP_RPD ,/RD_PUNC మీ/PR_PRP నాన్న/N_NN స్నేహితులు/N_NN ./RD_PUNC
+మేనేజర్/N_NN గారూ/RP_RPD ,/RD_PUNC బిల్/N_NN మొత్తాన్ని/QT_QTF మీరు/PR_PRP మరొకసారి/N_NN పరిశీలించండి/V_VM_VF ./RD_PUNC
+అందమైన/JJ అమ్మాయిలు/N_NN లెక్కల్లో/N_NN తరచుగా/RB వీక్/N_NN అని/CC_CCS_UT అంటారు/V_VM_VF ./RD_PUNC
+మామిడికాయ/N_NNP పచ్చడితో/N_NN తినండి/V_VM_VF చౌబేగారూ/N_NNP ,/RD_PUNC మధురాలోని/N_NNP కచౌడీలు/N_NN మరచిపోతారు/V_VM_VF ./RD_PUNC
+నిజం/N_NN కైలాస్‍నాథ్/N_NNP !/RD_PUNC వార్తా/N_NN పత్రికల్లో/N_NN మీ/PR_PRP పేరు/N_NN చదివినప్పుడు/V_VM_VNF చాలా/RP_INTF గర్వంగా/RB ఉంటుంది/V_VM_VF ./RD_PUNC
+బాబూ/N_NN ప్రేమ్/N_NNP !/RD_PUNC నీకు/PR_PRP బహుశా/CC_CCS మా/PR_PRP ముగ్గురి/QT_QTC చరిత్ర/N_NN తెలిసియుండకపోవచ్చు/V_VM_VF ,/RD_PUNC మేము/PR_PRP ముగ్గురం/QT_QTC కాలేజీలో/N_NN ఒకటిగా/RB కలిసి/V_VM_VNF ఉన్నాము/V_VM_VF మరియు/CC_CCD చాలా/RP_INTF ఆనందంగా/RB ఉండేవాళ్ళం/V_VM_VF ./RD_PUNC
+మా/PR_PRP అబ్బాయి/N_NN రాజేష్/N_NNP కోసం/PSP నాకు/PR_PRP మీ/PR_PRP పెద్ద/JJ కూతురు/N_NN బాగా/RB నచ్చింది/V_VM_VF ./RD_PUNC
+భగవంతుడు/N_NN నాకు/PR_PRP అన్నీ/PR_PRP ఇచ్చాడు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD పిల్లల/N_NN ప్రేమ/N_NN ,/RD_PUNC పెద్ద/JJ వ్యాపారం/N_NN ,/RD_PUNC కానీ/CC_CCD ఇంటి/N_NN ముంగిలి/N_NN నిర్జనమై/JJ ఉంది/V_VM_VF ./RD_PUNC
+అయినప్పటికి/CC_CCS రాజేష్/N_NNP అయితే/RP_RPD తన/PR_PRF అమ్మ/N_NN ఒడిలో/N_NN ఆడాడు/V_VM_VF ,/RD_PUNC కానీ/CC_CCD ప్రేమ్/N_NNP ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN వరకు/PSP ఆ/DM_DMR మమతను/N_NN పొందలేదు/V_VM_VF ./RD_PUNC
+చూశారా/V_VM_VF మామగారూ/N_NN ,/RD_PUNC టఫీకి/N_NNP కూడా/RP_RPD తెలిసింది/V_VM_VF ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN సాయంత్రం/N_NN పెద్దన్నయ్య/N_NN అత్తగారింటివాళ్ళు/N_NN నిశ్చితార్థం/N_NN కోసం/PSP వస్తారు/V_VM_VF అని/CC_CCD ./RD_PUNC
+రాజేష్/N_NNP సంబంధం/N_NN నిర్ణయించబడింది/V_VM_VF ,/RD_PUNC కోడల్ని/N_NN ఎంపిక/N_NN చేసుకున్నారు/V_VM_VF మరియు/CC_CCD మాకు/PR_PRP ఈ/DM_DMD రోజు/N_NN కబురు/N_NN అందింది/V_VM_VF ?/RD_PUNC
+ఈ/DM_DMD రోజు/N_NN మేము/PR_PRP బాగా/RP_INTF కోపంగా/RB ఉన్నాం/V_VM_VF ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN మేము/PR_PRP తినం/V_VM_VF ,/RD_PUNC త్రాగం/V_VM_VF ,/RD_PUNC మేము/PR_PRP వెళ్తున్నాము/V_VM_VF ./RD_PUNC
+చూశావా/V_VM_VF ప్రేమ్/N_NNP ,/RD_PUNC నాతో/PR_PRP చెప్పింది/V_VM_VF రజియా/N_NNP బేగం/N_NN తను/PR_PRP చాలా/RP_INTF కోపంగా/RB ఉందని/V_VM_VNF ,/RD_PUNC ఎవరితోనూ/PR_PRP మాట్లాడొద్దుని/V_VM_VF మరియు/CC_CCD ఇక్కడ/PR_PRP కోడలి/N_NN పటం/N_NN చూడగానే/V_VM_VNF కోపం/N_NN కరిగిపోయింది/V_VM_VF ./RD_PUNC
+నేను/PR_PRP డాక్టర్/N_NN చాచీ/N_NN మాటలు/N_NN విన్నాను/V_VM_VF ,/RD_PUNC ఇప్పుడైతే/PR_PRP వధువుని/N_NN ఎంచుకోవడం/V_VM_VNG నీ/PR_PRP వంతు/N_NN ./RD_PUNC
+ఎప్పుడు/PR_PRP నీతో/PR_PRP మాట్లాడాలనుకున్నా/V_VM_VNF సరే/RP_RPD ,/RD_PUNC ఎవరో/PR_PRP ఒకరు/QT_QTC నిన్ను/PR_PRP పిలుస్తుంటారు/V_VM_VF కానీ/CC_CCD నీ/PR_PRP మనస్సును/N_NN గెలవటం/V_VM_VNG నాకు/PR_PRP బాగా/RB తెలుసు/V_VM_VF ./RD_PUNC
+ఓహో/RP_INJ ,/RD_PUNC అయితే/RP_RPD ఈ/DM_DMD హల్వా/N_NNP ప్రేమ్/N_NNP అన్నయ్య/N_NN కోసం/PSP తయారు/N_NN చేయబడుతోందా/V_VM_VF ,/RD_PUNC అది/PR_PRP కూడా/RP_RPD ఈ/DM_DMD పుస్తకంలో/N_NN చదివి/V_VM_VF ./RD_PUNC
+శుభాకాంక్షలు/N_NN అన్నయ్యగారూ/N_NN ,/RD_PUNC శుభాకాంక్షలు/N_NN ,/RD_PUNC ఎప్పుడైతే/PR_PRL రాజేష్/N_NNP పెళ్ళివార్త/N_NN విన్నానో/V_VM_VNF నేనైతే/PR_PRP చాలా/RP_INTF ఆనందంగా/RB ఉన్నాను/V_VM_VF ./RD_PUNC
+కోడలి/N_NN నాన్నగారు/N_NN కళాశాలలో/N_NN ఆచార్యులని/N_NN విన్నాను/V_VM_VF అయితే/CC_CCS ఇచ్చి/V_VM_VF -/RD_PUNC పుచ్చుకునేది/V_VM_VF ఏం/PR_PRQ జరిగి/V_VM_VNF ఉంటుంది/V_VM_VF ?/RD_PUNC
+వయసంతా/N_NN ఈయనలాగా/N_NN ఫ్రొఫెసర్/N_NN గా/PSP చేస్తూ/V_VM_VNF ఉండి/V_VM_VNF ఉంటారు/V_VM_VF ,/RD_PUNC జమ/N_NN చేయడానికి/V_VM_VINF అవకాశమే/N_NN లభించి/V_VM_VNF ఉండదు/V_VM_VF ./RD_PUNC
+ఇలా/PR_PRP అనవద్దు/V_VM_VF భార్యామణి/N_NN ,/RD_PUNC వారు/PR_PRP గొప్ప/JJ వంశానికి/N_NN చెందిన/V_VM_VNF చాలా/RP_INTF మంచి/JJ సంపన్నులు/N_NN ./RD_PUNC
+ఒకవేళ/CC_CCS నా/PR_PRP స్వీటీ/N_NNP వచ్చినట్లయితే/V_VM_VNF ఎన్ని/QT_QTF తెచ్చేదో/V_VM_VF -/RD_PUNC ఎన్ని/QT_QTF తెచ్చేదంటే/V_VM_VNF బీరువాలో/N_NN పెట్టి/V_VM_VNF -/RD_PUNC పెట్టి/V_VM_VNF అలసిపోదురు/V_VM_VF ,/RD_PUNC లక్షల్లో/QT_QTC పలుకుతాడు/V_VM_VF నా/PR_PRP రాజేష్/N_NNP ./RD_PUNC
+అరే/RP_INJ రాజేష్/N_NNP !/RD_PUNC ఇక్కడికి/PR_PRP రా/V_VM_VF బాబు/N_NN ,/RD_PUNC మంచి/JJ మనసున్న/N_NN మనిషి/PR_PRP మీ/PR_PRP మామగారు/N_NN ./RD_PUNC
+మీకు/PR_PRP వాయిద్యాలు/N_NN వాయించడం/V_VM_VNG కూడా/RP_RPD వచ్చా/V_VM_VF ,/RD_PUNC కేవలం/RP_RPD భంగిమ/N_NN లో/PSP నిలబడ్డారా/V_VM_VF ./RD_PUNC
+చాలా/RP_INTF బాగా/RB వాయిస్తానని/V_VM_VNF అందరూ/PR_PRP అంటుంటారు/V_VM_VF ,/RD_PUNC ఆపై/CC_CCD మీరే/PR_PRP విని/V_VM_VNF చెప్పండి/V_VM_VF ./RD_PUNC
+అన్నయ్యా/N_NN !/RD_PUNC అన్నయ్యా/N_NN !/RD_PUNC మిమ్మల్ని/PR_PRP ,/RD_PUNC వదినగారిని/N_NN కిందకు/N_NST పిలుస్తున్నారు/V_VM_VF ./RD_PUNC
+పెద్దన్నయ్యకి/N_NN తిలకం/N_NN దిద్దడం/V_VM_VNG మొదలవబోతుంది/V_VM_VF ./RD_PUNC
+డాక్టరుగారూ/N_NN !/RD_PUNC మేం/PR_PRP ముగ్గురం/QT_QTC కలిసి/V_VM_VNF చదుకుంటున్నప్పటి/V_VM_VNF రోజులది/N_NN ఈ/DM_DMD విషయం/N_NN -/RD_PUNC ఇతని/PR_PRP పెదనాన్న/N_NN ,/RD_PUNC మేము/PR_PRP మరియు/CC_CCD మా/PR_PRP శ్రీమతిగారూ/N_NN ./RD_PUNC
+అలాగైతే/PR_PRP ఆమె/PR_PRP చిరునవ్వుకు/N_NN ఈ/DM_DMD రోజుకు/N_NN కూడ/RP_RPD జవాబు/N_NN లేదు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ఆ/DM_DMD రోజుల్లో/N_NN ప్రతి/QT_QTF ఒక్కరూ/QT_QTC ఆమె/PR_PRP తేజస్సుకు/N_NN పిచ్చివాళ్ళయ్యారు/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC_CCS ఇక్కడే/PR_PRP అంతా/QT_QTF తినిపించినట్లైతే/V_VM_VNF పెళ్ళిలో/N_NN ఏం/PR_PRQ ఆదర/N_NN -/RD_PUNC సత్కారాలు/N_NN చేస్తావు/V_VM_VF ?/RD_PUNC
+అవును/RP_INJ ,/RD_PUNC మా/PR_PRP ఆదర/N_NN -/RD_PUNC సత్కారాలు/N_NN మీరు/PR_PRP ఇక్కడికి/PR_PRP వచ్చినప్పుడు/V_VM_VNF తెలుస్తాయి/V_VM_VF ,/RD_PUNC మీరైతే/PR_PRP వస్తారు/V_VM_VF కదా/RP_RPD ?/RD_PUNC
+ఆమె/PR_PRP ముందు/N__NST వంగి/V_VM_VNF నా/PR_PRP చేతులు/N_NN చాచి/V_VM_VNF హే/RP_INJ !/RD_PUNC నీవు/PR_PRP ఎవరైనా/PR__PRP కావచ్చు/V_VM_VF ,/RD_PUNC నేను/PR_PRP నిన్ను/PR_PRP ప్రేమిస్తున్నాను/V_VM_VF అని/CC__CCS__UT అంటాను/V_VM_VF ./RD_PUNC
+కాబట్టి/CC__CCS టీనా/N_NNP ,/RD_PUNC ఈ/DM__DMD రోజు/N__NN కాలేజీలో/N_NN నీ/PR_PRP మొదటి/QT__QTO రోజు/N_NN ./RD_PUNC
+ఇక్కడ/PR__PRP కాలేజీలో/N_NN మొదటి/QT__QTO రోజు/N_NN ఎలా/PR_PRQ అనిపించింది/V_VM_VF ?/RD_PUNC
+ఏమిటి/PR_PRQ ?/RD_PUNC
+ఏదైనా/PR__PRQ జరిగిందా/V_VM_VF ?/RD_PUNC
+లేదు/RP__NEG ,/RD_PUNC నాలాంటి/PR_PRP వారు/PR_PRP లేరు/V_VM_VF ./RD_PUNC
+హిందూస్తానీ/N_NNP కాదుగా/V__VM__VF ,/RD_PUNC లండన్‍లో/N_NNP పెరిగింది/V_VM_VF ,/RD_PUNC మరియు/CC_CCD ఈ/DM_DMD లండన్/N_NNP వాసులు/N_NN కొద్దిగా/QT__QTF వింతగానే/RB ఉంటారు/V_VM_VF ./RD_PUNC
+చూడు/V_VM_VF ,/RD_PUNC అమ్మాయిలు/N_NN అంటే/RP__RPD ఇంటిలో/N_NN అమ్మ/N_NN దగ్గరికి/N__NST తీసుకొని/V_VM_VNF వెళ్ళేలా/V__VM__VNF ఉండాలి/V_VM_VF ./RD_PUNC
+అలా/PR__PRP అయితే/CC__CCS నీకు/PR_PRP ఎవరూ/PR__PRP దొరకరు/V_VM_VF ,/RD_PUNC అర్థమయిందా/V_VM_VF ?/RD_PUNC
+ఒకవేళ/CC__CCS ఇంకెవరూ/PR_PRP దొరకకపోతే/V_VM_VNF ,/RD_PUNC అప్పుడు/PR__PRP నేను/PR_PRP నిన్ను/PR_PRP పెళ్ళి/N_NN చేసుకుంటా/V_VM_VF ./RD_PUNC
+ఎలాగైతేనేమి/PR__PRP నిన్ను/PR_PRP పెళ్ళి/N_NN చేసుకునేవాడు/N__NN ఎవడూ/PR__PRP లేడు/V_VM_VF ./RD_PUNC
+మా/PR_PRP కాలేజీలో/N_NN ఒక/QT__QTC నియమం/N_NN ఉంది/V_VM_VF ,/RD_PUNC మేము/PR_PRP ప్రతీ/QT__QTF ఒక్క/QT__QTC కొత్తవిద్యార్థిని/N__NN పాడమంటాము/V_VM_VF ./RD_PUNC
+రాహుల్/N_NNP ,/RD_PUNC ఈమె/PR_PRP ప్రిన్సిపాల్/N__NN గారి/RP__RPD కూతురు/N_NN ./RD_PUNC
+అయితే/RP_RPD ఏమయింది/V_VM_VF ,/RD_PUNC మేము/PR_PRP మా/PR_PRP నియమాల్ని/N__NN ఎవరికోసమూ/PR__PRP మార్చకోము/V_VM_VF ./RD_PUNC
+చూడు/V_VM_VF ,/RD_PUNC నీవు/PR_PRP మాకోసం/PR_PRP మరియు/CC_CCD ఈ/DM_DMD కాలేజీ/N__NN కోసం/PSP హిందీలో/N__NN ఒక/QT__QTC పాట/N_NN పాడు/V_VM_VF ./RD_PUNC
+ఎందుకు/PR_PRQ ?/RD_PUNC
+లండన్/N_NNP వెళ్ళి/V_VM_VNF హిందీ/N__NN మర్చిపోయావా/V_VM_VF ఏంటి/PR_PRQ ?/RD_PUNC
+రాహుల్/N_NNP !/RD_PUNC ఈమె/PR_PRP హిందీలో/N__NN పాట/N_NN ఎలా/PR_PRQ పాడగలుగుతుంది/V_VM_VF ?/RD_PUNC
+లండన్‍లో/N_NNP ఉండడం/V_VM_VNG వల్లో/PSP ,/RD_PUNC అక్కడ/PR__PRP చదవడం/V_VM_VNG -/RD__PUNC రాయడం/V_VM_VNG వల్లో/PSP నేను/PR_PRP మన/PR_PRP సంస్కృతిని/N_NN మర్చిపోలేదు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN మనం/PR_PRP ఏదో/PR_PRQ కొత్తది/JJ మొదలుపెట్టబోతున్నాం/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ప్రారంభించే/V_VM_VNF ముందు/N__NST మీకందరికీ/PR_PRP ప్రేమ/N_NN గురించి/PSP ఏమి/PR_PRQ తెలుసు/N__NN అని/CC_CCD మీ/PR_PRP అందరినీ/PR__PRP అడగాలనుకుంటున్నాను/V_VM_VF ./RD_PUNC
+ప్రేమ/N_NN స్నేహమా/N__NN ./RD_PUNC
+ఒకవేళ/CC__CCS ఆమె/PR_PRP నాకు/PR_PRP అందరికంటే/PR__PRP మంచి/JJ స్నేహితురాలు/N_NN కాలేకపోతే/V__VM__VNF ఆమెను/PR_PRP నేను/PR_PRP ఎప్పటికీ/PR__PRP ప్రేమించలేను/V_VM_VF ./RD_PUNC
+ఎందుకంటే/CC_CCS స్నేహం/N_NN లేకున్నట్లయితే/V__VM__VNF ప్రేమ/N_NN కలుగదు/V_VM_VF ./RD_PUNC
+రేపు/N_NN కళాశాలల/N_NN పోటీలో/N_NN మా/PR_PRP కళాశాల/N_NN ఉత్తమంగా/RB ఉంటుంది/V_VM_VF ,/RD_PUNC మల్హోత్రా/N_NNP ./RD_PUNC
+ఇతర/JJ కళాశాల/N_NN విద్యార్థులు/N_NN చుస్తూనే/V_VM_VNF ఉండిపోతారు/V_VM_VF ./RD_PUNC
+అంజలీ/N_NNP !/RD__PUNC రాహుల్‍/N_NNP నీకు/PR_PRP ఎప్పటి/PR_PRQ నుండి/PSP తెలుసు/V_VM_VF ?/RD_PUNC
+రాహుల్/N_NNP నీకు/PR_PRP అందరికంటే/PR__PRP మంచి/JJ స్నేహితుడు/N_NN కదా/RP__RPD ?/RD_PUNC
+నీవు/PR_PRP వాడిని/PR_PRP ప్రేమించడం/V_VM_VNG లేదా/V__VM__VF ?/RD_PUNC
+పురుషుని/N_NN తల/N_NN కేవలం/RP_RPD ముగ్గురు/QT__QTC స్త్రీల/N_NN ముందే/N__NST వంగుతుందని/V_VM_VNF నాన్న/N_NN చెబుతుండేవారు/V_VM_VF ./RD_PUNC
+తన/PR_PRF తల్లి/N_NN ముందు/N__NST ,/RD_PUNC ఇంకొకరు/PR__PRP దుర్గమ్మ/N_NNP తల్లి/N_NN ముందు/N__NST మరియు...../CC_CCD ./RD__PUNC
+రాహుల్/N_NNP !/RD_PUNC నీవు/PR_PRP ఇక్కడ/PR__PRP ఈ/DM_DMD సమయంలో/N_NN ?/RD_PUNC
+నిజానికి/N__NN నాకు/PR_PRP నిద్ర/N_NN రావడం/V_VM_VNG లేదు/V_VM_VF మరియు/CC_CCD నీకు/PR_PRP కూడా/RP_RPD రావడం/V_VM_VNG లేదని/V_VM_VNF ఆలోచించాను/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS నీవు/PR_PRP మేల్కొని/V_VM_VNF ఉన్నట్లయితే/V_VM_VNF నా/PR_PRP గురించే/PSP ఆలోచిస్తూ/V_VM_VNF ఉంటావు/V_VM_VF ./RD_PUNC
+ఇక్కడ/PR__PRP చాలా/RP__INTF వేడిగా/RB ఉందని/V_VM_VNF నీకు/PR_PRP అనిపించడం/V_VM_VNG లేదా/V__VM__VF ?/RD_PUNC
+రాహుల్/N_NNP ఏమి/PR__PRQ చేస్తున్నావు/V__VM__VF నువ్వు/PR_PRP ?/RD_PUNC
+అంజలి/N_NNP !/RD_PUNC నేను/PR_PRP నిన్ను/PR_PRP కలవడానికే/V__VM__VINF వస్తున్నాను/V_VM_VF ./RD_PUNC
+రాలే/V_VM_VNF నక్షత్రాలను/N_NN చూసి/V_VM_VNF ఏదైన/PR_PRQ కోరుకుంటే/V_VM_VNF లభిస్తుందని/V__VM__VNF చెబుతుంటారు/V__VM__VF ./RD_PUNC
+ఎలా/PR_PRQ కనిపిస్తున్నాను/V_VM_VF నేను/PR_PRP ?/RD_PUNC
+నేను/PR_PRP నీలాగా/PR_PRP అందంగా/RB కనిపించాలని/V_VM_VNF అనుకున్నాను/V_VM_VF ,/RD_PUNC కానీ/CC_CCD నాకైతే/PR_PRP ఏమీ/PR_PRQ రావడమే/V__VM__VNF లేదు/V_VM_VF ./RD_PUNC
+నిజానికి/N_NN నీవు/PR_PRP చాలా/RP__INTF అందంగా/RB ఉన్నావు/V_VM_VF ,/RD_PUNC ఎందుకంటే/CC_CCS నీవు/PR_PRP అందరికంటే/PR__PRP చాలా/RP__INTF భిన్నంగా/RB ఉంటావు/V_VM_VF ./RD_PUNC
+మరి/RP__RPD తెలుసా/V_VM_VF ,/RD_PUNC నువ్వు/PR_PRP ఒకవేళ/CC__CCS కోరుకోవాలేకాని/V_VM_VNF నీకు/PR_PRP ఎలాంటి/DM__DMQ అబ్బాయి/N_NN కావాలంటే/V_VM_VNF అలాంటివాడు/PR__PRL దొరుకుతాడు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నాతో/PR_PRP ఎలాంటి/DM__DMD విషయమైనా/N__NN దాచలేవు/V_VM_VF ./RD_PUNC
+కానీ/CC__CCD రాహుల్/N_NNP ?/RD_PUNC
+నీకు/PR_PRP ఇంకేవరూ/PR_PRP దొరకలేదా/V_VM_VF ?/RD_PUNC
+నిజానికి/N__NN ,/RD_PUNC రాహుల్/N_NNP స్థానంలో/N__NST ఎవరైనా/PR__PRP ఉన్నా/V__VM__VNF ,/RD_PUNC అప్పుడు/PR__PRP కూడా/RP_RPD బహుశా/RP__RPD నేను/PR_PRP అంతే/QT_QTF బాధపడే/V_VM_VNF దానిని/PR_PRP ./RD_PUNC
+నీవు/PR_PRP వాడితో/PR_PRP నీ/PR_PRP మనసులోని/N__NN మాట/N_NN చెప్పావా/V_VM_VF ?/RD_PUNC
+టీనా/N_NNP !/RD_PUNC రాహుల్/N_NNP కేవలం/RP_RPD నిన్నే/PR_PRP ప్రేమిస్తున్నాడని/V_VM_VNF నాకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఎప్పుడూ/PR__PRP ,/RD_PUNC ఎవ్వరికీ/PR__PRP ఇది/PR_PRP చెబుతానని/V_VM_VNF నేను/PR_PRP ఎప్పుడు/PR__PRP అనుకోలేదు/V_VM_VF ./RD_PUNC
+నేనతనికి/PR_PRP ఇదంతా/PR_PRP చెప్పగలను/V_VM_VF అని/CC__CCS__UT నేను/PR_PRP ఆశిస్తున్నాను/V_VM_VF ./RD_PUNC
+ఇది/DM__DMD లండన్/N_NNP ,/RD_PUNC ప్రపంచంలోని/N_NN చాలా/RP__INTF పెద్ద/JJ నగరం/N_NN ./RD_PUNC
+నేను/PR_PRP 22/QT_QTC సంవత్సరముల/N_NN నుండి/PSP ఇక్కడే/PR__PRP నివసిస్తున్నాను/V_VM_VF ./RD_PUNC
+రోజూ/N_NN ఈ/DM_DMD రోడ్డులో/N_NN తిరుగుతాను/V_VM_VF మరియు/CC_CCD రోజూ/N_NN వీరు/PR_PRP నన్ను/PR_PRP నా/PR_PRP పేరు/N_NN అడుగుతారు/V_VM_VF ./RD_PUNC
+చౌదరీ/N__NN బలదేవ్/N_NNP సింగ్/N_NNP ఎవరు/PR_PRQ ?/RD_PUNC
+ఎక్కడి/PR_PRQ నుండి/PSP వచ్చాడు/V_VM_VF ?/RD_PUNC
+ఎందుకు/PR_PRQ వచ్చాడు/V_VM_VF ?/RD_PUNC
+అని/CC__CCS__UT వీరు/PR_PRP అడుగుతారు/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP నేను/PR_PRP దీనికి/PR__PRP ఏమి/PR__PRQ సమాధానం/N_NN చెప్పను/V_VM_VF ./RD_PUNC
+సగం/JJ వయస్సు/N_NN గడిచిన/V__VM__VNF తర్వాత/N__NST కూడా/RP_RPD ఈ/DM_DMD భూమి/N_NN నాకు/PR_PRP నేను/PR_PRP దీనికి/PR__PRP అపరిచితులం/N_NN ./RD_PUNC
+అమ్మా/N_NN !/RD_PUNC ఇరవై/QT__QTC సంవత్సరముల/N_NN నుండి/PSP నాన్న/PR_PRP ఒకే/QT__QTC చోటికి/N_NN వెళుతున్నారు/V_VM_VF ,/RD_PUNC ఒకే/QT__QTC దారి/N_NN గుండా/PSP వెళ్తారు/V_VM_VF ./RD_PUNC
+అయినప్పటికీ/CC_CCD ’/RD_PUNC మీరు/PR_PRP చేరుకున్నారా/V_VM_VF అండి/N__NN ?/RD_PUNC
+అని/CC__CCS__UT నువ్వు/PR_PRP రోజూ/N_NN ఫోన్/N_NN చేసి/V_VM_VNF అడుగుతావు/V_VM_VF ./RD_PUNC
+నువ్వు/PR_PRP అర్థం/N_NN చేసుకోలేవు/V_VM_VF ,/RD_PUNC కేవలం/RP_RPD ఇంతే/QT_QTF అర్థం/N_NN చేసుకో/V_VM_VF అప్పుడు/PR__PRP అలవాటు/N_NN అవుతూ/V__VM__VNF వస్తుంది/V_VM_VF ./RD_PUNC
+అలవాట్లు/N_NN సమయానికి/N_NN మారకపోతే/V__VM__VNF అవసరాలు/N_NN ఏర్పడతాయి/V__VM__VF అని/CC__CCS__UT కుమారి/N__NN లూసీ/N_NNP సరిగ్గా/RB చెబుతున్నది/V_VM_VF ఝాడిఫిలాసపి/N__NNP ./RD_PUNC
+అరే/RP_INJ నువ్వు/PR_PRP పన్నెండు/QT_QTC సంవత్సరాలదానివి/N_NN ,/RD_PUNC పన్నెండు/QT_QTC సంవత్సరాలవాళ్ళలాగా/N__NN మాట్లాడు/V_VM_VF ,/RD_PUNC నీ/PR_PRP వయస్సుకన్నా/N__NN పెద్ద/JJ -/RD__PUNC పెద్ద/JJ మాటలు/N_NN నీవు/PR_PRP ఎందుకు/PR_PRQ మాట్లాడతావు/V_VM_VF ?/RD_PUNC
+ఉఫ్/RP_INJ అమ్మా/PR_PRP !/RD_PUNC చిన్నవాళ్లు/N_NN ,/RD_PUNC పెద్దవాళ్లు/N_NN అనేదేమి/PR__PRP ఉండదు/V_VM_VF ./RD_PUNC
+మనిషి/N__NN తన/PR__PRF వయస్సు/N_NN ఎంత/PR__PRP అని/RP__RPD అనుకుంటే/V__VM__VNF అంతే/QT_QTF ఉంటుంది/V_VM_VF ./RD_PUNC
+సరే/RP__INJ తల్లీ/N__NN నేను/PR_PRP ఓడిపోయాను/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఓడిపోయాను/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP నువ్వు/PR_PRP బడికి/N__NN వెళ్ళు/V_VM_VF మరియు/CC_CCD మీ/PR_PRP మిస్/N__NN లూసీ/N_NNP తల/N_NN తిను/V_VM_VF ./RD_PUNC
+ఓహ్/RP_INJ !/RD__PUNC అయినప్పటికి/RB నాతో/PR_PRP దాపరికం/N__NN ఏమిటి/PR_PRQ ?/RD_PUNC
+చూడు/V_VM_VF ఎప్పుడైతే/PR_PRL బాలిక/N_NN యువతి/N_NN అవుతుందో/V__VM__VNF అప్పుడు/PR__PRP ఆమె/PR__PRP తల్లి/N_NN కాదు/V__VM__VF స్నేహితురాలు/N_NN అవుతుంది/V_VM_VF ./RD_PUNC
+అరే/RP_INJ సిమీ/N_NNP !/RD__PUNC నీవు/PR_PRP మంచి/JJ కవిత్వం/N_NN రాయడం/V_VM_VNG మొదలుపెట్టావు/V_VM_VF ,/RD_PUNC అబ్బాయి/N_NN చాలా/RP__INTF అందంగా/RB కనిపిస్తున్నాడు/V_VM_VF ,/RD_PUNC కానీ/CC_CCD అతను/PR_PRP ఎవరు/PR_PRQ ?/RD_PUNC
+అమ్మా/N_NN !/RD_PUNC అతనిని/PR_PRP చూడలేదు/V_VM_VF ,/RD_PUNC తెలియదు/V_VM_VF ./RD_PUNC
+తీసుకువెళ్లటానికి/V__VM__VINF ఎవరైనా/PR__PRL ఉన్నారా/V_VM_VF లేరా/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజుల్లో/N_NN ఇలాంటి/PR__PRP మంచి/JJ అబ్బాయి/N_NN ఎక్కడ/PR__PRQ దొరుకుతాడని/V_VM_VNF నేను/PR_PRP ఏమి/PR__PRQ చెబుతాను/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP కూడా/RP_RPD ఎంత/PR__PRQ పిచ్చిదానివి/N_NN ,/RD_PUNC చూడలేదు/V_VM_VF కలవలేదు/V_VM_VF మరియు/CC_CCD కలలుకనడం/V__VM__VNG మొదలుపెట్టావు/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG అమ్మా/PR_PRP !/RD_PUNC ఇది/PR_PRP కల/N__NN కాదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP అతనిని/PR_PRP ఎప్పుడూ/PR__PRQ కలవలేదు/V__VM__VF అని/CC__CCS__UT నేను/PR_PRP ఒప్పుకుంటున్నాను/V_VM_VF ./RD_PUNC
+అతనిని/PR_PRP ఎప్పుడూ/PR_PRQ చూడలేదు/V_VM_VF ,/RD_PUNC కానీ/CC_CCD అతను/PR__PRP ఉన్నాడు/V_VM_VF ./RD_PUNC
+ఎక్కడో/PR__PRP ఒక/QT__QTC దగ్గర/N__NST ఉన్నాడు/V_VM_VF ./RD_PUNC
+ఓ/RP_INJ రాజ్/N_NNP !/RD_PUNC రాత్రికి/N_NN పార్టీ/N_NN చేయమని/V__VM__VF ఎవరు/PR_PRQ చెప్పారు/V_VM_VF ?/RD_PUNC
+రాత్రికి/N_NN పార్టీ/N_NN చేసినట్లు/V_VM_VNF అయితే/CC__CCS రాత్రి/N_NN నిద్రపోలేరు/V_VM_VF ./RD_PUNC
+రాత్రి/N_NN నిద్రపోకపోతే/V_VM_VNF ఉదయం/N_NN ఎలా/PR_PRQ లేస్తారు/V_VM_VF ?/RD_PUNC
+ఇప్పుడు/PR__PRP గ్రాడ్యుయేషన్/N_NNP కోసం/PSP ఆలస్యం/N__NN అయ్యింది/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+ఈ/DM_DMD సంవత్సరం/N_NN ఎవరో/PR__PRP పరీక్ష/N_NN తప్పారని/V_VM_VNF విన్నాను/V_VM_VF మరియు/CC_CCD అందరి/PR__PRP ముందు/N_NST అతని/PR_PRP పేరుని/N_NN ప్రకటిస్తానని/V__VM__VNF డీన్/N_NN నిర్ణయించుకున్నారు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN నీవు/PR_PRP ధర్మవీర/N__NNP మల్హోత్ర/N_NNP ముక్కును/N_NN ఒకటిన్నర/QT__QTC అంగుళాల/N_NN పొడవు/N_NN పెంచావు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP తెలుసు/V__VM__VF ,/RD_PUNC నాకు/PR_PRP తెలుసు/V__VM__VF నీవు/PR_PRP ఒక/QT__QTC రోజు/N__NN నాపేరు/PR_PRP తప్పక/RP__RPD మారుమోగిస్తావు/V__VM__VF అని/CC__CCS__UT ./RD_PUNC
+పరీక్ష/N_NN తప్పడం/V_VM_VNG మరియు/CC_CCD చదవకపోవడం/V_VM_VNG మన/PR_PRP కుటుంబ/N_NN సంప్రదాయం/N_NN మరియు/CC_CCD నీవు/PR_PRP ఈ/DM_DMD సంప్రదాయాన్ని/N_NN బతికించావు/V__VM__VF అని/CC__CCD నాకు/PR_PRP ఆనందంగా/RB ఉంది/V_VM_VF ./RD_PUNC
+అయితే/CC__CCS నువ్వు/PR_PRP మాకంటే/PR_PRP రెండడుగులు/N__NN ముందుకెళ్ళావు/V_VM_VF ./RD_PUNC
+మేము/DM__DMD అందరం/N__NN భారతదేశంలో/N_NNP ఫెయిల్/N_NN అయ్యాం/V_VM_VF మరియు/CC_CCD నువ్వు/PR_PRP అయితే/CC__CCS లండన్‍లో/N_NNP ఫెయిల్/N_NN అయ్యి/V_VM_VNF చూపించావు/V_VM_VF ./RD_PUNC
+ఆనందం/N_NN కాదు/RP__NEG అంతులేనంత/RP__INTF ఆనందంగా/RB ఉన్నాను/V_VM_VF ./RD_PUNC
+ఈ/PR__PRP చదవడం/V__VM__VNG -/RD__PUNC రాయడం/V__VM__VNG అయితే/RP__RPD పనికిమాలిన/JJ విషయాలు/N_NN ./RD_PUNC
+మెదడులో/N_NN పుస్తకాలు/N_NN నింపడం/V_VM_VNG వల్ల/PSP జేబు/N_NN కొద్దిగైనా/QT__QTF నిండుతుందా/V_VM_VF ./RD_PUNC
+నన్ను/PR_PRP చూడు/V_VM_VF భటిండా/N_NNP నుండి/PSP పారిపోయిన/V_VM_VNF ఒక/QT__QTC గ్రామీణ/JJ యువకుణ్ణి/N_NN మరియు/CC_CCD ఈ/DM_DMD రోజు/N_NN లండన్‍లో/N_NNP మిలియనీర్/N_NN అయ్యాను/V_VM_VF ./RD_PUNC
+అందుకనే/CC__CCS నేను/PR_PRP చెబుతున్నాను/V_VM_VF ,/RD_PUNC ఏదైతే/PR__PRL జరుగుతుందో/V_VM_VNF మంచే/RB జరుగుతుంది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP ఇలా/RB చెయ్యి/V_VM_VF రేపటి/N__NN నుండి/PSP ఆఫీస్‍లో/N_NN చేరు/V_VM_VF ./RD_PUNC
+పాప్స్/N__NN !/RD_PUNC మీరు/PR_PRP సరిగ్గా/RB చెబుతున్నారు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP మీ/PR_PRP వ్యాపారాలు/N_NN చూసుకోవాలి/V_VM_VF ,/RD_PUNC అదేమిటంటే/CC_CCS మీరు/PR_PRP చాలా/JJ ముసలివారు/N_NN అయిపోయారు/V_VM_VF ./RD_PUNC
+పాప్స్/N__NN నేను/PR_PRP నిర్ణయించుకున్నాను/V_VM_VF ./RD_PUNC
+నేను/PR_PRP యూరఫ్/N_NNP వెళ్లడంలేదు/V__VM__VF మరియు/CC_CCD నేను/PR_PRP రేపటి/N__NN నుండి/PSP ఆఫీస్‍కు/N_NN వస్తున్నాను/V_VM_VF ./RD_PUNC
+నీకు/PR_PRP తెలుసా/V_VM_VF ,/RD_PUNC తన/PR_PRF దగ్గరికి/N__NST వెళ్ళి/V_VM_VNF చెప్పాలని/V_VM_VNF నేను/PR_PRP ఎన్నిసార్లు/N__NN ఆలోచించానో/V_VM_VF ./RD_PUNC
+నా/PR_PRP మొదటి/QT__QTO ప్రేమ/N_NN అసంపూర్ణంగా/RB ఉండింది/V_VM_VF ,/RD_PUNC రిఫత్/N__NNP దీ/N__NN ./RD_PUNC
+నేను/PR_PRP తిరిగి/V_VM_VNF రావట్లేదు/V_VM_VF రాహుల్/N_NNP ./RD_PUNC
+కాలేజ్/N_NN వదిలి/V_VM_VNF వెళ్ళిపోతున్నావా/V_VM_VF నీవు/PR_PRP ./RD_PUNC
+నన్ను/PR_PRP వదిలి/V_VM_VNF వెళ్ళిపోతున్నావా/V_VM_VF ,/RD_PUNC నాతో/PR_PRP చెప్పనే/V_VM_VNF లేదు/V_VM_VF ./RD_PUNC
+అంజలీ/N_NNP పెళ్ళి/N_NN డిసెంబరు/N_NNP కంటే/PSP ముందు/N__NST జరగకపోవచ్చు/V_VM_VF ./RD_PUNC
+దేవుని/N__NN నిర్ణయమైతే/N__NN విన్నాము/V_VM_VF ,/RD_PUNC ఈ/DM_DMD రోజు/N_NN చుశాము/V_VM_VF కూడా/RP_RPD ,/RD_PUNC పిల్లల/N__NN ప్రార్థన/N_NN కూడా/RP_RPD నెరవేరింది/V_VM_VF ./RD_PUNC
+అంజలీ/N_NNP !/RD_PUNC నిన్ను/PR_PRP ఒకటి/QT_QTC అడగనా/V_VM_VF ?/RD_PUNC
+నువ్వు/PR_PRP సంతోషంగా/RB ఉన్నావా/V_VM_VF బిడ్డా/N__NN ?/RD_PUNC
+ఇది/PR_PRP ఎలాంటి/PR__PRQ ప్రశ్న/N_NN అమ్మా/N__NN ?/RD_PUNC
+కాకయేమి/RP_RPD ,/RD_PUNC నేను/PR_PRP సంతోషంగా/RB ఉన్నాను/V_VM_VF ./RD_PUNC
+నా/PR_PRP అలంకరణ/N_NN కూడా/RP_RPD పూర్తయింది/V_VM_VF ./RD_PUNC
+అమన్/N_NNP చాలా/RP__INTF మంచి/JJ అబ్బాయి/N_NN ./RD_PUNC
+నన్ను/PR_PRP చాలా/RP__INTF బాగా/RB ప్రేమిస్తాడు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD నీవు/PR_PRP అతన్ని/PR_PRP ప్రేమిస్తున్నావా/V_VM_VF ?/RD_PUNC
+నేనయితే/PR_PRP ప్రేమించానమ్మా/V_VM_VF ,/RD_PUNC బహుశా/CC__CCS నాకు/PR_PRP తిరిగి/V_VM_VNF అవ్వదు/V_VM_VF ,/RD_PUNC సంతోషంగానే/RB ఉన్నాను/V_VM_VF ,/RD_PUNC ఇది/PR_PRP ఒక/QT__QTC ఒప్పందంగా/RB అర్థం/N_NN చేసుకో/V_VM_VF ./RD_PUNC
+నా/PR_PRP బిడ్డ/N_NN ఒప్పందం/N_NN చేసుకుంటుంది/V_VM_VF అని/CC__CCS__UT ప్రేమించదని/V__VM__VNF ,/RD_PUNC నేను/PR__PRP ఎప్పుడూ/PR__PRP అనుకోనేలేదు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP కూడా/RP_RPD అమ్మనే/N__NN ,/RD_PUNC నువ్వు/PR_PRP సంతోషంగా/RB ఉండాలని/V_VM_VF ,/RD_PUNC కుటుంబ/N_NN సహితంగా/RB ఉండాలని/V_VM_VNF నేను/PR_PRP కోరుకోనా/V_VM_VF ?/RD_PUNC
+ప్రేమ/N_NN లేకుండా/V_VM_VNF ఒప్పందం/N_NN తో/PSP కట్టబడిన/V_VM_VNF ఇల్లు/N_NN ,/RD_PUNC ఇల్లే/N__NN కాదు/V_VM_VF ./RD__PUNC
+అంజలీ/N_NNP నీకు/PR_PRP ఫోన్/N_NN ./RD_PUNC
+నాకు/PR_PRP ఒక/QT__QTC చిన్న/JJ సమస్య/N_NN ఉంది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నన్ను/PR_PRP ఈ/DM_DMD విధంగా/N__NN వదలివేసి/V_VM_VNF వెళ్లవద్దు/V_VM_VF ./RD_PUNC
+అమన్/N_NNP !/RD_PUNC ఫోన్‍లో/N_NN ఎవరు/PR__PRQ ఉన్నారో/V__VM__VNF తెలియదు/V_VM_VF ?/RD_PUNC
+అమన్/N_NNP !/RD_PUNC ఆ/DM_DMD పిల్లలకి/N_NN పాడటం/V_VM_VNG మరియు/CC_CCD నృత్యం/N_NN నేర్పడానికి/V__VM__VINF నేను/PR_PRP ప్రతి/QT__QTF సంవత్సరం/N_NN వేసవికి/N_NN క్యాంప్/N_NN వెళ్తానని/V_VM_VNF నీకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+ఇప్పుడా/PR__PRP పిల్లలు/N_NN నా/PR_PRP జీవితంలో/N_NN ఒక/QT__QTC భాగం/N_NN అయ్యారు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నన్ను/PR_PRP ప్రేమించడం/V_VM_VNG లేదని/V_VM_VNF నాకు/PR_PRP ఎందుకు/PR__PRQ ఇలా/PR_PRP అనిపిస్తున్నది/V_VM_VF ?/RD_PUNC
+నువ్వు/PR_PRP సిమ్లా/N__NNP వెళ్ళు/V_VM_VF నీ/PR_PRP వేసవి/N__NN శిబిరానికి/N_NN ./RD_PUNC
+నీవు/PR_PRP ఎలాంటి/DM__DMQ సమ్మర్‍క్యాంప్/N_NN -/RD__PUNC గిమ్మర్‍క్యాంప్/RD__ECH కి/PSP వెళ్ళడంలేదు/V_VM_VF ./RD_PUNC
+అక్కడ/PR__PRP చాలా/QT_QTF మంచు/N_NN పడుతుంది/V_VM_VF తల్లీ/N_NN ./RD_PUNC
+నాన్నా/N__NN !/RD_PUNC అక్కడ/PR__PRP గానం/N_NN మరియు/CC_CCD నృత్యం/N_NN కూడా/RP_RPD నేర్పుతారని/V_VM_VNF విన్నాను/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP గానం/N_NN మరియు/CC_CCD నృత్యం/N__NN ఎంతో/QT__QTF ఇష్టమని/V_VM_VNF మీకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఒకసారి/N__NN నిరాకరించాక/V_VM_VNF ఎవరూ/PR__PRP వెళ్ళరు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD దీనర్థం/PR_PRP నీవు/PR_PRP వేసవి/N__NN శిబిరానికి/N_NN వెళ్తున్నావని/V_VM_VNF కాదు/V_VM_VF ./RD_PUNC
+అంజలి/N_NNP !/RD_PUNC అదైతే/PR_PRP బాగానే/RB ఉంది/V_VM_VF ,/RD_PUNC మేము/PR_PRP వేసవి/N__NN శిబిరానికి/N_NN వెళతాం/V_VM_VF ,/RD_PUNC కానీ/CC_CCD అక్కడికి/PR__PRP మీ/PR_PRP నాన్నైతే/N__NN రారు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+నా/PR_PRP అంజలి/N_NNP ,/RD_PUNC నీ/PR_PRP అంజలి/N_NNP కంటే/PSP ఎక్కువ/RP__INTF అందంగా/RB ఉంది/V_VM_VF ./RD_PUNC
+ప్రియమైన/JJ నాన్నా/N__NN !/RD_PUNC క్షమించు/V_VM_VF ,/RD_PUNC నానమ్మ/N_NN మరియు/CC_CCD నేను/PR_PRP ,/RD_PUNC మీకు/PR_PRP చెప్పకుండా/V_VM_VNF వెళ్ళాం/V_VM_VF ./RD_PUNC
+ప్రియమైన/JJ దేవుడా/N__NN !/RD_PUNC దయతో/JJ మీరు/PR_PRP నాన్నను/PR_PRP సంతోషంగా/RB ఉంచండి/V_VM_VF మరియు/CC_CCD ఆయన/PR_PRP నా/PR_PRP నుండి/PSP దూరంగా/N__NST ఉండకుండా/V_VM_VNF చూడండి/V_VM_VF ./RD_PUNC
+తను/PR_PRF నేను/PR_PRP లేకుండా/V_VM_VNF ఏమీ/PR__PRP చేయలేరని/V_VM_VNF మీకు/PR_PRP తెలిసే/V_VM_VNF ఉంటుంది/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP నేను/PR_PRP భగవంతున్ని/N__NN అమ్మకోసం/N__NN ఏమీ/PR__PRP కోరుకోను/V_VM_VF ,/RD_PUNC ఆమైతే/PR_PRP ఆయన/PR_PRP దగ్గరే/N__NST ఉంది/V_VM_VF ./RD_PUNC
+తను/PR_PRF ఏమి/PR__PRP కావాలనుకుంటుందో/V_VM_VNF అది/PR_PRP ఆయననే/PR_PRP అడగవచ్చు/V_VM_VF ./RD_PUNC
+అంజలి/N_NNP !/RD_PUNC నీవు/PR_PRP ఎక్కడికి/PR__PRQ వెళ్ళిపోయావు/V_VM_VF ?/RD_PUNC
+నీవు/PR_PRP లేకుండా/V__VM__VNF నేను/PR_PRP ఎంత/QT__QTF ఒంటరివాడిని/N__NN అవుతానో/V_VM_VNF నీకు/PR_PRP తెలుసు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD అంజలి/N_NNP ఎవరు/PR_PRQ ?/RD_PUNC
+అంజలి/N_NNP !/RD_PUNC నా/PR_PRP ఎనిమిది/QT_QTC సంవత్సరాల/N_NN కూతురు/N_NN ./RD_PUNC
+అంజలి/N_NNP !/RD_PUNC నీ/PR_PRP ఆరోగ్యం/N_NN అయితే/RP_RPD బాగుంది/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+నాకు/PR_PRP టీనా/N_NNP గురించి/PSP తెలిసుండేదికాదు/V_VM_VF ./RD_PUNC
+ఎలా/PR_PRQ తెలుస్తుంది/V_VM_VF ,/RD_PUNC నీవైతే/PR_PRP మాయమైపోయావు/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP నా/PR_PRP స్నేహితుని/N_NN అవసరము/N__NN ఉన్నప్పుడు/V_VM_VNF నీవు/PR_PRP లేనే/RP__NEG లేవు/V_VM_VF ./RD_PUNC
+ఆడపిల్లలు/N_NN బాస్కెట్/N_NNP బాల్/N__NN ఆడలేరు/V_VM_VF ./RD_PUNC
+ఇతను/PR_PRP నీతో/PR_PRP నిజం/N_NN చెప్పాడు/V_VM_VF మరియు/CC_CCD నువ్వేమో/PR_PRP ఇతనితో/PR_PRP గొడవ/N_NN పడుతున్నావు/V_VM_VF ./RD_PUNC
+పూజా/N_NNP వెళ్ళిన/V_VM_VNF తరువాత/N__NST మనకు/PR_PRP ఇంత/RP__INTF లోటుగా/RB వున్నది/V_VM_VF ,/RD_PUNC పాపం/N_NN రాజేష్/N_NNP ,/RD_PUNC పరిస్థితి/N_NN ఏంటో/PR_PRQ ఒకసారి/N__NN ఆలోచించు/V_VM_VF ./RD_PUNC
+తను/PR_PRF సొంతంగా/RB ఏమీ/PR_PRQ చెప్పట్లేదు/V_VM_VF కానీ/CC_CCD ఇన్ని/QT_QTF రోజుల/N_NN నుండి/PSP అతని/PR__PRP పరిస్థితి/N_NN మనం/PR_PRP చూస్తూనే/V_VM_VNF ఉన్నాం/V_VM_VF ./RD_PUNC
+లోలోపలే/N__NST తను/PR__PRF దిగులు/N_NN పడుతున్నాడు/V_VM_VF ./RD_PUNC
+మరియు/CC_CCD తన/PR__PRF బాదంతా/N__NN మున్నా/N_NNP భవిష్యత్తు/N_NN గురించే/PSP ./RD_PUNC
+రాజేష్/N_NNP బాబు/N_NNP !/RD_PUNC నీవు/PR_PRP నీ/PR_PRP మున్నా/N_NNP భవిష్యత్తు/N_NN గురించి/PSP అసలు/RP__RPD కంగారు/N__NN పడనవసరం/N_NN లేదు/V_VM_VF ./RD_PUNC
+రాజేష్/N_NNP వివాహం/N_NN ఆ/DM__DMD సమయంలో/N_NN స్వీటీతో/N__NNP అయినట్లయితే/CC__CCS ఇప్పుడు/PR__PRP ఈ/DM__DMD రోజు/N__NN చూడటానికి/V__VM__VINF ఉండేదికాదు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ,/RD_PUNC ఇంకెవరో/PR_PRP పిల్లలను/N_NN గుండెలుకి/N__NN హద్దుకొని/V_VM_VNF పెంచుకోవాలంటే/V_VM_VNF సంస్కారం/N_NN ఉండాలి/V_VM_VF ,/RD_PUNC అర్థమైందా/V_VM_VF ?/RD_PUNC
+ఈ/DM__DMD రోజుల్లో/N__NN ఏ/DM__DMD ఆడపిల్ల/N_NN సవతి/N_NN తల్లి/N_NN కావడానికి/V__VM__VINF ఇష్టపడుతుంది/V_VM_VF ?/RD_PUNC
+ఏ/DM__DMQ తల్లిదండ్రులు/N_NN ఇలాంటి/DM__DMD పరిస్థితుల్లో/N_NN తమ/PR__PRF కూతురిని/N_NN రాజేష్‍కి/N_NNP ఇస్తారు/V_VM_VF ?/RD_PUNC
+క్షమించండి/V_VM_VF ,/RD_PUNC నేను/PR_PRP మిమ్మల్ని/PR_PRP అడుగుతున్నాను/V_VM_VF అన్నయ్యగారూ/N__NN ,/RD_PUNC మీరు/PR_PRP మీ/PR_PRP నిషా/N_NNP పెళ్ళి/N_NN రాజేష్‍తో/N_NNP చేస్తారా/V_VM_VF ?/RD_PUNC
+అన్నయ్యగారూ/N__NN !/RD_PUNC స్వీటీ/N_NNP పెట్టిన/V_VM_VNF షరతులలో/N_NN తప్పు/N__NN ఏముందని/PR_PRQ నేను/PR_PRP అంటున్నాను/V_VM_VF ?/RD_PUNC
+అరే/RP_INJ ఒక/QT_QTC పిల్లవాడిని/N_NN తీసుకొని/V_VM_VNF ఇంత/RP__INTF పెద్ద/JJ చిక్కు/N_NN పెడుతున్నారు/V_VM_VF ,/RD_PUNC అరే/RP_INJ పిల్లవాళ్ళది/N__NN ఏముంది/V__VM__VF రాజేష్/N_NNP బాబు/N_NNP !/RD_PUNC పిల్లలైతే/N__NN ఎదుగుతారు/V_VM_VF ./RD_PUNC
+ఛీ/RP__INJ ,/RD_PUNC నీ/PR_PRP ఈ/DM_DMD స్వభావం/N_NN వలన/PSP మనకు/PR_PRP ఈ/DM_DMD రోజు/N_NN వరకు/PSP పిల్లలు/N_NN లేకుండా/V_VM_VNF ఉన్నాము/V_VM_VF ./RD_PUNC
+అతని/PR_PRP మాటలు/N_NN కూడా/RP_RPD నిజమే/N_NN ,/RD_PUNC ఎవరో/PR_PRQ తెలియని/V_VM_VNF చూడని/V__VM__VNF అమ్మాయికి/N__NN తన/PR__PRF బిడ్డని/N__NN ఏలా/PR_PRQ అప్పగిస్తాడు/V_VM_VF ?/RD_PUNC
+నాన్నా/N__NN !/RD_PUNC మున్నాకు/N__NNP నాకు/PR_PRP పూజా/N_NNP జ్ఞపకాలే/N__NN చాలు/V_VM_VF ./RD_PUNC
+జీవితంలో/N_NN తోడు/N_NN అనేది/CC_CCS ప్రతి/QT__QTF అడుగులో/N_NN అవసరం/N_NN ఉంటుంది/V_VM_VF మరియు/CC_CCD సంతానాన్ని/N_NN సరిగా/RB పెంచడం/V_VM_VNG ఒక/QT_QTC పెద్ద/JJ బాధ్యత/N_NN అవుతుంది/V_VM_VF బాబు/N_NN ./RD_PUNC
+కానీ/CC_CCD మున్నా/N_NNP కోసం/PSP ఎటువంటి/DM__DMQ తల్లి/N_NN రావచ్చు/V__VM__VNF అంటే/JJ ,/RD_PUNC నాన్నా/N__NN ముందు/N__NST ముందు/N_NST బాబుని/N__NN దూరం/N_NST పెటచ్చు/V_VM_VF ./RD_PUNC
+నిషా/N_NNP ఇక్కడకు/PR__PRP వచ్చి/V_VM_VNF వెళ్ళినప్ఫటి/V_VM_VNF నుండి/PSP ఇక్కడి/PR__PRP విషయాలే/N__NN మాట్లాడుతుంది/V_VM_VF మరియు/CC_CCD మున్నా/N_NNP కూడా/RP_RPD ఉదయం/N__NNP -/RD__PUNC సాయంత్రం/N__NNP ఆమె/PR_PRP ఒడిలోనే/N__NN ఉంటున్నాడు/V_VM_VF ./RD_PUNC
+సరే/RP_INJ ఒకసారి/N__NN నిషాని/N__NNP అడుగు/V_VM_VF ఒకవేళ/CC__CCS తను/PR__PRF సరే/RB అంటే/V__VM__VF తన/PR_PRF పెళ్ళి/N_NN కూడా/RP_RPD చాలా/RP__INTF అట్టహాసంగా/RB చేద్దాం/V_VM_VF ./RD_PUNC
+నిషా/N_NNP !/RD__PUNC మున్నా/N_NNP కోసం/PSP ఏ/DM__DMD నిర్ణయం/N_NN నీవు/PR_PRP తీసుకున్నావో/V_VM_VNF దానికి/PR_PRP నేను/PR_PRP నీకు/PR_PRP కృతజ్ఞతుడిగా/RB ఉంటాను/V_VM_VF ./RD_PUNC
+దేవుడా/N__NN !/RD_PUNC ఈ/DM_DMD రోజు/N_NN చమత్కారం/N_NN ఏదైనా/PR__PRP చెయ్యండి/V_VM_VF ,/RD_PUNC ఎటువంటి/DM__DMQ చమత్కారం/N_NN చేయండంటే/V_VM_VNF ప్రపంచంలోని/N_NN ప్రజలకు/N_NN మీ/PR_PRP మీద/PSP నమ్మకం/N_NN ఇంకా/RB ,/RD_PUNC ఇంకా/RB పెరగాలి/V_VM_VF ./RD_PUNC
+పెదనాన్నా/N__NN !/RD_PUNC మీ/PR_PRP ముద్దుల/N_NN అబ్బాయి/N__NN ఎంత/RP__INTF చిన్న/JJ విషయమైనా/N__NN నన్ను/PR_PRP అడిగేవాడు/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD రోజు/N_NN ఇంత/RP__INTF పెద్ద/JJ విషయాన్ని/N_NN నీ/PR_PRP మనసులో/N__NN దాచి/N__NN ఉంచావు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP నిన్ను/PR_PRP అడుగుతున్నాను/V_VM_VF నిషా/N_NNP ,/RD_PUNC ఒకవేళ/CC__CCS నీవు/PR_PRP మున్నాకు/N_NNP పిన్నివి/N__NN అయి/V__VM__VNF అంగీకరిస్తే/V_VM_VNF నీ/PR_PRP ప్రేమ/N_NN తగ్గిపోతుందా/V_VM_VF ?/RD_PUNC
+నిజం/N_NN ఒప్పుకున్నట్లయితే/V_VM_VNF తప్పు/N__NN నాదే/PR_PRP వుంది/V_VM_VF పూజా/N_NNP ,/RD_PUNC వెళ్ళేటప్పుడు/V__VM__VNF నీవు/PR_PRP నాకు/PR_PRP ఏమి/PR_PRQ చెప్పాలనుకున్నావో/V_VM_VNF నేనే/PR_PRP అర్థం/N_NN చేసుకోలేకపోయాను/V_VM_VF ./RD_PUNC
+కైలాస్‍నాథ్/N_NNP !/RD_PUNC పూర్వపు/JJ జన్మలో/N_NN నేను/PR_PRP తప్పకుండా/RB ఏదో/PR_PRQ పుణ్యం/N_NN చేసి/V_VM_VNF వుంటాను/V_VM_VF ,/RD_PUNC నేను/PR_PRP ఇలాంటి/PR__PRP అల్లుణ్ణి/N_NN పొంది/V_VM_VNF ధన్యుణ్ణి/N_NN అయ్యాను/V_VM_VF ./RD_PUNC
+ఎవరు/PR_PRQ ?/RD_PUNC
+మీరెవరు/PR__PRQ ?/RD_PUNC
+ఇంత/QT__QTF రాత్రి/N_NN అయ్యాక/V_VM_VNF మా/PR_PRP యింటిలో/N_NN ఏమి/PR_PRQ చేస్తున్నారు/V_VM_VF ?/RD_PUNC
+మమ్మల్ని/PR_PRP లుటియా/N_NNP పఠాన్/N_NNP పంపించాడు/V_VM_VF ./RD_PUNC
+ఈ/DM__DMD రోజు/N__NN అప్పు/N_NN చెల్లించడానికి/V_VM_VNG చివరి/N_NST రోజు/N_NN కానీ/CC__CCD నువ్వు/PR_PRP చెల్లించలేదు/V_VM_VF ,/RD_PUNC అందుకే/CC_CCD గుర్తు/N_NN చేయడానికి/V__VM__VINF వచ్చాను/V_VM_VF ./RD_PUNC
+సరే/RP_INJ ,/RD_PUNC సరే/RP_INJ ,/RD_PUNC గుర్తు/N_NN చేయనవసరం/V__VM__VNF లేదు/V_VM_VF ,/RD_PUNC మా/PR_PRP దగ్గర/N__NST ఉన్నప్పుడు/V_VM_VNF ఇస్తాం/V_VM_VF ./RD_PUNC
+ఎప్పుడైతే/PR_PRL మీ/PR_PRP అమ్మాయి/N_NN రంగస్థలం/N_NN మీద/N__NST పాడుతుందో/V_VM_VNF అప్పుడు/PR__PRP డబ్బుల/N_NN వర్షం/N_NN కురుస్తుందని/V_VM_VNF నువ్వే/PR_PRP చెప్పావు/V_VM_VF ./RD_PUNC
+ఆమె/PR_PRP 25/QT_QTC ప్రదర్శనలు/N_NN చేసి/V_VM_VNF ఉన్నది/V_VM_VF ,/RD_PUNC కానీ/CC_CCD ఒక/QT_QTC పైసా/N_NN కూడా/RP_RPD రాల్చలేదు/V_VM_VF ./RD_PUNC
+చూడు/V_VM_VF శ్యామ్‍లాల్/N_NNP !/RD_PUNC ఒకవేళ/CC__CCS రేపు/N_NN పన్నెండు/QT_QTC గంటలలోపు/N_NN డబ్బులు/N_NN చేరకపోతే/V_VM_VNF గుర్తుంచుకో/V_VM_VF మేము/PR_PRP నీ/PR_PRP పని/N_NN పడతాం/V_VM_VF ./RD_PUNC
+బెదిరింపు/N__NN కాదు/V_VM_VF ఇది/PR_PRP కేవలం/RP_RPD తెలియజెప్పటం/V_VM_VNG ,/RD_PUNC పూర్తి/N__NN దస్తావేజులు/N_NN రేపు/N_NN రాయబడుతాయి/V_VM_VF ./RD_PUNC
+నీ/PR_PRP శరీరంలో/N_NN రక్తం/N_NN ,/RD_PUNC మా/PR_PRP కలంలో/N_NN దమ్ము/N__NN ఉన్నంత/V_VM_VNF వరకు/PSP రాయబడతాయి/V_VM_VF ./RD_PUNC
+అయ్యో/RP_INJ ,/RD_PUNC ఎలాంటి/DM__DMQ మాటలు/N_NN మాట్లాడుతున్నారు/V__VM__VF శ్యామ్/N_NNP లాల్/N_NNP గారూ/RP__RPD !/RD_PUNC నేను/PR_PRP నంబర్/N__NNP ఒకటికి/QT_QTC ,/RD_PUNC నంబర్/N_NN రెండుకి/QT__QTC మొత్తం/QT_QTF డబ్బులు/N_NN ఇచ్చేశాను/V_VM_VF సార్/N_NN ,/RD_PUNC ఇంకా/QT__QTF యాభైవేల/QT_QTC రూపాయలు/N_NN అడుగుతారు/V_VM_VF ./RD_PUNC
+కృష్ణమూర్తి/N_NN !/RD_PUNC అదంతా/PR_PRP మాకు/PR_PRP తెలియదు/V_VM_VF ,/RD_PUNC మా/PR_PRP మాటైతే/N__NN పూర్తిగా/RB సూటిగా/RB ఉంది/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS యాభైవేల/QT_QTC రూపాయలు/N_NN దొరకకపోతే/V_VM_VNF మోహినీ/N_NNP సాధనకు/N_NN రాదు/V_VM_VF ./RD_PUNC
+ఏమైంది/PR__PRQ కృష్ణమూర్తి/N_NN !/RD_PUNC మీరు/PR_PRP బాగా/RB ఇబ్బందిలో/N_NN ఉన్నట్లు/V_VM_VNF కనబడుతున్నారు/V_VM_VF ,/RD_PUNC అంతా/RP__INTF బాగానే/RB వుంది/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+అయ్యా/RP_INJ !/RD_PUNC ఆ/DM_DMD శ్యామలాల్‍గారు/N_NNP పైన/N_NST ఇంకో/QT_QTF యాభైవేల/QT_QTC రూపాయలు/N_NN అడుగుతున్నారు/V_VM_VF ./RD_PUNC
+సరే/RP_INJ ,/RD_PUNC శ్యామలాల్/N_NNP గారూ/RP__RPD !/RD_PUNC అరే/RP_INJ మీ/PR_PRP బిడ్డలాంటి/N__NN గొప్ప/JJ కళాకారులకు/N_NN యాభై/QT_QTC వేల/QT_QTC రూపాయలు/N_NN ఏమి/PR_PRQ లెక్క/N__NN ,/RD_PUNC మీరు/PR_PRP కావాలనుకొన్నప్పుడు/V_VM_VNF తీసుకోవచ్చు/V_VM_VF ./RD_PUNC
+శ్యామలాల్‍గారు/N_NNP !/RD_PUNC మీరు/PR_PRP మోహినీని/N_NNP తీసుకొని/V_VM_VNF మా/PR_PRP ఇంటికి/N_NN రండి/V_VM_VF ,/RD_PUNC నేను/PR_PRP మీకు/PR_PRP అక్కడే/PR__PRP డబ్బు/N_NN ఇస్తాను/V_VM_VF ./RD_PUNC
+ఇవేనండి/PR__PRP మీ/PR_PRP యాభైవేలు/QT_QTC ,/RD_PUNC అరె/RP_INJ లెక్క/N__NN పెట్టుకోండి/V_VM_VF ./RD_PUNC
+అరే/RP_INJ సక్సేనా/N_NNP !/RD_PUNC ఇదంతా/PR_PRP గుమాస్తా/N_NN పని/N_NN శ్యామలాల్/N_NNP చేయడు/V_VM_VF ./RD_PUNC
+ఎక్కువ/QT_QTF -/RD__PUNC తక్కువ/QT_QTF అయినట్లయితే/CC__CCS కాశీవిశ్వనాథుని/N_NNP మీద/N__NST ఒట్టు/N_NN ,/RD_PUNC మీరే/PR_PRP చాలా/QT_QTF బాధ/N_NN పడతారు/V_VM_VF తరవాత/N__NST ,/RD_PUNC సరే/RP_INJ అయితే/CC__CCS మేము/PR_PRP వెళతాం/V_VM_VF ./RD_PUNC
+అరే/RP_INJ శ్యామలాల్‍గారూ/N_NNP !/RD_PUNC తాగకుండా/V_VM_VNF వెళ్ళిపోతారా/V_VM_VF ./RD_PUNC
+మోహినీని/N_NNP సాధనకు/N_NN వెళ్ళనీయండి/V_VM_VF ,/RD_PUNC మీరు/PR_PRP మాతో/PR_PRP కూర్చోండి/V_VM_VF ,/RD_PUNC కొద్దిగా/RB గొంతు/N_NN సవరించుకుందాం/V_VM_VF ./RD_PUNC
+మేము/PR_PRP ఇపుడే/PR__PRP వస్తాం/V_VM_VF ./RD_PUNC
+అరే/RP_INJ సోదరా/N_NN ఎలా/PR__PRP చెప్తే/V_VM_VNF అలా/PR__PRP వచ్చాను/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP దారి/N_NN కూడా/RP_RPD తప్పుగా/RB చెప్పావు/V_VM_VF ./RD__PUNC
+ఏ/RP__INJ సోదరా/N_NN !/RD_PUNC ఇంట్లోకి/N_NN దూరి/V__VM__VNF ఇంటి/N_NN చిరునామా/N_NN అడుగుతారా/V_VM_VF ఏంటి/PR_PRQ ?/RD_PUNC
+వెళ్ళు/V_VM_VF ,/RD_PUNC బయటికి/N_NST వెళ్ళు/V_VM_VF ./RD_PUNC
+వెళ్తున్నాను/V_VM_VF అన్నా/N__NN !/RD_PUNC కొద్దిగా/RP__RPD దయచేసి/RB వైద్యుని/N_NN ఇంటి/N_NN చిరునామా/N_NN చెప్పండి/V_VM_VF ./RD_PUNC
+కొద్దిసేపు/QT__QTF ఉండవలసి/V_VM_VNF వస్తుంది/V_VM_VF ,/RD_PUNC నీవు/PR_PRP ఇక్కడే/PR__PRP కూర్చో/V__VM__VF ,/RD_PUNC నేను/PR_PRP ఇప్పుడే/PR__PRP తయారై/V_VM_VNF వస్తాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ ,/RD_PUNC ఎక్కడికి/PR_PRQ వెళ్ళింది/V_VM_VF నావ/N__NN ?/RD_PUNC
+మేము/PR_PRP అయితే/RP_RPD ఇక్కడే/PR__PRP వదిలి/V_VM_VNF వెళ్ళాము/V_VM_VF ./RD_PUNC
+మీ/PR_PRP చౌబేపూర్‍/N_NNP ఆడపిల్లలు/N_NN ఏమీ/PR__PRP చేయ్యకపోయిన/V_VM_VNF ,/RD_PUNC ఏదో/PR__PRP కొద్దిగా/QT_QTF చేసినట్లే/V_VM_VF ./RD_PUNC
+మేము/PR_PRP ఇక్కడికి/PR__PRP వచ్చినప్పుడు/V_VM_VNF అయితే/RP_RPD వాళ్ళు/PR_PRP అంతా/QT_QTF ఇక్కడ/PR__PRP పాత్రను/N_NN కడుగుతున్నారు/V_VM_VF ,/RD_PUNC వాళ్ళే/PR_PRP తోసేసి/V_VM_VNF ఉంటారు/V_VM_VF ./RD_PUNC
+వారందరిలో/PR_PRP మీ/PR_PRP అమ్మాయి/N_NN కూడా/RP_RPD ఉన్నది/V_VM_VF ,/RD_PUNC అడగండి/V_VM_VF ./RD_PUNC
+నిజం/N_NN చెప్పండి/V_VM_VF తివారీగారూ/N_NNP వ్యాధి/N__NN మీకు/PR_PRP పాతదేగా/JJ ,/RD_PUNC మీరు/PR_PRP ముందునుండి/N__NST శ్రద్ద/N__NN వహించలేదు/V_VM_VF అందుకే/CC_CCS ఉధృతం/N__NN అయ్యింది/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP పూర్తిగా/RB నయం/N_NN కావడానికి/V__VM__VINF సమయం/N_NN పడుతుంది/V_VM_VF ./RD_PUNC
+వయసు/N_NN పెరిగే/JJ కొద్దీ/QT_QTF ఆహార/N_NN పానీయాలపై/N_NN నియంత్రణ/N_NN అమలు/N_NN చేయాలి/V_VM_VF ./RD_PUNC
+అవునండీ/RP__INJ ధర/N_NN గురించి/PSP ఎందుకు/PR_PRQ మీరు/PR_PRP చింతిస్తారు/V_VM_VF ?/RD_PUNC
+మీకు/PR_PRP దేంట్లో/PR_PRP సంతోషంగా/RB ఉందో/V_VM_VNF అదే/PR__PRL జరుగుతుంది/V_VM_VF ,/RD_PUNC కానీ/CC_CCD మేము/PR_PRP ఎలా/PR__PRP చెప్తే/V_VM_VNF అలా/PR__PRP చేయండి/V_VM_VF ,/RD_PUNC మందు/N_NN వేసుకోండి/V_VM_VF ,/RD_PUNC నియమానుసారంగా/RB ఉండండి/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD డాక్టరుగారు/N__NN !/RD_PUNC బాగు/N_NN కావడానికి/V__VM__VINF చాలా/QT_QTF సమయం/N_NN పడుతుందని/V_VM_VNF మీరు/PR_PRP చెప్పారు/V_VM_VF కదా/RP__RPD ./RD_PUNC
+మూడు/QT_QTC రోజుల/N_NN తర్వాత/PSP వచ్చి/V_VM_VNF మాకు/PR_PRP పరిస్థితి/N_NN చెప్పాలి/V_VM_VF ./RD_PUNC
+గుంజా/N_NNP !/RD_PUNC చందన్/N_NNP ఉదయం/N_NN మమ్మల్ని/PR_PRP తీసుకొని/V_VM_VNF పోవడానికి/V__VM__VINF వచ్చాడు/V_VM_VF ,/RD_PUNC అతని/PR_PRP పడవ/N_NN సాగిందా/V_VM_VF ?/RD_PUNC
+మంచిది/RP__INJ ,/RD_PUNC ఇంకొకసారి/N__NN ఎప్పుడైనా/PR__PRP వస్తే/V_VM_VNF అతనితో/PR_PRP గొడవ/N_NN పడవద్దు/V_VM_VF ,/RD_PUNC సరిగ్గా/RB మాట్లాడాలి/V_VM_VF ./RD_PUNC
+మాట్లాడవలసిన/V_VM_VNF పనేముంది/V_VM_VF మాకు/PR_PRP ?/RD_PUNC
+మేము/PR_PRP అందరితో/PR__PRP గొడవపడుతూ/V_VM_VNF తిరుగుతుంటామా/V__VM__VF ఏమిటి/PR_PRQ ?/RD_PUNC
+చినాన్న/N_NN !/RD_PUNC ఇప్పుడు/PR__PRP మీ/PR_PRP ఆరోగ్యం/N_NN ఎలా/PR_PRQ ఉంది/V_VM_VF ?/RD_PUNC
+చినాన్న/N__NN !/RD_PUNC కొద్దిగా/RP__RPD చందన్‍ను/N_NNP మాతోపాటు/PR_PRP పంపండి/V_VM_VF ,/RD_PUNC ఉసిరికాయలు/N_NN రాలగొట్టాలి/V_VM_VF ./RD_PUNC
+ఉసిరి/N_NNP కాయలు/N__NN ,/RD_PUNC రాలగొట్టడానికి/V__VM__VINF చందనే/N__NNP ఉన్నాడా/V_VM_VF ఏమి/PR_PRQ ?/RD_PUNC
+మీ/PR_PRP ఇంటిలో/N_NN కూలివారు/N__NN లేరా/V_VM_VF ?/RD_PUNC
+వీరు/PR_PRP మాతో/PR_PRP ఇలాంటి/PR__PRP వంకర/JJ మాటలే/N__NN మాట్లాడుతారు/V_VM_VF ./RD_PUNC
+చినాన్నా/N__NN !/RD_PUNC మాకు/PR_PRP తీరిక/N__NN లేదు/V_VM_VF ,/RD_PUNC మీ/PR_PRP మందులు/N_NN తీసుకోవటం/V_VM_VNG కోసం/PSP చౌబేపూర్‍కు/N_NNP కూడా/RP_RPD వెళ్ళాలి/V_VM_VF ./RD_PUNC
+వెళ్ళి/V_VM_VNF ఉసిరి/N_NNP కాయలు/N__NN రాలగొట్టి/V_VM_VF ,/RD_PUNC అక్కడి/PR__PRP నుండే/PSP చౌబేపూర్/N_NNP వెళ్ళిపో/V_VM_VF ./RD_PUNC
+అయితే/RP_RPD నువ్వు/PR_PRP నెమ్మది/RB -/RD__PUNC నెమ్మదిగా/RB రా/V_VM_VF ,/RD_PUNC మేము/PR_PRP ముందు/N__NST వెళ్ళి/V_VM_VNF మొత్తం/QT_QTF ఉసిరికాయలను/N_NNP కోసి/V_VM_VNF ఉంచుతాం/V_VM_VF ./RD_PUNC
+కూర్చొనే/V_VM_VNF తీరిక/N_NN లేదు/V_VM_VF మహారాణిగారూ/N__NN !/RD_PUNC మేము/PR_PRP చౌబేపూర్/N_NNP వెళ్ళాలని/V_VM_VNF మేము/PR_PRP నీకు/PR_PRP ముందే/N__NST చెప్పాము/V_VM_VF ./RD_PUNC
+అయ్య/RP_INJ బాబోయ్/RP__INJ ,/RD_PUNC అక్కడే/PR__PRP నీ/PR_PRP ప్రాణం/N_NN ఉన్నట్లుగా/V__VM__VNF నీవు/PR_PRP చౌబేపూర్/N_NNP -/RD_PUNC చౌబేపూర్/N_NNP అంటున్నావు/V_VM_VF ./RD_PUNC
+వైద్యుడుగారూ/N_NN !/RD_PUNC వైద్యుడుగారు/N_NN ఇంటిలో/N_NN ఉన్నారా/V_VM_VF ?/RD_PUNC
+ఈ/DM__DMD రోజు/N__NN మేము/PR_PRP ఇంకా/RP__RPD ఏడు/QT_QTC రోజులకు/N_NN మందులు/N_NN ఇస్తాము/V_VM_VF మరియు/CC_CCD ఈ/DM_DMD మధ్యలో/N__NST ఒకసారి/N__NN వచ్చి/V_VM_VNF చూసి/V_VM_VNF వెళతాను/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD అబ్బాయికి/N_NN ఒక/QT_QTF పెద్ద/JJ అన్న/N_NN కూడా/RP_RPD ఉన్నాడు/V_VM_VF ఓంకార్/N_NNP ,/RD_PUNC మేమైతే/PR_PRP రూపాని/N_NNP బాగా/RB ఇష్టపడ్డాము/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC మాట/N_NN అయితే/RP_RPD సమయం/N_NN చూసి/V_VM_VNF నడిపిద్దాము/V_VM_VF ./RD_PUNC
+బాబు/N__NN చందన్/N_NNP !/RD_PUNC నాకు/PR_PRP ఒక/QT__QTC పని/N_NN చేయు/V_VM_VF ,/RD_PUNC బాబు/N_NN ,/RD_PUNC పచ్చడి/N_NN జాడీ/N_NN నుండి/PSP ఒక/QT_QTC మిరపకాయ/N_NN తీసుకొని/V_VM_VNF రా/V_VM_VF ./RD_PUNC
+మంచిది/RP__INJ ,/RD_PUNC అన్నీ/QT__QTF కాకపోతే/V_VM_VNF సగం/QT__QTF మిరపకాయలు/N_NN తీసుకొని/V_VM_VNF రా/V_VM_VF ,/RD_PUNC కొంచెం/RP__RPD నోటికి/N__NN రుచిగా/RB ఉంటుంది/V_VM_VF ./RD_PUNC
+తినులే/V_VM_VF ,/RD_PUNC నీ/PR_PRP నోటి/N_NN రుచిని/N_NN మార్చడం/V_VM_VNG కోసం/PSP నేను/PR_PRP మందు/N__NN ఇస్తున్నాను/V_VM_VF ./RD_PUNC
+విషయం/N_NN ఏంటి/PR_PRQ పెదనాన్న/N__NN ?/RD_PUNC
+అరే/RP_INJ ఓంకార్/N_NNP అన్నా/N__NN !/RD_PUNC మాకు/PR_PRP ఈ/DM_DMD మందుల/N_NN నుండి/PSP విముక్తిని/N_NN కలిగించు/V__VM__VF ,/RD_PUNC చాలా/QT_QTF ఎక్కువైంది/V_VM_VF ./RD_PUNC
+చందన్/N_NNP !/RD_PUNC రేపు/N_NN వైద్యుడు/N_NN వస్తారా/V_VM_VF ?/RD_PUNC
+లేదు/RP__NEG ,/RD_PUNC మందులు/N_NN తీసుకువెళ్లడానికి/V__VM__VINF రమ్మని/V_VM_VNF చెప్పారు/V_VM_VF ./RD_PUNC
+సరే/RP_INJ ,/RD_PUNC అయితే/RP_RPD ఇలా/PR__PRP చెయ్యి/V_VM_VF వైద్యుని/N_NN దగ్గరికి/N__NST నేను/PR_PRP వెళ్తాను/V_VM_VF ,/RD_PUNC మందులు/N_NN ఇవ్వద్దని/V_VM_VNF చెప్పి/V_VM_VNF వస్తాను/V_VM_VF మరియు/CC_CCD ఫీజు/N_NN కూడా/RP_RPD ఇచ్చి/V_VM_VNF వస్తాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC ఫీజు/N_NN చెల్లించటానికి/V__VM__VINF అక్కడకేమి/PR__PRP వెళ్తావు/V_VM_VF ,/RD_PUNC ఎప్పుడైనా/PR__PRP ఇక్కడికి/PR__PRP వస్తే/V_VM_VNF ఎదురుగా/RB కూర్చొని/V_VM_VNF లెక్క/N__NN చెద్దాం/V_VM_VF ./RD_PUNC
+అయితే/RP_RPD నీవు/PR_PRP వారితో/PR_PRP బేరమాడతావా/V_VM_VF పెదనాన్న/N_NN ?/RD_PUNC
+అన్నా/N__NN !/RD_PUNC నువ్వే/PR_PRP వెళ్ళాలనుకుంటే/V_VM_VNF వైద్యుడుగారి/N_NN కూతురితో/N_NN కొంచెం/RP__RPD జాగ్రత్తగా/RB ఉండు/V_VM_VF ,/RD_PUNC చాలా/QT__QTF జగడాలమారి/N__NN అన్నయ్యా/N__NN ./RD_PUNC
+లేదు/RP__NEG బాబూ/N__NN !/RD_PUNC మందు/N_NN -/RD__PUNC ఆహార/N_NN నియంత్రణ/N_NN రెండూ/QT_QTC ముఖ్యమే/N_NN ./RD_PUNC
+వ్యాధిగ్రస్తులు/N_NN ,/RD_PUNC బిడ్డలు/N_NN ,/RD_PUNC పిల్లల/N__NN లాంటి/PSP వారె/PR_PRP ./RD_PUNC
+వారు/PR_PRP మొండిపట్టుపై/N_NN దృష్టి/N_NN పెడితే/V_VM_VNF చికిత్స/N_NN జరగదు/V_VM_VF ./RD_PUNC
+నువ్వు/PR_PRP ఇలా/PR__PRP చెయ్యి/V__VM__VF ,/RD_PUNC మందులు/N_NN తీసుకొని/V_VM_VNF వెళ్ళు/V_VM_VF ,/RD_PUNC వచ్చే/V_VM_VNF వారం/N_NN మళ్ళీ/RB మేము/PR_PRP వస్తాం/V_VM_VF ,/RD_PUNC అప్పుడు/PR__PRP చూస్తాం/V_VM_VF ./RD_PUNC
+ఓ/RP_INJ హా/RP_INJ !/RD_PUNC మీ/PR_PRP మందులకు/N_NN ,/RD_PUNC ఫీజు/N_NN ఎంత/PR__PRQ అయ్యింది/V_VM_VF ?/RD_PUNC
+అది/PR_PRP కూడా/RP_RPD మా/PR_PRP దగ్గరి/N__NST నుండి/PSP తీసుకోండి/V_VM_VF ./RD_PUNC
+ఓహో/RP_INJ !/RD_PUNC ధర/N_NN గురించి/PSP నువ్వు/PR_PRP ఎందుకు/PR__PRQ చింతిస్తున్నావు/V_VM_VF ?/RD_PUNC
+మేము/PR_PRP వస్తే/V_VM_VNF మీ/PR_PRP పెదనాన్నతో/N_NN మాట్లాడతాం/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG -/RD__PUNC లేదు/RP__NEG ,/RD_PUNC పెదనాన్నకు/N__NN జమాఖర్చు/N_NN లెక్కలు/N_NN ఏమీ/PR__PRP అర్థం/N_NN కావు/V_VM_VF ./RD_PUNC
+అవి/PR__PRP అన్నీ/QT__QTF మేమే/PR_PRP చేస్తాము/V_VM_VF ./RD_PUNC
+తీసుకో/V__VM__VF కొద్దిగా/QT__QTF షర్బత్/N_NN తీసుకో/V_VM_VF ,/RD_PUNC ఇది/PR_PRP మా/PR_PRP చిన్న/JJ కూతురు/N_NN గుంజా/N_NNP ,/RD_PUNC బాగా/RB తుంటరిపిల్ల/N_NN ./RD_PUNC
+నమస్తే/N__NN తివారీగారూ/N__NNP !/RD_PUNC ఇప్పుడు/PR__PRP మీ/PR_PRP ఆరోగ్యం/N_NN ఎలా/PR_PRQ ఉందో/V_VM_VNF చెప్పండి/V_VM_VF ?/RD_PUNC
+మీ/PR_PRP దయవల్ల/N__NN ఆరోగ్యం/N_NN చాలా/QT__QTF బాగుంది/V_VM_VF ./RD_PUNC
+ఏ/DM__DMD రకమైన/N__NN ఇబ్బంది/N__NN అయితే/RP_RPD లేదు/V__VM__VF కదా/RP__RPD ?/RD_PUNC
+ఇబ్బంది/N__NN అయితే/RP_RPD చాలా/RP__INTF పెద్దదే/JJ ఉంది/V_VM_VF వైద్యుడు/N_NN గారు/RP_RPD !/RD_PUNC అయినప్పటికి/CC_CCD పెదనాన్నా/N__NN నోటితో/N__NN చెప్పరు/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP ఇతనిని/PR_PRP బాగు/N_NN చేశారు/V_VM_VF కానీ/CC_CCD వీరి/PR_PRP నుండి/PSP ఏమీ/PR__PRP తీసుకోలేదు/V_VM_VF ./RD_PUNC
+అది/PR_PRP అడగటానికే/V__VM__VINF ఈ/DM__DMD రోజు/N__NN వచ్చాను/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG -/RD__PUNC లేదు/RP__NEG ,/RD_PUNC వైద్యులుగారూ/N_NN !/RD_PUNC మేము/PR_PRP మీకు/PR_PRP పరాయివారము/N__NN కాదు/RP__NEG ,/RD_PUNC మాకు/PR_PRP సమర్థనీయమైనది/V__VM__VF మేము/PR_PRP తప్పక/RB చేస్తాము/V_VM_VF ./RD_PUNC
+మాకు/PR_PRP మీ/PR_PRP ఓంకార్/N_NNP ను/PSP ఇవ్వండి/V_VM_VF ./RD_PUNC
+మా/PR_PRP కూతుర్ని/N_NN మీ/PR_PRP కోడలిగా/N__NN స్వీకరించండి/V_VM_VF ./RD_PUNC
+ఒకవేళ/CC__CCS కట్నం/N_NN కోసం/PSP మీకు/PR_PRP ఏమైనా/PR__PRP కోరిక/N_NN ఉంటే/V_VM_VNF ./RD_PUNC
+లేదు/RP__NEG -/RD__PUNC లేదు/RP__NEG వైద్యుడుగారూ/N_NN !/RD_PUNC కట్నం/N_NN గురించి/PSP మాతో/PR_PRP మాట్లాడనే/V_VM_VNF మాట్లాడకండి/V_VM_VF ./RD_PUNC
+ఏ/DM__DMD పద్ధతైతే/N_NN సమాజాన్ని/N_NN ముంచుతున్నదో/V_VM_VF దానికి/PR_PRP మేము/PR_PRP దూరం/N__NST నుంచి/PSP నమస్కారం/N_NN చేస్తున్నాము/V_VM_VF ./RD_PUNC
+మీరు/PR_PRP మా/PR_PRP పిల్లాడిని/N_NN ఇష్టపడ్డారు/V_VM_VF ,/RD_PUNC అడిగారు/V_VM_VF ,/RD_PUNC మేము/PR_PRP ఇచ్చాము/V_VM_VF ,/RD_PUNC ఇందులోకి/PR__PRP ఇచ్చి/V_VM_VNF -/RD__PUNC పుచ్చుకునే/V__VM__VNF విషయం/N_NN ఎక్కడి/PR__PRP నుండి/PSP వచ్చింది/V_VM_VF ?/RD_PUNC
+ఈ/DM_DMD నిర్మల/JJ జలంలో/N_NN మేము/PR_PRP మూడుసార్లు/N__NN ఉంగరం/N__NN వేస్తాము/V_VM_VF ,/RD_PUNC అక్కా/N__NN ఉంగరం/N_NN తీయడంలో/V__VM__VNF ఎవరు/PR_PRQ గెలుస్తారో/V__VM__VNF వారి/PR_PRP మాటను/N_NN రెండవవారు/QT__QTO గౌరవించాలి/V_VM_VF ./RD_PUNC
+మేము/PR_PRP మా/PR_PRP అక్క/N_NN పక్షాన/N__NST ఉంటాం/V_VM_VF ,/RD_PUNC నీవు/PR_PRP మీ/PR_PRP అన్న/N_NN పక్షాన/N__NST ఉండి/V_VM_VNF ఎందుకు/PR_PRQ గెలచుకోలేవు/V_VM_VF ./RD_PUNC
+నిజం/N_NN ,/RD_PUNC మా/PR_PRP జీవితంలో/N_NN ఎంత/QT__QTF పెద్ద/JJ లోటు/N_NN ఉందనేది/V_VM_VNF మాకు/PR_PRP ఇప్పుడే/PR__PRP అర్థమవుతోంది/V_VM_VF ./RD_PUNC
+ఒక/QT_QTC చక్రపు/N__NN బండి/N_NN తిరుగుతోంది/V_VM_VF ,/RD_PUNC ఇప్పుడు/PR__PRP రెండో/QT_QTO చక్రం/N_NN వచ్చేసింది/V_VM_VF ./RD_PUNC
+ఒకదానికొకటి/PR__PRC మద్దతు/N_NN దొరికింది/V_VM_VF ./RD_PUNC
+చూస్తాను/V_VM_VF ,/RD_PUNC ప్రతీదీ/QT__QTF ఎంతగా/RB మారిపోయింది/V_VM_VF ,/RD_PUNC రోజులు/N_NN మారిపోయాయి/V_VM_VF ,/RD_PUNC రాత్రులు/N_NN మారిపోయాయి/V_VM_VF ./RD_PUNC
+అరే/RP_INJ అన్నా/N__NN !/RD_PUNC ఆ/DM_DMD రామ్/N_NNP జనక్/N_NNP బయట/N__NST నిలబడి/V_VM_VNF ఉన్నాడు/V_VM_VF ,/RD_PUNC నీవు/PR_PRP పొలం/N_NN వెళతావా/V_VM_VF ?/RD_PUNC
+అని/CC_CCS_UT అడుగుతున్నాడు/V_VM_VF ./RD_PUNC
+లేక/CC_CCD అతను/PR_PRP ఒంటరిగా/RB వెళ్ళాలా/V_VM_VF ?/RD_PUNC
+అరే/RP_INJ ఎందుకు/PR__PRQ వెళ్ళను/V_VM_VF ,/RD_PUNC అన్న/N_NN !/RD_PUNC కష్టపడకపోతే/V__VM__VNF నా/PR_PRP భార్యకు/N__NN ఎక్కడి/PR_PRQ నుంచి/PSP తినిపించేది/V_VM_VF -/RD__PUNC తాగిపించేది/V_VM_VF ./RD_PUNC
+మంచిది/RP__INJ వదినా/N__NN !/RD_PUNC నీకు/PR_PRP గుంజా/N_NNP ఇప్పటికీ/PR__PRP బాగా/QT__QTF గుర్తుకు/N_NN వస్తుండాలి/V_VM_VF ./RD_PUNC
+నీవైతే/PR_PRP ఇక్కడ/PR__PRP మనసు/N_NN కూడా/RP_RPD లగ్నం/N_NN చేయలేకపోతున్నావు/V_VM_VF ./RD_PUNC
+చెప్పు/V_VM_VF ?/RD_PUNC
+ఇక్కడ/PR__PRP మనస్సు/N__NN పెట్టడానికి/V__VM__VINF నీవు/PR_PRP ఎలాగైన/PR__PRP ఉన్నావు/V_VM_VF ,/RD_PUNC నీ/PR_PRP స్వభావం/N_NN కూడా/RP_RPD పూర్తిగా/RB అలాగే/PR__PRP ఉన్నది/V_VM_VF ./RD_PUNC
+వదినా/N_NN !/RD_PUNC కానీ/RP__RPD నీవు/PR_PRP మమ్మల్ని/PR_PRP ఇప్పటి/PR__PRP వరకు/PSP అంతగా/RP__RPD ఎక్కడ/PR__PRQ చూశావు/V_VM_VF ./RD_PUNC
+నీ/PR_PRP అన్న/N_NN నుంచి/PSP విన్నాను/V_VM_VF ./RD_PUNC
+నీలాంటి/PR__PRP సోదరుడు/N_NN వెదికినా/V_VM_VNF కూడా/RP_RPD దొరకడు/V_VM_VF అని/CC__CCS__UT చెప్పాడు/V_VM_VF ./RD_PUNC
+వదినా/N__NN !/RD_PUNC అన్న/N__NN మమ్మల్ని/PR_PRP చాలా/QT__QTF ప్రేమిస్తారు/V_VM_VF కదా/RP__RPD ,/RD_PUNC అందువలనే/CC_CCS ఇలాగ/PR__PRP చెప్పారు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC కొత్తకోడలు/N_NN ఈ/DM__DMD రోజు/N_NN చాలా/RP__INTF రుచికరమైన/JJ హల్వా/N__NN చేసిందని/V_VM_VNF విన్నాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC మేము/PR_PRP తినకుండానే/V_VM_VNF ఎలా/PR__PRQ అయిపోయింది/V_VM_VF ?/RD_PUNC
+పద/V_VM_VF ,/RD_PUNC ఈ/DM__DMD రోజు/N_NN వదిన/N_NN ఇచ్చింది/V_VM_VF ,/RD_PUNC తిను/V_VM_VF ,/RD_PUNC కానీ/CC_CCD ఇప్పటి/PR__PRP నుండి/PSP కొద్దిగా/RP__RPD సమయానికి/N_NN వచ్చి/V_VM_VNF తినండి/V_VM_VF లేకపోతే/CC_CCD వదిన/N_NN లేకుండా/V__VM__VNF తినవలసి/V_VM_VNF వస్తుంది/V_VM_VF ./RD_PUNC
+చాలా/QT_QTF రోజుల/N_NN నుంచి/PSP బలిహార్‍కు/N_NNP వెళ్లలేదు/V_VM_VF కదా/RP__RPD ?/RD_PUNC
+అవును/N__NN ,/RD_PUNC అక్కడికి/PR__PRP వెళ్ళేందుకు/V_VM_VNF పని/N__NN ఏమి/PR__PRP లేదు/V_VM_VF ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC అక్కడికి/PR__PRP వెళ్తే/V_VM_VNF రూపా/N_NNP యొక్క/PSP ఏదైనా/PR_PRP సమాచారం/N_NN తీసుకొని/V_VM_VNF రావాలి/V_VM_VF ./RD_PUNC
+అక్కనే/N__NN తీసుకొని/V_VM_VNF రా/V_VM_VF నాన్నా/PR_PRP ,/RD_PUNC కలుసుకొని/V_VM_VNF ఎన్ని/DM__DMQ రోజులు/N__NN అయ్యింది/V_VM_VF ,/RD_PUNC బాగా/RB మనసులో/N__NN మెదులుతుంది/V_VM_VF ,/RD_PUNC తీసుకొని/V_VM_VNF రా/V_VM_VF నాన్నా/PR_PRP ./RD_PUNC
+అరే/RP_INJ !/RD_PUNC అలా/PR_PRP ఎలా/PR_PRQ తీసుకొని/V_VM_VNF వస్తాను/V_VM_VF ?/RD_PUNC
+నీకు/PR_PRP ఏమి/PR_PRQ తెలుసు/V_VM_VF ,/RD_PUNC రైతుకు/N_NN ఇంటిలో/N_NN యాభై/QT_QTC పనులు/N_NN ఉంటాయి/V_VM_VF ./RD_PUNC
+ఇప్పుడు/PR__PRP ఆమె/PR_PRP తన/PR_PRF ఇంటిలో/N__NN సంతోషంగా/RB ఉంది/V_VM_VF ./RD_PUNC
+ఆనందంగా/RB ఉన్నది/V_VM_VF ,/RD_PUNC ఇంకేం/QT__QTF కావాలి/V_VM_VF మనకు/PR_PRP ?/RD_PUNC
+అరే/RP_INJ వదినా/N__NN !/RD_PUNC ఏమిటి/PR_PRQ అలా/PR__PRP కూర్చున్నారు/V_VM_VF ?/RD_PUNC
+చూడు/V_VM_VF ,/RD_PUNC ఈ/DM_DMD ఇంటిలో/N_NN నిర్ణయాలు/N_NN కేవలం/RP__RPD మీ/PR_PRP నాన్నే/PR_PRP తీసుకుంటారు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP ఆఫీస్‍కు/N__NN కాదు/V__VM__VF యూరఫ్‍కు/N_NNP వెళ్తావు/V__VM__VF అని/CC__CCS__UT నేను/PR_PRP నిర్ణయించాను/V_VM_VF ./RD_PUNC
+లేదు/RP__NEG పాప్స్/N__NN ,/RD_PUNC నేను/PR_PRP చాలా/QT_QTF సంతృప్తి/N_NN చెందాను/V_VM_VF ,/RD_PUNC నేను/PR_PRP నా/PR_PRP యవ్వనాన్ని/N_NN పూర్తిగా/RB అనుభవించాను/V_VM_VF ./RD_PUNC
+నాకు/PR_PRP కలలు/N_NN కనే/V_VM_VNF హక్కు/N_NN కూడా/RP_RPD లేదని/V_VM_VNF నేను/PR_PRP మరిచిపోయాను/V_VM_VF అమ్మా/N__NN ./RD_PUNC
+లేదు/RP__NEG బిడ్డ/N_NN లేదు/RP__NEG ,/RD_PUNC కలలుకను/V_VM_VF తప్పకకను/V_VM_VF కాని/CC_CCD అవి/PR_PRP పూర్తి/N__NN కావాలనే/V_VM_VNF నిబంధన/N__NN పెట్టుకోకు/V_VM_VF ,/RD_PUNC మరియు/CC_CCD తిరిగి/RB ఎవరికి/PR_PRQ తెలుసు/V__VM__VF బహుశా/CC_CCD కుల్జీతే/N__NNP నీ/PR_PRP కల/N_NN కావచ్చు/V_VM_VF ./RD_PUNC
+నిన్ను/PR_PRP ఇక్కడికి/PR__PRP తీసుకు/V_VM_VNF వచ్చినపుడు/V_VM_VNF నువ్వు/PR_PRP ఎంత/PR_PRQ చిన్నదానివో/N__NN ,/RD_PUNC మరి/RP__RPD ఇప్పుడు/PR__PRP చూస్తే/V_VM_VNF ?/RD_PUNC
+అమ్మాయి/N_NN పెద్ద/N__NN అయినప్పుడు/V_VM_VNF తండ్రి/N_NN భుజాలు/N_NN వంగిపోతాయి/V_VM_VF అని/CC_CCS_UT జనులు/N__NN అంటారు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD నీలాంటి/PR_PRP కూతురు/N_NN ఉంటే/V_VM_VNF తండ్రి/N_NN భుజాలు/N_NN వంగటం/V_VM_VNG కాదు/V__VM__VF ,/RD_PUNC గర్వంతో/N_NN ఛాతి/N_NN వెడల్పు/N_NN అవుతుంది/V_VM_VF ./RD_PUNC
+నాన్నగారు/N_NN ,/RD_PUNC నేను/PR_PRP మిమ్మల్ని/PR_PRP ఏమైనా/PR__PRP కోరితే/V_VM_VNF మీరు/PR_PRP ఇస్తారా/V_VM_VF ?/RD_PUNC
+ఏమి/PR_PRQ కోరుకుంటావో/V_VM_VNF కోరుకో/V_VM_VF అమ్మ/N_NN ./RD_PUNC
+నాన్నగారు/N_NN ,/RD_PUNC నేను/PR_PRP యూరఫ్/N_NNP చూడాలి/V_VM_VF ,/RD_PUNC జ్యూరిక్‍కి/N_NNP ఒక/QT__QTC నెల/N_NN ట్రిప్/N_NN ఉంది/V_VM_VF ,/RD_PUNC నా/PR_PRP స్నేహితులు/N_NN అందరూ/QT__QTF వెళ్తున్నారు/V_VM_VF ./RD_PUNC
+నా/PR_PRP పెళ్ళి/N_NN ఎవరితో/PR__PRL అవుతుందో/V_VM_VNF వారు/PR_PRP కచ్చితంగా/RB అపరిచితులే/JJ ./RD_PUNC
+కాని/CC_CCD ,/RD_PUNC కాని/CC_CCD నాకు/PR_PRP ఎటువంటి/DM__DMQ సమస్య/N_NN లేదు/V__VM__VF నాన్నగారు/N_NN ./RD_PUNC
+మీరు/PR_PRP నా/PR_PRP గూర్చి/PSP కొంచెం/QT__QTF బాగానే/RB ఆలోచించి/V__VM__VNF ఉంటారు/V__VM__VF ,/RD_PUNC కాని/CC_CCD నాన్నగారు/N_NN !/RD_PUNC నాకు/PR_PRP ఇటువంటి/DM__DMD అవకాశం/N_NN మరలా/RB లభించదు/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నాతో/PR_PRP కలిసినప్పటినుంచి/V_VM_VNF నాకు/PR_PRP సమస్య/N_NN తెస్తూనే/V_VM_VNF ఉన్నావు/V__VAUX ,/RD_PUNC ట్రిప్‍‍/N_NN మొత్తం/QT__QTF నీవు/PR_PRP నా/PR_PRP తల/N_NN తిన్నావు/V_VM_VF ./RD_PUNC
+నీతో/PR_PRP ప్రతిసారి/N__NN ఏదో/PR__PRP ఒక/QT__QTC గడబిడ/N__NN జరుగుతూనే/V__VM__VF ఉంది/V__VM__VF మరియు/CC_CCD ఈ/DM_DMD రోజు/N_NN నీ/PR_PRP కారణంగా/N__NN నాకు/PR_PRP రైలు/N_NN దొరకకుండా/V__VM__VNF పోయింది/V__VM__VF ./RD_PUNC
+ఇప్పుడు/PR__PRP నేను/PR_PRP జ్యూరిక్/N_NNP సరైన/JJ సమయానికి/N_NN చేరుకోవాలి/V_VM_VF అనుకుంటున్నా/V_VM_VF అందువల్ల/CC_CCD నీవు/PR_PRP నీ/PR_PRP దారిన/N__NN పో/V_VM_VF మరియు/CC_CCD నేను/PR_PRP నా/PR_PRP దారిన/N__NN పోతాను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ విచిత్రం/N__NN చేస్తున్నావు/V_VM_VF సెనోరిటా/N_NNP ,/RD_PUNC మన/PR_PRP గమ్యం/N_NN ఒక్కటే/QT__QTC ,/RD_PUNC మన/PR_PRP దారి/N_NN ఒక్కటే/QT__QTC మరియు/CC_CCD మనం/PR_PRP ఒకటే/QT__QTC రైలు/N_NN పట్టుకోవాలి/V_VM_VF ./RD_PUNC
+కాని/CC_CCD ఇలా/RB వేరు/RB -/RD__PUNC వేరుగా/RB వెళ్ళడంలో/V_VM_VNG అర్థం/N_NN ఏమిటి/PR_PRQ ,/RD_PUNC మరియు/CC_CCD ఎలాగైనా/PR__PRL సెనొరిటా/N_NNP నీలాంటి/PR_PRP ఆడపిల్లకు/N_NN నా/PR_PRP లాంటి/RP__RPD అబ్బాయి/N_NN అవసరం/N_NN ఎంతైనా/PR_PRL ఉంది/V_VM_VF ./RD_PUNC
+ఇలా/RB చేద్దాం/V_VM_VF ముందరి/N_NST ఇంటిలోకి/N_NN వెళ్దాం/V_VM_VF ,/RD_PUNC అక్కడ/PR__PRP అడుగుదాం/V_VM_VF ,/RD_PUNC అక్కడ/PR__PRP ఉండడానికి/V_VM_VNG చోటు/N_NN దొరకవచ్చేమో/V_VM_VF ./RD_PUNC
+పద/V_VM_VF రాత్రి/N_NN గడపటానికి/V_VM_VNG ఏర్పాటు/N_NN అయిపోయింది/V_VM_VF ./RD_PUNC
+ఒప్పుకోవాలి/V_VM_VF సిమ్రాన్/N_NNP నీ/PR_PRP ఎంపికకు/N__NN జవాబు/N__NN లేదు/V__VM__VF ./RD_PUNC
+సెనోరిటా/N_NNP ,/RD_PUNC అలాగే/RP__INJ నీ/PR_PRP ఆలోచన/N_NN నిజంగా/RB సరైనది/JJ ./RD_PUNC
+చందమామను/N_NNP చూడటమే/V_VM_VNG కాదు/V__VM__VF చందమామను/N_NNP తీసుకొని/V_VM_VNF ఇంటికి/N__NN వస్తారు/V_VM_VF ./RD_PUNC
+అలాంటి/PR__PRP వారిలో/PR_PRP మేము/PR_PRP ఉన్నాము/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP నా/PR_PRP గురించి/PSP ఏమి/PR_PRQ ఆలోచిస్తున్నావో/V_VM_VNF నాకు/PR_PRP తెలుసు/V__VM__VF ,/RD_PUNC నేను/PR_PRP పనికిరాని/JJ దేశదిమ్మరి/N_NN అయిన/RP__RPD అబ్బాయిని/PR_PRP అని/CC_CCS_UT నీవు/PR_PRP అనుకుంటున్నావు/V_VM_VF ./RD_PUNC
+నేను/PR_PRP కలలో/N_NN కూడా/RP_RPD నీతో/PR_PRP ఇలాంటి/PR__PRP తుంటరి/JJ పని/N_NN చెయ్యలేను/V_VM_VF ,/RD_PUNC నన్ను/PR_PRP నమ్ము/V_VM_VF సిమ్రాన్/N_NNP ./RD_PUNC
+నేను/PR_PRP నిజం/N_NN చెబుతున్నాను/V_VM_VF ./RD_PUNC
+నిన్న/PR_PRP రాత్రి/N_NN ఏమీ/PR__PRQ జరగలేదు/V_VM_VF ./RD_PUNC
+కేవలం/RP_RPD హాస్యమే/N_NN ./RD_PUNC
+ప్లీజ్/RP__INJ ఇలాంటి/DM__DMD హాస్యం/N_NN చేయవద్దు/V_VM_VF !/RD_PUNC నీకు/PR_PRP తెలియదు/V_VM_VF నేను/PR_PRP ఏం/PR__PRQ చేసుకుంటానో/V_VM_VF ./RD_PUNC
+నేను/PR_PRP ఇలాంటి/PR__PRP హాస్యం/N_NN మళ్ళీ/RB చేయనని/V_VM_VNF హామీ/N_NN ఇస్తున్నాను/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP త్వరగా/RB బట్టలు/N_NN మార్చుకో/V_VM_VF ,/RD_PUNC మనం/PR_PRP బస్సు/N__NN అందుకోవాలి/V_VM_VF ./RD_PUNC
+సెనోరిటా/N_NNP !/RD_PUNC ఇప్పుడు/PR__PRP బస్సు/N_NN బయలుదేరడానికి/V_VM_VNG పదిహేను/QT_QTC నిమిషాలే/N__NN ఉంది/V_VM_VF ./RD_PUNC
+నీవు/PR_PRP ఏమైనా/PR__PRL తినాలనుకుంటే/V_VM_VNF తిను/V_VM_VF ./RD_PUNC
+అరే/RP_INJ లోపల/N__NST ఏమి/PR_PRQ చూస్తాము/V_VM_VF ./RD_PUNC
+చర్చి/N__NN కూడా/RP_RPD ఏదైనా/PR__PRL చూడదగిన/V_VM_VNF స్థలమా/N__NN ,/RD_PUNC నేను/PR_PRP రాను/V_VM_VF ./RD_PUNC
+కాదు/RP__NEG -/RD_PUNC కాదు/RP__NEG ,/RD_PUNC ఇంకా/RP__INTF కొద్దిసేపు/QT_QTF కూర్చుందాం/V_VM_VF ,/RD_PUNC టీ/N_NN -/RD__PUNC గీ/RD__ECH తాగి/V_VM_VNF వెళ్దాం/V_VM_VF ./RD_PUNC
+భగవంతుడిని/N_NN ఏది/PR__PRQ కోరుకున్నా/V_VM_VNF అది/PR_PRP ఎవరికీ/PR__PRQ చెప్పకూడదు/V_VM_VF ./RD_PUNC
+స్వచ్చమైన/JJ మనసు/N_NN మరియు/CC_CCD నిజమైన/JJ హృదయంతో/N_NN ఏది/PR__PRQ కోరుకున్నా/V_VM_VNF అది/PR_PRP తప్పక/RB లభిస్తుందని/V_VM_VNF నాకు/PR_PRP నమ్మకం/N_NN ఉంది/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD పోస్ట్‍కార్డ్/N_NN ఒకవేళ/CC__CCS మా/PR_PRP యింటికి/N__NN చేరినట్లు/V_VM_VNF అయితే/CC__CCS నాకు/PR_PRP భగవంతునిపై/N_NN ప్రేమ/N_NN కలిగిందని/V_VM_VNF నాన్న/N_NN అర్థం/N_NN చేసుకుంటారు/V_VM_VF ./RD_PUNC
+ఇప్పుడైతే/PR__PRP ఏమీ/PR_PRQ లేదు/V_VM_VF మరియు/CC_CCD ఇకముందు/N_NST ఒకవేళ/CC__CCS అయినట్లు/V_VM_VNF అయితే/RP_RPD ఒకేసారి/N__NN నిశ్చలంగా/RB ఉంటాను/V_VM_VF ,/RD_PUNC ఎవరితోనైనా/PR__PRL ప్రేమలో/N_NN పడినప్పుడు/V_VM_VNF ./RD_PUNC
+ప్రేమ/N_NN ఎప్పుడు/PR__PRQ ఎవరిపైనా/PR__PRP కలగలేదు/V_VM_VF సెనోరిటా/N_NNP ,/RD_PUNC ఎవరు/PR__PRQ దొరకనేలేదు/V_VM_VF ./RD_PUNC
+ఒక/QT_QTC అమ్మాయిని/N_NN చూడగానే/V_VM_VNF మనస్సులోని/N__NN అన్ని/QT_QTF కోరికలు/N_NN ,/RD_PUNC అన్ని/QT_QTF కలలు/N_NN ,/RD_PUNC అన్ని/QT_QTF రంగులు/N_NN సజీవమవని/V_VM_VNF ./RD_PUNC
+ఇప్పటివరకు/PR_PRP ఇలా/RB జరగలేదు/V_VM_VF ./RD_PUNC
+కానీ/CC_CCD ఎవరిదో/PR__PRP చూడనీ/JJ ,/RD_PUNC తెలియని/JJ ముఖం/N_NN మేఘాలలో/N_NN నుండి/PSP పిలుస్తున్నదని/V_VM_VNF ఇప్పుడు/PR__PRP అనిపిస్తున్నది/V_VM_VF ./RD_PUNC
+ఈ/DM_DMD మేఘాలు/N_NN ఎప్పుడు/PR__PRQ పోతాయో/V_VM_VF మరియు/CC_CCD ఎప్పుడు/PR__PRQ ఆ/PR__PRL పిలిచే/V_VM_VNF ఆమె/N_NN ఎదురుగా/RB వస్తుందో/V_VM_VNF తెలియదు/V_VM_VF ./RD_PUNC
+నీకు/PR_PRP ఎప్పుడూ/PR_PRQ ఇలా/RB కాలేదా/V_VM_VF ?/RD_PUNC
+ఎవరైనా/PR__PRP చూడని/JJ ,/RD_PUNC తెలియని/JJ వ్యక్తి/N_NN నీ/PR_PRP ఆలోచనలలోనికి/N_NN రాలేదా/V_VM_VF ?/RD_PUNC
+నా/PR_PRP దృష్టిలో/N_NN చూడని/JJ ,/RD_PUNC తెలియని/JJ వ్యక్తికి/N_NN స్థానం/N_NN లేదు/V__VM__VF ,/RD_PUNC నా/PR_PRP పెళ్ళి/N_NN నిశ్చయించబడింది/V_VM_VF ./RD_PUNC
