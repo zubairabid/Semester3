@@ -1,0 +1,31 @@
+Rules:
+1. Tags assigned to singly-tagged words
+2. VB comes asap after HVC/DOZ
+3. NN comes asap after WDT
+4. 'my' before NN is PP$ not UH
+
+
+
+First:
+She has been absent since last Wednesday .
+PPS HVC BEN                      NR		[1]
+PPS HVC BEN   VB                 NR			[VB comes after HVC BEN, or after HVC at first opportunity]
+
+
+
+
+Second:
+It doesn't matter what excuse he gives me, I can't forgive him.
+    DOZ           WDT         PPS VBZ  PPO NN MD   VB      PPO  	[1] --> Note: not sure about I as NN
+    DOZ    VB?    WDT  NN     PPS VBZ  PPO NN MD   VB      PPO		[2, 3]
+
+
+
+Third:
+I canceled my appointment because of urgent business.
+NN VBD        NN                     JJ     NN			[1]
+NN VBD     PP$ NN 
+
+
+Fourth:
+
