@@ -26,12 +26,14 @@
 		Summation of PDF over domain adds up to 1.\\
 		Or, 
 		\[
-		\int\limits_{-\infty}^{\infty} cx^2 = 1
+		\int\limits_{-\infty}^{\infty} \mathrm{cx^2}
+		\, \mathrm{d}x = 1
 		\]
 		Since the function returns $0$ everywhere except
 		 at $[-1, 1]$, 	we just calculate
 		\begin{align*}
-			\int\limits_{-1}^{1} cx^2 &= 1\\
+			\int\limits_{-1}^{1} \mathrm{cx^2}\, 
+			\mathrm{d}x &= 1\\
 			c\times \left.\frac{x^3}{3}\right|_{-1}^{1} &= 1\\
 			c\times \frac{2}{3} &= 1\\
 			c &= 1.5 \text{ (Answer)}
@@ -40,15 +42,17 @@
 		\item $E\left[X\right]$ and $Var\left(X\right)$
 		$E[X]$ is 
 		\begin{align*}
-			\int\limits_{-1}^{1} xcx^2
-			&= 1.5 \times \int\limits_{-1}^{1} x^3\\
+			\int\limits_{-1}^{1} \mathrm{xcx^2}\,\mathrm{d}x
+			&= 1.5 \times \int\limits_{-1}^{1} 
+			\mathrm{x^3}\,\mathrm{d}x\\
 			&= 1.5 t\times \left.\frac{x^4}{4}\right|_{-1}^{1}\\
 			&= 0
 		\end{align*}
 			
 		Now, $Var(X) = E[x^2] - (E[X])^2$, or\\
 		\begin{align*}
-			Var(X) &= 1.5\times \int\limits_{-1}^{1} x^4 - 0\\
+			Var(X) &= 1.5\times \int\limits_{-1}^{1} 
+			\mathrm{x^4}\,\mathrm{d}x - 0\\
 			&= 1.5\times \left.\frac{x^5}{5}\right|_{-1}^{1} \\
 			&= 1.5 \times 0.4\\
 			&= 0.6
@@ -63,7 +67,8 @@
 		Or, 
 		\begin{align*}
 			P\left(X \geq \frac{1}{2} \right) &=
-			\int\limits_{\frac{1}{2}}^{1} cx^2\\
+			\int\limits_{\frac{1}{2}}^{1} 
+			\mathrm{cx^2}\,\mathrm{d}x\\
 			&= 1.5 \times \left.\frac{x^3}{3}
 			\right|_{\frac{1}{2}}^{1}\\
 			&= 1.5 \times \frac{7}{24}\\
@@ -96,9 +101,151 @@
 			&= \frac{19}{40}
 		\end{align*}
 		
+		\item Given $Var(X) = \frac{259}{320}$,
+		 calculate $Var(4X-5)$		
+		 \\
+		 \\
+		 \begin{align*}
+		 	{\sigma_{ax+b}}^2 &= a^2 \times {\sigma_x}^2\\
+		 	{\sigma_{4x+5}}^2 &= 16 \times {\frac{259}{320}}\\
+		 	&= \frac{259}{20}\\
+		 	&= 12.95
+		 \end{align*}
 	\end{enumerate}
 	
+	\item 
+	\begin{align*}
+		P \left(\text{First 6 in 2nd throw }\right| 
+		\left.\text{First 6 on even throw}\right)
+		&= \frac{P\left(\text{2nd throw}\right)\cap
+		P\left(\text{even throw}\right)}{P\left(
+		\text{even throw}\right)}\\
+		&= \frac{\frac{5}{6}\times\frac{1}{6}}
+		{\frac{1}{6}\times\left[\sum \frac{5}{6}
+		+ \left(\frac{5}{6}\right)^3 + \cdots\right]}\\
+		&= \frac{\frac{5}{36}}{\frac{1}{6}\times
+		\frac{30}{11}}\\
+		&= \frac{\frac{5}{6}}{\frac{30}{11}}\\
+		&= \frac{5}{6} \times \frac{11}{30}\\
+		&= \frac{11}{36} \left(\text{Answer}\right)
+	\end{align*}
+	
+	\item 
+	
+	\item 
+	
+	\begin{enumerate}
+		\item
+		Sum of a PDF over its given range is 1\\
+		Given function:
+		\[ f(n) = 
+			\begin{cases}
+				cx^2 & \quad \text{if } 0 < x < 3 \\
+				0 & \quad \text{otherwise}
+			\end{cases}
+		\]
+	
+		\begin{align*}
+			\int_{0}^{3} \mathrm{cx^2}\,\mathrm{d}x &= 1\\
+			c\times\left.\frac{x^3}{3}\right|_{0}^{3} &= 1\\
+			c\times 9 &= 1\\
+			c &= \frac{1}{9}
+		\end{align*}
+	
+		\item $P(1<X<2)$
+		\begin{align*}
+			P(1<X<2) &= \frac{1}{9} \times 
+			\int_{1}^{2} \mathrm{x^2}\,\mathrm{d}x\\
+			&= \frac{1}{9} \times \left.\frac{x^3}{3}
+			\right|_{1}^{2}\\
+			&= \frac{1}{9} \times \left[ \frac{8}{3}
+			- \frac{1}{3}\right]\\
+			&= \frac{7}{27}
+		\end{align*}
+	\end{enumerate}		
+	
+	\item 
+		\begin{enumerate}
+		\item
+			\begin{align*}
+			c\times\int_{-\infty}^{\infty} \mathrm{
+			\frac{1}{x^2+1}}\,\mathrm{d}x &= 1\\
+			c\times\left.tan^{-1} (x)\right|_{-\infty}^
+			{\infty} &= 1\\
+			c \times \Pi &= 1\\
+			c &= \frac{1}{\Pi}
+			\end{align*}
+		\item 
+			\begin{align*}
+			x \in \left(-1, -\sqrt{\frac{1}{3}}\right)
+			\cup \left(\sqrt{\frac{1}{3}}, 1\right)\\
+			P\left(\frac{1}{3}<x^2<1\right) &= \frac{1}{\Pi}
+			\times\left[\int_{-1}^{-\sqrt{\frac{1}{3}}} 
+			\mathrm{\frac{1}{1+x^2}}\,\mathrm{d}x + 
+			\int_{\sqrt{\frac{1}{3}}}^{1} 
+			\mathrm{\frac{1}{1+x^2}}\,\mathrm{d}x\right]\\
+			&= \frac{1}{\Pi} \times \left[
+			\left.tan^{-1} (x)\right|_{-1}^{-\sqrt{\frac{1}{3}}}
+			+ \left.tan^{-1} (x)\right|_{\sqrt{\frac{1}{3}}}^{1}
+			\right]\\
+			&= \frac{1}{\Pi} \times \left[ -\frac{\Pi}{6}
+			+ \frac{\Pi}{4} + \frac{\Pi}{4} - \frac{\Pi}{6} 
+			\right]\\
+			&= \frac{1}{\Pi} \times \frac{\Pi}{6}\\
+			&= \frac{1}{6}
+			\end{align*}
+		\end{enumerate}
 
+		\item 
+		\begin{enumerate}
+			\item For values of $x > 0$
+			\begin{align*}
+				\int_{0}^{x} \mathrm{f(x)}\,\mathrm{d}x &=
+				F(x),\quad F(x) = 1 - e^{-2x}\\
+				f(x) &= \frac{dF(x)}{dx}\\
+				f(x) &= 2e^{-2x}
+			\end{align*}
+			
+			for values of $x < 0$, $f(x) = 0$\\
+			Answer:
+			\[
+				\text{PDF }f(x) = 
+				\begin{cases}
+					2e^{-2x} \quad \text{if x} > 0\\
+					0 \quad \text{otherwise}
+				\end{cases}
+			\]
+			
+			\item For $P(X>2)$, we do $F(\infty)-F(2)$
+			\begin{align*}
+				F(\infty) - F(2) &= 1 - \left(1-e^{-4}\right)\\
+				&= e^{-4} \quad\text{(Ans)}
+			\end{align*}
+			
+			\item $P(-3<X\leq4) = P(X\leq4)$
+			\begin{align*}
+			&= F(4)\\
+			&= 1 - e^{-8} \quad\text{(Ans)}
+			\end{align*}
+		
+		\end{enumerate}
+
+	\item 
+		\begin{enumerate}
+			\item 
+			\item
+		\end{enumerate}
+
+	\item 
+	\item 
+	\item 
+	\item 
+	\item 
+	\item 
+	\item 
+	\item 
+	\item 
+	
 \end{enumerate}
 
 \end{document}

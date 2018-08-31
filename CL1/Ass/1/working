@@ -1,31 +1,77 @@
 Rules:
 1. Tags assigned to singly-tagged words
-2. VB comes asap after HVC/DOZ
-3. NN comes asap after WDT
+2. VB comes in first possible word after HVC/DOZ (has/done)
+3. NN comes in first possible position after WDT/
 4. 'my' before NN is PP$ not UH
 
+
+Notes:
+All tags after - are ignored
+NIL is not considered
+Unrecognized tags are tagged NP
+I --> PPSS, always
+What --> WDT, always
+???an --> AT, always
 
 
 First:
 She has been absent since last Wednesday .
-PPS HVC BEN                      NR		[1]
-PPS HVC BEN   VB                 NR			[VB comes after HVC BEN, or after HVC at first opportunity]
+PPS HVC BEN                     NR			[1]
+PPS HVC BEN  VB                 NR			[2]
 
+
+PPS HVC BEN  VB     IN     AP   NR 
 
 
 
 Second:
 It doesn't matter what excuse he gives me, I can't forgive him.
-    DOZ           WDT         PPS VBZ  PPO NN MD   VB      PPO  	[1] --> Note: not sure about I as NN
-    DOZ    VB?    WDT  NN     PPS VBZ  PPO NN MD   VB      PPO		[2, 3]
+    DOZ           WDT         PPS VBZ  PPO PPSS MD VB      PPO			[1] --> Note: not sure about I as NN
+    DOZ    VB?    WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[2, 3]
 
+
+PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO
 
 
 Third:
 I canceled my appointment because of urgent business.
-NN VBD        NN                     JJ     NN			[1]
-NN VBD     PP$ NN 
+PPSS VBD      NN                     JJ     NN			[1]
+PPSS VBD   PP$ NN 
 
+
+PPSS VBD   PP$ NN         CS      IN JJ     NN
 
 Fourth:
+What do you do in Japan?
+WDT  DO PPSS DO IN NP			[1]
+
+WDT  DO PPSS DO IN NP
+
+
+Fifth:
+The Handmaid’s Tale is an awesome piece of dystopian fiction.
+AT             NN   BEZ   JJ            IN JJ        NN			[1]
+
+AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN
+
+
+Sixth:
+OK. Now what?
+    RB  WDT			[1]
+
+
+?   RB  WDT
+
+
+Seventh:
+I was laughed at by everyone.
+PPSS          IN    PN			[1]
+
+PPSS BEDZ     IN RB PN
+
+
+Eighth:
+There were people everywhere, covering the roads along the route from the BJP headquarters to the Smriti Sthal from side to side, with security personnel maintaining strict vigil to ensure that nothing goes wrong.
+      BED                              AT  NNS         AT  NN    IN   AT      NN              AT               IN                      NN                 VBG         JJ     NN       VB          PN      VBZ        			[1]          
+
 
