@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  30 AUG 2018 19:21
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  31 AUG 2018 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -97,45 +97,65 @@ LaTeX Font Info:    ... okay on input line 8.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
 LaTeX Font Info:    ... okay on input line 8.
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
 
  []
 
 [1
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--68
+Underfull \hbox (badness 10000) in paragraph at lines 63--69
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--108
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
 
-Overfull \hbox (37.90129pt too wide) in paragraph at lines 131--131
+Overfull \hbox (37.90129pt too wide) in paragraph at lines 134--134
 [] 
  []
 
-[3] [4] [5] [6] (./Assignment1.aux) ) 
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+
+Overfull \hbox (78.57613pt too wide) in paragraph at lines 151--151
+[] 
+ []
+
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 283--285
+
+ []
+
+[7] [8] [9] (./Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  836 strings out of 493638
  9260 string characters out of 6146797
- 70967 words of memory out of 5000000
+ 71967 words of memory out of 5000000
  4296 multiletter control sequences out of 15000+600000
  8713 words of font info for 32 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 27i,12n,20p,207b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,12n,20p,207b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Assignment1.pdf (6 pages).
+Output written on Assignment1.pdf (9 pages).

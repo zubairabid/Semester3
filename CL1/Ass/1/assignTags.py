@@ -8,14 +8,6 @@ test = ["During a visit to the Cleveland Indians, Beane meets Peter Brand, a you
 
 
 
-def tokenizer(sent):
-	'''
-	Custom tokenizer because nltk's splits by all sorts of weird tags
-	'''
-	sent = sent.replace('.',' .').replace(',',' ,').replace('?', ' ?').replace('!', ' !')
-	return sent.split(' ')
-
-
 def search(key):
 	'''
 	Very inefficient algorithm search
@@ -29,56 +21,25 @@ def tag_all(slist):
 	Returns tag list for a list. Replacement for nltk's pos_tag
 	'''
 	taglist = []
-	for word in slist:
-		taglist.append(search(word))
-
+		for word in slist:
+			taglist.append(search(word))
 
 	return taglist
-
-
-def elim_tags(tlist):
-	'''
-	Eliminates all -ed tags
-	'''
-	rlist = []
-	rlist.append(tlist[0])
-	for tag in tlist[1:]:
-		if '-' in tag and tag[0] != '-':
-			continue
-		if 'NIL' in tag:
-			continue
-		rlist.append(tag)
-
-	print(rlist)
 
 
 
 # Text Processing:
 tagfile = open('CL1-2018-POS-TAGGED-DATA/english_pos_brown.txt')
+
 filetext = tagfile.readlines()
 tagset = []
+
 # Generates the list into tagset from the file
 # Very inefficient, look to improve performance
 for line in filetext:
-	tagset.append((line[3:-2].replace(' ','').replace('\',',',').replace(',\'',',').replace('\",',',').replace('[\'','[').replace(',,',',').replace('[','').replace('\']','').replace(',u\'',',').split(',')))
+        tagset.append((line[3:-2].replace(' ','').replace('\',',',').replace(',\'',',').replace('\",',',').replace('[\'','[').replace(',,',',').replace('[','').replace('\']','').replace(',u\'',',').split(',')))
+
 # Adding a missing comma
 tagset.append([',','-HL','FW-RB-TL', '-TL', '-NC'])
 
 
-for text in dev_sent:
-	os.system('clear')
-	print("Tags list for sentence: \"" + text + "\"")
-	for tag in tag_all(tokenizer(text)):
-		print(tag)
-
-	input("Press enter to continue")
-
-	
-
-for text in test:
-	os.system('clear')
-	print("Tag list for test data: \""+ text +"\"")
-	for tag in tag_all(tokenizer(text)):
-		print(tag)
-
-	input("Press enter to continue")

@@ -3,7 +3,9 @@ Rules:
 2. VB comes in first possible word after HVC/DOZ (has/done)
 3. NN comes in first possible position after WDT/
 4. 'my' before NN is PP$ not UH
-
+5. 'because' between two Noun tags is a CS
+6. 'It' is PPS except some cases [incomplete]
+7. Unrecognised tags are NP by default, with apostrophe become NP$
 
 Notes:
 All tags after - are ignored
@@ -27,7 +29,8 @@ PPS HVC BEN  VB     IN     AP   NR
 Second:
 It doesn't matter what excuse he gives me, I can't forgive him.
     DOZ           WDT         PPS VBZ  PPO PPSS MD VB      PPO			[1] --> Note: not sure about I as NN
-    DOZ    VB?    WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[2, 3]
+    DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[2, 3]
+PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[6]
 
 
 PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO
@@ -35,8 +38,8 @@ PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO
 
 Third:
 I canceled my appointment because of urgent business.
-PPSS VBD      NN                     JJ     NN			[1]
-PPSS VBD   PP$ NN 
+PPSS VBD      NN                  IN JJ     NN			[1]
+PPSS VBD   PP$ NN         CS      IN JJ     NN			[4, 5]        
 
 
 PPSS VBD   PP$ NN         CS      IN JJ     NN
@@ -51,8 +54,9 @@ WDT  DO PPSS DO IN NP
 Fifth:
 The Handmaid’s Tale is an awesome piece of dystopian fiction.
 AT             NN   BEZ   JJ            IN JJ        NN			[1]
+AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN			[7]
 
-AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN
+AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN	
 
 
 Sixth:
@@ -75,3 +79,5 @@ There were people everywhere, covering the roads along the route from the BJP he
       BED                              AT  NNS         AT  NN    IN   AT      NN              AT               IN                      NN                 VBG         JJ     NN       VB          PN      VBZ        			[1]          
 
 
+
+EX    BED  NNS    RB          VBG      AT  NNS   IN    AT  NN    IN   AT  NNP NN           TO AT  NNP    NNP   IN    NN   TO NN    IN  NN        NNS      VBG         JJ     JJ     TO VB    IN   PN      VBZ  JJ  
