@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  31 AUG 2018 19:30
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  3 SEP 2018 11:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -138,24 +138,29 @@ Overfull \hbox (78.57613pt too wide) in paragraph at lines 151--151
 [] 
  []
 
-[4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 268--271
+[4] [5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 273--281
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 283--285
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 336--339
 
  []
 
-[7] [8] [9] (./Assignment1.aux) ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 351--353
+
+ []
+
+[9] [10] [11] [12] (./Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
- 836 strings out of 493638
- 9260 string characters out of 6146797
- 71967 words of memory out of 5000000
- 4296 multiletter control sequences out of 15000+600000
- 8713 words of font info for 32 fonts, out of 8000000 for 9000
+ 838 strings out of 493638
+ 9281 string characters out of 6146797
+ 70967 words of memory out of 5000000
+ 4297 multiletter control sequences out of 15000+600000
+ 9020 words of font info for 33 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  27i,12n,20p,207b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Assignment1.pdf (9 pages).
+Output written on Assignment1.pdf (12 pages).

@@ -255,14 +255,82 @@
 	\item 
 		\begin{enumerate}
 			\item 
-			\item
+			\begin{align*}
+				F1(-\infty) = 0\\
+				F1(\infty) = 1\\
+				\frac{d}{dx} F1(x) \geq 0 \forall x \subset domain\\
+				\Rightarrow \textrm{the function is a CDF}
+			\end{align*}
+			\item 
+			\begin{align*}
+				F1(-\infty) \neq 0\\
+				F1(\infty) = 1\\
+				\Rightarrow \textrm{the function is not a CDF}
+			\end{align*}
 		\end{enumerate}
 
 	% Problem 9
-	\item 
+	\item B = black, O = orange, W = white
+	\\
+	\textbf{Assumption}: the balls are picked out one by 
+	one, so the following combinations are all possible and distinct\\
+	possible outcomes = BB(+4), WW(-2), OO(0), BW(1), WB(1), BO(2), 
+	OB(2), WO(-1), OW(-1)\\
+	\\
+	Outcome is +4: 
+	\begin{align*}
+		\textrm{BB} &= \frac{4}{14} \times \frac{3}{13}\\
+		&= \frac{6}{91}
+	\end{align*}
+	\\
+	Outcome is -2: 
+	\begin{align*}
+		\textrm{WW} &= \frac{8}{14} \times \frac{7}{13}\\
+		&= \frac{28}{91}
+	\end{align*}
+	\\
+	Outcome is 0: 
+	\begin{align*}
+		\textrm{OO} &= \frac{2}{14} \times \frac{1}{13}\\
+		&= \frac{1}{91}
+	\end{align*}
+	\\
+	Outcome is +1: 
+	\begin{align*}
+		\textrm{BW and WB} &= 2\times\frac{4}{14} \times \frac{8}{13}\\
+		&= \frac{16}{91}\\
+		&= \frac{32}{91}\\
+	\end{align*}
+	\\
+	Outcome is +2: 
+	\begin{align*}
+		\textrm{BO and OB} &= 2\times\frac{4}{14} \times \frac{2}{13}\\
+		&= \frac{4}{91}\\
+		&= \frac{8}{91}\\
+	\end{align*}
+	\\
+	Outcome is -1: 
+	\begin{align*}
+		\textrm{WO and OW} &= 2\times\frac{8}{14} \times \frac{2}{13}\\
+		&= \frac{8}{91}\\
+		&= \frac{16}{91}\\
+	\end{align*}
 	
 	% Problem 10
 	\item 
+	\begin{align*}
+		P(X=0) &= \frac{\binom{5}{2}\times 3!}{5!}\\
+		&= \frac{1}{2}\\
+		\textrm{similarly, }\\
+		P(X=1) &= \frac{\binom{5}{3}\times 2!}{5!}\\
+		&= \frac{1}{6}\\
+		P(X=2) &= \frac{\binom{5}{4}\times 2! \times 1!}{5!}\\
+		&= \frac{1}{12}\\
+		P(X=3) &= \frac{\binom{5}{5}\times 3!}{5!}\\
+		&= \frac{1}{20}\\
+		P(X=4) &= \frac{4!}{5!}\\
+		&= \frac{1}{5}\\
+	\end{align*}
 	
 	% Problem 11
 	\item Assume X is the number of defective items
@@ -325,6 +393,13 @@
 	
 	% Problem 16
 	\item 
+	\begin{align*}
+		Cov(X,Y) &= E(XY)-E(X)-E(Y)\\
+		\\
+		E(X) &= \int_0^y \int_0^1 \textrm{2x} \textrm{dx dy}\\
+		&= \int_0^y \left. x^2 \right|_0^{1-y} \textrm{dy}\\
+		&=  
+	\end{align*}
 	
 	% Problem 17
 	\item 
