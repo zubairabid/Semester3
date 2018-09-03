@@ -71,14 +71,20 @@ for text in dev_sent:
 	for tag in tag_all(tokenizer(text)):
 		print(tag)
 
+	print("\nActual tags:")
+	print(nltk.pos_tag(nltk.word_tokenize(text)))
+
 	input("Press enter to continue")
 
-	
+
 
 for text in test:
 	os.system('clear')
 	print("Tag list for test data: \""+ text +"\"")
 	for tag in tag_all(tokenizer(text)):
 		print(tag)
+
+	print("\nActual tags:")
+	print(nltk.pos_tag(nltk.word_tokenize(text)))
 
 	input("Press enter to continue")

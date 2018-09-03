@@ -1,0 +1,41 @@
+
+['radical', 'JJ', 'NN']
+['ideas', 'NNS']
+['about', 'IN', 'RB', 'RP', 'IN-HL', 'NIL']
+x ['how', 'QL', 'WRB', 'WQL', 'WRB-HL', 'WRB-NC']
+['to', 'TO', 'IN', 'IN-HL', 'TO-HL', 'IN-TL', 'NPS', 'NIL', 'QL', 'TO-NC', 'IN-NC']
+['assess', 'VB']
+['player', 'NN']'MD-HL']
+
+['have', 'HV', 'HV-HL', 'HV-NC']
+['drafted', 'VBD', 'VBN']
+None
+x ['out', 'RP', 'IN', 'PP$', 'RP-HL', 'IN-HL', 'RB-NC', 'RP-NC']
+['of', 'IN', 'IN-TL', 'IN-HL', 'IN-NC', 'IN-TL-HL', 'NIL']
+['high', 'JJ', 'NN', 'JJ-HL', 'RB']
+
+['scouts', 'NNS']
+['considered', 'VBD', 'VBN']
+None
+None
+x ['promising', 'JJ', 'VBG']
+[',', '-HL', 'FW-RB-TL', '-TL', '-NC']
+['his', 'PP$', 'PP$$', 'NIL', 'PP$-NC', 'PP$-TL']
+
+
+['have', 'HV', 'HV-HL', 'HV-NC']
+['drafted', 'VBD', 'VBN']
+['him', 'PPO', 'PPO-NC']
+x ['until', 'CS', 'IN']
+['the', 'AT', 'AT-TL', 'AT-HL', 'AT-NC', 'NIL', 'AT-TL-HL']
+['ninth', 'OD']
+
+None
+['hires', 'VBZ']
+None
+x ['as', 'CS', 'QL', 'CS-HL', 'IN', 'CS-TL', 'RB', 'NIL']
+['his', 'PP$', 'PP$$', 'NIL', 'PP$-NC', 'PP$-TL']
+['assistant', 'NN', 'JJ']
+
+Actual tags:
+[('During', 'IN'), ('a', 'DT'), ('visit', 'NN'), ('to', 'TO'), ('the', 'DT'), ('Cleveland', 'NNP'), ('Indians', 'NNPS'), (',', ','), ('Beane', 'NNP'), ('meets', 'NNS'), ('Peter', 'NNP'), ('Brand', 'NNP'), (',', ','), ('a', 'DT'), ('young', 'JJ'), ('Yale', 'NNP'), ('economics', 'NNS'), ('graduate', 'NN'), ('with', 'IN'), ('radical', 'JJ'), ('ideas', 'NNS'), ('about', 'IN'), ('how', 'WRB'), ('to', 'TO'), ('assess', 'VB'), ('player', 'NN'), ('value', 'NN'), ('.', '.'), ('Beane', 'NNP'), ('tests', 'VBZ'), ('Brand', 'NNP'), ("'s", 'POS'), ('theory', 'NN'), ('by', 'IN'), ('asking', 'VBG'), ('whether', 'IN'), ('he', 'PRP'), ('would', 'MD'), ('have', 'VB'), ('drafted', 'VBN'), ('Beane', 'NNP'), ('out', 'IN'), ('of', 'IN'), ('high', 'JJ'), ('school', 'NN'), ('.', '.'), ('Though', 'NNP'), ('scouts', 'RB'), ('considered', 'VBD'), ('Beane', 'NNP'), ('hugely', 'RB'), ('promising', 'VBG'), (',', ','), ('his', 'PRP$'), ('career', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Major', 'NNP'), ('Leagues', 'NNP'), ('was', 'VBD'), ('disappointing', 'VBG'), ('.', '.'), ('Brand', 'NNP'), ('admits', 'VBZ'), ('that', 'IN'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('his', 'PRP$'), ('method', 'NN'), ('of', 'IN'), ('assessing', 'VBG'), ('player', 'NN'), ('value', 'NN'), (',', ','), ('he', 'PRP'), ('would', 'MD'), ('not', 'RB'), ('have', 'VB'), ('drafted', 'VBN'), ('him', 'PRP'), ('until', 'IN'), ('the', 'DT'), ('ninth', 'JJ'), ('round', 'NN'), ('.', '.'), ('Impressed', 'VBN'), (',', ','), ('Beane', 'NNP'), ('hires', 'VBZ'), ('Brand', 'NNP'), ('as', 'IN'), ('his', 'PRP$'), ('assistant', 'NN'), ('manager', 'NN'), ('.', '.')]

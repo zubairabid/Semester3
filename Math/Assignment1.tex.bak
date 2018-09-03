@@ -370,6 +370,8 @@
 		&= \frac{5}{36}\\ \\
 		P(X=4) &= \frac{(3!\times\binom{5}{3})\times\binom{5}{1}\times6!}{10!}\\
 		&= \frac{5}{84}\\ \\
+	\end{align*}
+	\begin{align*}
 		P(X=5) &= \frac{(4!\times\binom{5}{4})\times\binom{5}{1}\times5!}{10!}\\
 		&= \frac{5}{252}\\ \\
 		P(X=6) &= \frac{(5!\times\binom{5}{5})\times\binom{5}{1}\times4!}{10!}\\
@@ -397,12 +399,17 @@
 	= $1-\frac{2}{19} = \frac{17}{19}$\\
 	\\
 	Now,
-	P(M\vert A) = 1\\
-	P(M\vert B) = 0.5\\
-	\\
-	P(A\vert M) = $\frac{P(A)\times P(M|A)}
-	{P(A)\times P(M|A) + P(B)\times P(M|B)}$\\
-	= 
+	\begin{align*}
+		P(M|A) = 1\\
+		P(M|B) = 0.5\\
+		\\
+		P(A|M) &= \frac{P(M|A)\times P(A)}
+		{P(M|A)\times P(A) + P(B) \times P(M|B)}\\
+		&= \frac{1 \times \frac{2}{19}}
+		{1\times \frac{2}{19} + \frac{1}{2} \times
+		\frac{17}{19}}\\
+		&= \frac{4}{21}\quad\textrm{(Ans)}
+	\end{align*}
 	
 	% Problem 16
 	\item 
@@ -456,8 +463,19 @@
 		\end{align*}				
 		
 	% Problem 17
-	\item 
+	\item X = Probability of getting head and getting 
+	tail in a coin is equal, = $\frac{1}{2}$\\
 	
+	Assumption of ideal conditions:\\
+	\quad Coin toss is unaffected by surrounding conditions
+	and is perfectly unbiased.\\
+	Ans: P(X) = 1 \\
+	\\
+	Assumption of non ideal conditions:\\
+	\quad Coin toss is affected by surrounding conditions
+	and there is bias. So probabilities are not equal\\
+	Ans: P(X) = 0 \\
+		
 \end{enumerate}
 
 \end{document}

@@ -7,6 +7,20 @@ Rules:
 6. 'It' is PPS except some cases [incomplete]
 7. Unrecognised tags are NP by default, with apostrophe become NP$
 
+Rules:
+1. If there is a JJ after HV*/BE*, change  to VB
+2. NN after P*/N* and VB* --> VB
+3. Single word sentence JJ --> RB
+4. If a word ends with -ed and has VBN in options and follows BE*/HV*, tag as VBN
+5. VB* after J* is NN*
+6. Untagged words default to NP, NP$ with apostrophe
+
+7. QL followed by a TO tag is WRB
+8. RP followed by a IN* is IN
+9.
+10. CS at a non initial position is IN
+11. 
+
 Notes:
 All tags after - are ignored
 NIL is not considered
@@ -18,17 +32,17 @@ What --> WDT, always
 
 First:
 She has been absent since last Wednesday .
-PPS HVC BEN                     NR			[1]
+PPS HVC BEN  JJ     IN    AP    NR			[1]
 PPS HVC BEN  VB                 NR			[2]
 
 
-PPS HVC BEN  VB     IN     AP   NR 
+PPS HVC BEN  VB     IN     AP   NR
 
 
 
 Second:
 It doesn't matter what excuse he gives me, I can't forgive him.
-    DOZ           WDT         PPS VBZ  PPO PPSS MD VB      PPO			[1] --> Note: not sure about I as NN
+PPS DOZ    NN     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[1] --> Note: not sure about I as NN
     DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[2, 3]
 PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO			[6]
 
@@ -39,7 +53,7 @@ PPS DOZ    VB     WDT  NN     PPS VBZ  PPO PPSS MD VB      PPO
 Third:
 I canceled my appointment because of urgent business.
 PPSS VBD      NN                  IN JJ     NN			[1]
-PPSS VBD   PP$ NN         CS      IN JJ     NN			[4, 5]        
+PPSS VBD   PP$ NN         CS      IN JJ     NN			[4, 5]
 
 
 PPSS VBD   PP$ NN         CS      IN JJ     NN
@@ -56,7 +70,7 @@ The Handmaid’s Tale is an awesome piece of dystopian fiction.
 AT             NN   BEZ   JJ            IN JJ        NN			[1]
 AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN			[7]
 
-AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN	
+AT  NP$        NN   BEZ AT JJ     NN    IN JJ        NN
 
 
 Sixth:
@@ -76,8 +90,8 @@ PPSS BEDZ     IN RB PN
 
 Eighth:
 There were people everywhere, covering the roads along the route from the BJP headquarters to the Smriti Sthal from side to side, with security personnel maintaining strict vigil to ensure that nothing goes wrong.
-      BED                              AT  NNS         AT  NN    IN   AT      NN              AT               IN                      NN                 VBG         JJ     NN       VB          PN      VBZ        			[1]          
+      BED                              AT  NNS         AT  NN    IN   AT      NN              AT               IN                      NN                 VBG         JJ     NN       VB          PN      VBZ        			[1]
 
 
 
-EX    BED  NNS    RB          VBG      AT  NNS   IN    AT  NN    IN   AT  NNP NN           TO AT  NNP    NNP   IN    NN   TO NN    IN  NN        NNS      VBG         JJ     JJ     TO VB    IN   PN      VBZ  JJ  
+EX    BED  NNS    RB          VBG      AT  NNS   IN    AT  NN    IN   AT  NNP NN           TO AT  NNP    NNP   IN    NN   TO NN    IN  NN        NNS      VBG         JJ     JJ     TO VB    IN   PN      VBZ  JJ

@@ -1,0 +1,238 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont{???}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[document]{ragged2e}
+
+\font\serif="FreeSerif:script=beng"
+\font\bg="FreeSerif:script=beng" at 13pt
+
+\usepackage{xcolor}
+\definecolor{hlit}{rgb}{0.5,0,1}
+\definecolor{diff}{rgb}{0.1,0.1,0.3}
+
+\title{Computational Linguistics - 1, Assignment 1}
+\author{Zubair Abid, 20171076}
+\date{}
+
+\begin{document}
+	\twocolumn[
+	\begin{@twocolumnfalse}
+    	\maketitle
+    	The assignment works on two language data/sets, 
+    	English and Bengali. The task is to assign 
+    	(correctly) appropriate POS Tags for different
+		words in either language based on rules.\\
+		$ $\\
+		$ $\\
+    	
+  	\end{@twocolumnfalse} 
+	]
+	
+	\section{English POS Tagging}
+	Tagset used: the Brown Corpus tagset (As given in assignment resources)\\
+	\subsection{Method used for tagging}
+	For the given ruleset, each word was initially tagged
+	with the first given tag, and then corrected manually
+	if needed. Along the way rules were constructed to
+	automatically tag further data. The general procedure 
+	followed is Brill's method.
+	
+	\subsection{Development data with tags}
+	The correct tag for each word is highlighted in bold text\\
+	$ $\\
+	1. \textit{She has been absent since last Wednesday.}\\
+	
+	She/\textcolor{hlit}{\textbf{PPS}}
+	has/\textcolor{hlit}{\textbf{HVC}}
+	been/\textcolor{hlit}{\textbf{BEN}}
+	absent/\textcolor{hlit}{JJ/\textbf{VB}} 
+	since/\textcolor{hlit}{\textbf{IN}/CS/RB} 
+	last/\textcolor{hlit}{\textbf{AP}/VB/NN/RB}
+	Wednesday/\textcolor{hlit}{\textbf{NR}}
+	./\textbf{.}/\textcolor{hlit}{-HL}\\
+	$ $\\
+	2. \textit{It doesn't matter what excuse he gives me, I 
+	can't forgive him.}\\
+	%$ $\\
+	It/\textcolor{hlit}{\textbf{PPS}/PPO }
+	doesn't/\textcolor{hlit}{\textbf{DOZ*}} 
+	matter/\textcolor{hlit}{NN/\textbf{VB} }
+	what/\textcolor{hlit}{\textbf{WDT} }
+	excuse/\textcolor{hlit}{\textbf{NN}/VB} 
+	he/\textcolor{hlit}{\textbf{PPS} }
+	gives/\textcolor{hlit}{\textbf{VBZ}} 
+	me/\textcolor{hlit}{\textbf{PPO} }
+	,/\textcolor{hlit}{\textbf{-HL} }
+	I/\textcolor{hlit}{\textbf{PPSS} } 
+	can't/\textcolor{hlit}{\textbf{MD*}} 
+	forgive/\textcolor{hlit}{\textbf{VB}} 
+	him/\textcolor{hlit}{\textbf{PPO} }
+	./\textcolor{hlit}{\textbf{.}/-HL}\\
+	$ $\\%$ $\\
+	3. \textit{I canceled my appointment because of urgent business.}\\
+%	$ $\\
+	I/\textcolor{hlit}{\textbf{PPSS} }
+	canceled/\textcolor{hlit}{\textbf{VBD}/VBN }
+	my/\textcolor{hlit}{\textbf{PP\$}}
+	appointment/\textcolor{hlit}{\textbf{NN}}
+	because/\textcolor{hlit}{\textbf{CS}/RB} 
+	of/\textcolor{hlit}{\textbf{IN} }
+	urgent/\textcolor{hlit}{\textbf{JJ}}
+	business/\textcolor{hlit}{\textbf{NN}} 
+	./\textcolor{hlit}{\textbf{.}/-HL}\\
+	$ $\\%$ $\\
+	4. \textit{What do you do in Japan?}\\
+	%$ $\\
+	What/\textcolor{hlit}{\textbf{WDT}} 
+	do/\textcolor{hlit}{\textbf{DO} }
+	you/\textcolor{hlit}{\textbf{PPSS}/PPO }
+	do/\textcolor{hlit}{\textbf{DO} }
+	in/\textcolor{hlit}{\textbf{IN}/RP }
+	Japan/\textcolor{hlit}{\textbf{NP}}
+	?\textcolor{hlit}{\textbf{.}/.-HL/.-TL/.-NC}\\
+	$ $\\%$ $\\
+	5. \textit{The Handmaid’s Tale is an awesome piece of dystopian 
+	fiction.}\\
+	%$ $\\
+	The/\textcolor{hlit}{\textbf{AT} }
+	Handmaid’s/\textcolor{hlit}{\textbf{NP\$} }
+	Tale/\textcolor{hlit}{\textbf{NN} }
+	is/\textcolor{hlit}{\textbf{BEZ} }
+	an/\textcolor{hlit}{\textbf{AT}/CC }
+	awesome/\textcolor{hlit}{\textbf{JJ} }
+	piece/\textcolor{hlit}{\textbf{NN}/VB }
+	of/\textcolor{hlit}{\textbf{IN} }
+	dystopian/\textcolor{hlit}{\textbf{JJ}} 
+	fiction/\textcolor{hlit}{\textbf{NN}} 
+	./\textcolor{hlit}{\textbf{.}/-HL\\}
+	$ $\\%$ $\\
+	6. \textit{OK. Now what?}\\
+	%$ $\\
+	OK/\textcolor{hlit}{JJ/\textbf{RB} }
+	./\textcolor{hlit}{\textbf{.}/-HL }
+	Now/\textcolor{hlit}{\textbf{RB} }
+	what/\textcolor{hlit}{\textbf{WDT} }
+	?/\textcolor{hlit}{\textbf{.}/.-HL/.-TL/.-NC}\\
+	$ $\\%$ $\\
+	7. \textit{I was laughed at by everyone.}\\
+	%$ $\\
+	I/\textcolor{hlit}{\textbf{PPSS} }
+	was/\textcolor{hlit}{\textbf{BEDZ} }
+	laughed/\textcolor{hlit}{VBD/\textbf{VBN}} 
+	at/\textcolor{hlit}{\textbf{IN} }
+	by/\textcolor{hlit}{\textbf{IN}/RB }
+	everyone/\textcolor{hlit}{\textbf{PN} }
+	./\textcolor{hlit}{\textbf{.}}\\
+	$ $\\%$ $\\
+	8. \textit{There were people everywhere, covering the roads along 
+	the route from the BJP headquarters to the Smriti Sthal 
+	from side to side, with security personnel maintaining 
+	strict vigil to ensure that nothing goes wrong.}\\
+	%$ $\\
+	There/\textcolor{hlit}{\textbf{EX}/RB }
+	were/\textcolor{hlit}{\textbf{BED} }
+	people/\textcolor{hlit}{\textbf{NNS}/VB} 
+	everywhere/\textcolor{hlit}{\textbf{RB}/NN}
+	,/\textcolor{hlit}{\textbf{-HL} }
+	covering/\textcolor{hlit}{\textbf{VBG}/NN} 
+	the/\textcolor{hlit}{\textbf{AT} }
+	roads/\textcolor{hlit}{\textbf{NNS}} 
+	along/\textcolor{hlit}{\textbf{IN}/RB} 
+	the/\textcolor{hlit}{\textbf{AT} }
+	route/\textcolor{hlit}{\textbf{NN}} 
+	from/\textcolor{hlit}{\textbf{IN} }
+	the/\textcolor{hlit}{\textbf{AT} }
+	BJP/\textcolor{hlit}{\textbf{NP} }
+	headquarters/\textcolor{hlit}{\textbf{NN}/NNS }
+	to/\textcolor{hlit}{\textbf{TO}/IN/NPS/QL }
+	the/\textcolor{hlit}{\textbf{AT} }
+	Smriti/\textcolor{hlit}{\textbf{NP}} 
+	Sthal/\textcolor{hlit}{\textbf{NP} }
+	from/\textcolor{hlit}{\textbf{IN} }
+	side/\textcolor{hlit}{\textbf{NN}/JJ} 
+	to/\textcolor{hlit}{\textbf{TO}/IN/NPS/QL} 
+	side/\textcolor{hlit}{\textbf{NN}/JJ}
+	,/\textcolor{hlit}{\textbf{-HL} }
+	with/\textcolor{hlit}{\textbf{IN}/RB} 
+	security/\textcolor{hlit}{\textbf{NN}} 
+	personnel/\textcolor{hlit}{\textbf{NNS}} 
+	maintaining/\textcolor{hlit}{\textbf{VBG}} 
+	strict/\textcolor{hlit}{\textbf{JJ} }
+	vigil/\textcolor{hlit}{\textbf{NN} }
+	to/\textcolor{hlit}{\textbf{TO} }
+	ensure/\textcolor{hlit}{\textbf{VB}} 
+	that/\textcolor{hlit}{\textbf{IN} }
+	nothing/\textcolor{hlit}{\textbf{PN}} 
+	goes/\textcolor{hlit}{\textbf{VBZ} }
+	wrong/\textcolor{hlit}{\textbf{JJ}/RB/NN}
+	./\textcolor{hlit}{\textbf{.}/-HL}\\
+	
+	\subsection{Disambiguation Rules}
+	
+	\subsection{Tagged Test Data}	
+	
+	\section{Bengali POS Tagging}
+	Tagset used: BIS Tagset
+	\subsection{Method used for tagging}
+
+	\subsection{Development data with tags}
+	{\bg 
+	1. \textcolor{diff}{আমার খুব খিদে পেয়েছে} \\
+	আমার/\textcolor{hlit}{PR\_ PRP}
+	খুব/\textcolor{hlit}{RP\_ INTF}
+	খিদে/\textcolor{hlit}{N\_ NN}
+	পেয়েছে/\textcolor{hlit}{}\\
+	$ $\\
+	2. \textcolor{diff}{ভেজা মেঝেতে দৌড়োতে হয় না বাবা} \\
+	ভেজা/\textcolor{hlit}{V\_ VM\_ VNG}
+	মেঝেতে/\textcolor{hlit}{N\_ NN}
+	দৌড়োতে/\textcolor{hlit}{}
+	হয়/\textcolor{hlit}{V\_ VM\_ VF/V\_ AUX}
+	না/\textcolor{hlit}{RP\_ NEG, RP\_ RPD}
+	বাবা/\textcolor{hlit}{N\_ NN}\\
+	$ $\\
+	3. \textcolor{diff}{পরীক্ষায় ভালো না করলে ঘর থেকে বার করে দেব} \\
+	পরীক্ষায়/\textcolor{hlit}{N\_ NN}
+	ভালো/\textcolor{hlit}{RB, JJ}
+	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
+	করলে/\textcolor{hlit}{V\_ VM\_ VNF}
+	ঘর/\textcolor{hlit}{N\_ NN}
+	থেকে/\textcolor{hlit}{PSP}
+	বার/\textcolor{hlit}{N\_ NN, RB}
+	করে/\textcolor{hlit}{V\_ AUX/PSP/V\_ VM/N\_ NN/V\_ VM\_ VNF}
+	দেব/\textcolor{hlit}{V\_ VM\_ VNF/N\_ NNP}\\
+	$ $\\
+	4. \textcolor{diff}{খাবারে বিরিয়ানি না দিলে বিয়েতে কেউ আসবে না} \\
+	খাবারে/\textcolor{hlit}{}
+	বিরিয়ানি/\textcolor{hlit}{N\_ NNP}
+	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
+	দিলে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
+	বিয়েতে/\textcolor{hlit}{N\_ NN}
+	কেউ/\textcolor{hlit}{PR\_ PRI}
+	আসবে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
+	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}\\
+	
+	
+	}
+	\subsection{Disambiguation Rules}
+	
+	\subsection{Tagged Test Data}	
+	{\bg
+	1. \textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে} \\
+	$ $\\
+	2. \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভালো লাগে না} \\
+	$ $\\
+	3. \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে} \\
+	$ $\\
+	4. \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে} \\
+	}
+\end{document}
