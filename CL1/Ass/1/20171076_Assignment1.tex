@@ -17,7 +17,7 @@
 
 \usepackage{xcolor}
 \definecolor{hlit}{rgb}{0.5,0,1}
-\definecolor{diff}{rgb}{0.1,0.1,0.3}
+\definecolor{diff}{rgb}{0.1,0.1,0.5}
 
 \title{Computational Linguistics - 1, Assignment 1}
 \author{Zubair Abid, 20171076}
@@ -297,6 +297,11 @@ manager\textcolor{hlit}{/NN}
 	\section{Bengali POS Tagging}
 	Tagset used: BIS Tagset
 	\subsection{Method used for tagging}
+	A method similar to the one used for English tagging.
+	Since the tags were unstructured, initially all tags
+	are applied to any word and then disambiguation is 
+	done.
+
 
 	\subsection{Development data with tags}
 	{\bg 
@@ -304,49 +309,92 @@ manager\textcolor{hlit}{/NN}
 	আমার/\textcolor{hlit}{PR\_ PRP}
 	খুব/\textcolor{hlit}{RP\_ INTF}
 	খিদে/\textcolor{hlit}{N\_ NN}
-	পেয়েছে/\textcolor{hlit}{}\\
+	পেয়েছে/\textcolor{hlit}{V\_ VM}\\
 	$ $\\
 	2. \textcolor{diff}{ভেজা মেঝেতে দৌড়োতে হয় না বাবা} \\
 	ভেজা/\textcolor{hlit}{V\_ VM\_ VNG}
 	মেঝেতে/\textcolor{hlit}{N\_ NN}
-	দৌড়োতে/\textcolor{hlit}{}
-	হয়/\textcolor{hlit}{V\_ VM\_ VF/V\_ AUX}
-	না/\textcolor{hlit}{RP\_ NEG, RP\_ RPD}
+	দৌড়োতে/\textcolor{hlit}{V\_ VM}
+	হয়/\textcolor{hlit}{V\_ VM\_ VF/\underline{V\_ AUX}}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
 	বাবা/\textcolor{hlit}{N\_ NN}\\
 	$ $\\
 	3. \textcolor{diff}{পরীক্ষায় ভালো না করলে ঘর থেকে বার করে দেব} \\
 	পরীক্ষায়/\textcolor{hlit}{N\_ NN}
-	ভালো/\textcolor{hlit}{RB, JJ}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
+	ভালো/\textcolor{hlit}{RB, \underline{JJ}}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
 	করলে/\textcolor{hlit}{V\_ VM\_ VNF}
 	ঘর/\textcolor{hlit}{N\_ NN}
 	থেকে/\textcolor{hlit}{PSP}
 	বার/\textcolor{hlit}{N\_ NN, RB}
-	করে/\textcolor{hlit}{V\_ AUX/PSP/V\_ VM/N\_ NN/V\_ VM\_ VNF}
-	দেব/\textcolor{hlit}{V\_ VM\_ VNF/N\_ NNP}\\
+	করে/\textcolor{hlit}{\underline{V\_ AUX}/PSP/V\_ VM/N\_ NN/V\_ VM\_ VNF}
+	দেব/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/N\_ NNP}\\
 	$ $\\
 	4. \textcolor{diff}{খাবারে বিরিয়ানি না দিলে বিয়েতে কেউ আসবে না} \\
 	খাবারে/\textcolor{hlit}{}
 	বিরিয়ানি/\textcolor{hlit}{N\_ NNP}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
-	দিলে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
+	দিলে/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/V\_ AUX}
 	বিয়েতে/\textcolor{hlit}{N\_ NN}
 	কেউ/\textcolor{hlit}{PR\_ PRI}
-	আসবে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}\\
+	আসবে/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/V\_ AUX}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}\\
 	
 	
 	}
 	\subsection{Disambiguation Rules}
 	
+	Some disambiguation rules (based entirely on the given 
+	development dataset and tags) are:\\
+	1. V\_ * without immediately preceding V\_ * is V\_ VM\_ *\\
+	2. V\_ * after a V\_ VM is V\_ AUX IF option available\\
+	3. In preceding, if no option available flip tags\\
+	4. {\bg না} immediately before or after a V\_ is RP\_ NEG\\
+	5. {RB,JJ/N\_ *} immediately before RP\_ NEG/V\_ * is RB\\
+	6. {PSP, *} immediately after N\_ * is PSP\\
+	
+	
 	\subsection{Tagged Test Data}	
 	{\bg
-	1. \textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে} \\
-	$ $\\
-	2. \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভালো লাগে না} \\
-	$ $\\
-	3. \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে} \\
-	$ $\\
-	4. \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে} \\
+	1. \textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে}\\
+আমার\textcolor{hlit}{/PR\_ PRP}
+আজ\textcolor{hlit}{/N\_ NN}
+দুপুর\textcolor{hlit}{/N\_ NN}
+থেকেই\textcolor{hlit}{/\underline{PSP}/V\_ VM\_ VINF}
+বেশ\textcolor{hlit}{/\underline{RP\_ INTF}/QT\_ QTF}
+ঘুম\textcolor{hlit}{/N\_ NN}
+পেয়েছে\textcolor{hlit}{/V\_ VM}\\
+$ $\\
+2. \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভাল লাগে না}\\
+এই\textcolor{hlit}{/DM\_ DMD}
+কাজ\textcolor{hlit}{/N\_ NN}
+জিনিষটা\textcolor{hlit}{/N\_ NN}
+আমার\textcolor{hlit}{/PR\_ PRP}
+একদম\textcolor{hlit}{/RB}
+ভাল\textcolor{hlit}{/JJ}
+লাগে\textcolor{hlit}{/V\_ VM\_ VF}
+না\textcolor{hlit}{/RP\_ NEG}\\
+$ $\\
+3. \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে}\\
+পরীক্ষাটা\textcolor{hlit}{/N\_ NN}
+একদম\textcolor{hlit}{/RB}
+জঘন্ন\textcolor{hlit}{/JJ}
+হতে\textcolor{hlit}{/V\_ VM\_ VNF/V\_ VM/\underline{V\_ AUX}/PSP}
+চলছে\textcolor{hlit}{/V\_ VM\_ VF}\\
+$ $\\
+4. \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে}\\
+আমার\textcolor{hlit}{/PR\_ PRP}
+বাড়িতে\textcolor{hlit}{/N\_ NN}
+একদিন\textcolor{hlit}{/N\_ NN}
+আয়\textcolor{hlit}{/N\_ NN}
+,\textcolor{hlit}{/,}
+বেশ\textcolor{hlit}{/\underline{RP\_ INTF}/QT\_ QTF}
+মজা\textcolor{hlit}{/N\_ NN}
+হবে\textcolor{hlit}{/\underline{V\_ VM\_ VF}/V\_ AUX}\\
+$ $\\
 	}
+	\subsection{Additions to disambiguation rules}
+	Not many discrepancies were found with existing rules, but
+	a new rule was added.\\
+	1. {RP\_ INTF, QT\_ QTF} before a N\_ * is RP\_ INTF
 \end{document}

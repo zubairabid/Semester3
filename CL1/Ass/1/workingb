@@ -2,78 +2,87 @@
 আমার - PR_PRP
 খুব - RP_INTF
 ক্ষিদে - N_NN
-পেয়েছে -
+পেয়েছে - V_VM
 
 ভেজা মেঝেতে দৌড়োতে হয় না বাবা
 ভেজা - V_VM_VNG
 মেঝেতে - N_NN
-দৌড়োতে -
-হয় - V_VM_VF, V_AUX
-না - RP_NEG, RP_RPD
+দৌড়োতে - V_VM
+হয় - V_VM_VF, ((V_AUX))
+না - ((RP_NEG)), RP_RPD
 বাবা - N_NN
 
 পরীক্ষায় ভালো না করলে ঘর থেকে বার করে দেব
 পরীক্ষায় - N_NN
-ভাল - RB, JJ
-না - RP_NEG, RP_RPD
+ভাল - RB, ((JJ))
+না - ((RP_NEG)), RP_RPD
 করলে - V_VM_VNF
 ঘর - N_NN
 থেকে - PSP
-বার - N_NN, RB
-করে - V_AUX, PSP, V_VM, N_NN, V_VM_VNF,
-দেব - V_VM_VNF, N_NNP
+বার - N_NN, ((RB))
+করে - ((V_AUX)), PSP, V_VM, N_NN, V_VM_VNF,
+দেব - ((V_VM_VNF)), N_NNP
 
 খাবারে বিরিয়ানি না দিলে বিয়েতে কেউ আসবে না
-খাবারে -
+খাবারে - N_NN
 বিরিয়ানি - N_NNP
-না - RP_NEG, RP_RPD
-দিলে - V_VM_VNF, V_AUX
+না - ((RP_NEG)), RP_RPD
+দিলে - ((V_VM_VNF)), V_AUX
 বিয়েতে - N_NN
 কেউ - PR_PRI
-আসবে - V_VM_VNF, V_AUX
-না - RP_NEG, RP_RPD
+আসবে - ((V_VM_VNF)), V_AUX
+না - ((RP_NEG)), RP_RPD
 
 
-
+rules:
+1. V_* without immediately preceding V_* is V_VM_*
+2. V_* after a V_VM is V_AUX IF option available
+3. In preceding, if no option available flip tags
+4. না immediately before or after a V_ is RP_NEG
+5. {RB,JJ/N_*} immediately before RP_NEG/V_* is RB
+6. {PSP, *} immediately after N_* is PSP
 
 
 
 
 
 আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে
-আমার -
-আজ -
-দুপুর -
-থেকেই -
-বেশ -
-ঘুম -
-পেয়েছে -
+আমার - PR_PRP
+আজ - N_NN
+দুপুর - N_NN
+থেকেই - ((PSP))/V_VM_VINF
+বেশ - ((RP_INTF))/QT_QTF
+ঘুম - N_NN
+পেয়েছে - V_VM
 
-এই কাজ জিনিষটা আমার একদম ভালো লাগে না
-এই -
-কাজ -
-জিনিষটা -
-আমার -
-একদম -
-ভালো -
-লাগে -
-না -
+এই কাজ জিনিষটা আমার একদম ভাল লাগে না
+এই - DM_DMD
+কাজ - N_NN
+জিনিষটা - N_NN
+আমার - PR_PRP
+একদম - RB
+ভাল - JJ
+লাগে - V_VM_VF
+না - RP_NEG
 
 পরীক্ষাটা একদম জঘন্ন হতে চলছে
-পরীক্ষাটা -
-এবার -
-একদম -
-জঘন্ন -
-হতে -
-চলছে -
+পরীক্ষাটা - N_NN
+একদম - RB
+জঘন্ন - JJ
+হতে - V_VM_VNF/V_VM/((V_AUX))/PSP
+চলছে - V_VM_VF
 
 আমার বাড়িতে একদিন আয়, বেশ মজা হবে
-আমার -
-বাড়িতে -
-একদিন -
-আয় -
-, -
-বেশ -
-মজা -
-হবে -
+আমার - PR_PRP
+বাড়িতে - N_NN
+একদিন - N_NN
+আয় - N_NN
+, - n
+বেশ - ((RP_INTF))/QT_QTF
+মজা - N_NN
+হবে - ((V_VM_VF))/V_AUX
+
+
+rules:
+{RP_INTF, QT_QTF} before a N_* is RP_INTF
 TEST:

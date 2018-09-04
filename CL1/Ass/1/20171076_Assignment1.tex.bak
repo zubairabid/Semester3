@@ -194,95 +194,95 @@ visit\textcolor{hlit}{VB}
 to\textcolor{hlit}{/TO}
 the\textcolor{hlit}{/AT}
 Cleveland\textcolor{hlit}{/NP}
-Indians\textcolor{hlit}{/NPS/NPS-HL/NPS-TL}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+Indians\textcolor{hlit}{/NPS}
+,\textcolor{hlit}{/-HL}
 Beane\textcolor{hlit}{/NP}
-meets\textcolor{hlit}{/VBZ-HL/VBZ/NNS}
-Peter\textcolor{hlit}{/NP/NP-TL}
+meets\textcolor{hlit}{/VBZ}
+Peter\textcolor{hlit}{/NP}
 Brand\textcolor{hlit}{/NP}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
-a\textcolor{hlit}{/AT/AT-HL/FW-IN/NIL/AT-NC/NN/FW-IN-TL/AT-TL}
-young\textcolor{hlit}{/JJ/NN/JJ-NC}
-Yale\textcolor{hlit}{/NP-TL/NP}
+,\textcolor{hlit}{/-HL}
+a\textcolor{hlit}{/AT}
+young\textcolor{hlit}{/JJ}
+Yale\textcolor{hlit}{/NP}
 economics\textcolor{hlit}{/NN}
-graduate\textcolor{hlit}{/NN/VB/JJ}
-with\textcolor{hlit}{/IN/IN-HL/RB/IN-NC}
-radical\textcolor{hlit}{/JJ/NN}
+graduate\textcolor{hlit}{/NN}
+with\textcolor{hlit}{/IN}
+radical\textcolor{hlit}{/JJ}
 ideas\textcolor{hlit}{/NNS}
-about\textcolor{hlit}{/IN/RB/RP/IN-HL/NIL}
-how\textcolor{hlit}{/QL/WRB/WQL/WRB-HL/WRB-NC}
-to\textcolor{hlit}{/TO/IN/IN-HL/TO-HL/IN-TL/NPS/NIL/QL/TO-NC/IN-NC}
+about\textcolor{hlit}{/IN}
+how\textcolor{hlit}{/WRB}
+to\textcolor{hlit}{/TO}
 assess\textcolor{hlit}{/VB}
 player\textcolor{hlit}{/NN}
-value\textcolor{hlit}{/NN/NN-HL/VB}
-.\textcolor{hlit}{/./.-HL}
+value\textcolor{hlit}{/NN}
+.\textcolor{hlit}{/.}
 Beane\textcolor{hlit}{/NP}
-tests\textcolor{hlit}{/NNS/NNS-HL/VBZ}
+tests\textcolor{hlit}{/VBZ}
 Brand's\textcolor{hlit}{/NP\$}
-theory\textcolor{hlit}{/NN/NN-HL}
-by\textcolor{hlit}{/IN/IN-HL/IN-TL/RB/NIL/IN-NC}
+theory\textcolor{hlit}{/NN}
+by\textcolor{hlit}{/RB}
 asking\textcolor{hlit}{/VBG}
 whether\textcolor{hlit}{/CS}
-he\textcolor{hlit}{/PPS/PPS-NC/NIL}
-would\textcolor{hlit}{/MD/MD-HL}
-have\textcolor{hlit}{/HV/HV-HL/HV-NC}
-drafted\textcolor{hlit}{/VBD/VBN}
+he\textcolor{hlit}{/PPS}
+would\textcolor{hlit}{/MD}
+have\textcolor{hlit}{/HV}
+drafted\textcolor{hlit}{/VBN}
 Beane\textcolor{hlit}{/NP}
-out\textcolor{hlit}{/RP/IN/PP\$/RP-HL/IN-HL/RB-NC/RP-NC}
-of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
-high\textcolor{hlit}{/JJ/NN/JJ-HL/RB}
-school\textcolor{hlit}{/NN/NN-HL/VB/NN-TL}
-.\textcolor{hlit}{/./.-HL}
+out\textcolor{hlit}{/IN}
+of\textcolor{hlit}{/IN}
+high\textcolor{hlit}{/JJ}
+school\textcolor{hlit}{/NN}
+.\textcolor{hlit}{/.}
 Though\textcolor{hlit}{/CS}
 scouts\textcolor{hlit}{/NNS}
-considered\textcolor{hlit}{/VBD/VBN}
+considered\textcolor{hlit}{/VBD}
 Beane\textcolor{hlit}{/NP}
-hugely\textcolor{hlit}{/NP/CS}
-promising\textcolor{hlit}{/JJ/VBG}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
-his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+hugely\textcolor{hlit}{/JJ}
+promising\textcolor{hlit}{/VBG}
+,\textcolor{hlit}{/-HL}
+his\textcolor{hlit}{/PP\$}
 career\textcolor{hlit}{/NN}
-in\textcolor{hlit}{/IN/RP/IN-HL/IN-TL/IN-NC/RP-HL/NN/NIL/RP-NC/FW-IN}
-the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
-Major\textcolor{hlit}{/NN-TL/NP/JJ/JJ-TL}
+in\textcolor{hlit}{/IN}
+the\textcolor{hlit}{/AT}
+Major\textcolor{hlit}{/NP}
 Leagues\textcolor{hlit}{/NP}
-was\textcolor{hlit}{/BEDZ/BEDZ-HL/BEDZ-NC}
+was\textcolor{hlit}{/BEDZ}
 disappointing\textcolor{hlit}{/JJ}
-.\textcolor{hlit}{/./.-HL}
+.\textcolor{hlit}{/.}
 Brand\textcolor{hlit}{/NP}
 admits\textcolor{hlit}{/VBZ}
-that\textcolor{hlit}{/CS/WPS/DT/QL/WPO/CS-HL/DT-NC/NIL/WPS-NC/WPO-NC/CS-NC/WPS-HL}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
-based\textcolor{hlit}{/VBN/VBD}
-on\textcolor{hlit}{/IN/IN-TL/RP/IN-HL/NIL/IN-NC}
-his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
-method\textcolor{hlit}{/NN/NN-HL}
-of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
+that\textcolor{hlit}{/CS}
+,\textcolor{hlit}{/-HL}
+based\textcolor{hlit}{/VBN}
+on\textcolor{hlit}{/IN}
+his\textcolor{hlit}{/PP\$}
+method\textcolor{hlit}{/NN}
+of\textcolor{hlit}{/IN}
 assessing\textcolor{hlit}{/VBG}
 player\textcolor{hlit}{/NN}
-value\textcolor{hlit}{/NN/NN-HL/VB}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
-he\textcolor{hlit}{/PPS/PPS-NC/NIL}
-would\textcolor{hlit}{/MD/MD-HL}
-not\textcolor{hlit}{/*/*-HL/*-NC}
-have\textcolor{hlit}{/HV/HV-HL/HV-NC}
-drafted\textcolor{hlit}{/VBD/VBN}
-him\textcolor{hlit}{/PPO/PPO-NC}
-until\textcolor{hlit}{/CS/IN}
-the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+value\textcolor{hlit}{/NN}
+,\textcolor{hlit}{/-HL}
+he\textcolor{hlit}{/PPS}
+would\textcolor{hlit}{/MD}
+not\textcolor{hlit}{/*}
+have\textcolor{hlit}{/HV}
+drafted\textcolor{hlit}{/VBN}
+him\textcolor{hlit}{/PPO}
+until\textcolor{hlit}{/IN}
+the\textcolor{hlit}{/AT}
 ninth\textcolor{hlit}{/OD}
-round\textcolor{hlit}{/NN/VB/JJ/RB/IN}
-.\textcolor{hlit}{/./.-HL}
+round\textcolor{hlit}{/NN}
+.\textcolor{hlit}{/.}
 Impressed\textcolor{hlit}{/NP}
-,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+,\textcolor{hlit}{/-HL}
 Beane\textcolor{hlit}{/NP}
 hires\textcolor{hlit}{/VBZ}
 Brand\textcolor{hlit}{/NP}
-as\textcolor{hlit}{/CS/QL/CS-HL/IN/CS-TL/RB/NIL}
-his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
-assistant\textcolor{hlit}{/NN/JJ}
-manager\textcolor{hlit}{/NN/NN-HL}
-.\textcolor{hlit}{/./.-HL}
+as\textcolor{hlit}{/CS}
+his\textcolor{hlit}{/PP\$}
+assistant\textcolor{hlit}{/NN}
+manager\textcolor{hlit}{/NN}
+.\textcolor{hlit}{/.}
 
 
 
@@ -304,49 +304,92 @@ manager\textcolor{hlit}{/NN/NN-HL}
 	আমার/\textcolor{hlit}{PR\_ PRP}
 	খুব/\textcolor{hlit}{RP\_ INTF}
 	খিদে/\textcolor{hlit}{N\_ NN}
-	পেয়েছে/\textcolor{hlit}{}\\
+	পেয়েছে/\textcolor{hlit}{V\_ VM}\\
 	$ $\\
 	2. \textcolor{diff}{ভেজা মেঝেতে দৌড়োতে হয় না বাবা} \\
 	ভেজা/\textcolor{hlit}{V\_ VM\_ VNG}
 	মেঝেতে/\textcolor{hlit}{N\_ NN}
-	দৌড়োতে/\textcolor{hlit}{}
-	হয়/\textcolor{hlit}{V\_ VM\_ VF/V\_ AUX}
-	না/\textcolor{hlit}{RP\_ NEG, RP\_ RPD}
+	দৌড়োতে/\textcolor{hlit}{V\_ VM}
+	হয়/\textcolor{hlit}{V\_ VM\_ VF/\underline{V\_ AUX}}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
 	বাবা/\textcolor{hlit}{N\_ NN}\\
 	$ $\\
 	3. \textcolor{diff}{পরীক্ষায় ভালো না করলে ঘর থেকে বার করে দেব} \\
 	পরীক্ষায়/\textcolor{hlit}{N\_ NN}
-	ভালো/\textcolor{hlit}{RB, JJ}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
+	ভালো/\textcolor{hlit}{RB, \underline{JJ}}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
 	করলে/\textcolor{hlit}{V\_ VM\_ VNF}
 	ঘর/\textcolor{hlit}{N\_ NN}
 	থেকে/\textcolor{hlit}{PSP}
 	বার/\textcolor{hlit}{N\_ NN, RB}
-	করে/\textcolor{hlit}{V\_ AUX/PSP/V\_ VM/N\_ NN/V\_ VM\_ VNF}
-	দেব/\textcolor{hlit}{V\_ VM\_ VNF/N\_ NNP}\\
+	করে/\textcolor{hlit}{\underline{V\_ AUX}/PSP/V\_ VM/N\_ NN/V\_ VM\_ VNF}
+	দেব/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/N\_ NNP}\\
 	$ $\\
 	4. \textcolor{diff}{খাবারে বিরিয়ানি না দিলে বিয়েতে কেউ আসবে না} \\
 	খাবারে/\textcolor{hlit}{}
 	বিরিয়ানি/\textcolor{hlit}{N\_ NNP}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}
-	দিলে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}
+	দিলে/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/V\_ AUX}
 	বিয়েতে/\textcolor{hlit}{N\_ NN}
 	কেউ/\textcolor{hlit}{PR\_ PRI}
-	আসবে/\textcolor{hlit}{V\_ VM\_ VNF/V\_ AUX}
-	না/\textcolor{hlit}{RP\_ NEG/RP\_ RPD}\\
+	আসবে/\textcolor{hlit}{\underline{V\_ VM\_ VNF}/V\_ AUX}
+	না/\textcolor{hlit}{\underline{RP\_ NEG}/RP\_ RPD}\\
 	
 	
 	}
 	\subsection{Disambiguation Rules}
 	
+	Some disambiguation rules (based entirely on the given 
+	development dataset and tags) are:\\
+	1. V\_ * without immediately preceding V\_ * is V\_ VM\_ *\\
+	2. V\_ * after a V\_ VM is V\_ AUX IF option available\\
+	3. In preceding, if no option available flip tags\\
+	4. {\bg না} immediately before or after a V\_ is RP\_ NEG\\
+	5. {RB,JJ/N\_ *} immediately before RP\_ NEG/V\_ * is RB\\
+	6. {PSP, *} immediately after N\_ * is PSP\\
+	
+	
 	\subsection{Tagged Test Data}	
 	{\bg
-	1. \textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে} \\
-	$ $\\
-	2. \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভালো লাগে না} \\
-	$ $\\
-	3. \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে} \\
-	$ $\\
-	4. \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে} \\
+	1. \textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে}\\
+আমার\textcolor{hlit}{/PR\_ PRP}
+আজ\textcolor{hlit}{/N\_ NN}
+দুপুর\textcolor{hlit}{/N\_ NN}
+থেকেই\textcolor{hlit}{/\underline{PSP}/V\_ VM\_ VINF}
+বেশ\textcolor{hlit}{/\underline{RP\_ INTF}/QT\_ QTF}
+ঘুম\textcolor{hlit}{/N\_ NN}
+পেয়েছে\textcolor{hlit}{/V\_ VM}\\
+$ $\\
+2. \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভাল লাগে না}\\
+এই\textcolor{hlit}{/DM\_ DMD}
+কাজ\textcolor{hlit}{/N\_ NN}
+জিনিষটা\textcolor{hlit}{/N\_ NN}
+আমার\textcolor{hlit}{/PR\_ PRP}
+একদম\textcolor{hlit}{/RB}
+ভাল\textcolor{hlit}{/JJ}
+লাগে\textcolor{hlit}{/V\_ VM\_ VF}
+না\textcolor{hlit}{/RP\_ NEG}\\
+$ $\\
+3. \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে}\\
+পরীক্ষাটা\textcolor{hlit}{/N\_ NN}
+একদম\textcolor{hlit}{/RB}
+জঘন্ন\textcolor{hlit}{/JJ}
+হতে\textcolor{hlit}{/V\_ VM\_ VNF/V\_ VM/\underline{V\_ AUX}/PSP}
+চলছে\textcolor{hlit}{/V\_ VM\_ VF}\\
+$ $\\
+4. \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে}\\
+আমার\textcolor{hlit}{/PR\_ PRP}
+বাড়িতে\textcolor{hlit}{/N\_ NN}
+একদিন\textcolor{hlit}{/N\_ NN}
+আয়\textcolor{hlit}{/N\_ NN}
+,\textcolor{hlit}{/,}
+বেশ\textcolor{hlit}{/\underline{RP\_ INTF}/QT\_ QTF}
+মজা\textcolor{hlit}{/N\_ NN}
+হবে\textcolor{hlit}{/\underline{V\_ VM\_ VF}/V\_ AUX}\\
+$ $\\
 	}
+	\subsection{Additions to disambiguation rules}
+	Not many discrepancies were found with existing rules, but
+	a new rule was added.\\
+	1. {RP\_ INTF, QT\_ QTF} before a N\_ * is RP\_ INTF
 \end{document}
