@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  4 SEP 2018 05:08
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.8.4)  4 SEP 2018 12:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -695,19 +695,28 @@ Underfull \hbox (badness 1117) in paragraph at lines 141--177
  []
 
 
+Underfull \hbox (badness 1546) in paragraph at lines 191--286
+\EU1/lmr/m/n/10.95 Peter[]/NP[] Brand[]/NP[] ,[]/-HL[] a[]/AT[] young[]/JJ[] 
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 191--286
+\EU1/lmr/m/n/10.95 ,[]/-HL[] his[]/PP$[] career[]/NN[] in[]/IN[] the[]/AT[] Ma-
+ 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
 ]
-[2
-
-] (./20171076_Assignment1.aux) ) 
+[2] (./20171076_Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
  15544 strings out of 493638
  296253 string characters out of 6146797
- 307477 words of memory out of 5000000
+ 310477 words of memory out of 5000000
  18842 multiletter control sequences out of 15000+600000
  9953 words of font info for 53 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191

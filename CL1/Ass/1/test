@@ -1,41 +1,95 @@
-
-['radical', 'JJ', 'NN']
-['ideas', 'NNS']
-['about', 'IN', 'RB', 'RP', 'IN-HL', 'NIL']
-x ['how', 'QL', 'WRB', 'WQL', 'WRB-HL', 'WRB-NC']
-['to', 'TO', 'IN', 'IN-HL', 'TO-HL', 'IN-TL', 'NPS', 'NIL', 'QL', 'TO-NC', 'IN-NC']
-['assess', 'VB']
-['player', 'NN']'MD-HL']
-
-['have', 'HV', 'HV-HL', 'HV-NC']
-['drafted', 'VBD', 'VBN']
-None
-x ['out', 'RP', 'IN', 'PP$', 'RP-HL', 'IN-HL', 'RB-NC', 'RP-NC']
-['of', 'IN', 'IN-TL', 'IN-HL', 'IN-NC', 'IN-TL-HL', 'NIL']
-['high', 'JJ', 'NN', 'JJ-HL', 'RB']
-
-['scouts', 'NNS']
-['considered', 'VBD', 'VBN']
-None
-None
-x ['promising', 'JJ', 'VBG']
-[',', '-HL', 'FW-RB-TL', '-TL', '-NC']
-['his', 'PP$', 'PP$$', 'NIL', 'PP$-NC', 'PP$-TL']
-
-
-['have', 'HV', 'HV-HL', 'HV-NC']
-['drafted', 'VBD', 'VBN']
-['him', 'PPO', 'PPO-NC']
-x ['until', 'CS', 'IN']
-['the', 'AT', 'AT-TL', 'AT-HL', 'AT-NC', 'NIL', 'AT-TL-HL']
-['ninth', 'OD']
-
-None
-['hires', 'VBZ']
-None
-x ['as', 'CS', 'QL', 'CS-HL', 'IN', 'CS-TL', 'RB', 'NIL']
-['his', 'PP$', 'PP$$', 'NIL', 'PP$-NC', 'PP$-TL']
-['assistant', 'NN', 'JJ']
-
-Actual tags:
-[('During', 'IN'), ('a', 'DT'), ('visit', 'NN'), ('to', 'TO'), ('the', 'DT'), ('Cleveland', 'NNP'), ('Indians', 'NNPS'), (',', ','), ('Beane', 'NNP'), ('meets', 'NNS'), ('Peter', 'NNP'), ('Brand', 'NNP'), (',', ','), ('a', 'DT'), ('young', 'JJ'), ('Yale', 'NNP'), ('economics', 'NNS'), ('graduate', 'NN'), ('with', 'IN'), ('radical', 'JJ'), ('ideas', 'NNS'), ('about', 'IN'), ('how', 'WRB'), ('to', 'TO'), ('assess', 'VB'), ('player', 'NN'), ('value', 'NN'), ('.', '.'), ('Beane', 'NNP'), ('tests', 'VBZ'), ('Brand', 'NNP'), ("'s", 'POS'), ('theory', 'NN'), ('by', 'IN'), ('asking', 'VBG'), ('whether', 'IN'), ('he', 'PRP'), ('would', 'MD'), ('have', 'VB'), ('drafted', 'VBN'), ('Beane', 'NNP'), ('out', 'IN'), ('of', 'IN'), ('high', 'JJ'), ('school', 'NN'), ('.', '.'), ('Though', 'NNP'), ('scouts', 'RB'), ('considered', 'VBD'), ('Beane', 'NNP'), ('hugely', 'RB'), ('promising', 'VBG'), (',', ','), ('his', 'PRP$'), ('career', 'NN'), ('in', 'IN'), ('the', 'DT'), ('Major', 'NNP'), ('Leagues', 'NNP'), ('was', 'VBD'), ('disappointing', 'VBG'), ('.', '.'), ('Brand', 'NNP'), ('admits', 'VBZ'), ('that', 'IN'), (',', ','), ('based', 'VBN'), ('on', 'IN'), ('his', 'PRP$'), ('method', 'NN'), ('of', 'IN'), ('assessing', 'VBG'), ('player', 'NN'), ('value', 'NN'), (',', ','), ('he', 'PRP'), ('would', 'MD'), ('not', 'RB'), ('have', 'VB'), ('drafted', 'VBN'), ('him', 'PRP'), ('until', 'IN'), ('the', 'DT'), ('ninth', 'JJ'), ('round', 'NN'), ('.', '.'), ('Impressed', 'VBN'), (',', ','), ('Beane', 'NNP'), ('hires', 'VBZ'), ('Brand', 'NNP'), ('as', 'IN'), ('his', 'PRP$'), ('assistant', 'NN'), ('manager', 'NN'), ('.', '.')]
+During\textcolor{hlit}{/IN/IN-TL}
+a\textcolor{hlit}{/AT/AT-HL/FW-IN/NIL/AT-NC/NN/FW-IN-TL/AT-TL}
+visit\textcolor{hlit}{/NN/VB}
+to\textcolor{hlit}{/TO/IN/IN-HL/TO-HL/IN-TL/NPS/NIL/QL/TO-NC/IN-NC}
+the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+Cleveland\textcolor{hlit}{/NP-HL/NP}
+Indians\textcolor{hlit}{/NPS/NPS-HL/NPS-TL}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+Beane\textcolor{hlit}{/NP}
+meets\textcolor{hlit}{/VBZ-HL/VBZ/NNS}
+Peter\textcolor{hlit}{/NP/NP-TL}
+Brand\textcolor{hlit}{/NP}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+a\textcolor{hlit}{/AT/AT-HL/FW-IN/NIL/AT-NC/NN/FW-IN-TL/AT-TL}
+young\textcolor{hlit}{/JJ/NN/JJ-NC}
+Yale\textcolor{hlit}{/NP-TL/NP}
+economics\textcolor{hlit}{/NN}
+graduate\textcolor{hlit}{/NN/VB/JJ}
+with\textcolor{hlit}{/IN/IN-HL/RB/IN-NC}
+radical\textcolor{hlit}{/JJ/NN}
+ideas\textcolor{hlit}{/NNS}
+about\textcolor{hlit}{/IN/RB/RP/IN-HL/NIL}
+how\textcolor{hlit}{/QL/WRB/WQL/WRB-HL/WRB-NC}
+to\textcolor{hlit}{/TO/IN/IN-HL/TO-HL/IN-TL/NPS/NIL/QL/TO-NC/IN-NC}
+assess\textcolor{hlit}{/VB}
+player\textcolor{hlit}{/NN}
+value\textcolor{hlit}{/NN/NN-HL/VB}
+.\textcolor{hlit}{/./.-HL}
+Beane\textcolor{hlit}{/NP}
+tests\textcolor{hlit}{/NNS/NNS-HL/VBZ}
+Brand's\textcolor{hlit}{/NP\$}
+theory\textcolor{hlit}{/NN/NN-HL}
+by\textcolor{hlit}{/IN/IN-HL/IN-TL/RB/NIL/IN-NC}
+asking\textcolor{hlit}{/VBG}
+whether\textcolor{hlit}{/CS}
+he\textcolor{hlit}{/PPS/PPS-NC/NIL}
+would\textcolor{hlit}{/MD/MD-HL}
+have\textcolor{hlit}{/HV/HV-HL/HV-NC}
+drafted\textcolor{hlit}{/VBD/VBN}
+Beane\textcolor{hlit}{/NP}
+out\textcolor{hlit}{/RP/IN/PP\$/RP-HL/IN-HL/RB-NC/RP-NC}
+of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
+high\textcolor{hlit}{/JJ/NN/JJ-HL/RB}
+school\textcolor{hlit}{/NN/NN-HL/VB/NN-TL}
+.\textcolor{hlit}{/./.-HL}
+Though\textcolor{hlit}{/CS}
+scouts\textcolor{hlit}{/NNS}
+considered\textcolor{hlit}{/VBD/VBN}
+Beane\textcolor{hlit}{/NP}
+hugely\textcolor{hlit}{/NP/CS}
+promising\textcolor{hlit}{/JJ/VBG}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+career\textcolor{hlit}{/NN}
+in\textcolor{hlit}{/IN/RP/IN-HL/IN-TL/IN-NC/RP-HL/NN/NIL/RP-NC/FW-IN}
+the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+Major\textcolor{hlit}{/NN-TL/NP/JJ/JJ-TL}
+Leagues\textcolor{hlit}{/NP}
+was\textcolor{hlit}{/BEDZ/BEDZ-HL/BEDZ-NC}
+disappointing\textcolor{hlit}{/JJ}
+.\textcolor{hlit}{/./.-HL}
+Brand\textcolor{hlit}{/NP}
+admits\textcolor{hlit}{/VBZ}
+that\textcolor{hlit}{/CS/WPS/DT/QL/WPO/CS-HL/DT-NC/NIL/WPS-NC/WPO-NC/CS-NC/WPS-HL}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+based\textcolor{hlit}{/VBN/VBD}
+on\textcolor{hlit}{/IN/IN-TL/RP/IN-HL/NIL/IN-NC}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+method\textcolor{hlit}{/NN/NN-HL}
+of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
+assessing\textcolor{hlit}{/VBG}
+player\textcolor{hlit}{/NN}
+value\textcolor{hlit}{/NN/NN-HL/VB}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+he\textcolor{hlit}{/PPS/PPS-NC/NIL}
+would\textcolor{hlit}{/MD/MD-HL}
+not\textcolor{hlit}{/*/*-HL/*-NC}
+have\textcolor{hlit}{/HV/HV-HL/HV-NC}
+drafted\textcolor{hlit}{/VBD/VBN}
+him\textcolor{hlit}{/PPO/PPO-NC}
+until\textcolor{hlit}{/CS/IN}
+the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+ninth\textcolor{hlit}{/OD}
+round\textcolor{hlit}{/NN/VB/JJ/RB/IN}
+.\textcolor{hlit}{/./.-HL}
+Impressed\textcolor{hlit}{/NP}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+Beane\textcolor{hlit}{/NP}
+hires\textcolor{hlit}{/VBZ}
+Brand\textcolor{hlit}{/NP}
+as\textcolor{hlit}{/CS/QL/CS-HL/IN/CS-TL/RB/NIL}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+assistant\textcolor{hlit}{/NN/JJ}
+manager\textcolor{hlit}{/NN/NN-HL}
+.\textcolor{hlit}{/./.-HL}

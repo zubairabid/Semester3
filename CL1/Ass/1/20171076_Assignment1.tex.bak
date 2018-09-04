@@ -177,9 +177,123 @@
 	./\textcolor{hlit}{\textbf{.}/-HL}\\
 	
 	\subsection{Disambiguation Rules}
-	
+	Some disambiguation rules (based entirely on the given 
+	development dataset and tags) are:\\
+	1. If there is a JJ after HV*/BE*, change  to VB\\
+	2. NN after P*/N* and VB* --> VB\\
+	3. Single word sentence JJ --> RB\\
+	4. If a word ends with -ed and has VBN in options and follows BE*/HV*, tag as VBN\\
+	5. VB* after J* is NN*\\
+	6. Untagged words default to NP, NP\$ with apostrophe\\
+
+
 	\subsection{Tagged Test Data}	
-	
+	During\textcolor{hlit}{/IN}
+a\textcolor{hlit}{/AT}
+visit\textcolor{hlit}{VB}
+to\textcolor{hlit}{/TO}
+the\textcolor{hlit}{/AT}
+Cleveland\textcolor{hlit}{/NP}
+Indians\textcolor{hlit}{/NPS/NPS-HL/NPS-TL}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+Beane\textcolor{hlit}{/NP}
+meets\textcolor{hlit}{/VBZ-HL/VBZ/NNS}
+Peter\textcolor{hlit}{/NP/NP-TL}
+Brand\textcolor{hlit}{/NP}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+a\textcolor{hlit}{/AT/AT-HL/FW-IN/NIL/AT-NC/NN/FW-IN-TL/AT-TL}
+young\textcolor{hlit}{/JJ/NN/JJ-NC}
+Yale\textcolor{hlit}{/NP-TL/NP}
+economics\textcolor{hlit}{/NN}
+graduate\textcolor{hlit}{/NN/VB/JJ}
+with\textcolor{hlit}{/IN/IN-HL/RB/IN-NC}
+radical\textcolor{hlit}{/JJ/NN}
+ideas\textcolor{hlit}{/NNS}
+about\textcolor{hlit}{/IN/RB/RP/IN-HL/NIL}
+how\textcolor{hlit}{/QL/WRB/WQL/WRB-HL/WRB-NC}
+to\textcolor{hlit}{/TO/IN/IN-HL/TO-HL/IN-TL/NPS/NIL/QL/TO-NC/IN-NC}
+assess\textcolor{hlit}{/VB}
+player\textcolor{hlit}{/NN}
+value\textcolor{hlit}{/NN/NN-HL/VB}
+.\textcolor{hlit}{/./.-HL}
+Beane\textcolor{hlit}{/NP}
+tests\textcolor{hlit}{/NNS/NNS-HL/VBZ}
+Brand's\textcolor{hlit}{/NP\$}
+theory\textcolor{hlit}{/NN/NN-HL}
+by\textcolor{hlit}{/IN/IN-HL/IN-TL/RB/NIL/IN-NC}
+asking\textcolor{hlit}{/VBG}
+whether\textcolor{hlit}{/CS}
+he\textcolor{hlit}{/PPS/PPS-NC/NIL}
+would\textcolor{hlit}{/MD/MD-HL}
+have\textcolor{hlit}{/HV/HV-HL/HV-NC}
+drafted\textcolor{hlit}{/VBD/VBN}
+Beane\textcolor{hlit}{/NP}
+out\textcolor{hlit}{/RP/IN/PP\$/RP-HL/IN-HL/RB-NC/RP-NC}
+of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
+high\textcolor{hlit}{/JJ/NN/JJ-HL/RB}
+school\textcolor{hlit}{/NN/NN-HL/VB/NN-TL}
+.\textcolor{hlit}{/./.-HL}
+Though\textcolor{hlit}{/CS}
+scouts\textcolor{hlit}{/NNS}
+considered\textcolor{hlit}{/VBD/VBN}
+Beane\textcolor{hlit}{/NP}
+hugely\textcolor{hlit}{/NP/CS}
+promising\textcolor{hlit}{/JJ/VBG}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+career\textcolor{hlit}{/NN}
+in\textcolor{hlit}{/IN/RP/IN-HL/IN-TL/IN-NC/RP-HL/NN/NIL/RP-NC/FW-IN}
+the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+Major\textcolor{hlit}{/NN-TL/NP/JJ/JJ-TL}
+Leagues\textcolor{hlit}{/NP}
+was\textcolor{hlit}{/BEDZ/BEDZ-HL/BEDZ-NC}
+disappointing\textcolor{hlit}{/JJ}
+.\textcolor{hlit}{/./.-HL}
+Brand\textcolor{hlit}{/NP}
+admits\textcolor{hlit}{/VBZ}
+that\textcolor{hlit}{/CS/WPS/DT/QL/WPO/CS-HL/DT-NC/NIL/WPS-NC/WPO-NC/CS-NC/WPS-HL}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+based\textcolor{hlit}{/VBN/VBD}
+on\textcolor{hlit}{/IN/IN-TL/RP/IN-HL/NIL/IN-NC}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+method\textcolor{hlit}{/NN/NN-HL}
+of\textcolor{hlit}{/IN/IN-TL/IN-HL/IN-NC/IN-TL-HL/NIL}
+assessing\textcolor{hlit}{/VBG}
+player\textcolor{hlit}{/NN}
+value\textcolor{hlit}{/NN/NN-HL/VB}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+he\textcolor{hlit}{/PPS/PPS-NC/NIL}
+would\textcolor{hlit}{/MD/MD-HL}
+not\textcolor{hlit}{/*/*-HL/*-NC}
+have\textcolor{hlit}{/HV/HV-HL/HV-NC}
+drafted\textcolor{hlit}{/VBD/VBN}
+him\textcolor{hlit}{/PPO/PPO-NC}
+until\textcolor{hlit}{/CS/IN}
+the\textcolor{hlit}{/AT/AT-TL/AT-HL/AT-NC/NIL/AT-TL-HL}
+ninth\textcolor{hlit}{/OD}
+round\textcolor{hlit}{/NN/VB/JJ/RB/IN}
+.\textcolor{hlit}{/./.-HL}
+Impressed\textcolor{hlit}{/NP}
+,\textcolor{hlit}{/-HL/FW-RB-TL/-TL/-NC}
+Beane\textcolor{hlit}{/NP}
+hires\textcolor{hlit}{/VBZ}
+Brand\textcolor{hlit}{/NP}
+as\textcolor{hlit}{/CS/QL/CS-HL/IN/CS-TL/RB/NIL}
+his\textcolor{hlit}{/PP\$/PP\$\$/NIL/PP\$-NC/PP\$-TL}
+assistant\textcolor{hlit}{/NN/JJ}
+manager\textcolor{hlit}{/NN/NN-HL}
+.\textcolor{hlit}{/./.-HL}
+
+
+
+	\subsection{Additions to disambiguation rules}
+	Some of the tags assigned by the previous ruleset turned
+	out to be faulty. Based on the observations, some new rules
+	were added to tag the data better:\\
+	7. QL followed by a TO tag is WRB\\
+	8. RP followed by a IN* is IN\\
+%	9.\\
+	9. CS at a non initial position is IN	\\
 	\section{Bengali POS Tagging}
 	Tagset used: BIS Tagset
 	\subsection{Method used for tagging}
