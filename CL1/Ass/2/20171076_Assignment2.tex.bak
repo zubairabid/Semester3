@@ -1,0 +1,356 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont{???}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[document]{ragged2e}
+
+\font\serif="FreeSerif:script=beng"
+\font\bg="FreeSerif:script=beng" at 13pt
+
+\usepackage{xcolor}
+\definecolor{hlit}{rgb}{0.5,0,1}
+\definecolor{diff}{rgb}{0.1,0.1,0.5}
+\definecolor{rlit}{rgb}{1,0,0}
+
+\title{Computational Linguistics - 1, Assignment 2}
+\author{Zubair Abid, 20171076}
+\date{}
+
+\begin{document}
+	\twocolumn[
+	\begin{@twocolumnfalse}
+    	\maketitle
+    	The three tasks of the asssignment:\\
+    	\begin{enumerate}
+    		\item Comparing Indian POS tagger output on
+    		previous assignment data to own output, and
+    		analyzing and commenting on the differences.
+    		
+    		\item Chunk given data with proper labels 
+    		(English)
+    		
+    		\item Chunk Indian language data with proper
+    		labels
+    	\end{enumerate}
+		$ $\\
+		$ $\\
+    	
+  	\end{@twocolumnfalse} 
+	]
+	
+	\section{Compare Indian POS tagger output to own output}	
+	Running the test data from Assignment 1 through the 
+	LTRC Shallow Parser, analysing and commenting on the
+	differences between the two.	
+	\subsection{Side-by-side comparison}
+	{\bg 
+	\begin{enumerate}
+		\item Given sentence: 
+		\textcolor{diff}{আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে}\\
+		$ $\\
+		Tags (form: word\textcolor{hlit}{/Own tag}
+		\textcolor{rlit}{/LTRC}):\\$ $\\
+আমার\textcolor{hlit}{/PR\_ PRP}\textcolor{rlit}{/PRP}
+আজ\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+দুপুর\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+থেকেই\textcolor{hlit}{/PSP}\textcolor{rlit}{/untagged}
+বেশ\textcolor{hlit}{/RP\_ INTF}\textcolor{rlit}{/INTF}
+ঘুম\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+পেয়েছে\textcolor{hlit}{/V\_ VM}\textcolor{rlit}{/VM}\\
+		$ $\\
+		\item Given sentence: \textcolor{diff}{এই কাজ জিনিষটা আমার একদম ভাল লাগে না}\\
+		$ $\\
+		zTags (form: word\textcolor{hlit}{/Own tag}
+		\textcolor{rlit}{/LTRC}):\\$ $\\
+এই\textcolor{hlit}{/DM\_ DMD}\textcolor{rlit}{/DEM}
+কাজ\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+জিনিষটা\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+আমার\textcolor{hlit}{/PR\_ PRP}\textcolor{rlit}{/PRP}
+একদম\textcolor{hlit}{/RB}\textcolor{rlit}{/RB}
+ভাল\textcolor{hlit}{/JJ}\textcolor{rlit}{/JJ}
+লাগে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}
+না\textcolor{hlit}{/RP\_ NEG}\textcolor{rlit}{/untagged}\\
+		$ $\\
+		\item Given sentence: \textcolor{diff}{পরীক্ষাটা একদম জঘন্ন হতে চলছে}\\
+		$ $\\
+		Tags (form: word\textcolor{hlit}{/Own tag}
+		\textcolor{rlit}{/LTRC}):\\$ $\\
+পরীক্ষাটা\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+একদম\textcolor{hlit}{/RB}\textcolor{rlit}{/RB}
+জঘন্ন\textcolor{hlit}{/JJ}\textcolor{rlit}{/JJ}
+হতে\textcolor{hlit}{/V\_ AUX}\textcolor{rlit}{/VM}
+চলছে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}\\
+		$ $\\
+		\item Given sentence: \textcolor{diff}{আমার বাড়িতে একদিন আয়, বেশ মজা হবে}\\
+		$ $\\
+		Tags (form: word\textcolor{hlit}{/Own tag}
+		\textcolor{rlit}{/LTRC}):\\$ $\\
+আমার\textcolor{hlit}{/PR\_ PRP}\textcolor{rlit}{/PRP}
+বাড়িতে\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+একদিন\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+আয়\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+,\textcolor{hlit}{/,}\textcolor{rlit}{/SYM}
+বেশ\textcolor{hlit}{/RP\_ INTF}\textcolor{rlit}{/INTF}
+মজা\textcolor{hlit}{/N\_ NN}\textcolor{rlit}{/NN}
+হবে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}\\
+
+	\end{enumerate}			
+	}
+
+	\subsection{Analysis}
+	Differences in the given data are minimal, primarily
+	because most of the words in the bengali lexicon used
+	had a single tag, so disambiguation was not a major
+	issue. However there do exist some differences, 
+	enumerated below:\\
+	
+	\begin{enumerate}
+	\item General vs Specific tags\\
+	$ $\\
+	Like in {\bg এই\textcolor{hlit}{/DM\_ DMD}\textcolor{rlit}{/DEM}}
+	or {\bg লাগে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}}
+	or {\bg হবে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}}
+	or {\bg চলছে\textcolor{hlit}{/V\_ VM\_ VF}\textcolor{rlit}{/VM}}.
+	The difference in tag here is the specifity applied.\\
+	$ $\\ 
+	In the first example the LTRC tagger assigns just a 
+	"DEM" tag for Demonstrative instead of the specific
+	deictic "DMD" tag applied by my rules.\\
+	$ $\\
+	In the next three, all the finite main verbs are just
+	tagged as main verbs (VM) by the LTRC tagger. 
+	
+	\item {\bg হতে\textcolor{hlit}{/V\_ AUX}\textcolor{rlit}{/VM}}\\
+	$ $\\
+	The LTRC tagger considers the bengali {\bg হতে} as a 
+	main verb, whereas mine classifies it as an auxillary.
+	It relies on the assumption in my ruleset that given
+	two verbs in consecutive sequence only one of them is
+	marked as a main verb, the other usually gets 
+	categorized as auxillary.
+	\end{enumerate}			
+
+
+
+	\section{English Chunking}
+	Labels used: NP, VP, ADJP, ADVP (given in question). \\
+	PP is not tagged. \\
+	\begin{enumerate}
+	\item \textit{She has been absent since last Wednesday.}\\
+	$ $\\
+	\textcolor{diff}{(( She ))} NP \\ 
+	\textcolor{diff}{(( has been ))} VP\\
+	\textcolor{diff}{(( absent ))} NP\\
+	\textcolor{diff}{(( since ))} \\
+	\textcolor{diff}{(( last Wednesday ))} NP\\
+	
+	
+	\item \textit{That movie is getting scarier and scarier.}\\
+	$ $\\
+	\textcolor{diff}{(( That movie ))} NP\\
+	\textcolor{diff}{(( is getting ))} VP\\
+	\textcolor{diff}{(( scarier and scarier ))} ADJP\\
+	
+	\item \textit{What do you do in Japan?}\\
+	$ $\\
+	\textcolor{diff}{(( What ))} \\
+	\textcolor{diff}{(( do ))} \\
+	\textcolor{diff}{(( you ))} NP\\
+	\textcolor{diff}{(( do ))} VP\\
+	\textcolor{diff}{(( in ))} \\
+	\textcolor{diff}{(( Japan ))} NP\\
+	
+	\item \textit{The Handmaid’s Tale is an awesome piece of dystopian 
+	fiction.}\\
+	$ $\\
+	\textcolor{diff}{(( The Handmaid's Tale ))} NP\\
+	\textcolor{diff}{(( is ))} \\
+	\textcolor{diff}{(( an awesome piece ))} NP\\
+	\textcolor{diff}{(( of ))} \\
+	\textcolor{diff}{(( dystopian fiction ))} NP\\
+	
+	\item \textit{OK. Now what?}\\
+	$ $\\
+	\textcolor{diff}{(( OK ))} ADJP\\
+	\textcolor{diff}{(( Now ))} ADVP\\
+	\textcolor{diff}{(( What ))} NP\\
+	
+	\item \textit{Take this medication for pain as often as needed.}\\
+	$ $\\
+	\textcolor{diff}{(( Take ))} VP\\
+	\textcolor{diff}{(( this medication ))} NP\\
+	\textcolor{diff}{(( for ))} \\
+	\textcolor{diff}{(( pain ))} NP\\
+	\textcolor{diff}{(( as often as ))} ADVP\\
+	\textcolor{diff}{(( needed ))} ADVP\\
+	
+	\item \textit{There were people everywhere, covering the 
+	roads along the route from the BJP headquarters to the Smriti 
+	Sthal from side to side, with security personnel maintaining 
+	strict vigil to ensure that nothing goes wrong.}\\
+	$ $\\
+	\textcolor{diff}{(( There ))} NP\\	
+	\textcolor{diff}{(( were ))} VP\\	
+	\textcolor{diff}{(( people ))} NP\\
+	\textcolor{diff}{(( everywhere ))} ADJP\\
+	\textcolor{diff}{(( covering ))} VP\\
+	\textcolor{diff}{(( the roads ))} NP\\
+	\textcolor{diff}{(( along ))} \\
+	\textcolor{diff}{(( the route ))} NP\\
+	\textcolor{diff}{(( from ))} \\
+	\textcolor{diff}{(( the BJP headquarters ))} NP\\
+	\textcolor{diff}{(( to ))} \\
+	\textcolor{diff}{(( the Smriti Sthal ))} NP\\
+	\textcolor{diff}{(( from ))} \\
+	\textcolor{diff}{(( side to side ))} ADVP\\
+	\textcolor{diff}{(( with ))} \\
+	\textcolor{diff}{(( security personnel ))} NP\\
+	\textcolor{diff}{(( maintaining ))} VP\\
+	\textcolor{diff}{(( strict vigil ))} NP\\
+	\textcolor{diff}{(( to ))} \\
+	\textcolor{diff}{(( ensure ))} VP\\
+	\textcolor{diff}{(( that nothing ))} NP\\
+	\textcolor{diff}{(( goes wrong ))} VP\\
+	
+
+	\item \textit{The movie was not too terrible.}\\
+	$ $\\
+	\textcolor{diff}{(( The movie ))} NP\\
+	\textcolor{diff}{(( was ))} VP\\
+	\textcolor{diff}{(( not too terrible ))} ADJP\\
+	
+	
+	\end{enumerate}		
+	
+	\section{Indian Language (Bengali) Chunking}
+	
+	Labels used NP, VGF, VGNF, VGINF, VGNN, JJP, RBP, NEGP, CCP, FRAGP, BLK.\\
+
+	\begin{enumerate}
+
+	{\bg 
+
+		\item আমার খুব খিদে পেয়েছে \\
+		$ $\\
+		\textcolor{diff}{(( আমার ))} NP\\
+		\textcolor{diff}{(( খুব খিদে ))} NP\\
+		\textcolor{diff}{(( পেয়েছে ))} VGF\\
+$ $\\
+		\item ভেজা মেঝেতে দৌড়োতে হয় না বাবা  \\
+		$ $\\
+		\textcolor{diff}{(( ভেজা মেঝেতে ))} NP\\
+		\textcolor{diff}{(( দৌড়োতে ))} NP\\
+		\textcolor{diff}{(( হয় ))} VGF\\
+		\textcolor{diff}{(( না ))} NEGP\\
+		\textcolor{diff}{(( বাবা ))} NP\\
+
+		\item পরীক্ষায় ভালো না করলে ঘর থেকে বার করে দেব  \\
+		$ $\\
+		\textcolor{diff}{(( পরীক্ষায় ))} NP\\
+		\textcolor{diff}{(( ভালো ))} JJP\\
+		\textcolor{diff}{(( না করলে ))} VGINF\\
+		\textcolor{diff}{(( ঘর ))} NP\\
+		\textcolor{diff}{(( থেকে  ))} \\
+		\textcolor{diff}{(( বার ))} NP\\
+		\textcolor{diff}{(( করে দেব ))} VGF\\
+$ $\\
+		\item খাবারে বিরিয়ানি না দিলে বিয়েতে কেউ আসবে না  \\
+		$ $\\
+		\textcolor{diff}{(( খাবারে ))} NP\\
+		\textcolor{diff}{(( বিরিয়ানি ))} NP\\
+		\textcolor{diff}{(( না দিলে ))} VGINF\\
+		\textcolor{diff}{(( বিয়েতে ))} NP\\
+		\textcolor{diff}{(( কেউ ))} NP\\
+		\textcolor{diff}{(( আসবে ))} VGF\\
+		\textcolor{diff}{(( না ))} NEGP\\
+$ $\\
+		\item আমার আজ দুপুর থেকেই বেশ ঘুম পেয়েছে  \\
+		$ $\\
+		\textcolor{diff}{(( আমার ))} NP\\
+		\textcolor{diff}{(( আজ ))} NP\\
+		\textcolor{diff}{(( দুপুর থেকেই ))} NP\\
+		\textcolor{diff}{(( বেশ ঘুম ))} NP\\
+		\textcolor{diff}{(( পেয়েছে ))} VGF\\
+$ $\\
+		\item এই কাজ জিনিষটা আমার একদম ভাল লাগে না  \\
+		$ $\\
+		\textcolor{diff}{(( এই কাজ ))} NP\\
+		\textcolor{diff}{(( জিনিষটা ))} NP\\
+		\textcolor{diff}{(( আমার ))} NP\\
+		\textcolor{diff}{(( একদম ভাল ))} NP\\
+		\textcolor{diff}{(( লাগে ))} VGF\\
+		\textcolor{diff}{(( না ))} NEGP\\
+$ $\\
+		\item পরীক্ষাটা একদম জঘন্ন হতে চলছে  \\
+		$ $\\
+		\textcolor{diff}{(( পরীক্ষাটা ))} NP\\
+		\textcolor{diff}{(( একদম জঘন্ন ))} NP\\
+		\textcolor{diff}{(( হতে চলছে ))} VGNF\\
+$ $\\		
+		\item আমার বাড়িতে একদিন আয়, বেশ মজা হবে  \\
+		$ $\\
+		\textcolor{diff}{(( আমার বাড়িতে ))} NP\\
+		\textcolor{diff}{(( একদিন ))} NP\\
+		\textcolor{diff}{(( আয় ))} VP\\
+		\textcolor{diff}{(( বেশ ))} JJP\\
+		\textcolor{diff}{(( মজা ))} NP\\
+		\textcolor{diff}{(( হবে ))} VGF\\
+$ $\\
+		\item অতিরিক্ত কথা বললে আমি তোদের দুজনকে ক্লাস থেকে বার করে দেব\\
+		$ $\\
+		\textcolor{diff}{(( অতিরিক্ত কথা ))} NP\\		
+		\textcolor{diff}{(( বললে ))} VGINF\\		
+		\textcolor{diff}{(( আমি ))} NP\\		
+		\textcolor{diff}{(( তোদের দুজনকে ))} NP\\		
+		\textcolor{diff}{(( ক্লাস থেকে ))} NP\\		
+		\textcolor{diff}{(( বার ))} NP\\		
+		\textcolor{diff}{(( করে দেব ))} VGF\\
+$ $\\		
+		\item সকালে ঘুম থেকে উঠতে গিয়ে আমার দম বেরিয়ে যায় \\
+		$ $\\
+		\textcolor{diff}{(( সকালে ))} NP\\		
+		\textcolor{diff}{(( ঘুম থেকে ))} NP\\		
+		\textcolor{diff}{(( উঠতে গিয়ে ))} VGINF\\		
+		\textcolor{diff}{(( আমার ))} NP\\		
+		\textcolor{diff}{(( দম ))} NP\\		
+		\textcolor{diff}{(( বেরিয়ে যায় ))} VGF\\
+$ $\\		
+		\item কলেজ আমরা একটু বেশি খাবার বাইরে থেকে কিনে 
+		খাই কারণ যেটা কলেজ দেয় সেটা বেশ জঘন্য খেতে  \\
+		$ $\\
+		\textcolor{diff}{(( কলেজ ))} NP\\		
+		\textcolor{diff}{(( আমরা ))} NP\\		
+		\textcolor{diff}{(( একটু বেশি ))} JJP\\		
+		\textcolor{diff}{(( খাবার ))} NP\\		
+		\textcolor{diff}{(( বাইরে থেকে ))} NP\\		
+		\textcolor{diff}{(( কিনে খাই ))} VGF\\		
+		\textcolor{diff}{(( কারণ ))} CCP\\		
+		\textcolor{diff}{(( যেটা\ldots সেটা ))} FRAGP\\		
+		\textcolor{diff}{(( কলেজ ))} NP\\		
+		\textcolor{diff}{(( দেয় ))} VGF\\		
+		\textcolor{diff}{(( বেশ জঘন্য ))} RBP\\		
+		\textcolor{diff}{(( খেতে ))} VGNF\\		
+$ $\\		
+		\item এইটা হলো আমার এসসিজিনমেন্টের শেষের সেন্টেন্স  \\
+		$ $\\
+		\textcolor{diff}{(( এইটা ))} NP\\		
+		\textcolor{diff}{(( হলো ))} VGF\\		
+		\textcolor{diff}{(( আমার এসসিজিনমেন্টের ))} NP\\		
+		\textcolor{diff}{(( শেষের ))} JJP\\		
+		\textcolor{diff}{(( সেন্টেন্স ))} NP\\
+		
+				
+		
+	}	
+	
+	\end{enumerate}
+
+\end{document}
