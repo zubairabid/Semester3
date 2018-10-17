@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper,twocolumn]{article}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont{???}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[document]{ragged2e}
+
+\font\serif="FreeSerif:script=beng"
+\font\bg="FreeSerif:script=beng" at 13pt
+
+\usepackage{xcolor}
+\definecolor{hlit}{rgb}{0.5,0,1}
+\definecolor{diff}{rgb}{0.1,0.1,0.5}
+\definecolor{rlit}{rgb}{1,0,0}
+
+\title{Computational Linguistics - 1, Assignment 2}
+\author{Zubair Abid, 20171076}
+\date{}
+
+\begin{document}
+%	\twocolumn[
+%	\begin{@twocolumnfalse}
+ %   	\maketitle
+  %  	The three tasks of the asssignment:\\
+   % 	\begin{enumerate}
+    %		\item Comparing Indian POS tagger output on
+    %		previous assignment data to own output, and
+    %		analyzing and commenting on the differences.
+    %		
+    %		\item Chunk given data with proper labels 
+    %		(English)
+    %		
+    %		\item Chunk Indian language data with proper
+    %		labels
+    %	\end{enumerate}
+	%	$ $\\
+	%	$ $\\
+    %	
+ % 	\end{@twocolumnfalse} 
+	%]
+
+	\section{Distributions}
+
+		\subsection{Uniform Distribution}	
+			Lite.	
+	
+		\subsection{Poisson Distribution}
+	
+		\subsection{Exponential Distribution}
+	
+		\subsection{Normal Distribution}
+			Properties to keep in mind
+			\begin{enumerate}
+				\item 68-95-99.7 Distribution\\
+			\end{enumerate}						
+			
+			Normal Distribution in a Variate $X$ with mean $\mu$ and variance $\sigma ^ 2$ with PDF
+			\begin{align*}
+			P(x) &= \frac{1}{\sigma \sqrt{2\pi}} e ^ {-\frac{(x-\sigma)^2}{2\sigma^2}} \\			
+			\end{align*}
+			
+	\section{LNN and CLT}
+	
+	\section{Transformations}
+	
+		\subsection{Jacobian}
+	
+	\section{Random Process}
+
+
+	\section{Complex Analysis}
+		\subsection{Basic Properties}
+		
+		\subsection{Complex Field}
+		
+		\subsection{Polar Representation}
+		
+			\subsubsection{De Moivre's Theorem}
+					
+		
+	
+\end{document}
