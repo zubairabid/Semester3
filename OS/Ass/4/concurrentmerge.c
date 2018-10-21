@@ -46,6 +46,8 @@ int main() {
   }
 
   print(sharedArray, n);
+  // exit(0);
+  // selectionsort(sharedArray, 0, n-1);
   c_m_sort(sharedArray, 0, n-1);
   print(sharedArray, n);
 
@@ -83,6 +85,7 @@ void c_m_sort(int* array, int l, int r) {
   if (length <= 5) {
     // selectionsort for such cases
     selectionsort(array, l, r);
+    return;
   }
   // Forking out the branches
   pid_t pid_l, pid_r;
