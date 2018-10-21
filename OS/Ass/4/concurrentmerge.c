@@ -45,7 +45,7 @@ int main() {
     scanf("%d", &sharedArray[i]);
   }
 
-  print(sharedArray, n);
+  // print(sharedArray, n);
   // exit(0);
   // selectionsort(sharedArray, 0, n-1);
   c_m_sort(sharedArray, 0, n-1);
