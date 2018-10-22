@@ -6,6 +6,21 @@ Question to test concepts of multithreading and resource management.
 Given an input n, the program had to walk through the allocation of games
 to several people (processes) with necessary lock conditions.
 
+### Approach
+A quick summary of what's been done:
+- Primary (time cycle, etc) control is done via a loop in the main thread
+- Each person (referee/player) is a new thread
+- The organizer is a mutex
+- Each person (referee/player) thread manages everything the person does,
+from entering the academy to setting up the equipment/warming up. The main
+function/loop simply delegates tasks
+
+Some more specifics:
+- In order to get the timing of referee/players right, a custom semaphore-like
+variable was introduced
+- To ensure correct waiting for each thread, there is a condition associated
+with each (possible) thread
+
 ### Results
 1. Input n = 10: [Output for n = 10]()
 2. Input n = 1: [Output for n = 1]()
