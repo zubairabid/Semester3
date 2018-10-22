@@ -28,7 +28,7 @@ int main() {
   srand(time(0)); // Helper: setting a seed for rand
   int n, i, j, index;
   int playercount, refcount, playat = 1, refat = 1;
-  double playerprob;
+  double playerprob, temp;
   pthread_mutex_init(&organizer, NULL);
   for(i = 0; i < 20000; i++) {
     if (i < 10000) {
@@ -53,9 +53,11 @@ int main() {
 
     // Creating a new player
     // As per question requirements
-    playerprob = ((double)playercount/(playercount+refcount));
-    printf("Creating new player: playerprob = %f\n", playercount);
-    if ( (playercount != 0) && ((refcount == 0) || (rand() <= playerprob)) ) {
+    playerprob = ((double)playercount/(double)(playercount+refcount));
+    printf("Creating new player: playerprob = %f\n", playerprob);
+    temp = rand()/(double)RAND_MAX;
+    printf("Random number: %f\n", temp);
+    if ( (playercount != 0) && ((refcount == 0) || (temp <= playerprob)) ) {
       // New player is created
       index = 2*n - playercount + 1;
       pthread_create(&plr[index], NULL, player, (void *)index);
@@ -70,17 +72,21 @@ int main() {
     // Alloting groups, if organizer is free and people available
     // pthread_create(&pint, NULL, allocator, NULL);
     if (!locked) {
-      printf("Starting a game, organizer was unlocked\n");
       pthread_mutex_lock(&organizer);
+      locked = 1;
       if ( ((2*n-playercount)-playat-1) < 2 || ((n-refcount)-refat-1) < 1 ) {
+        pthread_mutex_unlock(&organizer);
+        locked = 0;
 
         if(playat >= 2*n || refat >= n) {
           break;
         }
 
+        sleep(1);
         continue;
       }
 
+      printf("Starting a game, organizer was unlocked\n");
       pthread_cond_signal(&condr[refat]);
       pthread_cond_signal(&condp[playat]);
       pthread_cond_signal(&condp[playat+1]);
@@ -89,7 +95,7 @@ int main() {
       refat++;
 
     }
-    printf("organizer was locked, continuing\n", );
+    // printf("organizer was locked, continuing\n");
 
     sleep(1);
   } while (1);
@@ -126,6 +132,7 @@ void *referee(void *args) {
 
   // Unlock organizer
   pthread_mutex_unlock(&organizer);
+  locked = 0;
 }
 
 void *player(void *args) {
@@ -164,35 +171,35 @@ void *allocator(void *arg) {
 // Define player actions
 
 void player_meetOrganizer(int id) {
-  printf("Player %d met the organizer", id);
+  printf("Player %d met the organizer\n", id);
 }
 void player_enterAcademy(int id) {
-  printf("Player %d entered the Academy", id);
+  printf("Player %d entered the Academy\n", id);
 }
 void player_enterCourt(int id) {
-  printf("Player %d entered the court", id);
+  printf("Player %d entered the court\n", id);
 }
 void player_warmUp(int id) {
-  printf("Player %d is warming up", id);
+  printf("Player %d is warming up\n", id);
 }
 
 
 // Define referee actions
 
 void referee_meetOrganizer(int id) {
-  printf("Referee %d met the organizer", id);
+  printf("Referee %d met the organizer\n", id);
 }
 void referee_enterAcademy(int id) {
-  printf("Referee %d entered the Academy", id);
+  printf("Referee %d entered the Academy\n", id);
 }
 void referee_enterCourt(int id) {
-  printf("Referee %d entered the court", id);
+  printf("Referee %d entered the court\n", id);
 }
 void referee_adjustEquipment(int id) {
-  printf("Referee %d is adjusting equipment", id);
+  printf("Referee %d is adjusting equipment\n", id);
 }
 void referee_startGame(int id) {
-  printf("Referee %d has started the game", id);
+  printf("Referee %d has started the game\n", id);
 }
 
 // Organizer: mutex
