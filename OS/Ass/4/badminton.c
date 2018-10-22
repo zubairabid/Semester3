@@ -28,6 +28,7 @@ pthread_t ref[10000];
 pthread_t plr[20000];
 
 int locked = 0;
+int tempc = 2;
 
 double timer = 0.0f;
 
@@ -94,10 +95,12 @@ int main() {
 
       pthread_cond_signal(&condp[playat]);
       pthread_cond_signal(&condp[playat+1]);
-      pthread_join(plr[playat], NULL);
-      pthread_join(plr[playat+1], NULL);
+      // pthread_join(plr[playat], NULL);
+      // pthread_join(plr[playat+1], NULL);
       pthread_cond_signal(&condr[refat]);
+      // pthread_join(ref[refat], NULL);
 
+      tempc = 2;
       playat += 2;
       refat++;
     }
@@ -136,6 +139,7 @@ void *referee(void *args) {
   sleep(0.5);
   // timer += 0.5;
 
+  while(tempc > 0);
 
   //  Start match (rint)
   referee_startGame(index);
@@ -173,6 +177,7 @@ void *player(void *args) {
 
 
   sleep(1);
+  tempc--;
   // timer += 1;
   // Unlock organizer
 }
