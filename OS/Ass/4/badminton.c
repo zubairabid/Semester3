@@ -18,6 +18,8 @@ void player_enterAcademy(int);
 void player_meetOrganizer(int);
 
 pthread_mutex_t organizer;
+pthread_mutex_t mutp[20000];
+pthread_mutex_t mutr[10000];
 pthread_cond_t condp[20000];
 pthread_cond_t condr[10000];
 int locked = 0;
@@ -33,8 +35,10 @@ int main() {
   for(i = 0; i < 20000; i++) {
     if (i < 10000) {
       pthread_cond_init(&condr[i], NULL);
+      pthread_mutex_init(&mutr[i], NULL);
     }
     pthread_cond_init(&condp[i], NULL);
+    pthread_mutex_init(&mutp[i], NULL);
   }
 
 
@@ -72,7 +76,7 @@ int main() {
     }
     sleep(1);
 
-    printf("playercount = %d\tplayat = %d\nrefcount = %d\trefat = %d\n", playercount, playat, refcount, refat);
+    // printf("playercount = %d\tplayat = %d\nrefcount = %d\trefat = %d\n", playercount, playat, refcount, refat);
 
     // Alloting groups, if organizer is free and people available
     // pthread_create(&pint, NULL, allocator, NULL);
@@ -121,8 +125,9 @@ void *referee(void *args) {
   locked = 0;
   pthread_mutex_unlock(&organizer);
 
+  pthread_mutex_lock(&mutr[index]);
   // Wait till signal for new match (wait)
-  pthread_cond_wait(&condr[index], &organizer);
+  pthread_cond_wait(&condr[index], &mutr[index]);
 
   // Lock organizer
   //  Enter court (print)
@@ -153,8 +158,9 @@ void *player(void *args) {
   locked = 0;
   pthread_mutex_unlock(&organizer);
 
+  pthread_mutex_lock(&mutp[index]);
   // Wait till signal for new match (wait)
-  pthread_cond_wait(&condp[index], &organizer);
+  pthread_cond_wait(&condp[index], &mutp[index]);
 
   // Lock organizer
   //  Enter court (print)
