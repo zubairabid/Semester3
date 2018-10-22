@@ -18,6 +18,7 @@ void player_enterAcademy(int);
 void player_meetOrganizer(int);
 
 pthread_mutex_t organizer;
+pthread_mutex_t pres;
 pthread_mutex_t mutp[20000];
 pthread_mutex_t mutr[10000];
 pthread_cond_t condp[20000];
@@ -38,6 +39,7 @@ int main() {
   int playercount, refcount, playat = 1, refat = 1;
   double playerprob, temp;
   pthread_mutex_init(&organizer, NULL);
+  pthread_mutex_init(&pres, NULL);
   for(i = 0; i < 20000; i++) {
     if (i < 10000) {
       pthread_cond_init(&condr[i], NULL);
@@ -92,6 +94,8 @@ int main() {
 
       pthread_cond_signal(&condp[playat]);
       pthread_cond_signal(&condp[playat+1]);
+      pthread_join(plr[playat], NULL);
+      pthread_join(plr[playat+1], NULL);
       pthread_cond_signal(&condr[refat]);
 
       playat += 2;
@@ -100,7 +104,9 @@ int main() {
 
     timer+=1;
   } while (1);
-
+  // for(i = 1; i <= n; i++) {
+  //   pthread_join(ref[i], NULL);
+  // }
   return 0;
 }
 
@@ -128,10 +134,8 @@ void *referee(void *args) {
   //  Adjust equipment (wait) (print)
   referee_adjustEquipment(index);
   sleep(0.5);
-  timer += 0.5;
+  // timer += 0.5;
 
-  // pthread_join(plr[2*index], NULL);
-  // pthread_join(plr[2*index+1], NULL);
 
   //  Start match (rint)
   referee_startGame(index);
@@ -159,13 +163,17 @@ void *player(void *args) {
   pthread_cond_wait(&condp[index], &mutp[index]);
 
   // Lock organizer
+  pthread_mutex_lock(&pres);
   //  Enter court (print)
   player_enterCourt(index);
 
   //  Warm up (wait) (print)
   player_warmUp(index);
+  pthread_mutex_unlock(&pres);
+
+
   sleep(1);
-  timer += 1;
+  // timer += 1;
   // Unlock organizer
 }
 
