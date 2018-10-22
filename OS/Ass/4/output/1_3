@@ -1,0 +1,41 @@
+Enter number n, given 3n people will come in total:
+3
+0.0 : Referee 1 entered the Academy
+0.0 : Referee 1 met the organizer
+1.0 : Player 1 entered the Academy
+1.0 : Player 1 met the organizer
+4.0 : Player 2 entered the Academy
+4.0 : Player 2 met the organizer
+5.0 : Player 1 entered the court
+5.0 : Player 1 is warming up
+5.0 : Player 2 entered the court
+5.0 : Player 2 is warming up
+5.0 : Referee 1 entered the court
+5.0 : Referee 1 is adjusting equipment
+6.0 : Referee 1 has started the game
+7.0 : Referee 2 entered the Academy
+7.0 : Referee 2 met the organizer
+9.0 : Player 3 entered the Academy
+9.0 : Player 3 met the organizer
+11.0 : Player 4 entered the Academy
+11.0 : Player 4 met the organizer
+12.0 : Player 5 entered the Academy
+12.0 : Player 3 entered the court
+12.0 : Player 3 is warming up
+12.0 : Player 4 entered the court
+12.0 : Player 4 is warming up
+12.0 : Referee 2 entered the court
+12.0 : Referee 2 is adjusting equipment
+13.0 : Player 6 entered the Academy
+13.0 : Referee 2 has started the game
+13.0 : Player 5 met the organizer
+13.0 : Player 6 met the organizer
+16.0 : Referee 3 entered the Academy
+16.0 : Referee 3 met the organizer
+16.0 : Player 5 entered the court
+17.0 : Player 5 is warming up
+17.0 : Player 6 entered the court
+17.0 : Player 6 is warming up
+17.0 : Referee 3 entered the court
+17.0 : Referee 3 is adjusting equipment
+18.0 : Referee 3 has started the game

@@ -1,0 +1,132 @@
+Enter number n, given 3n people will come in total:
+10
+0.0 : Referee 1 entered the Academy
+0.0 : Referee 1 met the organizer
+2.0 : Player 1 entered the Academy
+2.0 : Player 1 met the organizer
+5.0 : Player 2 entered the Academy
+5.0 : Player 2 met the organizer
+6.0 : Player 3 entered the Academy
+6.0 : Player 1 entered the court
+6.0 : Player 1 is warming up
+6.0 : Referee 1 entered the court
+6.0 : Referee 1 is adjusting equipment
+6.0 : Player 2 entered the court
+6.0 : Player 2 is warming up
+7.0 : Player 4 entered the Academy
+7.0 : Referee 1 has started the game
+7.0 : Player 3 met the organizer
+7.0 : Player 4 met the organizer
+8.0 : Player 5 entered the Academy
+8.0 : Player 5 met the organizer
+10.0 : Player 6 entered the Academy
+10.0 : Player 6 met the organizer
+13.0 : Referee 2 entered the Academy
+13.0 : Referee 2 met the organizer
+14.0 : Player 3 entered the court
+14.0 : Player 3 is warming up
+14.0 : Player 4 entered the court
+14.0 : Player 4 is warming up
+14.0 : Referee 2 entered the court
+14.0 : Referee 2 is adjusting equipment
+14.0 : Referee 3 entered the Academy
+15.0 : Referee 2 has started the game
+15.0 : Referee 3 met the organizer
+16.0 : Player 5 entered the court
+16.0 : Player 5 is warming up
+16.0 : Player 6 entered the court
+16.0 : Player 6 is warming up
+16.0 : Referee 3 entered the court
+16.0 : Referee 3 is adjusting equipment
+17.0 : Referee 3 has started the game
+17.0 : Player 7 entered the Academy
+17.0 : Player 7 met the organizer
+19.0 : Referee 4 entered the Academy
+19.0 : Referee 4 met the organizer
+22.0 : Player 8 entered the Academy
+22.0 : Player 8 met the organizer
+23.0 : Player 7 entered the court
+23.0 : Player 7 is warming up
+23.0 : Referee 4 entered the court
+23.0 : Referee 4 is adjusting equipment
+23.0 : Player 8 entered the court
+23.0 : Player 8 is warming up
+23.0 : Referee 4 has started the game
+24.0 : Referee 5 entered the Academy
+24.0 : Referee 5 met the organizer
+27.0 : Player 9 entered the Academy
+27.0 : Player 9 met the organizer
+30.0 : Player 10 entered the Academy
+30.0 : Player 10 met the organizer
+31.0 : Referee 5 entered the court
+31.0 : Referee 5 is adjusting equipment
+31.0 : Player 9 entered the court
+31.0 : Player 9 is warming up
+31.0 : Player 10 entered the court
+31.0 : Player 10 is warming up
+31.0 : Referee 6 entered the Academy
+32.0 : Referee 5 has started the game
+32.0 : Referee 6 met the organizer
+34.0 : Referee 7 entered the Academy
+34.0 : Referee 7 met the organizer
+35.0 : Player 11 entered the Academy
+35.0 : Player 11 met the organizer
+36.0 : Player 12 entered the Academy
+36.0 : Player 12 met the organizer
+37.0 : Referee 6 entered the court
+37.0 : Referee 6 is adjusting equipment
+37.0 : Player 13 entered the Academy
+37.0 : Player 11 entered the court
+37.0 : Player 11 is warming up
+37.0 : Player 12 entered the court
+37.0 : Player 12 is warming up
+38.0 : Referee 6 has started the game
+38.0 : Player 13 met the organizer
+40.0 : Player 14 entered the Academy
+40.0 : Player 14 met the organizer
+40.0 : Player 13 entered the court
+41.0 : Player 13 is warming up
+41.0 : Referee 7 entered the court
+41.0 : Referee 7 is adjusting equipment
+41.0 : Player 14 entered the court
+41.0 : Player 14 is warming up
+42.0 : Referee 7 has started the game
+43.0 : Referee 8 entered the Academy
+43.0 : Referee 8 met the organizer
+45.0 : Referee 9 entered the Academy
+45.0 : Referee 9 met the organizer
+48.0 : Player 15 entered the Academy
+48.0 : Player 15 met the organizer
+50.0 : Referee 10 entered the Academy
+50.0 : Referee 10 met the organizer
+52.0 : Player 16 entered the Academy
+52.0 : Player 16 met the organizer
+53.0 : Referee 8 entered the court
+53.0 : Referee 8 is adjusting equipment
+53.0 : Player 15 entered the court
+53.0 : Player 15 is warming up
+53.0 : Player 16 entered the court
+53.0 : Player 16 is warming up
+54.0 : Referee 8 has started the game
+54.0 : Player 17 entered the Academy
+54.0 : Player 17 met the organizer
+56.0 : Player 18 entered the Academy
+56.0 : Player 18 met the organizer
+57.0 : Referee 9 entered the court
+57.0 : Referee 9 is adjusting equipment
+57.0 : Player 17 entered the court
+57.0 : Player 17 is warming up
+57.0 : Player 18 entered the court
+57.0 : Player 18 is warming up
+58.0 : Referee 9 has started the game
+59.0 : Player 19 entered the Academy
+59.0 : Player 19 met the organizer
+62.0 : Player 20 entered the Academy
+62.0 : Player 20 met the organizer
+63.0 : Player 19 entered the court
+63.0 : Player 19 is warming up
+63.0 : Referee 10 entered the court
+63.0 : Referee 10 is adjusting equipment
+63.0 : Player 20 entered the court
+63.0 : Player 20 is warming up
+64.0 : Referee 10 has started the game
