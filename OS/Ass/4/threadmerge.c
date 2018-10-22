@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <sys/shm.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/ipc.h>
+#include <pthread.h>
 
 typedef struct tstruct {
   int *array;
@@ -18,13 +18,14 @@ void selectionsort(int* array, int l, int r);
 
 void print(int* array, int size);
 
+pthread_mutex_t lock;
 
 // Main
 int main() {
 
   // Initializing shared memory array, following tute and manpages
   int* array;
-
+  pthread_mutex_init(&lock, NULL);
   // Standard OJ sequence of inputs
   int n, i;
 
@@ -39,6 +40,8 @@ int main() {
   args->array = array;
   args->left = 0;
   args->right = n-1;
+
+  printf("%d %d\n", args->left, args->right);
 
   t_m_sort((void*)args);
   print(array, n);
@@ -62,27 +65,33 @@ void *t_m_sort(void *args) {
   int l = vars->left;
   int r = vars->right;
 
+  printf("%d %d\n", vars->left, vars->right);
+
+
   // Since both bounds are inclusive, length is the
   // difference + 1
   int length = r - l + 1;
 
   if (length <= 5) {
     // selectionsort for such cases
-    selectionsort(array, l, r);
+    selectionsort(vars->array, l, r);
     return;
   }
 
-  construct *left, *right;
+  construct *left = (construct*)malloc(sizeof(construct));
+  construct *right = (construct*)malloc(sizeof(construct));
 
-  left->array = array;
+  left->array = vars->array;
   left->left = l;
-  left->right = left + length/2 -1;
+  left->right = l + length/2 -1;
 
-  right->array = array;
+  right->array = vars->array;
   right->left = l + length/2;
   right->right = r;
 
   pthread_t thleft, thright;
+
+  printf("%d %d\n", left->left, left->right);
 
   pthread_create(&thleft, NULL, t_m_sort, (void*)left);
   pthread_create(&thright, NULL, t_m_sort, (void*)right);
@@ -95,6 +104,7 @@ void *t_m_sort(void *args) {
 
 void merge(int* array, int l, int r, int length) {
   // mid: point where second array starts
+  pthread_mutex_lock(&lock);
   int mid = l + length/2;
   int copy[length];
   int start = 0, cl = l, cr = r, cm = mid;
@@ -112,6 +122,7 @@ void merge(int* array, int l, int r, int length) {
   for (i = l, j = 0; i <= r; i++, j++) {
     array[i] = copy[j];
   }
+  pthread_mutex_unlock(&lock);
   return;
 }
 
@@ -125,6 +136,7 @@ void merge(int* array, int l, int r, int length) {
  * r: rightmost index of range (inclusive)
  */
 void selectionsort(int* array, int l, int r) {
+  pthread_mutex_lock(&lock);
   int i, j, temp, min, minpos;
   for (i = l; i < r; i++) {
     // Assign current val as minimum value so far
@@ -142,6 +154,7 @@ void selectionsort(int* array, int l, int r) {
     array[i] = array[minpos];
     array[minpos] = temp;
   }
+  pthread_mutex_unlock(&lock);
 }
 
 /* Utility function, prints array list till index size-1
