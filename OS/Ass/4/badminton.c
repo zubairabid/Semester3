@@ -54,19 +54,21 @@ int main() {
     // Creating a new player
     // As per question requirements
     playerprob = ((double)playercount/(double)(playercount+refcount));
-    printf("Creating new player: playerprob = %f\n", playerprob);
+    // printf("Creating new player: playerprob = %f\n", playerprob);
     temp = rand()/(double)RAND_MAX;
-    printf("Random number: %f\n", temp);
-    if ( (playercount != 0) && ((refcount == 0) || (temp <= playerprob)) ) {
+    // printf("Random number: %f\n", temp);
+    if ( (playercount > 0) && ((refcount <= 0) || (temp <= playerprob)) ) {
       // New player is created
       index = 2*n - playercount + 1;
       pthread_create(&plr[index], NULL, player, (void *)index);
       playercount--;
     } else {
-      // New referee is created
-      index = n - refcount + 1;
-      pthread_create(&plr[index], NULL, referee, (void *)index);
-      refcount--;
+      if(refcount > 0) {
+        // New referee is created
+        index = n - refcount + 1;
+        pthread_create(&plr[index], NULL, referee, (void *)index);
+        refcount--;
+      }
     }
 
     // Alloting groups, if organizer is free and people available
@@ -95,7 +97,8 @@ int main() {
       refat++;
 
     }
-    // printf("organizer was locked, continuing\n");
+    else
+      printf("organizer was locked, continuing\n");
 
     sleep(1);
   } while (1);
