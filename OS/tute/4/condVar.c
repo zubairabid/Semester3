@@ -20,7 +20,7 @@ int main() {
     pthread_create(&tid, NULL, func, NULL);
 
     sleep(1);
-    
+
     pthread_mutex_lock(&mutex);
     printf("MAIN acquired lock\n");
 
@@ -40,7 +40,7 @@ int main() {
 
     // Wait for thread to finish
     pthread_join(tid, NULL);
-        
+
     return 0;
 }
 
