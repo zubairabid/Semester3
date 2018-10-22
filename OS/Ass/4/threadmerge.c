@@ -75,7 +75,7 @@ void *t_m_sort(void *args) {
   if (length <= 5) {
     // selectionsort for such cases
     selectionsort(vars->array, l, r);
-    return;
+    return NULL;
   }
 
   construct *left = (construct*)malloc(sizeof(construct));

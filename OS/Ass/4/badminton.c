@@ -36,7 +36,7 @@ int main() {
 
   // Initializing variables, not much to see here
   srand(time(0)); // Helper: setting a seed for rand
-  int n, i, j, index;
+  int n, i, j, index, time_to_next = 0;
   int playercount, refcount, playat = 1, refat = 1;
   double playerprob, temp;
   pthread_mutex_init(&organizer, NULL);
@@ -59,23 +59,30 @@ int main() {
 
   do {
 
-    // Creating a new player
-    // As per question requirements
-    playerprob = ((double)playercount/(double)(playercount+refcount));
-    temp = rand()/(double)RAND_MAX;
-    if ( (playercount > 0) && ((refcount <= 0) || (temp <= playerprob)) ) {
-      // New player is created
-      index = 2*n - playercount + 1;
-      pthread_create(&plr[index], NULL, player, (void *)index);
-      playercount--;
-    } else {
-      if(refcount > 0) {
-        // New referee is created
-        index = n - refcount + 1;
-        pthread_create(&plr[index], NULL, referee, (void *)index);
-        refcount--;
+    if (time_to_next <= 0) {
+      time_to_next = 1 + (rand()/(double)RAND_MAX)*3;
+
+      // Creating a new player
+      // As per question requirements
+      playerprob = ((double)playercount/(double)(playercount+refcount));
+      temp = rand()/(double)RAND_MAX;
+      if ( (playercount > 0) && ((refcount <= 0) || (temp <= playerprob)) ) {
+        // New player is created
+        index = 2*n - playercount + 1;
+        pthread_create(&plr[index], NULL, player, (void *)index);
+        playercount--;
+      } else {
+        if(refcount > 0) {
+          // New referee is created
+          index = n - refcount + 1;
+          pthread_create(&plr[index], NULL, referee, (void *)index);
+          refcount--;
+        }
       }
+
     }
+
+
     sleep(1);
 
 
@@ -84,6 +91,7 @@ int main() {
       if ( ((2*n-playercount)-playat+1) < 2 || ((n-refcount)-refat+1) < 1 ) {
 
         timer+=1;
+        time_to_next--;
         if(playat >= 2*n || refat > n) {
           break;
         }
@@ -106,6 +114,8 @@ int main() {
     }
 
     timer+=1;
+    time_to_next--;
+    // printf("%d\n", time_to_next);
   } while (1);
   // for(i = 1; i <= n; i++) {
   //   pthread_join(ref[i], NULL);
