@@ -22,9 +22,9 @@ variable was introduced
 with each (possible) thread
 
 ### Results
-1. Input n = 10: [Output for n = 10]()
-2. Input n = 1: [Output for n = 1]()
-3. Input n = 3: [Output for n = 3]()
+1. Input n = 10: [Output for n = 10][]
+2. Input n = 1: [Output for n = 1][]
+3. Input n = 3: [Output for n = 3][]
 
 ## Question 2
 
@@ -46,9 +46,9 @@ All times reported are an average of three tests each, in seconds
 
 | Program  | Time on 10^3  | Time on 10^4  | Time on 10^5  |
 |:-:|---|---|---|
-| Normal  | [0.00]() | [0.01]()  | [0.10]()  |
-| Process  | [0.20]()  | [2.56]()  | (Crashed) |
-| Threaded  | [0.04]()  | [0.39]() | (Segfault) |
+| Normal  | [0.00][] | [0.01][]  | [0.10][]  |
+| Process  | [0.20][]  | [2.56][]  | (Crashed) |
+| Threaded  | [0.04][]  | [0.39][] | (Segfault) |
 
 ### General Observation:
 The normal merge sort ran the fastest, while the concurrent merge sort based on
