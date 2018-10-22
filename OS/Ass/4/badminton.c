@@ -81,7 +81,7 @@ int main() {
         // pthread_mutex_unlock(&organizer);
         // locked = 0;
 
-        if(playat >= 2*n || refat >= n) {
+        if(playat >= 2*n || refat > n) {
           break;
         }
 
