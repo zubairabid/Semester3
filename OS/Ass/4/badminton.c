@@ -70,15 +70,16 @@ int main() {
         refcount--;
       }
     }
+    sleep(1);
+
+    printf("playercount = %d\tplayat = %d\nrefcount = %d\trefat = %d\n", playercount, playat, refcount, refat);
 
     // Alloting groups, if organizer is free and people available
     // pthread_create(&pint, NULL, allocator, NULL);
     if (!locked) {
-      pthread_mutex_lock(&organizer);
-      locked = 1;
-      if ( ((2*n-playercount)-playat-1) < 2 || ((n-refcount)-refat-1) < 1 ) {
-        pthread_mutex_unlock(&organizer);
-        locked = 0;
+      if ( ((2*n-playercount)-playat+1) < 2 || ((n-refcount)-refat+1) < 1 ) {
+        // pthread_mutex_unlock(&organizer);
+        // locked = 0;
 
         if(playat >= 2*n || refat >= n) {
           break;
@@ -87,6 +88,8 @@ int main() {
         sleep(1);
         continue;
       }
+      pthread_mutex_lock(&organizer);
+      locked = 1;
 
       printf("Starting a game, organizer was unlocked\n");
       pthread_cond_signal(&condr[refat]);
@@ -100,7 +103,6 @@ int main() {
     else
       printf("organizer was locked, continuing\n");
 
-    sleep(1);
   } while (1);
 
   return 0;
