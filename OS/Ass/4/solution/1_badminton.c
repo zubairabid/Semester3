@@ -192,13 +192,6 @@ void *player(void *args) {
   // Unlock organizer
 }
 
-
-
-void *allocator(void *arg) {
-
-}
-
-
 // Define player actions
 
 void player_meetOrganizer(int id) {
