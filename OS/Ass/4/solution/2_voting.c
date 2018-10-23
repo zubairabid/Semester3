@@ -25,9 +25,9 @@ typedef struct argument {
   int booth;
 } ags;
 
-void polling_ready_evm(booth, int);
-void voter_wait_for_evm(booth);
-void voter_in_slot(booth);
+void polling_ready_evm(booth*, int);
+void voter_wait_for_evm(booth*);
+void voter_in_slot(booth*);
 
 void *boothr(void*);
 void *vrobot(void*);
@@ -37,6 +37,8 @@ int number_voters[10000];
 int number_evms[10000];
 
 booth *boothdetails[10000];
+
+pthread_cond_t evm_wait;
 
 int main() {
 
@@ -64,7 +66,7 @@ int main() {
 
 void *boothr(void *args) {
   int i;
-  int bno = (ags*)args->booth;
+  int bno = ((ags*)args)->booth;
 
   for (i = 0; i < number_voters; i++) {
     ags *argument = (ags*)malloc(sizeof(ags));
@@ -80,27 +82,27 @@ void *boothr(void *args) {
 }
 
 void *vrobot(void *args) {
-  int booth = (ags*)args->booth;
+  int booth = ((ags*)args)->booth;
   voter_wait_for_evm(boothdetails[booth]);
 
 
 }
 
 void *evmr(void *args) {
-  int booth = (ags*)args->booth;
+  int booth = ((ags*)args)->booth;
   int slots;
   do {
     slots = 1 + (int)(rand()/(double)RAND_MAX)*9;
     polling_ready_evm(boothdetails[booth], slots);
 
-  } while(true);
+  } while(1);
 }
 
-void voter_wait_for_evm(booth bth) {
+void voter_wait_for_evm(booth *bth) {
   pthread_cond_wait(&evm_wait, &bth->lock);
 }
 
-void polling_ready_evm(booth bth, int count) {
+void polling_ready_evm(booth *bth, int count) {
   pthread_cond_broadcast(&evm_wait);
   // printf("EVM %d at booth %d is ready with %d slots\n", );
   printf("EVM ready\n");
