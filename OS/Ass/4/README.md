@@ -57,17 +57,17 @@ variables with use of mutexes.
 
 **Booth thread**:
  - Start all voter and EVM threads
- -
+ - Exit
 
 **Voter thread**:
- - Wait at voter_wait_for_evm
- - Enter an EVM slot and call voter_in_slot
+ - Wait at `voter_wait_for_evm`
+ - Enter an EVM slot and call `voter_in_slot`
  - Make a vote
  - Leave EVM, inform EVM.
 
 **EVM thread**:
  - Assign random number of slots
- - Call polling_ready_evm
+ - Call `polling_ready_evm`
  - Wait till voters are assigned to it
  - Wait till all slots are empty
  - Repeat
