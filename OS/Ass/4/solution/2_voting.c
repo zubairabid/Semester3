@@ -3,9 +3,19 @@
 #include <unistd.h>
 #include <pthread.h>
 
+typedef struct voter {
+  pthread_t thread_id;
+
+} voter;
+
+typedef struct evm {
+  pthread_t thread_id;
+  
+} evm;
+
 typedef struct booth {
   pthread_t voters[10000];
-  pthread_t evms[100000];
+  pthread_t evms[10000];
   pthread_mutex_t lock;
 } booth;
 
