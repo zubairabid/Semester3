@@ -45,7 +45,7 @@ Implementation of timing is done by making each thread wait on conditional
 variables with use of mutexes.
 
 ### Slightly more detail
-`Booth`: struct, with array of Voter and EVM threads
+`Booth`: struct, with array of Voters and EVMs under it
 
 `Voter`: Thread implementing and waiting for related functions
 

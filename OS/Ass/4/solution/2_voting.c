@@ -3,19 +3,20 @@
 #include <unistd.h>
 #include <pthread.h>
 
-typedef struct voter {
-  pthread_t thread_id;
-
-} voter;
-
 typedef struct evm {
   pthread_t thread_id;
-  
+
 } evm;
 
+typedef struct voter {
+  pthread_t thread_id;
+  int voted;
+  evm voting_at;
+} voter;
+
 typedef struct booth {
-  pthread_t voters[10000];
-  pthread_t evms[10000];
+  voter voters[10000];
+  evm evms[10000];
   pthread_mutex_t lock;
 } booth;
 
@@ -29,7 +30,7 @@ void voter_in_slot(booth);
 
 void *booth(void*);
 void *vrobot(void*);
-void *evm(void*);
+void *evmr(void*);
 
 int number_voters[10000];
 int number_evms[10000];
@@ -62,13 +63,13 @@ void *booth(void *args) {
   for (i = 0; i < number_voters; i++) {
     ags *argument = (ags*)malloc(sizeof(ags));
     argument->booth = bno;
-    pthread_create(boothdetails[bno]->voters[i], NULL, vrobot, argument);
+    pthread_create(boothdetails[bno]->voters[i]->thread_id, NULL, vrobot, argument);
   }
 
   for (i = 0; i < number_evms; i++) {
     ags *argument = (ags*)malloc(sizeof(ags));
     argument->booth = bno;
-    pthread_create(boothdetails[bno]->evms[i], NULL, evm, argument);
+    pthread_create(boothdetails[bno]->evms[i]->thread_id, NULL, evm, argument);
   }
 }
 
@@ -79,7 +80,7 @@ void *vrobot(void *args) {
 
 }
 
-void *evm(void *args) {
+void *evmr(void *args) {
   int booth = args->booth;
   int slots;
   do {
