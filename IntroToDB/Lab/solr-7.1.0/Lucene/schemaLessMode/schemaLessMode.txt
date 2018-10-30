@@ -1,0 +1,15 @@
+Schemaless Mode
+
+start solr in schemaless mode by running the following command
+
+try to index books.csv
+bin/post -c gettingstarted ~/Lucene/schemaLessMode/books.csv
+	
+
+
+
+Reference Links:
+1) http://javaskeleton.blogspot.in/2011/07/adding-solr-to-existing-web-application.html
+1) http://svn.apache.org/repos/asf/lucene/dev/tags/lucene_solr_5_3_1/solr/example/films/README.txt
+
+

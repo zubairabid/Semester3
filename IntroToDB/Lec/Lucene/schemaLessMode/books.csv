@@ -1,0 +1,11 @@
+id,cat_s,pubyear_i,title_t,author_s,series_s,sequence_i,publisher_s
+book1,fantasy,2010,The Way of Kings,Brandon Sanderson,The Stormlight Archive,1,Tor
+book2,fantasy,1996,A Game of Thrones,George R.R. Martin,A Song of Ice and Fire,1,Bantam
+book3,fantasy,1999,A Clash of Kings,George R.R. Martin,A Song of Ice and Fire,2,Bantam
+book4,sci-fi,1951,Foundation,Isaac Asimov,Foundation Series,1,Bantam
+book5,sci-fi,1952,Foundation and Empire,Isaac Asimov,Foundation Series,2,Bantam
+book6,sci-fi,1992,Snow Crash,Neal Stephenson,Snow Crash,,Bantam
+book7,sci-fi,1984,Neuromancer,William Gibson,Sprawl trilogy,1,Ace
+book8,fantasy,1985,The Black Company,Glen Cook,The Black Company,1,Tor
+book9,fantasy,1965,The Black Cauldron,Lloyd Alexander,The Chronicles of Prydain,2,Square Fish
+book10,fantasy,2001,American Gods,Neil Gaiman,,,Harper'

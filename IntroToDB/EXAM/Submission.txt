@@ -1,0 +1,18 @@
+Roll Number: 20171076
+Seat Number: F4
+
+1.
+create view countdep as select count(dno) as count, dno from EMPLOYEE group by dno;
+create view temp1 as select distinct self.dno, self.count from countdep as self, countdep as other where self.count > other.count;
+select Dname from DEPARTMENT where Dnumber=(select self.dno from temp1 as self, temp1 as other where self.count > other.count);
+
+2.
+create view employees_work as select essn, sum(Pno) as psum from WORKS_ON group by Essn;
+ create view dept_work as select Dnum, sum(Pnumber) as psum from PROJECT group by Dnum;
+ create view deps as select Essn,count(*) as counted from DEPENDENT group by Essn;
+ create view empdepworkcomb as select * from EMPLOYEE inner join employees_work where ssn=essn;
+ select ssn from empdepworkcomb, PROJECT where empdepworkcomb.psum >= PROJECT.psum and Dno=Dnum;
+
+3.
+
+

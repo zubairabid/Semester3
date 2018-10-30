@@ -1,0 +1,144 @@
+2018-10-06 04:59:26.348 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-10-06 04:59:27.569 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
+2018-10-06 04:59:27.571 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-10-06 04:59:27.571 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/zubair/Downloads/solr-7.1.0, Default config dir: /home/zubair/Downloads/solr-7.1.0/server/solr/configsets/_default/conf
+2018-10-06 04:59:27.638 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-10-06T04:59:27.595Z
+2018-10-06 04:59:27.639 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-10-06 04:59:27.677 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/zubair/Downloads/solr-7.1.0/server/solr
+2018-10-06 04:59:27.689 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/zubair/Downloads/solr-7.1.0/server/solr/solr.xml
+2018-10-06 04:59:31.037 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 0 core definitions underneath /home/zubair/Downloads/solr-7.1.0/server/solr
+2018-10-06 04:59:31.260 INFO  (main) [   ] o.e.j.s.Server Started @6989ms
+2018-10-06 05:05:40.419 INFO  (qtp1929600551-15) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-10-06 05:05:43.038 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802342285} status=0 QTime=161
+2018-10-06 05:05:43.260 INFO  (qtp1929600551-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802342288} status=0 QTime=388
+2018-10-06 05:05:43.269 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802342288} status=0 QTime=397
+2018-10-06 05:08:27.895 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=16
+2018-10-06 05:08:27.981 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=13
+2018-10-06 05:08:28.030 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=films&action=STATUS&wt=json} status=0 QTime=0
+2018-10-06 05:08:28.357 INFO  (qtp1929600551-15) [   ] o.a.s.h.a.CoreAdminOperation core create command name=films&action=CREATE&instanceDir=films&wt=json
+2018-10-06 05:08:28.771 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.SolrResourceLoader [films] Added 53 libs to classloader, from paths: [/home/zubair/Downloads/solr-7.1.0/contrib/clustering/lib, /home/zubair/Downloads/solr-7.1.0/contrib/extraction/lib, /home/zubair/Downloads/solr-7.1.0/contrib/langid/lib, /home/zubair/Downloads/solr-7.1.0/contrib/velocity/lib, /home/zubair/Downloads/solr-7.1.0/dist]
+2018-10-06 05:08:30.291 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2018-10-06 05:08:30.661 INFO  (qtp1929600551-15) [   x:films] o.a.s.s.IndexSchema [films] Schema name=default-config
+2018-10-06 05:08:32.045 INFO  (qtp1929600551-15) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-10-06 05:08:32.176 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir /home/zubair/Downloads/solr-7.1.0/server/solr/films, trusted=true
+2018-10-06 05:08:32.232 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-06 05:08:32.262 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [/home/zubair/Downloads/solr-7.1.0/server/solr/films], dataDir=[/home/zubair/Downloads/solr-7.1.0/server/solr/films/data/]
+2018-10-06 05:08:32.772 INFO  (qtp1929600551-15) [   x:films] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-10-06 05:08:33.839 INFO  (qtp1929600551-15) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-10-06 05:08:33.840 INFO  (qtp1929600551-15) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-10-06 05:08:33.864 INFO  (qtp1929600551-15) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-10-06 05:08:33.864 INFO  (qtp1929600551-15) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-06 05:08:33.922 INFO  (qtp1929600551-15) [   x:films] o.a.s.s.SolrIndexSearcher Opening [Searcher@47fbdbed[films] main]
+2018-10-06 05:08:34.067 INFO  (qtp1929600551-15) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/zubair/Downloads/solr-7.1.0/server/solr/films/conf
+2018-10-06 05:08:34.282 INFO  (qtp1929600551-15) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-10-06 05:08:34.329 INFO  (qtp1929600551-15) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-10-06 05:08:34.357 INFO  (qtp1929600551-15) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-06 05:08:34.626 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@47fbdbed[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-06 05:08:34.626 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-06 05:08:34.627 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-10-06 05:08:34.631 INFO  (qtp1929600551-15) [   x:films] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1613551385581715456
+2018-10-06 05:08:34.643 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films] Registered new searcher Searcher@47fbdbed[films] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-06 05:08:34.651 INFO  (qtp1929600551-15) [   x:films] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=films&action=CREATE&instanceDir=films&wt=json} status=0 QTime=6294
+2018-10-06 05:09:21.957 INFO  (qtp1929600551-17) [   x:films] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/zubair/Downloads/solr-7.1.0/server/solr/films/conf/managed-schema
+2018-10-06 05:09:21.996 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/schema params={} status=0 QTime=476
+2018-10-06 05:09:29.021 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802568616} status=0 QTime=0
+2018-10-06 05:09:29.089 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802568618} status=0 QTime=56
+2018-10-06 05:09:29.112 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802568618} status=0 QTime=67
+2018-10-06 05:10:02.779 INFO  (qtp1929600551-20) [   x:films] o.a.s.u.p.LogUpdateProcessorFactory [films]  webapp=/solr path=/update/json/docs params={}{add=[/en/45_2006 (1613551476209090560), /en/9_2005 (1613551476328628224), /en/69_2004 (1613551476332822528), /en/300_2007 (1613551476339113984), /en/2046_2004 (1613551476341211136), /en/quien_es_el_senor_lopez (1613551476344356864), /en/weird_al_yankovic_the_ultimate_video_collection (1613551476346454016), /en/15_park_avenue (1613551476352745472), /en/2_fast_2_furious (1613551476357988352), /en/7g_rainbow_colony (1613551476365328384), ... (1100 adds)]} 0 1885
+2018-10-06 05:10:02.792 INFO  (qtp1929600551-18) [   x:films] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1613551478025224192,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-06 05:10:02.793 INFO  (qtp1929600551-18) [   x:films] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@6db8c5d2 commitCommandVersion:1613551478025224192
+2018-10-06 05:10:03.801 INFO  (qtp1929600551-18) [   x:films] o.a.s.s.SolrIndexSearcher Opening [Searcher@5dacea88[films] main]
+2018-10-06 05:10:03.807 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5dacea88[films] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-06 05:10:03.807 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-06 05:10:03.808 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films] Registered new searcher Searcher@5dacea88[films] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-06 05:10:03.810 INFO  (qtp1929600551-18) [   x:films] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-06 05:10:03.810 INFO  (qtp1929600551-18) [   x:films] o.a.s.u.p.LogUpdateProcessorFactory [films]  webapp=/solr path=/update params={commit=true}{commit=} 0 1018
+2018-10-06 05:10:09.258 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:10:09.292 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=33
+2018-10-06 05:10:09.308 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=48
+2018-10-06 05:10:13.218 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:10:13.241 INFO  (qtp1929600551-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1538802608372} status=0 QTime=9
+2018-10-06 05:10:13.268 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=41
+2018-10-06 05:10:13.736 INFO  (qtp1929600551-13) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:10:13.767 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1538802608372} status=0 QTime=1
+2018-10-06 05:10:13.805 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=55
+2018-10-06 05:10:16.475 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:10:16.500 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=16
+2018-10-06 05:10:16.535 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1538802616423} status=0 QTime=1
+2018-10-06 05:10:16.543 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1538802616425} status=0 QTime=2
+2018-10-06 05:10:16.564 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1538802608374&ts=1538802608374} status=503 QTime=13
+2018-10-06 05:10:16.638 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1538802616424} status=0 QTime=90
+2018-10-06 05:10:20.603 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:10:20.640 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=15
+2018-10-06 05:10:52.661 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=name:batman} hits=4 status=0 QTime=81
+2018-10-06 05:11:38.498 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:11:38.887 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1538802616423} status=0 QTime=393
+2018-10-06 05:11:38.915 INFO  (qtp1929600551-11) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=418
+2018-10-06 05:11:40.950 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:11:40.977 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1538802616423} status=0 QTime=0
+2018-10-06 05:11:40.986 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=20
+2018-10-06 05:11:41.003 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1538802608374&ts=1538802608374} status=503 QTime=0
+2018-10-06 05:11:41.034 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1538802616424} status=0 QTime=36
+2018-10-06 05:11:41.514 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1538802616425} status=0 QTime=536
+2018-10-06 05:11:44.287 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=7
+2018-10-06 05:11:44.287 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=8
+2018-10-06 05:11:47.390 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:47.392 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=2
+2018-10-06 05:11:48.554 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:48.554 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:49.440 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:49.440 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=0
+2018-10-06 05:11:50.122 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:50.123 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:51.435 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:51.435 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:52.145 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:52.146 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=0
+2018-10-06 05:11:52.703 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:52.704 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:53.259 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:53.260 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:53.901 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:53.901 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:54.356 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=1
+2018-10-06 05:11:54.356 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=2
+2018-10-06 05:11:54.954 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=1
+2018-10-06 05:11:54.955 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:55.418 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:55.418 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=0
+2018-10-06 05:11:56.125 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} hits=1100 status=0 QTime=0
+2018-10-06 05:11:56.125 INFO  (qtp1929600551-13) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={wt=json&_=1538802608374&ts=1538802608374} status=0 QTime=1
+2018-10-06 05:11:58.429 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:11:58.456 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1538802616423} status=0 QTime=2
+2018-10-06 05:11:58.499 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=55
+2018-10-06 05:11:58.514 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/config params={wt=json&_=1538802718313} status=0 QTime=7
+2018-10-06 05:11:58.818 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1538802616423} status=0 QTime=10
+2018-10-06 05:11:59.974 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:11:59.998 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1538802616425} status=0 QTime=1
+2018-10-06 05:12:00.012 INFO  (qtp1929600551-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=29
+2018-10-06 05:12:02.661 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:12:02.692 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=20
+2018-10-06 05:12:03.864 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:12:03.938 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=63
+2018-10-06 05:12:04.101 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1538802723846} status=0 QTime=196
+2018-10-06 05:12:04.866 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:12:04.900 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1538802616423} status=0 QTime=1
+2018-10-06 05:12:04.900 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=27
+2018-10-06 05:12:04.904 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1538802616425} status=0 QTime=7
+2018-10-06 05:12:04.908 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1538802608374&ts=1538802608374} status=503 QTime=0
+2018-10-06 05:12:04.944 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1538802616424} status=0 QTime=38
+2018-10-06 05:12:18.105 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802608372} status=0 QTime=0
+2018-10-06 05:12:18.126 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802608374} status=0 QTime=15
+2018-10-06 05:12:37.417 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=batman&_=1538802620454} hits=0 status=0 QTime=3
+2018-10-06 05:12:44.543 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1538802620454} hits=1100 status=0 QTime=0
+2018-10-06 05:13:16.584 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=*:*&fq=genre:"Superhero+movie"} hits=12 status=0 QTime=84
+2018-10-06 05:13:31.875 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=name:batman} hits=4 status=0 QTime=0
+2018-10-06 05:13:40.200 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=name:batman} hits=4 status=0 QTime=0
+2018-10-06 05:13:51.005 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=name:batman&_=1538802620454} hits=4 status=0 QTime=0
+2018-10-06 05:14:08.533 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=*:*&facet.field=genre&facet=true} hits=1100 status=0 QTime=101
+2018-10-06 05:14:41.755 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1125736023
+2018-10-06 05:14:41.756 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-10-06 05:14:41.756 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-10-06 05:14:41.756 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-10-06 05:14:41.763 INFO  (coreCloseExecutor-13-thread-1) [   x:films] o.a.s.c.SolrCore [films]  CLOSING SolrCore org.apache.solr.core.SolrCore@5154ee8e
+2018-10-06 05:14:41.764 INFO  (coreCloseExecutor-13-thread-1) [   x:films] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.films, tag=1364520590

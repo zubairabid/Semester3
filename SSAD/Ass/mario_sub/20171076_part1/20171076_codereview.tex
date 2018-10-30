@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont{???}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage[document]{ragged2e}
+
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{booktabs}
+\usepackage{float}
+
+\font\serif="FreeSerif:script=beng"
+\font\bg="FreeSerif:script=beng" at 13pt
+
+\usepackage{xcolor}
+\definecolor{hlit}{rgb}{0.5,0,1}
+\definecolor{diff}{rgb}{0.1,0.1,0.5}
+\definecolor{rlit}{rgb}{1,0,0}
+
+\title{SSAD Assignment 3 - Code Review}
+\author{Zubair Abid, 20171076}
+\date{}
+
+\begin{document}
+	\maketitle
+	Code Review of the Assignment: \textbf{Mario}\\
+    \begin{enumerate}
+    	\item Number of Lines Reviewed: \textbf{1159}
+    	
+    	\item Number of Classes: \textbf{16}
+    	
+    	\item Number of Methods: \textbf{52}
+    	
+    	\item Number of Bugs Identified: \textbf{2}
+    	
+    	\item Number of Code Smells Identified: \textbf{6}
+    \end{enumerate}
+	$ $\\
+	
+	\section{Bugs}	
+	Major/Minor bugs found and fixed	
+
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{@{}clc@{}}
+			\toprule
+			\textbf{Bug Number} & \multicolumn{1}{c}{\textbf{Short Description}} & \textbf{Status} \\ \midrule
+			\textit{\#1} & Player can play Levels 3+,  although only levels 1-2 are defined & Fixed \\
+			\textit{\#2} & Game crashes on non-numeric input during level selection & Fixed \\ 
+			\textit{\#3} & Jump fails randomly on testing with pytest & Not Fixed \\
+			\textit{\#4} & Movement Right and Left has a random delay, found with pytest & Not Fixed \\ \bottomrule
+		\end{tabular}
+	\end{table}
+
+	\section{Code Smells}
+	Code Smells found and fixed	
+		
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{p{4cm}p{11cm}}
+			\toprule
+			\textbf{Code Smell} & \multicolumn{1}{c}{\textbf{Short Description}}\\ \midrule
+			Comments & Missing File Docstrings, some missing module Docstrings. Most Class docstrings
+						present. Unnecessary comments, lack of required commenting in
+						parts of the file. Code is not clear in several parts \\
+			Dead Code & Unused Imports in backgrounds.py, main.py, maps.py, people.py, screen.py.
+						Useless super() invocation in objects.py, class Thing is a useless
+						delegator class\\
+			Long Method & maps.genlevel(): too much configuration detail is present at the module level
+						and should be abstracted out; gamestate.change\_ state() has too much branching\\ 
+			Long Parameter List &  people.py, screen.py \\
+			Middle Man & Thing is a wrapper class and has no functionality \\ 
+			Indecent Exposure & "Private Variables" aren't private, can be accessed 
+								for several files and classes\\  \bottomrule
+		\end{tabular}
+	\end{table}
+	
+\end{document}

@@ -1,0 +1,113 @@
+INFO  - 2018-10-29 17:51:27.718; [   ] org.eclipse.jetty.util.log.Log; Logging initialized @2653ms
+INFO  - 2018-10-29 17:51:29.074; [   ] org.eclipse.jetty.server.Server; jetty-9.3.20.v20170531
+INFO  - 2018-10-29 17:51:29.207; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor [file:///home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/contexts/] at interval 0
+INFO  - 2018-10-29 17:51:30.363; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2018-10-29 17:51:30.690; [   ] org.apache.solr.servlet.SolrDispatchFilter;  ___      _       Welcome to Apache Solr™ version 7.1.0
+INFO  - 2018-10-29 17:51:30.691; [   ] org.apache.solr.servlet.SolrDispatchFilter; / __| ___| |_ _   Starting in standalone mode on port 8983
+INFO  - 2018-10-29 17:51:30.692; [   ] org.apache.solr.servlet.SolrDispatchFilter; \__ \/ _ \ | '_|  Install dir: /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0, Default config dir: /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/configsets/_default/conf
+INFO  - 2018-10-29 17:51:30.770; [   ] org.apache.solr.servlet.SolrDispatchFilter; |___/\___/_|_|    Start time: 2018-10-29T17:51:30.695Z
+INFO  - 2018-10-29 17:51:30.864; [   ] org.apache.solr.core.SolrResourceLoader; Using system property solr.solr.home: /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr
+INFO  - 2018-10-29 17:51:30.903; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr/solr.xml
+INFO  - 2018-10-29 17:51:35.576; [   ] org.apache.solr.core.CorePropertiesLocator; Found 1 core definitions underneath /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr
+INFO  - 2018-10-29 17:51:35.581; [   ] org.apache.solr.core.CorePropertiesLocator; Cores are: [gettingstarted]
+INFO  - 2018-10-29 17:51:35.603; [   ] org.apache.solr.core.TransientSolrCoreCacheDefault; Allocating transient cache for 2147483647 transient cores
+INFO  - 2018-10-29 17:51:36.463; [   ] org.eclipse.jetty.server.handler.ContextHandler; Started o.e.j.w.WebAppContext@52feb982{/solr,file:///home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr-webapp/webapp/,AVAILABLE}{/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr-webapp/webapp}
+INFO  - 2018-10-29 17:51:36.541; [   x:gettingstarted] org.apache.solr.core.SolrResourceLoader; [gettingstarted] Added 53 libs to classloader, from paths: [/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/clustering/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/extraction/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/langid/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/velocity/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/dist]
+INFO  - 2018-10-29 17:51:36.926; [   ] org.eclipse.jetty.server.AbstractConnector; Started ServerConnector@71ef4cf2{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-10-29 17:51:36.934; [   ] org.eclipse.jetty.server.Server; Started @11880ms
+INFO  - 2018-10-29 17:51:40.566; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=905
+INFO  - 2018-10-29 17:51:40.863; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=2
+INFO  - 2018-10-29 17:51:41.886; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:42.906; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=1
+INFO  - 2018-10-29 17:51:43.766; [   x:gettingstarted] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 7.1.0
+INFO  - 2018-10-29 17:51:43.947; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=2
+INFO  - 2018-10-29 17:51:44.707; [   x:gettingstarted] org.apache.solr.schema.IndexSchema; [gettingstarted] Schema name=default-config
+INFO  - 2018-10-29 17:51:44.965; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:45.983; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:47.006; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:47.695; [   x:gettingstarted] org.apache.solr.schema.IndexSchema; Loaded schema default-config/1.6 with uniqueid field id
+INFO  - 2018-10-29 17:51:47.863; [   x:gettingstarted] org.apache.solr.core.CoreContainer; Creating SolrCore 'gettingstarted' using configuration from instancedir /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr/gettingstarted, trusted=true
+INFO  - 2018-10-29 17:51:48.021; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=4
+INFO  - 2018-10-29 17:51:48.116; [   x:gettingstarted] org.apache.solr.core.SolrCore; solr.RecoveryStrategy.Builder
+INFO  - 2018-10-29 17:51:48.311; [   x:gettingstarted] org.apache.solr.core.SolrCore; [[gettingstarted] ] Opening new SolrCore at [/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr/gettingstarted], dataDir=[/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr/gettingstarted/data/]
+INFO  - 2018-10-29 17:51:48.854; [   x:gettingstarted] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2018-10-29 17:51:49.032; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=1
+INFO  - 2018-10-29 17:51:49.921; [   x:gettingstarted] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2018-10-29 17:51:49.922; [   x:gettingstarted] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+INFO  - 2018-10-29 17:51:50.004; [   x:gettingstarted] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2018-10-29 17:51:50.005; [   x:gettingstarted] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2018-10-29 17:51:50.051; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:50.477; [   x:gettingstarted] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@4a8d8ba3[gettingstarted] main]
+INFO  - 2018-10-29 17:51:50.548; [   x:gettingstarted] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/example/schemaless/solr/gettingstarted/conf
+INFO  - 2018-10-29 17:51:50.711; [   x:gettingstarted] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2018-10-29 17:51:50.755; [   x:gettingstarted] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2018-10-29 17:51:50.805; [   x:gettingstarted] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for 10000ms.
+INFO  - 2018-10-29 17:51:51.079; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=0
+INFO  - 2018-10-29 17:51:51.220; [   x:gettingstarted] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@4a8d8ba3[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C10)))}
+INFO  - 2018-10-29 17:51:51.221; [   x:gettingstarted] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-10-29 17:51:51.223; [   x:gettingstarted] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2018-10-29 17:51:51.258; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted] Registered new searcher Searcher@4a8d8ba3[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C10)))}
+INFO  - 2018-10-29 17:51:52.102; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={core=gettingstarted&action=STATUS&wt=json} status=0 QTime=11
+INFO  - 2018-10-29 17:54:16.310; [   x:gettingstarted] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [gettingstarted]  webapp=/solr path=/update params={}{add=[book1 (1615683288974753792), book2 (1615683289119457280), book3 (1615683289125748736), book4 (1615683289132040192), book5 (1615683289136234496), book6 (1615683289138331648), book7 (1615683289140428800), book8 (1615683289143574528), book9 (1615683289145671680), book10 (1615683289147768832)]} 0 216
+INFO  - 2018-10-29 17:54:16.322; [   x:gettingstarted] org.apache.solr.update.DirectUpdateHandler2; start commit{_version_=1615683289162448896,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+INFO  - 2018-10-29 17:54:16.323; [   x:gettingstarted] org.apache.solr.update.SolrIndexWriter; Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@5604a842 commitCommandVersion:1615683289162448896
+INFO  - 2018-10-29 17:54:17.109; [   x:gettingstarted] org.apache.solr.search.SolrIndexSearcher; Opening [Searcher@14a9df58[gettingstarted] main]
+INFO  - 2018-10-29 17:54:17.116; [   x:gettingstarted] org.apache.solr.update.DirectUpdateHandler2; end_commit_flush
+INFO  - 2018-10-29 17:54:17.189; [   x:gettingstarted] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@14a9df58[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(7.1.0):C10)))}
+INFO  - 2018-10-29 17:54:17.190; [   x:gettingstarted] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2018-10-29 17:54:17.191; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted] Registered new searcher Searcher@14a9df58[gettingstarted] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(7.1.0):C10)))}
+INFO  - 2018-10-29 17:54:17.200; [   x:gettingstarted] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [gettingstarted]  webapp=/solr path=/update params={commit=true}{commit=} 0 879
+INFO  - 2018-10-29 17:54:35.672; [   x:gettingstarted] org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor; [gettingstarted]  webapp=/solr path=/update params={}{} 0 3
+ERROR - 2018-10-29 17:54:35.766; [   x:gettingstarted] org.apache.solr.common.SolrException; org.apache.solr.common.SolrException: missing content stream
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:63)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+INFO  - 2018-10-29 17:54:43.331; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540835682725} status=0 QTime=0
+INFO  - 2018-10-29 17:54:43.414; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1540835682727} status=0 QTime=53
+INFO  - 2018-10-29 17:54:43.416; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1540835682727} status=0 QTime=70
+INFO  - 2018-10-29 17:54:47.631; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540835682725} status=0 QTime=0
+INFO  - 2018-10-29 17:54:47.676; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1540835687596} status=0 QTime=2
+INFO  - 2018-10-29 17:54:47.702; [   ] org.apache.solr.servlet.HttpSolrCall; [admin] webapp=null path=/admin/info/system params={wt=json&_=1540835682727} status=0 QTime=39
+INFO  - 2018-10-29 17:54:47.727; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1540835682728&ts=1540835682728} status=503 QTime=4
+INFO  - 2018-10-29 17:54:47.717; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted]  webapp=/solr path=/replication params={wt=json&command=details&_=1540835687597} status=0 QTime=2
+INFO  - 2018-10-29 17:54:47.796; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted]  webapp=/solr path=/admin/system params={wt=json&_=1540835687596} status=0 QTime=75
+INFO  - 2018-10-29 18:13:24.960; [   ] org.eclipse.jetty.server.AbstractConnector; Stopped ServerConnector@71ef4cf2{HTTP/1.1,[http/1.1]}{0.0.0.0:8983}
+INFO  - 2018-10-29 18:13:24.983; [   ] org.apache.solr.core.CoreContainer; Shutting down CoreContainer instance=203849460
+INFO  - 2018-10-29 18:13:24.984; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.node, tag=null
+INFO  - 2018-10-29 18:13:24.984; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jvm, tag=null
+INFO  - 2018-10-29 18:13:24.985; [   ] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.jetty, tag=null
+INFO  - 2018-10-29 18:13:24.995; [   x:gettingstarted] org.apache.solr.core.SolrCore; [gettingstarted]  CLOSING SolrCore org.apache.solr.core.SolrCore@298cf547
+INFO  - 2018-10-29 18:13:24.995; [   x:gettingstarted] org.apache.solr.metrics.SolrMetricManager; Closing metric reporters for registry=solr.core.gettingstarted, tag=697103687
+INFO  - 2018-10-29 18:13:25.052; [   ] org.eclipse.jetty.server.handler.ContextHandler; Stopped o.e.j.w.WebAppContext@52feb982{/solr,null,UNAVAILABLE}{/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr-webapp/webapp}

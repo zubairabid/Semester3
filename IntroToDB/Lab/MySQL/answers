@@ -1,0 +1,28 @@
+1.
+select fname,lname from EMPLOYEE where Ssn in (select Essn from DEPARTMENT, WORKS_ON, PROJECT where Essn=mgr_ssn and Pno=Pnumber group by Essn having count(distinct dnum) = (select count(distinct dnum) from PROJECT));
+OR
+OR
+OR
+OR
+
+create view countproj as select count(distinct dnum) from PROJECT;
+
+
+
+2.
+//select fname, lname from EMPLOYEE where ssn in (select Mgr_ssn from DEPARTMENT, EMPLOYEE where Dnumber=Dno and (select count(*) from (select avg(salary) from EMPLOYEE) as a)) >= 2; 
+
+select fname, lname from EMPLOYEE, DEPARTMENT where ssn in (select mgr_ssn from DEPARTMENT where dnumber in ( select dno from EMPLOYEE where (salary > (select avg(salary) from EMPLOYEE)) group by dno having count(*) >= 3)) and ssn=mgr_ssn;
+
+
+3.
+
+4.
+create view temp1 as
+SELECT sum(Hours) as sum,Essn FROM WORKS_ON Group by Essn;
+
+UPDATE EMPLOYEE
+SET Salary=Salary*0.9
+WHERE Super_ssn IN (SELECT Essn FROM temp1 WHERE sum>(select avg(sum) from temp1));
+
+5.

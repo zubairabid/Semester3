@@ -1,0 +1,23 @@
+'''
+File defining basic game configurations
+'''
+
+MAX_LIFE = 3
+
+STD_TIME = 100
+
+OFFSTRAIGHT = 32
+
+BOSSLOW = 21
+
+DIM_I = 36
+DIM_J = 96
+
+MAX_J = 600
+LEV_J = 400
+
+POINTS_PUP = 100
+POINTS_COIN = 20
+POINTS_ENMY = 100
+
+PROB_ENEMY = 0.01

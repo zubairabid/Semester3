@@ -1,0 +1,46 @@
+2018-10-06 05:15:09.380 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-10-06 05:15:11.468 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.1.0
+2018-10-06 05:15:11.469 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-10-06 05:15:11.469 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/zubair/Downloads/solr-7.1.0, Default config dir: /home/zubair/Downloads/solr-7.1.0/server/solr/configsets/_default/conf
+2018-10-06 05:15:11.610 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-10-06T05:15:11.472Z
+2018-10-06 05:15:11.611 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-10-06 05:15:11.670 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/zubair/Downloads/solr-7.1.0/server/solr
+2018-10-06 05:15:11.705 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/zubair/Downloads/solr-7.1.0/server/solr/solr.xml
+2018-10-06 05:15:14.557 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/zubair/Downloads/solr-7.1.0/server/solr
+2018-10-06 05:15:14.566 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [films]
+2018-10-06 05:15:14.577 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-10-06 05:15:14.894 INFO  (main) [   ] o.e.j.s.Server Started @7742ms
+2018-10-06 05:15:14.937 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrResourceLoader [films] Added 53 libs to classloader, from paths: [/home/zubair/Downloads/solr-7.1.0/contrib/clustering/lib, /home/zubair/Downloads/solr-7.1.0/contrib/extraction/lib, /home/zubair/Downloads/solr-7.1.0/contrib/langid/lib, /home/zubair/Downloads/solr-7.1.0/contrib/velocity/lib, /home/zubair/Downloads/solr-7.1.0/dist]
+2018-10-06 05:15:15.684 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2018-10-06 05:15:16.237 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.IndexSchema [films] Schema name=default-config
+2018-10-06 05:15:18.015 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-10-06 05:15:18.166 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.CoreContainer Creating SolrCore 'films' using configuration from instancedir /home/zubair/Downloads/solr-7.1.0/server/solr/films, trusted=true
+2018-10-06 05:15:18.261 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-06 05:15:18.268 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.c.SolrCore [[films] ] Opening new SolrCore at [/home/zubair/Downloads/solr-7.1.0/server/solr/films], dataDir=[/home/zubair/Downloads/solr-7.1.0/server/solr/films/data/]
+2018-10-06 05:15:18.342 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-10-06 05:15:19.186 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-10-06 05:15:19.186 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-10-06 05:15:19.293 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-10-06 05:15:19.293 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-06 05:15:19.666 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.SolrIndexSearcher Opening [Searcher@16e8bf58[films] main]
+2018-10-06 05:15:19.694 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/zubair/Downloads/solr-7.1.0/server/solr/films/conf
+2018-10-06 05:15:19.736 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-10-06 05:15:19.752 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-10-06 05:15:19.783 INFO  (coreLoadExecutor-6-thread-1) [   x:films] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-06 05:15:19.932 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@16e8bf58[films] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-06 05:15:19.932 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-06 05:15:19.932 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-10-06 05:15:20.004 INFO  (searcherExecutor-7-thread-1-processing-x:films) [   x:films] o.a.s.c.SolrCore [films] Registered new searcher Searcher@16e8bf58[films] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-06 05:15:26.860 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538802925871} status=0 QTime=44
+2018-10-06 05:15:27.227 INFO  (qtp1929600551-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538802925881} status=0 QTime=407
+2018-10-06 05:17:15.060 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538803033970} status=0 QTime=0
+2018-10-06 05:17:15.118 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538803033974} status=0 QTime=50
+2018-10-06 05:17:16.002 INFO  (qtp1929600551-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1538803033970} status=0 QTime=0
+2018-10-06 05:17:16.062 INFO  (qtp1929600551-32) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538803033974} status=0 QTime=54
+2018-10-06 05:17:16.070 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1538803033974} status=0 QTime=54
+2018-10-06 05:17:36.311 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1125736023
+2018-10-06 05:17:36.311 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-10-06 05:17:36.312 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-10-06 05:17:36.312 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-10-06 05:17:36.315 INFO  (coreCloseExecutor-12-thread-1) [   x:films] o.a.s.c.SolrCore [films]  CLOSING SolrCore org.apache.solr.core.SolrCore@3a55ff09
+2018-10-06 05:17:36.317 INFO  (coreCloseExecutor-12-thread-1) [   x:films] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.films, tag=978714377
