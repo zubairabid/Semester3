@@ -1,0 +1,53 @@
+20171076
+C13
+
+
+1. 
+match (p1:Person)-[r1:ACTED_IN|DIRECTED|PRODUCED]->(m:Movie)<-[r2:ACTED_IN]-(p2:Person)
+where p2.name = "Tom Hanks" or p2.name = "Tom Cruise"
+set p1 += {type: "A list"}, p2 += {type: "A list"}
+return p1, p2
+
+match (p1:Person)
+where p1.type is null
+set p1.type="B list"
+return p1
+
+
+
+
+2. 
+for $x in collection("Movies")/root/movie
+where substring($x/@title,1,3) = "The"
+return if($x//imdbRating > 7)
+then <good>
+<title>{data($x/@title)}</title>
+<imdbRating>{data($x//imdbRating)}</imdbRating>
+</good>
+else <bad>
+<title>{data($x/@title)}</title>
+<imdbRating>{data($x//imdbRating)}</imdbRating>
+</bad>
+
+
+
+
+3.
+URL 1:
+http://localhost:8983/solr/examfilms/select?q=initial_release_date:%20[1900-01-01T00:00:00Z%20TO%202018-10-31T00:00:00Z]&rows=1&sort=initial_release_date%20asc
+
+URL 2:
+http://localhost:8983/solr/examfilms/select?q=initial_release_date:%20[2000-01-01T00:00:00Z%20TO%202000-12-31T23:59:59Z]&rows=1000
+
+
+
+
+4.
+match (p1:Person)-[r1:ACTED_IN]->(m:Movie)<-[r2:ACTED_IN]-(p2:Person)
+return p1,r1,m,r2,p2
+
+
+match (p1:Person)-[:DIRECTED]->(:Movie)
+return p1, count(*) as numberOfMovies
+
+

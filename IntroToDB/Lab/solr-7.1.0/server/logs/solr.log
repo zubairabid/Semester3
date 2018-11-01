@@ -54,3 +54,1020 @@
 2018-10-30 19:01:53.972 INFO  (qtp1929600551-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
 2018-10-30 19:01:53.990 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=14
 2018-10-30 19:01:57.337 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=99
+2018-10-30 21:46:09.535 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/schema/fields params={} status=0 QTime=24
+2018-10-31 03:13:17.657 ERROR (qtp1929600551-18) [   x:films] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '"genre":"Indie film"': Encountered " ":" ": "" at line 1, column 7.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '"genre":"Indie film"': Encountered " ":" ": "" at line 1, column 7.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:216)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 34 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 7.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:884)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:766)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	... 37 more
+
+2018-10-31 03:13:17.676 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q="genre":"Indie+film"&_=1540926113711} status=400 QTime=329
+2018-10-31 03:13:48.917 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:"Indie+film"&_=1540926113711} hits=144 status=0 QTime=285
+2018-10-31 03:14:05.201 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:14:20.475 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Thriller&_=1540926113711} hits=266 status=0 QTime=40
+2018-10-31 03:14:29.350 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:14:38.655 INFO  (qtp1929600551-12) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:14:39.755 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:14:40.588 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:15:00.369 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Animation&_=1540926113711} hits=60 status=0 QTime=6
+2018-10-31 03:15:29.873 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Animation+and+genre:Comedy&_=1540926113711} hits=454 status=0 QTime=54
+2018-10-31 03:15:46.812 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Animation+and+genre:Comedy} hits=454 status=0 QTime=1
+2018-10-31 03:15:59.279 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 03:16:18.464 INFO  (qtp1929600551-12) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*} hits=1100 status=0 QTime=0
+2018-10-31 03:16:29.695 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*} hits=1100 status=0 QTime=0
+2018-10-31 03:16:59.519 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Drama+-genre:Thriller&_=1540926113711} hits=430 status=0 QTime=44
+2018-10-31 03:17:25.984 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=genre:Drama} hits=569 status=0 QTime=1
+2018-10-31 03:18:03.391 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q="chimeknfe"~4&_=1540926113711} hits=0 status=0 QTime=1
+2018-10-31 03:18:12.378 INFO  (qtp1929600551-12) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q="food"~4&_=1540926113711} hits=0 status=0 QTime=1
+2018-10-31 03:18:22.948 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=""~4&_=1540926113711} hits=0 status=0 QTime=33
+2018-10-31 03:18:38.863 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:24.182 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=python&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:29.422 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=php&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:34.338 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=csv&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:39.423 INFO  (qtp1929600551-18) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=ruby&_=1540926113711} hits=1100 status=0 QTime=5
+2018-10-31 03:19:44.073 INFO  (qtp1929600551-20) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=xml&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:48.615 INFO  (qtp1929600551-12) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&wt=json&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:19:52.896 INFO  (qtp1929600551-17) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:36:56.680 ERROR (qtp1929600551-16) [   x:films] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Can't determine a Sort Order (asc or desc) in sort spec 'initial_release_data', pos=20
+	at org.apache.solr.search.SortSpecParsing.parseSortSpecImpl(SortSpecParsing.java:173)
+	at org.apache.solr.search.SortSpecParsing.parseSortSpec(SortSpecParsing.java:60)
+	at org.apache.solr.search.QParser.getSortSpec(QParser.java:275)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:187)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 03:36:56.681 INFO  (qtp1929600551-16) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&sort=initial_release_data&_=1540926113711} status=400 QTime=150
+2018-10-31 03:37:06.889 ERROR (qtp1929600551-15) [   x:films] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Can't determine a Sort Order (asc or desc) in sort spec 'initial_release_data:desc', pos=25
+	at org.apache.solr.search.SortSpecParsing.parseSortSpecImpl(SortSpecParsing.java:173)
+	at org.apache.solr.search.SortSpecParsing.parseSortSpec(SortSpecParsing.java:60)
+	at org.apache.solr.search.QParser.getSortSpec(QParser.java:275)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:187)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 03:37:06.890 INFO  (qtp1929600551-15) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&sort=initial_release_data:desc&_=1540926113711} status=400 QTime=1
+2018-10-31 03:37:12.088 ERROR (qtp1929600551-14) [   x:films] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Can't determine a Sort Order (asc or desc) in sort spec 'initial_release_data:descending', pos=31
+	at org.apache.solr.search.SortSpecParsing.parseSortSpecImpl(SortSpecParsing.java:173)
+	at org.apache.solr.search.SortSpecParsing.parseSortSpec(SortSpecParsing.java:60)
+	at org.apache.solr.search.QParser.getSortSpec(QParser.java:275)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:187)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 03:37:12.088 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/select params={q=*:*&sort=initial_release_data:descending&_=1540926113711} status=400 QTime=1
+2018-10-31 03:39:08.396 INFO  (qtp1929600551-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=102
+2018-10-31 03:39:08.463 INFO  (qtp1929600551-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=19
+2018-10-31 03:39:08.490 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={core=examfilms&action=STATUS&wt=json} status=0 QTime=3
+2018-10-31 03:39:08.662 INFO  (qtp1929600551-15) [   ] o.a.s.h.a.CoreAdminOperation core create command name=examfilms&action=CREATE&instanceDir=examfilms&wt=json
+2018-10-31 03:39:08.757 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.SolrResourceLoader [examfilms] Added 53 libs to classloader, from paths: [/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/clustering/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/extraction/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/langid/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/contrib/velocity/lib, /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/dist]
+2018-10-31 03:39:09.271 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.1.0
+2018-10-31 03:39:09.399 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.s.IndexSchema [examfilms] Schema name=default-config
+2018-10-31 03:39:10.312 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-10-31 03:39:10.435 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.CoreContainer Creating SolrCore 'examfilms' using configuration from instancedir /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/examfilms, trusted=true
+2018-10-31 03:39:10.436 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-10-31 03:39:10.436 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.SolrCore [[examfilms] ] Opening new SolrCore at [/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/examfilms], dataDir=[/home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/examfilms/data/]
+2018-10-31 03:39:10.722 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-10-31 03:39:10.877 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-10-31 03:39:10.877 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-10-31 03:39:10.879 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-10-31 03:39:10.880 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-10-31 03:39:10.889 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.s.SolrIndexSearcher Opening [Searcher@48c6b380[examfilms] main]
+2018-10-31 03:39:10.891 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/examfilms/conf
+2018-10-31 03:39:10.892 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-10-31 03:39:10.893 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-10-31 03:39:10.896 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-10-31 03:39:10.898 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@48c6b380[examfilms] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-31 03:39:10.902 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-31 03:39:10.902 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-10-31 03:39:10.907 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.SolrCore [examfilms] Registered new searcher Searcher@48c6b380[examfilms] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-10-31 03:39:10.908 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1615810685470507008
+2018-10-31 03:39:10.914 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={name=examfilms&action=CREATE&instanceDir=examfilms&wt=json} status=0 QTime=2252
+2018-10-31 03:39:51.488 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at /home/zubair/Documents/Acads/Sem3/IntroToDB/Lab/solr-7.1.0/server/solr/examfilms/conf/managed-schema
+2018-10-31 03:39:51.534 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/schema params={} status=0 QTime=293
+2018-10-31 03:39:57.710 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/replication params={wt=json&command=details&_=1540926105206} status=0 QTime=2
+2018-10-31 03:39:57.717 INFO  (qtp1929600551-19) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1540925992668&ts=1540925992668} status=503 QTime=1
+2018-10-31 03:39:57.726 INFO  (qtp1929600551-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
+2018-10-31 03:39:57.729 INFO  (qtp1929600551-12) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1540926105203} status=0 QTime=0
+2018-10-31 03:39:57.752 INFO  (qtp1929600551-14) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/admin/system params={wt=json&_=1540926105205} status=0 QTime=42
+2018-10-31 03:39:57.768 INFO  (qtp1929600551-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=40
+2018-10-31 03:40:00.025 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1540926105203} status=0 QTime=0
+2018-10-31 03:40:00.027 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/replication params={wt=json&command=details&_=1540926105206} status=0 QTime=1
+2018-10-31 03:40:00.032 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
+2018-10-31 03:40:00.084 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1540925992668&ts=1540925992668} status=503 QTime=5
+2018-10-31 03:40:00.096 INFO  (qtp1929600551-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=61
+2018-10-31 03:40:00.115 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/admin/system params={wt=json&_=1540926105205} status=0 QTime=59
+2018-10-31 03:40:03.914 INFO  (qtp1929600551-12) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
+2018-10-31 03:40:03.940 INFO  (qtp1929600551-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=21
+2018-10-31 03:40:06.222 INFO  (qtp1929600551-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
+2018-10-31 03:40:06.245 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1540926105203} status=0 QTime=5
+2018-10-31 03:40:06.264 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=33
+2018-10-31 03:40:06.288 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/config params={wt=json&_=1540957206019} status=0 QTime=47
+2018-10-31 03:40:06.714 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/admin/luke params={numTerms=0&wt=json&_=1540926105203} status=0 QTime=0
+2018-10-31 03:40:07.878 INFO  (qtp1929600551-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540925992666} status=0 QTime=0
+2018-10-31 03:40:07.982 INFO  (qtp1929600551-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1540925992667} status=0 QTime=100
+2018-10-31 03:40:10.971 INFO  (qtp1929600551-18) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=0 status=0 QTime=102
+2018-10-31 03:40:12.669 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=0 status=0 QTime=1
+2018-10-31 03:41:17.185 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.u.p.LogUpdateProcessorFactory [examfilms]  webapp=/solr path=/update/json/docs params={}{add=[/en/45_2006 (1615810815515951104), /en/9_2005 (1615810815707840512), /en/69_2004 (1615810815720423424), /en/300_2007 (1615810815728812032), /en/2046_2004 (1615810815741394944), /en/quien_es_el_senor_lopez (1615810815744540672), /en/weird_al_yankovic_the_ultimate_video_collection (1615810815749783552), /en/15_park_avenue (1615810815759220736), /en/2_fast_2_furious (1615810815772852224), /en/7g_rainbow_colony (1615810815778095104), ... (1100 adds)]} 0 2492
+2018-10-31 03:41:17.197 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1615810817894121472,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-10-31 03:41:17.198 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@77ad609c commitCommandVersion:1615810817894121472
+2018-10-31 03:41:18.564 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.s.SolrIndexSearcher Opening [Searcher@5a9e8186[examfilms] main]
+2018-10-31 03:41:18.570 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5a9e8186[examfilms] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-31 03:41:18.570 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-10-31 03:41:18.571 INFO  (searcherExecutor-12-thread-1-processing-x:examfilms) [   x:examfilms] o.a.s.c.SolrCore [examfilms] Registered new searcher Searcher@5a9e8186[examfilms] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.1.0):C1100)))}
+2018-10-31 03:41:18.575 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-10-31 03:41:18.576 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.u.p.LogUpdateProcessorFactory [examfilms]  webapp=/solr path=/update params={commit=true}{commit=} 0 1379
+2018-10-31 03:41:38.030 INFO  (qtp1929600551-11) [   x:films] o.a.s.c.S.Request [films]  webapp=/solr path=/query params={q=*:*&facet.field=genre&facet=true} hits=1100 status=0 QTime=250
+2018-10-31 03:41:43.544 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*} hits=1100 status=0 QTime=0
+2018-10-31 03:42:20.604 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={facet.query=true&q=*:*&facet.field=genre&facet=on&_=1540926113711} hits=1100 status=0 QTime=52
+2018-10-31 03:47:57.401 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 03:48:08.510 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&debugQuery=on&_=1540926113711} hits=1100 status=0 QTime=28
+2018-10-31 03:48:15.056 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 04:55:54.414 ERROR (qtp1929600551-19) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Can't determine a Sort Order (asc or desc) in sort spec 'initial_release_date', pos=20
+	at org.apache.solr.search.SortSpecParsing.parseSortSpecImpl(SortSpecParsing.java:173)
+	at org.apache.solr.search.SortSpecParsing.parseSortSpec(SortSpecParsing.java:60)
+	at org.apache.solr.search.QParser.getSortSpec(QParser.java:275)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:187)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 04:55:54.415 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date&_=1540926113711} status=400 QTime=7
+2018-10-31 04:56:01.684 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&_=1540926113711} hits=1100 status=0 QTime=171
+2018-10-31 04:56:02.276 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 04:56:08.447 INFO  (qtp1929600551-18) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+asc&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 04:56:36.883 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:*&sort=initial_release_date+asc&_=1540926113711} hits=0 status=0 QTime=132
+2018-10-31 04:56:46.413 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+asc&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 04:57:31.737 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&fq=initial_release_date:*&sort=initial_release_date+asc&_=1540926113711} hits=0 status=0 QTime=4
+2018-10-31 04:57:36.090 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+asc&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 04:57:46.929 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+asc&rows=100&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 04:59:25.656 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={sort=initial_release_date+desc&rows=100&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 04:59:29.197 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={sort=initial_release_date+desc&rows=100&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 04:59:32.828 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={sort=initial_release_date+desc&rows=10&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 04:59:35.725 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={sort=initial_release_date+desc&rows=10&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 04:59:55.333 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&rows=10&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 05:00:07.387 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=name:batman&sort=initial_release_date+desc&rows=10&_=1540926113711} hits=4 status=0 QTime=3
+2018-10-31 05:00:34.601 ERROR (qtp1929600551-18) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'0'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:00:34.601 INFO  (qtp1929600551-18) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:0&sort=initial_release_date+desc&rows=10&_=1540926113711} status=400 QTime=146
+2018-10-31 05:00:40.819 ERROR (qtp1929600551-16) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'00'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:00:40.820 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:00&sort=initial_release_date+desc&rows=10&_=1540926113711} status=400 QTime=1
+2018-10-31 05:00:41.282 ERROR (qtp1929600551-12) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'00'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:00:41.282 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:00&sort=initial_release_date+desc&rows=10&_=1540926113711} status=400 QTime=1
+2018-10-31 05:00:48.746 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:*&sort=initial_release_date+desc&rows=10&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 05:00:55.752 ERROR (qtp1929600551-19) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Can't run prefix queries on numeric fields
+	at org.apache.solr.schema.PointField.getPrefixQuery(PointField.java:224)
+	at org.apache.solr.parser.SolrQueryParserBase.newPrefixQuery(SolrQueryParserBase.java:505)
+	at org.apache.solr.parser.SolrQueryParserBase.getPrefixQuery(SolrQueryParserBase.java:1066)
+	at org.apache.solr.parser.SolrQueryParserBase.handleBareTokenQuery(SolrQueryParserBase.java:679)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:420)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:277)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:161)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:00:55.753 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:2*&sort=initial_release_date+desc&rows=10&_=1540926113711} status=400 QTime=1
+2018-10-31 05:01:04.452 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&rows=10&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 05:01:26.872 ERROR (qtp1929600551-11) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'2013-12-30T00'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:01:26.876 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:2013-12-30T00:00:00Z&sort=initial_release_date+asc&rows=10&_=1540926113711} status=400 QTime=5
+2018-10-31 05:01:34.264 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:"2013-12-30T00:00:00Z"&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=1 status=0 QTime=177
+2018-10-31 05:01:34.601 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:"2013-12-30T00:00:00Z"&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=1 status=0 QTime=1
+2018-10-31 05:01:41.349 ERROR (qtp1929600551-18) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'*'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:965)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:461)
+	at org.apache.solr.parser.SolrQueryParserBase.handleQuotedTerm(SolrQueryParserBase.java:714)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:548)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:277)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:161)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:01:41.349 INFO  (qtp1929600551-18) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:"*"&sort=initial_release_date+asc&rows=10&_=1540926113711} status=400 QTime=1
+2018-10-31 05:01:46.734 ERROR (qtp1929600551-16) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'0'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:965)
+	at org.apache.solr.parser.SolrQueryParserBase.getFieldQuery(SolrQueryParserBase.java:461)
+	at org.apache.solr.parser.SolrQueryParserBase.handleQuotedTerm(SolrQueryParserBase.java:714)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:548)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:277)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:161)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:01:46.735 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:"0"&sort=initial_release_date+asc&rows=10&_=1540926113711} status=400 QTime=2
+2018-10-31 05:01:56.589 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 05:02:45.524 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&fl=initial_release_date&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 05:02:55.633 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&fl=name,initial_release_date&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=1100 status=0 QTime=1
+2018-10-31 05:03:42.040 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:*&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=0 status=0 QTime=0
+2018-10-31 05:03:47.240 ERROR (qtp1929600551-16) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'initial_release_date:': Encountered "<EOF>" at line 1, column 21.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'initial_release_date:': Encountered "<EOF>" at line 1, column 21.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:216)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 34 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 21.
+Was expecting one of:
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    <QUOTED> ...
+    <TERM> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:884)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:766)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:324)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:161)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	... 37 more
+
+2018-10-31 05:03:47.240 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:&sort=initial_release_date+asc&rows=10&_=1540926113711} status=400 QTime=1
+2018-10-31 05:04:09.662 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&rows=10&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 05:04:47.137 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=*:*&sort=initial_release_date+desc&rows=10&wt=xml&_=1540926113711} hits=1100 status=0 QTime=0
+2018-10-31 05:05:43.953 ERROR (qtp1929600551-19) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'initial_release_date:[1900-01-01T00:00:00Z - 2018-10-31T00:00:00Z]': Encountered " <RANGE_GOOP> "- "" at line 1, column 43.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'initial_release_date:[1900-01-01T00:00:00Z - 2018-10-31T00:00:00Z]': Encountered " <RANGE_GOOP> "- "" at line 1, column 43.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:216)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	... 34 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " <RANGE_GOOP> "- "" at line 1, column 43.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:884)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:766)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:452)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:277)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:161)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	... 37 more
+
+2018-10-31 05:05:43.954 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[1900-01-01T00:00:00Z+-+2018-10-31T00:00:00Z]&sort=initial_release_date+desc&rows=10&wt=xml&_=1540926113711} status=400 QTime=2
+2018-10-31 05:05:56.024 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[1900-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+desc&rows=10&wt=xml&_=1540926113711} hits=984 status=0 QTime=2
+2018-10-31 05:06:00.651 INFO  (qtp1929600551-17) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[1900-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=10&wt=xml&_=1540926113711} hits=984 status=0 QTime=2
+2018-10-31 05:06:14.708 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[0000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=10&wt=xml&_=1540926113711} hits=984 status=0 QTime=1
+2018-10-31 05:06:25.722 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[0000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=10&_=1540926113711} hits=984 status=0 QTime=1
+2018-10-31 05:06:37.184 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:[0000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=10} hits=984 status=0 QTime=1
+2018-10-31 05:07:19.371 ERROR (qtp1929600551-15) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'2000-01-02T00'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:07:19.371 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+2000-01-02T00:00:00Z&rows=10&_=1540926113711} status=400 QTime=0
+2018-10-31 05:07:41.287 ERROR (qtp1929600551-19) [   x:examfilms] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Invalid Date String:'2000-01-02T00'
+	at org.apache.solr.util.DateMathParser.parseMath(DateMathParser.java:234)
+	at org.apache.solr.schema.DatePointField.getExactQuery(DatePointField.java:160)
+	at org.apache.solr.schema.PointField.getFieldQuery(PointField.java:153)
+	at org.apache.solr.parser.SolrQueryParserBase.rawToNormal(SolrQueryParserBase.java:907)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:234)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:130)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:212)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:48)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:168)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:160)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:177)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2484)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:720)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:526)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:382)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:326)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1751)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:582)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1180)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:512)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1112)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134)
+	at org.eclipse.jetty.server.Server.handle(Server.java:534)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:320)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:251)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:283)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:108)
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148)
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-10-31 05:07:41.287 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+2000-01-02T00:00:00Z&rows=10&_=1540926113711} status=400 QTime=0
+2018-10-31 05:07:47.332 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+"2000-01-02T00:00:00Z"&rows=10&_=1540926113711} hits=1 status=0 QTime=1
+2018-10-31 05:08:28.749 INFO  (qtp1929600551-16) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2000-12-31T23:59:59Z]&rows=10&_=1540926113711} hits=80 status=0 QTime=1
+2018-10-31 05:08:50.411 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2000-12-31T23:59:59Z]&rows=1000&_=1540926113711} hits=80 status=0 QTime=4
+2018-10-31 05:09:01.905 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2000-12-31T23:59:59Z]&rows=1000} hits=80 status=0 QTime=1
+2018-10-31 05:23:09.328 INFO  (qtp1929600551-15) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1000&_=1540926113711} hits=984 status=0 QTime=10
+2018-10-31 05:24:03.715 INFO  (qtp1929600551-19) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1&_=1540926113711} hits=984 status=0 QTime=2
+2018-10-31 05:24:10.853 INFO  (qtp1929600551-11) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1} hits=984 status=0 QTime=1
+2018-10-31 05:38:37.828 INFO  (qtp1929600551-12) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[1900-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1&_=1540926113711} hits=984 status=0 QTime=3
+2018-10-31 05:38:40.226 INFO  (qtp1929600551-14) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[1900-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1} hits=984 status=0 QTime=1
+2018-10-31 05:38:53.140 INFO  (qtp1929600551-18) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[1900-01-01T00:00:00Z+TO+2018-10-31T00:00:00Z]&sort=initial_release_date+asc&rows=1} hits=984 status=0 QTime=0
+2018-10-31 08:39:56.175 INFO  (qtp1929600551-20) [   x:examfilms] o.a.s.c.S.Request [examfilms]  webapp=/solr path=/select params={q=initial_release_date:+[2000-01-01T00:00:00Z+TO+2000-12-31T23:59:59Z]&rows=1000} hits=80 status=0 QTime=1
+2018-10-31 10:08:18.627 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1125736023
+2018-10-31 10:08:18.627 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-10-31 10:08:18.627 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-10-31 10:08:18.627 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-10-31 10:08:18.661 INFO  (coreCloseExecutor-18-thread-1) [   x:films] o.a.s.c.SolrCore [films]  CLOSING SolrCore org.apache.solr.core.SolrCore@63c9566b
+2018-10-31 10:08:18.662 INFO  (coreCloseExecutor-18-thread-1) [   x:films] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.films, tag=1674139243
+2018-10-31 10:08:18.672 INFO  (coreCloseExecutor-18-thread-2) [   x:examfilms] o.a.s.c.SolrCore [examfilms]  CLOSING SolrCore org.apache.solr.core.SolrCore@42adafb1
+2018-10-31 10:08:18.672 INFO  (coreCloseExecutor-18-thread-2) [   x:examfilms] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.examfilms, tag=1118678961
