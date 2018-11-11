@@ -1,0 +1,235 @@
+Helper processes: ps, bgp
+ps: prints all RUNNING/SLEEPING/RUNNABLE process pids, names, priorities
+bgp: a program that forks thrice in a loop, with each child process waiting for
+    10000000 CPU cycles
+
+I started qemu and ran bgp &, and bgp & and then set_priority 4 20 after.
+Then I ran ps:
+
+Without set_priority 4 to a higher priority: (Round Robin)
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 5 	 60
+bgp 	 4 	 60
+ps 	 6 	 60
+
+With set_priority 4 to a higher priority: (Priority Scheduling)
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+ps 	 7 	 60
+bgp 	 6 	 60
+bgp 	 5 	 60
+
+Difference with Round Robin:
+- Immediately we see, process with pid=4 was prioritized, run and removed
+from the process list as soon as possible.
+Round Robin went in circular queue.
+- There is process starvation: in cases where the higher priority process is
+waiting for closure, other processes can do nothing but starve.
+
+--------------------------------------------------------------------------------
+FULL OUTPUT
+--------------------------------------------------------------------------------
+      Round Robin
+--------------------------------------------------------------------------------
+bgp &
+$ PChild created: pid = 5
+arent pid=4 creating child pid=5
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 5 	 60
+bgp 	 4 	 60
+ps 	 6 	 60
+$ Child exiting: pid = 5
+Parent pid=5 crChild created: pid = 7
+eating child pid=7
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 5 	 60
+bgp 	 4 	 60
+bgp 	 7 	 60
+ps 	 8 	 60
+$ Child exiting: pid = 7
+Parent pid=7 creating child pid=9
+Child created: pid = 9
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 5 	 60
+bgp 	 4 	 60
+bgp 	 7 	 60
+bgp 	 9 	 60
+ps 	 10 	 60
+$ Child exiting: pid = 9
+pid 9 bgp: trap 14 err 5 on cpu 0 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=7 done
+pid 7 bgp: trap 14 err 5 on cpu 0 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=5 done
+Parent pid=5 creating child pid=11
+Child created: pid = 11
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 5 	 60
+bgp 	 4 	 60
+bgp 	 11 	 60
+ps 	 12 	 60
+$ Child exiting: pid = 11
+pid 11 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=5 done
+pid 5 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=4 done
+Parent pidChild created: pid = 13
+=4 creating child pid=13
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 13 	 60
+bgp 	 4 	 60
+ps 	 14 	 60
+$ Child exiting: pid = 13
+Parent pid=13 creating child pid=15
+Child created: pid = 15
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 13 	 60
+bgp 	 4 	 60
+bgp 	 15 	 60
+ps 	 16 	 60
+$ Child exiting: pid = 15
+pid 15 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=13 done
+pid 13 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=4 done
+Parent pidChild created: pid = 17
+=4 creating child pid=17
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+bgp 	 17 	 60
+bgp 	 4 	 60
+ps 	 18 	 60
+$ Child exiting: pid = 17
+pid 17 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=4 done
+pid 4 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+zombie!
+ps
+name 	 pid 	 priority
+init 	 1 	 60
+sh 	 2 	 60
+ps 	 19 	 60
+--------------------------------------------------------------------------------
+      Priority Scheduling
+--------------------------------------------------------------------------------
+$ bgp &;set_priority 4 20
+Setting priority of pid=4 to priority=20
+$ Parent pid=5 creating child pid=6
+Child created: pid = 6
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ ps 	 7 	 60
+ bgp 	 6 	 60
+ bgp 	 5 	 60
+$ Child exiting: pid = 6
+Parent pid=6 creating child pid=8
+Child created: pid = 8
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 8 	 60
+ bgp 	 6 	 60
+ bgp 	 5 	 60
+ ps 	 9 	 60
+$ Child exiting: pid = 8
+Parent pid=8 creating child pid=10
+Child created: pid = 10
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 8 	 60
+ bgp 	 6 	 60
+ bgp 	 5 	 60
+ bgp 	 10 	 60
+ ps 	 11 	 60
+$ Child exiting: pid = 10
+pid 10 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=8 done
+pid 8 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=6 done
+Parent pid=6 creating cChild created: pid = 1hild pid=12
+2
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 12 	 60
+ bgp 	 6 	 60
+ bgp 	 5 	 60
+ ps 	 13 	 60
+$ Child exiting: pid = 12
+pid 12 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=6 done
+pid 6 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=5 done
+Parent pid=5 creating child pid=14
+Child created: pid = 14
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 14 	 60
+ ps 	 15 	 60
+ bgp 	 5 	 60
+$ Child exiting: pid = 14
+Child created: pid = 16
+Parent pid=14 creating child pid=16
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 14 	 60
+ bgp 	 16 	 60
+ bgp 	 5 	 60
+ ps 	 17 	 60
+$ Child exiting: pid = 16
+pid 16 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=14 done
+pid 14 bgp: trap 14 err 5 on cpu 1 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=5 done
+Parent pid=5 creatingChild created: pid = 18
+ child pid=18
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ bgp 	 18 	 60
+ ps 	 19 	 60
+ bgp 	 5 	 60
+$ Child exiting: pid = 18
+pid 18 bgp: trap 14 err 5 on cpu 0 eip 0xffffffff addr 0xffffffff--kill proc
+Parent pid=5 done
+pid 5 bgp: trap 14 err 5 on cpu 0 eip 0xffffffff addr 0xffffffff--kill proc
+zombie!
+ps
+ name 	 pid 	 priority
+ init 	 1 	 60
+ sh 	 2 	 60
+ ps 	 20 	 60
+$

@@ -1,0 +1,400 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage{fontspec}
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+%\setmainfont{???}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=1cm,right=1cm,top=2cm,bottom=2cm]{geometry}
+
+\usepackage{qtree}
+
+\usepackage[document]{ragged2e}
+
+\font\serif="FreeSerif:script=beng"
+\font\bg="FreeSerif:script=beng" at 13pt
+
+\usepackage{xcolor}
+\definecolor{hlit}{rgb}{0.5,0,1}
+\definecolor{diff}{rgb}{0.1,0.1,0.5}
+\definecolor{rlit}{rgb}{1,0,0}
+
+\title{Computational Linguistics - 1, Assignment 3}
+\author{Zubair Abid, 20171076}
+\date{}
+
+\begin{document}
+	\maketitle
+	
+	\section{Task 1: Reading Assignment}
+	\subsection{Causes for the existence of VP-shells: Binary-branching hypothesis and double object sentences}
+	The primary reason for this chapter is because of the contradictory syntactic structures brought about when considering
+	double object sentences in the framework of the binary branching hypothesis.\\
+	$ $\\
+	\textbf{Binary Branching hypothesis: } Earlier while discussing simple sentences and constructing X-Bar structures for verbs with more than two
+	arguments, the author had said to discard more than 2 branches \textit{"it is now widely assumed that syntactic 
+	structure is at most binary-branching (in other words, binary-branchingness is assumed to be a formal 
+	universal)"}.\\
+	\textbf{Double object sentences: } Double object sentences are those where the verb seems to be associated
+	with three semantic arguments, as illustrated in the English example: \textbf{Travis will give Betsy 
+	the receipts. }\\
+	$ $\\
+	With such sentences one would ideally like to represent both the verb-related objects as complements of
+	the verb, but naturally as one can see this seems to violate the binary branching hypothesis.\\
+	\subsection{Grammatical structures enabling a solution; and the VP shell structure}
+	The solution hinges on the fact that ditransitive verbs like give can be semantically decomposed into a 
+	causative part and a remainder whose meaning differs according to the verb in question. For example,\\
+	$ $\\
+	\textbf{feed: } cause to eat\\
+	\textbf{give: } cause to get\\
+	$ $\\
+	This suggest that such verbal structures in sentences like the example given can be represented by a 
+	recursive VP structure like in the one shown below:\\
+	\Tree[.VP	[\qroof{agent}.DP ]
+				[.V'	[.V CAUSE ]
+						[.VP	[\qroof{recipient}.DP ]
+								[.V'	[.V GET ]
+										[\qroof{theme}.DP ] ] ] ] ]\\
+	\textbf{These recursive structures are known as VP shells.}
+	\subsection{Ordinary causative sentences and their parallels with double object sentences; abstract verb movement}
+	\textbf{Ordinary causative sentences: } The semantic notion of causation is overtly expressed by the 
+	verb \textit{let}.\\
+	$ $\\
+	Now, \textit{let} takes small clause complements. Taking these facts into consideration, it's easy to
+	see how this sentence fits into the syntactic structure as shown above. To further investigate the parallels
+	between causative and double object sentences, the author then takes examples in Japanese, using 
+	\textbf{Abstract verb movement} to fit grammaticality. Their final assumption that VP Shells for double
+	object sentences in English are analogous to Japanese relies on the observation that\\ \textit{"From a 
+	structural point of view, the only difference between the Japanese structures and their English counterparts 
+	is the direction in which V takes phrasal complements."}\\
+	\subsection{Clarification on CAUSE, direct vs indirect causation}
+	\textit{"Before extending the VP shell analysis to further sentence types, we should explicitly state that 
+	we are not claiming that CAUSE is completely synonymous with overt causative verbs like cause, let, make, 
+	and the like. These overt causative verbs express what has been called indirect causation, where the causing 
+	event and the caused event are conceptualized as two separate events. By contrast, CAUSE expresses direct 
+	causation, and the causing event is not conceptualized as distinct from the caused event."}\\
+	\subsection{Double complement sentences}
+	This section summarizes some rules and clarifications on some structures involved with double complement
+	sentences, primarily around these verbs (or their analogues):\\
+	\begin{enumerate}
+		\item \textbf{Give} and \textbf{Send}:\\
+		Draws a parallel between double object and double complement sentences, and uses that to reason for 
+		the similarity between \textit{give} and \textit{send}.\\
+		\item \textbf{Put}:\\
+		Gives a basic example\\
+		\item \textbf{Persuade}:\\
+		Gives a basic example\\
+	\end{enumerate}
+	
+	\subsection{Extension of theory}
+	Here on, the chapter focuses on extending the applicability of the VP-shell theory to other problems, such as
+	\subsubsection{Causative Alternation}
+	Extending the VP shell analysis to\\
+	\begin{enumerate}
+		\item \textbf{The alternation between inchoative verbs and their homonymous causative counterparts}
+		\item \textbf{Manner incorporation, Get}
+	\end{enumerate}
+	\subsubsection{Locality constraints on Idioms}
+	Idioms are not the sum of their parts, and to deal with possible parse/ issues with them, it has been 
+	traditional in generative grammar (Marantz 1984) to (attempt to) impose a locality constraint on them.\\
+	$ $\\
+	The VP shell analysis methodology allows us to preserve the locality constraint over seemingly discontinuous
+	idioms.
+	$ $\\
+	$ $\\
+	$ $\\
+	$ $\\
+	\section{Task 2: X-Bar Schema and Phrase Structure}
+	
+	\begin{enumerate}
+	
+	\item \textit{She has been absent since last Wednesday.}\\
+	\Tree[.I''	[.NP She(t_i) ]
+					[.I'	[.I has ]
+							[.V''	[.NP t_i ]
+									[.V'	[.V'	[.V been ]
+													[.Adj absent ] ]
+											[.P''	[.P'	[.P since ]
+															[\qroof{last Wednesday}.NP ] ] ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP (PRP She))\\
+	    (VP (VBZ has)\\
+	      (VP (VBN been)\\
+	        (ADJP (JJ absent))\\
+	        (PP (IN since)\\
+	          (NP (JJ last) (NNP Wednesday)))))\\
+	    (. .)))\\
+	$ $\\ 
+	\textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+		\item "been", "absent", and "since" are considered at the same depth of relatedness
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\item \textit{It doesn't matter what excuse he gives me, I can't forgive him.}\\
+	\Tree[.C'' [.I''(1) ][.C'(2) ] ]\\	
+	\Tree[.I''	[.NP It(t_i) ]
+						[.I'	[.I PRESENT ]
+								[.V''	[.NP t_i ]
+										[.V'	[.NegP doesn't ]
+												[.V'	[.V matter ]
+														[.C''	[\qroof{what excuses}.DP ]
+																[.C'	[.C [that ] ]
+																		[.I''	[\qroof{he(t_j)}.NP ]
+																				[.I'	[.I PRESENT ]
+																						[.V''	[.NP t_j ]
+																								[.V'	[.V gives ]
+																										[.NP me ] ] ] ] ] ] ] ] ] ] ] ]	\\
+	\Tree[.C'(2)	[.C , ]
+					[.I''	[.NP I(t_k) ]
+							[.I'	[.I PRESENT ]
+									[.V''	[.NP t_k ]
+											[.V'	[.NegP can't ]
+													[.V'	[.V forgive ]
+															[.NP him ] ] ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (S\\
+	      (NP (PRP It))\\
+	      (VP (VBZ does) (RB n't)\\
+	        (VP (VB matter)\\
+	          (SBAR
+	            (WHNP (WP what) (NN excuse))\\
+	            (S\\
+	              (NP (PRP he))\\
+	              (VP (VBZ gives)\\
+	                (NP (PRP me))))))))\\
+	    (, ,)\\\
+	    (NP (PRP I))\\
+	    (VP (MD ca) (RB n't)\\
+	      (VP (VB forgive)\\
+	        (NP (PRP him))))\\
+	    (. .)))\\
+	$ $\\
+	\textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	    	
+	\item \textit{I canceled my appointment because of urgent business.}\\
+	\Tree[.I''		[.NP I(t_i) ]
+					[.I'	[.I PAST ]
+							[.V''	[.NP t_i ]
+									[.V'	[.V'	[.V cancelled ]
+													[\qroof{my appointment}.NP ] ]
+											[.C''	[.C'	[.C because ]
+															[.P''	[.P'	[.P of ]
+																			[\qroof{urgent business}.NP ] ] ] ] ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP (PRP I))\\
+	    (VP (VBD canceled)\\
+	      (NP\\
+	        (NP (PRP\$ my) (NN appointment))\\
+	        (PP (RB because) (IN of)\\
+	          (NP (JJ urgent) (NN business)))))\\
+	    (. .)))\\
+    \textbf{DIFFERENCES WITH THE PARSES:}\\
+    $ $\\
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+		\item "because" and "of" are closer in the Stanford Parser
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\item \textit{What do you do in Japan?}\\
+	\Tree[.C''	[.DP what(t_i) ]
+				[.C'	[.C do(t_k) ]
+						[.I''	[.NP you(t_j) ]
+								[.I'	[.I t_k ]
+										[.V''	[.NP t_j ]
+												[.V'	[.V'	[.V do ]
+																[.DP t_i ] ]
+														[\qroof{in Japan}.P'' ] ] ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (SBARQ\\
+	    (WHNP (WP What))\\
+	    (SQ (VBP do)\\
+	      (NP (PRP you))\\
+	      (VP (VB do)\\
+	        (PP (IN in)\\
+	          (NP (NNP Japan)))))\\
+	    (. ?)))\\
+	$ $\\
+    \textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\item \textit{The Handmaid’s Tale is an awesome piece of dystopian fiction.}\\
+	\Tree[.I''	[\qroof{The Handmaid's Tale(t_i)}.NP ]
+				[.I'	[.I PRESENT ]
+						[.V''	[.NP t_i ]
+								[.V'	[.V is ]
+										[.D''	[.D'	[.D an ]
+														[.Adj''	[.Adj'	[.Adj awesome ]
+																		[.N''	[.N'	[.N piece ]
+																						[\qroof{of dystopian fiction}.PP ] ] ] ] ] ] ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP\\
+	      (NP (DT The) (NNP Handmaid) (POS 's))\\
+	      (NN Tale))\\
+	    (VP (VBZ is)\\
+	      (NP\\
+	        (NP (DT an) (JJ awesome) (NN piece))\\
+	        (PP (IN of)\\
+	          (NP (NN dystopian) (NN fiction)))))\\
+	    (. .)))\\
+	$ $\\
+    \textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item The stanford parse is shallower
+		\item The stanford parser does not NER "The Handmaid's Tale"
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\item \textit{OK. Now what?}\\
+	\textbf{We transform the sentence to "OK. What now?", to fit the wh-scheme better.}\\
+	\Tree[.INTJ OK ]\\
+	\Tree[.I''	[.NP what(t_i) ]
+				[.I'	[.I	PRESENT ]
+						[.V''	[.NP t_i ]
+								[.V'	[.V'	[.V [do ] ]
+												[.NP t_i ] ]
+										[.Adv Now ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (INTJ (UH OK) (. .)))\\
+	$ $\\
+	(ROOT\\
+	  (X\\
+	    (ADVP (RB Now))\\
+	    (NP (WP what))\\
+	    (. ?)))\\
+	$ $\\
+	\textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item The stanford parse is shallower
+		\item Stanford parses the original sentence fine
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	    
+	\item \textit{I was laughed at by everyone.}\\
+	\Tree[.I''	[.NP I(t_i) ]
+				[.I'	[.I was ]
+						[.V''	[.V'	[.V'	[.V laughed ]
+												[.PP	[.P at ]
+														[.NP t_i ] ] ]
+										[\qroof{by everyone}.PP ] ] ] ] ]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP (PRP I))\\
+	    (VP (VBD was)\\
+	      (VP (VBN laughed)\\
+	        (PP (IN at)\\
+	          (PP (IN by)\\
+	            (NP (NN everyone))))))\\
+	    (. .)))\\
+    \textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item The stanford parse is shallower
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\item \textit{There were people everywhere, covering the roads along the route from the BJP headquarters to the Smriti Sthal from side to side, with security personnel maintaining strict vigil to ensure that nothing goes wrong.}\\
+	The sentence was split into parts, as it was getting too big and because it makes logical sense to.\\	
+	\Tree[.I''	[.N there(t_i) ]
+				[.I'	[.I PAST ]
+						[.NP	[.N t_i ]
+								[.V''	[.V'	[.V were ]
+												[\qroof{people}.NP ] ]
+										[.Adv everywhere ] ] ] ] ]\\
+	\Tree[.V''	[.V'	[.V'	[.V covering ]
+							[.N''	[.N'	[.N the roads ]
+											[.P''	[.P'	[.P along ]
+															[.NP	[.N'	[\qroof{the route}.N ]
+																			[.P''	[.P'	[.P from ]
+																							[.N''	[.N'	[\qroof{the BJP headquarters}.N ]
+																											[.P''	[.P'	[.P to ]
+																															[\qroof{the Smriti Sthal}.NP ] ] ] ] ] ] ] ] ] ] ] ] ] ]
+						[\qroof{from side to side}.PP ] ] ]\\
+	\Tree[]\\
+	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP (EX There))\\
+	    (VP (VBD were)\\
+	      (NP (NNS people))\\
+	      (ADVP (RB everywhere))\\
+	      (, ,)\\
+	      (S\\
+	        (VP (VBG covering)\\
+	          (NP (DT the) (NNS roads))\\
+	          (ADVP (IN along)\\
+	            (NP (DT the) (NN route))\\
+	            (PP (IN from)\\
+	              (NP (DT the) (NNP BJP) (NN headquarters)))\\
+	            (PP (TO to)\\
+	              (NP (DT the) (NNP Smriti) (NNP Sthal))))\\
+	          (PP (IN from)\\
+	            (NP (NN side)))\\
+	          (PP (TO to)\\
+	            (NP (NN side)))\\
+	          (, ,)\\
+	          (PP (IN with)\\
+	            (NP\\
+	              (NP (NN security) (NNS personnel))\\
+	              (VP (VBG maintaining)\\
+	                (NP (JJ strict) (NN vigil))\\
+	                (S\\
+	                  (VP (TO to)\\
+	                    (VP (VB ensure)\\
+	                      (SBAR (IN that)\\
+	                        (S\\
+	                          (NP (NN nothing))\\
+	                          (VP (VBZ goes)\\
+	                            (ADJP (JJ wrong))))))))))))))\\
+	    (. .)))\\	
+	\textbf{DIFFERENCES WITH THE PARSES:}\\
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+	\end{enumerate}
+	$ $\\
+	$ $\\
+	
+	\end{enumerate}
+	\subsection{Overall differences between Stanford and X-Bar}
+	\begin{enumerate}
+		\item X-bar is binary branching, the stanford parse is not
+		\item The stanford parse is shallower
+		\item Stanford parser does not finely define the closeness of relation in a possible multi-branch
+		\item Stanford parser has issues with some NER
+	\end{enumerate}		
+	
+\end{document}
