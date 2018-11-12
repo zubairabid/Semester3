@@ -343,7 +343,43 @@
 																											[.P''	[.P'	[.P to ]
 																															[\qroof{the Smriti Sthal}.NP ] ] ] ] ] ] ] ] ] ] ] ] ] ]
 						[\qroof{from side to side}.PP ] ] ]\\
+	\Tree[]\\
 	$ $\\Stanford Parser output:\\
+	(ROOT\\
+	  (S\\
+	    (NP (EX There))\\
+	    (VP (VBD were)\\
+	      (NP (NNS people))\\
+	      (ADVP (RB everywhere))\\
+	      (, ,)\\
+	      (S\\
+	        (VP (VBG covering)\\
+	          (NP (DT the) (NNS roads))\\
+	          (ADVP (IN along)\\
+	            (NP (DT the) (NN route))\\
+	            (PP (IN from)\\
+	              (NP (DT the) (NNP BJP) (NN headquarters)))\\
+	            (PP (TO to)\\
+	              (NP (DT the) (NNP Smriti) (NNP Sthal))))\\
+	          (PP (IN from)\\
+	            (NP (NN side)))\\
+	          (PP (TO to)\\
+	            (NP (NN side)))\\
+	          (, ,)\\
+	          (PP (IN with)\\
+	            (NP\\
+	              (NP (NN security) (NNS personnel))\\
+	              (VP (VBG maintaining)\\
+	                (NP (JJ strict) (NN vigil))\\
+	                (S\\
+	                  (VP (TO to)\\
+	                    (VP (VB ensure)\\
+	                      (SBAR (IN that)\\
+	                        (S\\
+	                          (NP (NN nothing))\\
+	                          (VP (VBZ goes)\\
+	                            (ADJP (JJ wrong))))))))))))))\\
+	    (. .)))\\	
 	\textbf{DIFFERENCES WITH THE PARSES:}\\
 	\begin{enumerate}
 		\item X-bar is binary branching, the stanford parse is not
