@@ -1,0 +1,3 @@
+curl -i -X POST http://localhost:8080/quizzes -d '{"genre":"sports", "quests": [{"statement":"wxyz","options":"ahadskj","answer":"23"} ]  }'
+
+
